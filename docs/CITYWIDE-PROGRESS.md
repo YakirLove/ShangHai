@@ -25,3 +25,6 @@ Spec: docs/superpowers/specs/2026-10-24-citywide-design.md
 - First long run: 四模式各301秒、双向6次过江与37.708分钟可见页面稳定性通过；后续跨区往返检测出每轮48个uniform buffer增长，未将该构建判定为交付通过。
 - Resource fix: 定位到普通Mesh仅geometry.dispose未触发WebGPU RenderObject释放。补所有网格对象dispose事件，保留共享材质；新增失败测试后修复，45/45单元测试通过。最新构建index-CkwP2jLv.js，10次实测往返最后五轮uniformBuffers=480、总GPU计数162868391 bytes保持一致。
 - Final preflight: 新构建43目的地、129次飞行转地面模式落点、真实请求失败/重试/迟到请求、移动加载门禁、43名称搜索及中文区名搜索、地图缩放/拖动/定位和真实wasd1234输入隔离均通过。新构建本地三次2155.04/1738.86/1601.17ms；50Mbps/80ms三次4207.925/4278.375/4275.025ms。已开始最终构建完整长时回归。
+
+- Final acceptance: index-CkwP2jLv.js 四模式301秒采样、6次连续过江、37.71分钟稳定性、43目的地及129落点、地图/键盘/加载异常均通过；最后5次资源往返均为1134 uniform buffers、166773216 GPU bytes。26截图、7录屏完整解码通过，独立静态包启动成功。
+- Packaging: 8576文件哈希、8541必要HTTP资源、8541隔离源码重建产物逐文件一致；源码归档SHA256 8573e6fec029819f5476b93b233b1d0fcfa3ca8429af0721815a37612297021a，旧0.2.0归档哈希未变。最终报告 docs/acceptance/0.3.0/REPORT.md；本轮未发布。

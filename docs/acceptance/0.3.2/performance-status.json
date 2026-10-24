@@ -1,0 +1,12 @@
+{
+  "phase": "complete",
+  "done": true,
+  "error": null,
+  "result": {
+    "seconds": 301.00266499996184,
+    "p95": 11.729999780654907,
+    "frames": 32974,
+    "distance": 1233.443676864282,
+    "asset": "app-BnWJjc5z.js"
+  }
+}

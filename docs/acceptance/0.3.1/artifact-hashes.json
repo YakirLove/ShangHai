@@ -1,0 +1,27 @@
+[
+  {
+    "path": "dist/assets/index-CpMz8H2Y.js",
+    "bytes": 1098341,
+    "sha256": "308142dba88fda4f357b82d330a0ebf29359a7fbe123c9ca587d2998f7b31aa2"
+  },
+  {
+    "path": "public/data/city.json",
+    "bytes": 7727410,
+    "sha256": "995d3195e12dbdd2cc442559d2ef7df0827ec208d00376fed8c13a1fc6dba30a"
+  },
+  {
+    "path": "public/data/metro.json",
+    "bytes": 386704,
+    "sha256": "4f436804060fd960ca2814a0879fdd0e76281d83ab9855b0b8d20707ecf8cc33"
+  },
+  {
+    "path": "release/shanghai-waterfront-0.3.1.tar.gz",
+    "bytes": 101440238,
+    "sha256": "3ec290eee50885c11ae8cde3ee3c4bb0860c9cae9cc6031217c0c5105e3eb196"
+  },
+  {
+    "path": "release/shanghai-waterfront-0.3.1-source.tar.gz",
+    "bytes": 107705996,
+    "sha256": "f8d8d28e2e27ef0c48f63f6233717ea7d3fe8dadc16dfb34021e3ee4a1f1cea1"
+  }
+]

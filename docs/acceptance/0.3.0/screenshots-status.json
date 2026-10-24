@@ -1,0 +1,36 @@
+{
+  "done": true,
+  "error": null,
+  "result": {
+    "count": 26,
+    "files": [
+      "screenshots/V1-midday.png",
+      "screenshots/V1-golden.png",
+      "screenshots/V1-midnight.png",
+      "screenshots/V2-midday.png",
+      "screenshots/V2-golden.png",
+      "screenshots/V2-midnight.png",
+      "screenshots/V3-midday.png",
+      "screenshots/V3-golden.png",
+      "screenshots/V3-midnight.png",
+      "screenshots/V4-midday.png",
+      "screenshots/V4-golden.png",
+      "screenshots/V4-midnight.png",
+      "screenshots/V5-midday.png",
+      "screenshots/V5-golden.png",
+      "screenshots/V5-midnight.png",
+      "screenshots/V6-midday.png",
+      "screenshots/V6-golden.png",
+      "screenshots/V6-midnight.png",
+      "zhujiajiao.png",
+      "chongming.png",
+      "hengsha.png",
+      "dishui.png",
+      "hongqiao.png",
+      "jinshan.png",
+      "initial-waterfront.png",
+      "full-map.png"
+    ],
+    "errors": []
+  }
+}

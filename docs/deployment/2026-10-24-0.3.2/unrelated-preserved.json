@@ -1,0 +1,17 @@
+{
+  "unchangedOtherApplications": [
+    "wonder-study",
+    "fuxing-3d",
+    "number-split",
+    "image-studio",
+    "xiangqi-basics"
+  ],
+  "unchangedOtherNginxConfigs": [
+    "/etc/nginx/conf.d/api.conf",
+    "/etc/nginx/conf.d/fuxing-3d.conf",
+    "/etc/nginx/conf.d/image.conf",
+    "/etc/nginx/conf.d/web.conf",
+    "/etc/nginx/conf.d/wonder-study.conf"
+  ],
+  "containerStatesUnchanged": true
+}

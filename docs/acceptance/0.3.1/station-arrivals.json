@@ -1,0 +1,6976 @@
+{
+  "asset": "http://127.0.0.1:4187/assets/index-DSISJdA1.js",
+  "results": [
+    {
+      "id": "metro-0111",
+      "name": "莘庄站",
+      "mode": "person",
+      "position": [
+        -10881.59,
+        2.12,
+        13695.95
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 莘庄站 入口附近"
+    },
+    {
+      "id": "metro-0112",
+      "name": "外环路站",
+      "mode": "person",
+      "position": [
+        -10143.31,
+        2.12,
+        12667.08
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 外环路站 入口附近"
+    },
+    {
+      "id": "metro-0113",
+      "name": "莲花路站",
+      "mode": "person",
+      "position": [
+        -9170.07,
+        2.12,
+        11572.95
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 莲花路站 入口附近"
+    },
+    {
+      "id": "metro-0114",
+      "name": "锦江乐园站",
+      "mode": "person",
+      "position": [
+        -8173.01,
+        2.12,
+        10276.9
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 锦江乐园站 入口附近"
+    },
+    {
+      "id": "metro-0115",
+      "name": "上海南站",
+      "mode": "person",
+      "position": [
+        -6581.9,
+        2.12,
+        9096.71
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 上海南站 入口附近"
+    },
+    {
+      "id": "metro-0116",
+      "name": "漕宝路站",
+      "mode": "person",
+      "position": [
+        -6235.75,
+        2.12,
+        7363.62
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 漕宝路站 入口附近"
+    },
+    {
+      "id": "metro-0117",
+      "name": "上海体育馆站",
+      "mode": "person",
+      "position": [
+        -5993.28,
+        2.12,
+        5853.51
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 上海体育馆站 入口附近"
+    },
+    {
+      "id": "metro-0118",
+      "name": "徐家汇站",
+      "mode": "person",
+      "position": [
+        -6018.02,
+        2.12,
+        4454.1
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 徐家汇站 入口附近"
+    },
+    {
+      "id": "metro-0119",
+      "name": "衡山路站",
+      "mode": "person",
+      "position": [
+        -5005.05,
+        2.12,
+        3339.71
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 衡山路站 入口附近"
+    },
+    {
+      "id": "metro-0120",
+      "name": "常熟路站",
+      "mode": "person",
+      "position": [
+        -4669.41,
+        2.12,
+        2397.8
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 常熟路站 入口附近"
+    },
+    {
+      "id": "metro-0121",
+      "name": "陕西南路站",
+      "mode": "person",
+      "position": [
+        -3844.63,
+        2.12,
+        2114.05
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 陕西南路站 入口附近"
+    },
+    {
+      "id": "metro-0122",
+      "name": "一大会址·黄陂南路站",
+      "mode": "person",
+      "position": [
+        -2552.09,
+        2.12,
+        1261.57
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 一大会址·黄陂南路站 入口附近"
+    },
+    {
+      "id": "metro-0123",
+      "name": "人民广场站",
+      "mode": "person",
+      "position": [
+        -2389.48,
+        2.12,
+        238.41999999999996
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 2.842170943040401e-14,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 人民广场站 入口附近"
+    },
+    {
+      "id": "metro-0124",
+      "name": "新闸路站",
+      "mode": "person",
+      "position": [
+        -2949.85,
+        2.12,
+        -388.1
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 新闸路站 入口附近"
+    },
+    {
+      "id": "metro-0125",
+      "name": "汉中路站",
+      "mode": "person",
+      "position": [
+        -3858.94,
+        2.12,
+        -647.3599999999999
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 1.1368683772161603e-13,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 汉中路站 入口附近"
+    },
+    {
+      "id": "metro-0126",
+      "name": "上海火车站",
+      "mode": "person",
+      "position": [
+        -4112.88,
+        2.12,
+        -1400.87
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 上海火车站 入口附近"
+    },
+    {
+      "id": "metro-0127",
+      "name": "中山北路站",
+      "mode": "person",
+      "position": [
+        -3874.62,
+        2.12,
+        -2712.24
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 中山北路站 入口附近"
+    },
+    {
+      "id": "metro-0128",
+      "name": "延长路站",
+      "mode": "person",
+      "position": [
+        -4266.04,
+        2.12,
+        -4076.19
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 延长路站 入口附近"
+    },
+    {
+      "id": "metro-0129",
+      "name": "上海马戏城站",
+      "mode": "person",
+      "position": [
+        -4579.94,
+        2.12,
+        -4860.16
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 上海马戏城站 入口附近"
+    },
+    {
+      "id": "metro-0130",
+      "name": "汶水路站",
+      "mode": "person",
+      "position": [
+        -4711.87,
+        2.12,
+        -6413.2
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 汶水路站 入口附近"
+    },
+    {
+      "id": "metro-0131",
+      "name": "彭浦新村站",
+      "mode": "person",
+      "position": [
+        -4795.49,
+        2.12,
+        -7877.95
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 彭浦新村站 入口附近"
+    },
+    {
+      "id": "metro-0132",
+      "name": "共康路站",
+      "mode": "person",
+      "position": [
+        -5070.39,
+        2.12,
+        -9382.05
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 共康路站 入口附近"
+    },
+    {
+      "id": "metro-0133",
+      "name": "通河新村站",
+      "mode": "person",
+      "position": [
+        -5588.39,
+        2.12,
+        -10681.35
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 通河新村站 入口附近"
+    },
+    {
+      "id": "metro-0134",
+      "name": "呼兰路站",
+      "mode": "person",
+      "position": [
+        -5959.37,
+        2.12,
+        -11641.46
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 呼兰路站 入口附近"
+    },
+    {
+      "id": "metro-0135",
+      "name": "共富新村站",
+      "mode": "person",
+      "position": [
+        -6217.86,
+        2.12,
+        -13355.48
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 共富新村站 入口附近"
+    },
+    {
+      "id": "metro-0136",
+      "name": "宝安公路站",
+      "mode": "person",
+      "position": [
+        -6539.2,
+        2.12,
+        -14790.27
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 宝安公路站 入口附近"
+    },
+    {
+      "id": "metro-0137",
+      "name": "友谊西路站",
+      "mode": "person",
+      "position": [
+        -6821.3,
+        2.12,
+        -16147.6
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 友谊西路站 入口附近"
+    },
+    {
+      "id": "metro-0138",
+      "name": "富锦路站",
+      "mode": "person",
+      "position": [
+        -7173.04,
+        2.12,
+        -17500.08
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 富锦路站 入口附近"
+    },
+    {
+      "id": "metro-0233",
+      "name": "蟠祥路·国家会计学院站",
+      "mode": "person",
+      "position": [
+        -20318.74,
+        2.12,
+        5926.970000000001
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 9.094947017729282e-13,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 蟠祥路·国家会计学院站 入口附近"
+    },
+    {
+      "id": "metro-0234",
+      "name": "国家会展中心站",
+      "mode": "person",
+      "position": [
+        -19548.86,
+        2.12,
+        4787.729999999999
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 9.094947017729282e-13,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 国家会展中心站 入口附近"
+    },
+    {
+      "id": "metro-0235",
+      "name": "虹桥火车站",
+      "mode": "person",
+      "position": [
+        -17269.29,
+        2.12,
+        4515.54
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 虹桥火车站 入口附近"
+    },
+    {
+      "id": "metro-0236",
+      "name": "虹桥2号航站楼站",
+      "mode": "person",
+      "position": [
+        -16547.42,
+        2.12,
+        4522.55
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 虹桥2号航站楼站 入口附近"
+    },
+    {
+      "id": "metro-0237",
+      "name": "淞虹路站",
+      "mode": "person",
+      "position": [
+        -13438.76,
+        2.12,
+        1910.1
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 淞虹路站 入口附近"
+    },
+    {
+      "id": "metro-0238",
+      "name": "北新泾站",
+      "mode": "person",
+      "position": [
+        -12018.42,
+        2.12,
+        2046.83
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 北新泾站 入口附近"
+    },
+    {
+      "id": "metro-0239",
+      "name": "威宁路站",
+      "mode": "person",
+      "position": [
+        -10691.73,
+        2.12,
+        2232.99
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 威宁路站 入口附近"
+    },
+    {
+      "id": "metro-0240",
+      "name": "娄山关路站",
+      "mode": "person",
+      "position": [
+        -9195.97,
+        2.12,
+        2625.93
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 娄山关路站 入口附近"
+    },
+    {
+      "id": "metro-0241",
+      "name": "中山公园站",
+      "mode": "person",
+      "position": [
+        -7928.97,
+        2.12,
+        1940.0100000000002
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 2.2737367544323206e-13,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 中山公园站 入口附近"
+    },
+    {
+      "id": "metro-0242",
+      "name": "江苏路站",
+      "mode": "person",
+      "position": [
+        -6514.81,
+        2.12,
+        1711.91
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 江苏路站 入口附近"
+    },
+    {
+      "id": "metro-0243",
+      "name": "静安寺站",
+      "mode": "person",
+      "position": [
+        -5072.15,
+        2.12,
+        1294.97
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 静安寺站 入口附近"
+    },
+    {
+      "id": "metro-0244",
+      "name": "南京西路站",
+      "mode": "person",
+      "position": [
+        -3690.29,
+        2.12,
+        589.14
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 南京西路站 入口附近"
+    },
+    {
+      "id": "metro-0246",
+      "name": "南京东路站",
+      "mode": "person",
+      "position": [
+        -1423.03,
+        2.12,
+        -296.42
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 南京东路站 入口附近"
+    },
+    {
+      "id": "metro-0247",
+      "name": "陆家嘴站",
+      "mode": "person",
+      "position": [
+        323.15,
+        2.12,
+        -247.21
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 陆家嘴站 入口附近"
+    },
+    {
+      "id": "metro-0248",
+      "name": "浦东南路站",
+      "mode": "person",
+      "position": [
+        1462.15,
+        2.12,
+        106.12999999999998
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 1.4210854715202004e-14,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 浦东南路站 入口附近"
+    },
+    {
+      "id": "metro-0249",
+      "name": "世纪大道站",
+      "mode": "person",
+      "position": [
+        2579.27,
+        2.12,
+        714.58
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 世纪大道站 入口附近"
+    },
+    {
+      "id": "metro-0250",
+      "name": "上海科技馆站",
+      "mode": "person",
+      "position": [
+        4158.92,
+        2.12,
+        1658.3599999999997
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 2.2737367544323206e-13,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 上海科技馆站 入口附近"
+    },
+    {
+      "id": "metro-0251",
+      "name": "世纪公园站",
+      "mode": "person",
+      "position": [
+        4959.35,
+        2.12,
+        2877.96
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 世纪公园站 入口附近"
+    },
+    {
+      "id": "metro-0252",
+      "name": "龙阳路站",
+      "mode": "person",
+      "position": [
+        5585.26,
+        2.12,
+        3558.92
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 龙阳路站 入口附近"
+    },
+    {
+      "id": "metro-0253",
+      "name": "张江高科站",
+      "mode": "person",
+      "position": [
+        8343.34,
+        2.12,
+        3683.77
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 张江高科站 入口附近"
+    },
+    {
+      "id": "metro-0254",
+      "name": "金科路站",
+      "mode": "person",
+      "position": [
+        9870,
+        2.12,
+        3364.93
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 金科路站 入口附近"
+    },
+    {
+      "id": "metro-0255",
+      "name": "广兰路站",
+      "mode": "person",
+      "position": [
+        11518.09,
+        2.12,
+        2649.43
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 广兰路站 入口附近"
+    },
+    {
+      "id": "metro-0256",
+      "name": "唐镇站",
+      "mode": "person",
+      "position": [
+        14990.75,
+        2.12,
+        2275.71
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 唐镇站 入口附近"
+    },
+    {
+      "id": "metro-0257",
+      "name": "创新中路站",
+      "mode": "person",
+      "position": [
+        16612.29,
+        2.12,
+        2373.5600000000004
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 4.547473508864641e-13,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 创新中路站 入口附近"
+    },
+    {
+      "id": "metro-0258",
+      "name": "华夏东路站",
+      "mode": "person",
+      "position": [
+        17267.32,
+        2.12,
+        4175.8
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 华夏东路站 入口附近"
+    },
+    {
+      "id": "metro-0259",
+      "name": "川沙站",
+      "mode": "person",
+      "position": [
+        18854.04,
+        2.12,
+        5401.18
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 川沙站 入口附近"
+    },
+    {
+      "id": "metro-0260",
+      "name": "凌空路站",
+      "mode": "person",
+      "position": [
+        21368.14,
+        2.12,
+        4708.77
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 凌空路站 入口附近"
+    },
+    {
+      "id": "metro-0261",
+      "name": "远东大道站",
+      "mode": "person",
+      "position": [
+        24388.19,
+        2.12,
+        3916.59
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 远东大道站 入口附近"
+    },
+    {
+      "id": "metro-0262",
+      "name": "海天三路站",
+      "mode": "person",
+      "position": [
+        28394.16,
+        2.12,
+        7355.88
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 海天三路站 入口附近"
+    },
+    {
+      "id": "metro-0263",
+      "name": "浦东1号2号航站楼站",
+      "mode": "person",
+      "position": [
+        29202.23,
+        2.12,
+        9387.34
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 浦东1号2号航站楼站 入口附近"
+    },
+    {
+      "id": "metro-0312",
+      "name": "石龙路站",
+      "mode": "person",
+      "position": [
+        -5379.97,
+        2.12,
+        8540.57
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 石龙路站 入口附近"
+    },
+    {
+      "id": "metro-0313",
+      "name": "龙漕路站",
+      "mode": "person",
+      "position": [
+        -5232.14,
+        2.12,
+        7300.42
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 龙漕路站 入口附近"
+    },
+    {
+      "id": "metro-0314",
+      "name": "漕溪路站",
+      "mode": "person",
+      "position": [
+        -5897.53,
+        2.12,
+        6421.09
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 漕溪路站 入口附近"
+    },
+    {
+      "id": "metro-0315",
+      "name": "宜山路站",
+      "mode": "person",
+      "position": [
+        -6859.21,
+        2.12,
+        5400.96
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 宜山路站 入口附近"
+    },
+    {
+      "id": "metro-0316",
+      "name": "虹桥路站",
+      "mode": "person",
+      "position": [
+        -7408.11,
+        2.12,
+        4308.59
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 虹桥路站 入口附近"
+    },
+    {
+      "id": "metro-0317",
+      "name": "延安西路站",
+      "mode": "person",
+      "position": [
+        -7855.58,
+        2.12,
+        2759.88
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 延安西路站 入口附近"
+    },
+    {
+      "id": "metro-0319",
+      "name": "金沙江路站",
+      "mode": "person",
+      "position": [
+        -8339.81,
+        2.12,
+        410.29
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 金沙江路站 入口附近"
+    },
+    {
+      "id": "metro-0320",
+      "name": "曹杨路站",
+      "mode": "person",
+      "position": [
+        -7531.09,
+        2.12,
+        -576.2500000000001
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 1.1368683772161603e-13,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 曹杨路站 入口附近"
+    },
+    {
+      "id": "metro-0321",
+      "name": "镇坪路站",
+      "mode": "person",
+      "position": [
+        -6464.34,
+        2.12,
+        -1222.7000000000003
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 2.2737367544323206e-13,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 镇坪路站 入口附近"
+    },
+    {
+      "id": "metro-0322",
+      "name": "中潭路站",
+      "mode": "person",
+      "position": [
+        -5646.9,
+        2.12,
+        -2134.62
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 中潭路站 入口附近"
+    },
+    {
+      "id": "metro-0324",
+      "name": "宝山路站",
+      "mode": "person",
+      "position": [
+        -2213.09,
+        2.12,
+        -1848.42
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 宝山路站 入口附近"
+    },
+    {
+      "id": "metro-0325",
+      "name": "东宝兴路站",
+      "mode": "person",
+      "position": [
+        -1832.4,
+        2.12,
+        -2678.13
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 东宝兴路站 入口附近"
+    },
+    {
+      "id": "metro-0326",
+      "name": "虹口足球场站",
+      "mode": "person",
+      "position": [
+        -1961.38,
+        2.12,
+        -3908.1
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 虹口足球场站 入口附近"
+    },
+    {
+      "id": "metro-0327",
+      "name": "赤峰路站",
+      "mode": "person",
+      "position": [
+        -1633.06,
+        2.12,
+        -5121.46
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 赤峰路站 入口附近"
+    },
+    {
+      "id": "metro-0328",
+      "name": "大柏树站",
+      "mode": "person",
+      "position": [
+        -1564.85,
+        2.12,
+        -6033.69
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 大柏树站 入口附近"
+    },
+    {
+      "id": "metro-0329",
+      "name": "江湾镇站",
+      "mode": "person",
+      "position": [
+        -1363.09,
+        2.12,
+        -7815.37
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 江湾镇站 入口附近"
+    },
+    {
+      "id": "metro-0330",
+      "name": "殷高西路站",
+      "mode": "person",
+      "position": [
+        -1403.12,
+        2.12,
+        -9414.53
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 殷高西路站 入口附近"
+    },
+    {
+      "id": "metro-0331",
+      "name": "长江南路站",
+      "mode": "person",
+      "position": [
+        -909.2000000000003,
+        2.12,
+        -10783.24
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 2.2737367544323206e-13,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 长江南路站 入口附近"
+    },
+    {
+      "id": "metro-0332",
+      "name": "淞发路站",
+      "mode": "person",
+      "position": [
+        107.2500000000001,
+        2.12,
+        -12195.8
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 9.947598300641403e-14,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 淞发路站 入口附近"
+    },
+    {
+      "id": "metro-0333",
+      "name": "张华浜站",
+      "mode": "person",
+      "position": [
+        -60.089999999999996,
+        2.12,
+        -13643.85
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 7.105427357601002e-15,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 张华浜站 入口附近"
+    },
+    {
+      "id": "metro-0334",
+      "name": "淞滨路站",
+      "mode": "person",
+      "position": [
+        -641.3500000000001,
+        2.12,
+        -15131.18
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 1.1368683772161603e-13,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 淞滨路站 入口附近"
+    },
+    {
+      "id": "metro-0335",
+      "name": "水产路站",
+      "mode": "person",
+      "position": [
+        -1076.4200000000003,
+        2.12,
+        -16216.18
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 2.2737367544323206e-13,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 水产路站 入口附近"
+    },
+    {
+      "id": "metro-0336",
+      "name": "宝杨路站",
+      "mode": "person",
+      "position": [
+        -1880.83,
+        2.12,
+        -17772.53
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 宝杨路站 入口附近"
+    },
+    {
+      "id": "metro-0337",
+      "name": "友谊路站",
+      "mode": "person",
+      "position": [
+        -2241.24,
+        2.12,
+        -18731.95
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 友谊路站 入口附近"
+    },
+    {
+      "id": "metro-0338",
+      "name": "铁力路站",
+      "mode": "person",
+      "position": [
+        -3635.4900000000002,
+        2.12,
+        -19168.34
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 4.547473508864641e-13,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 铁力路站 入口附近"
+    },
+    {
+      "id": "metro-0339",
+      "name": "江杨北路站",
+      "mode": "person",
+      "position": [
+        -5730.95,
+        2.12,
+        -19136.84
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 江杨北路站 入口附近"
+    },
+    {
+      "id": "metro-0412",
+      "name": "海伦路站",
+      "mode": "person",
+      "position": [
+        -976.52,
+        2.12,
+        -2748.78
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 海伦路站 入口附近"
+    },
+    {
+      "id": "metro-0413",
+      "name": "临平路站",
+      "mode": "person",
+      "position": [
+        168.88999999999996,
+        2.12,
+        -2862.18
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 2.842170943040401e-14,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 临平路站 入口附近"
+    },
+    {
+      "id": "metro-0414",
+      "name": "大连路站",
+      "mode": "person",
+      "position": [
+        1252.32,
+        2.12,
+        -2550.01
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 大连路站 入口附近"
+    },
+    {
+      "id": "metro-0415",
+      "name": "杨树浦路站",
+      "mode": "person",
+      "position": [
+        1620.28,
+        2.12,
+        -1983.62
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 杨树浦路站 入口附近"
+    },
+    {
+      "id": "metro-0416",
+      "name": "浦东大道站",
+      "mode": "person",
+      "position": [
+        1879.01,
+        2.12,
+        -559.16
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 浦东大道站 入口附近"
+    },
+    {
+      "id": "metro-0418",
+      "name": "向城路站",
+      "mode": "person",
+      "position": [
+        3129.93,
+        2.12,
+        1323.87
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 向城路站 入口附近"
+    },
+    {
+      "id": "metro-0419",
+      "name": "蓝村路站",
+      "mode": "person",
+      "position": [
+        2668.52,
+        2.12,
+        2554.01
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 蓝村路站 入口附近"
+    },
+    {
+      "id": "metro-0420",
+      "name": "塘桥站",
+      "mode": "person",
+      "position": [
+        1897.27,
+        2.12,
+        2808.12
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 塘桥站 入口附近"
+    },
+    {
+      "id": "metro-0421",
+      "name": "南浦大桥站",
+      "mode": "person",
+      "position": [
+        5.459999999999995,
+        2.12,
+        2956.56
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 5.329070518200751e-15,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 南浦大桥站 入口附近"
+    },
+    {
+      "id": "metro-0422",
+      "name": "西藏南路站",
+      "mode": "person",
+      "position": [
+        -913.51,
+        2.12,
+        3631.77
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 西藏南路站 入口附近"
+    },
+    {
+      "id": "metro-0423",
+      "name": "鲁班路站",
+      "mode": "person",
+      "position": [
+        -2279.06,
+        2.12,
+        3956.79
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 鲁班路站 入口附近"
+    },
+    {
+      "id": "metro-0424",
+      "name": "大木桥路站",
+      "mode": "person",
+      "position": [
+        -3373.84,
+        2.12,
+        4568.43
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 大木桥路站 入口附近"
+    },
+    {
+      "id": "metro-0425",
+      "name": "东安路站",
+      "mode": "person",
+      "position": [
+        -4322.47,
+        2.12,
+        4859
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 东安路站 入口附近"
+    },
+    {
+      "id": "metro-0426",
+      "name": "上海体育场站",
+      "mode": "person",
+      "position": [
+        -5410.8,
+        2.12,
+        5517.71
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 上海体育场站 入口附近"
+    },
+    {
+      "id": "metro-0502",
+      "name": "春申路站",
+      "mode": "person",
+      "position": [
+        -10890.92,
+        2.12,
+        15192.14
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 春申路站 入口附近"
+    },
+    {
+      "id": "metro-0503",
+      "name": "银都路站",
+      "mode": "person",
+      "position": [
+        -10419.43,
+        2.12,
+        16193.37
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 银都路站 入口附近"
+    },
+    {
+      "id": "metro-0505",
+      "name": "颛桥站",
+      "mode": "person",
+      "position": [
+        -9330.55,
+        2.12,
+        18641.66
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 颛桥站 入口附近"
+    },
+    {
+      "id": "metro-0507",
+      "name": "北桥站",
+      "mode": "person",
+      "position": [
+        -8550.67,
+        2.12,
+        21067.23
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 北桥站 入口附近"
+    },
+    {
+      "id": "metro-0508",
+      "name": "剑川路站",
+      "mode": "person",
+      "position": [
+        -7889.01,
+        2.12,
+        23117
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 剑川路站 入口附近"
+    },
+    {
+      "id": "metro-0509",
+      "name": "东川路站",
+      "mode": "person",
+      "position": [
+        -7579.7,
+        2.12,
+        24034.54
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 东川路站 入口附近"
+    },
+    {
+      "id": "metro-0510",
+      "name": "金平路站",
+      "mode": "person",
+      "position": [
+        -8530.27,
+        2.12,
+        24800.76
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 金平路站 入口附近"
+    },
+    {
+      "id": "metro-0511",
+      "name": "华宁路站",
+      "mode": "person",
+      "position": [
+        -9947.24,
+        2.12,
+        25235.54
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 华宁路站 入口附近"
+    },
+    {
+      "id": "metro-0512",
+      "name": "文井路站",
+      "mode": "person",
+      "position": [
+        -11329.72,
+        2.12,
+        25648.07
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 文井路站 入口附近"
+    },
+    {
+      "id": "metro-0513",
+      "name": "闵行开发区站",
+      "mode": "person",
+      "position": [
+        -12385.67,
+        2.12,
+        25976.64
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 闵行开发区站 入口附近"
+    },
+    {
+      "id": "metro-0531",
+      "name": "江川路站",
+      "mode": "person",
+      "position": [
+        -7293.52,
+        2.12,
+        25487.31
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 江川路站 入口附近"
+    },
+    {
+      "id": "metro-0532",
+      "name": "西渡站",
+      "mode": "person",
+      "position": [
+        -6372.84,
+        2.12,
+        27207.24
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 西渡站 入口附近"
+    },
+    {
+      "id": "metro-0533",
+      "name": "萧塘站",
+      "mode": "person",
+      "position": [
+        -5517.6,
+        2.12,
+        29816.75
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 萧塘站 入口附近"
+    },
+    {
+      "id": "metro-0534",
+      "name": "奉浦大道站",
+      "mode": "person",
+      "position": [
+        -4795.52,
+        2.12,
+        32465.45
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 奉浦大道站 入口附近"
+    },
+    {
+      "id": "metro-0535",
+      "name": "环城东路站",
+      "mode": "person",
+      "position": [
+        -3474.16,
+        2.12,
+        33718.89
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 环城东路站 入口附近"
+    },
+    {
+      "id": "metro-0536",
+      "name": "望园路站",
+      "mode": "person",
+      "position": [
+        -1540.589999999999,
+        2.12,
+        33577.95
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 9.094947017729282e-13,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 望园路站 入口附近"
+    },
+    {
+      "id": "metro-0537",
+      "name": "金海湖站",
+      "mode": "person",
+      "position": [
+        -639.1400000000002,
+        2.12,
+        33874.85
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 2.2737367544323206e-13,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 金海湖站 入口附近"
+    },
+    {
+      "id": "metro-0538",
+      "name": "奉贤新城站",
+      "mode": "person",
+      "position": [
+        -361.0699999999999,
+        2.12,
+        35477.36
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 1.1368683772161603e-13,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 奉贤新城站 入口附近"
+    },
+    {
+      "id": "metro-0621",
+      "name": "东方体育中心站",
+      "mode": "person",
+      "position": [
+        -1805.5299999999997,
+        2.12,
+        9083.26
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 2.2737367544323206e-13,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 东方体育中心站 入口附近"
+    },
+    {
+      "id": "metro-0622",
+      "name": "灵岩南路站",
+      "mode": "person",
+      "position": [
+        -431.66,
+        2.12,
+        9571.04
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 灵岩南路站 入口附近"
+    },
+    {
+      "id": "metro-0623",
+      "name": "上南路站",
+      "mode": "person",
+      "position": [
+        681.98,
+        2.12,
+        9443.45
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 上南路站 入口附近"
+    },
+    {
+      "id": "metro-0624",
+      "name": "华夏西路站",
+      "mode": "person",
+      "position": [
+        1424.04,
+        2.12,
+        9434.29
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 华夏西路站 入口附近"
+    },
+    {
+      "id": "metro-0625",
+      "name": "高青路站",
+      "mode": "person",
+      "position": [
+        1539.5299999999997,
+        2.12,
+        8355.25
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 2.2737367544323206e-13,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 高青路站 入口附近"
+    },
+    {
+      "id": "metro-0626",
+      "name": "东明路站",
+      "mode": "person",
+      "position": [
+        1177.7,
+        2.12,
+        6866.42
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 东明路站 入口附近"
+    },
+    {
+      "id": "metro-0627",
+      "name": "高科西路站",
+      "mode": "person",
+      "position": [
+        1048.92,
+        2.12,
+        5401.7
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 高科西路站 入口附近"
+    },
+    {
+      "id": "metro-0628",
+      "name": "临沂新村 站",
+      "mode": "person",
+      "position": [
+        1735.1099999999997,
+        2.12,
+        4573.23
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 2.2737367544323206e-13,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 临沂新村 站 入口附近"
+    },
+    {
+      "id": "metro-0629",
+      "name": "上海儿童医学中心站",
+      "mode": "person",
+      "position": [
+        2330.65,
+        2.12,
+        3477.56
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 上海儿童医学中心站 入口附近"
+    },
+    {
+      "id": "metro-0631",
+      "name": "浦电路 站",
+      "mode": "person",
+      "position": [
+        2850.68,
+        2.12,
+        1611.44
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 浦电路 站 入口附近"
+    },
+    {
+      "id": "metro-0633",
+      "name": "源深体育中心站",
+      "mode": "person",
+      "position": [
+        3336.18,
+        2.12,
+        260.61
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 源深体育中心站 入口附近"
+    },
+    {
+      "id": "metro-0634",
+      "name": "民生路站",
+      "mode": "person",
+      "position": [
+        4225.41,
+        2.12,
+        -62.32000000000001
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 7.105427357601002e-15,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 民生路站 入口附近"
+    },
+    {
+      "id": "metro-0635",
+      "name": "北洋泾路站",
+      "mode": "person",
+      "position": [
+        5026.74,
+        2.12,
+        -468.39
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 北洋泾路站 入口附近"
+    },
+    {
+      "id": "metro-0636",
+      "name": "德平路站",
+      "mode": "person",
+      "position": [
+        6198.32,
+        2.12,
+        -1207.1099999999997
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 2.2737367544323206e-13,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 德平路站 入口附近"
+    },
+    {
+      "id": "metro-0637",
+      "name": "云山路站",
+      "mode": "person",
+      "position": [
+        6950.88,
+        2.12,
+        -1730.33
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 云山路站 入口附近"
+    },
+    {
+      "id": "metro-0638",
+      "name": "金桥路站",
+      "mode": "person",
+      "position": [
+        7826.29,
+        2.12,
+        -2475.09
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 金桥路站 入口附近"
+    },
+    {
+      "id": "metro-0639",
+      "name": "博兴路站",
+      "mode": "person",
+      "position": [
+        8312.82,
+        2.12,
+        -3245.83
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 博兴路站 入口附近"
+    },
+    {
+      "id": "metro-0640",
+      "name": "五莲路站",
+      "mode": "person",
+      "position": [
+        8492.7,
+        2.12,
+        -4092.79
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 五莲路站 入口附近"
+    },
+    {
+      "id": "metro-0641",
+      "name": "巨峰路站",
+      "mode": "person",
+      "position": [
+        8553.62,
+        2.12,
+        -5052.65
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 巨峰路站 入口附近"
+    },
+    {
+      "id": "metro-0642",
+      "name": "东靖路站",
+      "mode": "person",
+      "position": [
+        8499.2,
+        2.12,
+        -6213.46
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 东靖路站 入口附近"
+    },
+    {
+      "id": "metro-0643",
+      "name": "五洲大道站",
+      "mode": "person",
+      "position": [
+        8616.13,
+        2.12,
+        -7528.24
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 五洲大道站 入口附近"
+    },
+    {
+      "id": "metro-0644",
+      "name": "洲海路站",
+      "mode": "person",
+      "position": [
+        8624.77,
+        2.12,
+        -8594.44
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 洲海路站 入口附近"
+    },
+    {
+      "id": "metro-0645",
+      "name": "外高桥保税区南站",
+      "mode": "person",
+      "position": [
+        9773.620000000003,
+        2.12,
+        -9582.7
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 1.8189894035458565e-12,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 外高桥保税区南站 入口附近"
+    },
+    {
+      "id": "metro-0646",
+      "name": "航津路站",
+      "mode": "person",
+      "position": [
+        9007.04,
+        2.12,
+        -11107.86
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 航津路站 入口附近"
+    },
+    {
+      "id": "metro-0647",
+      "name": "外高桥保税区北站",
+      "mode": "person",
+      "position": [
+        8331.43,
+        2.12,
+        -12483.45
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 外高桥保税区北站 入口附近"
+    },
+    {
+      "id": "metro-0648",
+      "name": "港城路站",
+      "mode": "person",
+      "position": [
+        7208.14,
+        2.12,
+        -13075.69
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 港城路站 入口附近"
+    },
+    {
+      "id": "metro-0721",
+      "name": "美兰湖站",
+      "mode": "person",
+      "position": [
+        -14282.65,
+        2.12,
+        -18456.71
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 美兰湖站 入口附近"
+    },
+    {
+      "id": "metro-0722",
+      "name": "罗南新村站",
+      "mode": "person",
+      "position": [
+        -13578.15,
+        2.12,
+        -17021.75
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 罗南新村站 入口附近"
+    },
+    {
+      "id": "metro-0723",
+      "name": "潘广路站",
+      "mode": "person",
+      "position": [
+        -13637.73,
+        2.12,
+        -14276.41
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 潘广路站 入口附近"
+    },
+    {
+      "id": "metro-0724",
+      "name": "刘行站",
+      "mode": "person",
+      "position": [
+        -13076.85,
+        2.12,
+        -13534.58
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 刘行站 入口附近"
+    },
+    {
+      "id": "metro-0725",
+      "name": "顾村公园站",
+      "mode": "person",
+      "position": [
+        -12094.64,
+        2.12,
+        -12126.68
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 顾村公园站 入口附近"
+    },
+    {
+      "id": "metro-0726",
+      "name": "祁华路站",
+      "mode": "person",
+      "position": [
+        -12039.24,
+        2.12,
+        -9674.6
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 祁华路站 入口附近"
+    },
+    {
+      "id": "metro-0727",
+      "name": "上海大学站",
+      "mode": "person",
+      "position": [
+        -10508.48,
+        2.12,
+        -9452.78
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 上海大学站 入口附近"
+    },
+    {
+      "id": "metro-0728",
+      "name": "南陈路站",
+      "mode": "person",
+      "position": [
+        -9652.39,
+        2.12,
+        -9573.43
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 南陈路站 入口附近"
+    },
+    {
+      "id": "metro-0729",
+      "name": "上大路站",
+      "mode": "person",
+      "position": [
+        -8716.31,
+        2.12,
+        -8857.33
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 上大路站 入口附近"
+    },
+    {
+      "id": "metro-0730",
+      "name": "场中路站",
+      "mode": "person",
+      "position": [
+        -8258.35,
+        2.12,
+        -7657.12
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 场中路站 入口附近"
+    },
+    {
+      "id": "metro-0731",
+      "name": "大场镇站",
+      "mode": "person",
+      "position": [
+        -7893.55,
+        2.12,
+        -6496.52
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 大场镇站 入口附近"
+    },
+    {
+      "id": "metro-0732",
+      "name": "行知路站",
+      "mode": "person",
+      "position": [
+        -7438.46,
+        2.12,
+        -5443.12
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 行知路站 入口附近"
+    },
+    {
+      "id": "metro-0733",
+      "name": "大华三路站",
+      "mode": "person",
+      "position": [
+        -7311.13,
+        2.12,
+        -4310.93
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 大华三路站 入口附近"
+    },
+    {
+      "id": "metro-0734",
+      "name": "新村路站",
+      "mode": "person",
+      "position": [
+        -7320.92,
+        2.12,
+        -3141.44
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 新村路站 入口附近"
+    },
+    {
+      "id": "metro-0735",
+      "name": "岚皋路站",
+      "mode": "person",
+      "position": [
+        -7429.4,
+        2.12,
+        -2332.27
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 岚皋路站 入口附近"
+    },
+    {
+      "id": "metro-0737",
+      "name": "长寿路站",
+      "mode": "person",
+      "position": [
+        -5890.94,
+        2.12,
+        -543.86
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 长寿路站 入口附近"
+    },
+    {
+      "id": "metro-0738",
+      "name": "昌平路站",
+      "mode": "person",
+      "position": [
+        -5461.06,
+        2.12,
+        132.38000000000002
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 2.842170943040401e-14,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 昌平路站 入口附近"
+    },
+    {
+      "id": "metro-0741",
+      "name": "肇嘉浜路站",
+      "mode": "person",
+      "position": [
+        -4706.53,
+        2.12,
+        4021.32
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 肇嘉浜路站 入口附近"
+    },
+    {
+      "id": "metro-0743",
+      "name": "龙华中路站",
+      "mode": "person",
+      "position": [
+        -4045.48,
+        2.12,
+        5615.08
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 龙华中路站 入口附近"
+    },
+    {
+      "id": "metro-0744",
+      "name": "后滩站",
+      "mode": "person",
+      "position": [
+        -2530.2,
+        2.12,
+        6949.8
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 后滩站 入口附近"
+    },
+    {
+      "id": "metro-0745",
+      "name": "长清路站",
+      "mode": "person",
+      "position": [
+        -1304.6400000000003,
+        2.12,
+        6755.55
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 2.2737367544323206e-13,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 长清路站 入口附近"
+    },
+    {
+      "id": "metro-0746",
+      "name": "耀华路站",
+      "mode": "person",
+      "position": [
+        -402.74999999999994,
+        2.12,
+        6284.6
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 5.684341886080802e-14,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 耀华路站 入口附近"
+    },
+    {
+      "id": "metro-0747",
+      "name": "云台路站",
+      "mode": "person",
+      "position": [
+        156.9599999999999,
+        2.12,
+        5865.06
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 1.1368683772161603e-13,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 云台路站 入口附近"
+    },
+    {
+      "id": "metro-0749",
+      "name": "杨高南路站",
+      "mode": "person",
+      "position": [
+        2396.87,
+        2.12,
+        5155.12
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 杨高南路站 入口附近"
+    },
+    {
+      "id": "metro-0750",
+      "name": "锦绣路站",
+      "mode": "person",
+      "position": [
+        3848.41,
+        2.12,
+        5184.74
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 锦绣路站 入口附近"
+    },
+    {
+      "id": "metro-0751",
+      "name": "芳华路站",
+      "mode": "person",
+      "position": [
+        4820.03,
+        2.12,
+        4642.76
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 芳华路站 入口附近"
+    },
+    {
+      "id": "metro-0753",
+      "name": "花木路站",
+      "mode": "person",
+      "position": [
+        6066.23,
+        2.12,
+        2553.45
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 花木路站 入口附近"
+    },
+    {
+      "id": "metro-0820",
+      "name": "沈杜公路站",
+      "mode": "person",
+      "position": [
+        1214.58,
+        2.12,
+        19246.48
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 沈杜公路站 入口附近"
+    },
+    {
+      "id": "metro-0821",
+      "name": "联航路站",
+      "mode": "person",
+      "position": [
+        1078.53,
+        2.12,
+        17890.23
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 联航路站 入口附近"
+    },
+    {
+      "id": "metro-0822",
+      "name": "江月路站",
+      "mode": "person",
+      "position": [
+        857.5699999999999,
+        2.12,
+        16719.33
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 1.1368683772161603e-13,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 江月路站 入口附近"
+    },
+    {
+      "id": "metro-0823",
+      "name": "浦江镇站",
+      "mode": "person",
+      "position": [
+        645.2500000000001,
+        2.12,
+        15361.65
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 1.1368683772161603e-13,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 浦江镇站 入口附近"
+    },
+    {
+      "id": "metro-0824",
+      "name": "芦恒路站",
+      "mode": "person",
+      "position": [
+        -48.129999999999974,
+        2.12,
+        12950.73
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 2.842170943040401e-14,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 芦恒路站 入口附近"
+    },
+    {
+      "id": "metro-0825",
+      "name": "凌兆新村站",
+      "mode": "person",
+      "position": [
+        -942.7800000000002,
+        2.12,
+        10442.4
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 2.2737367544323206e-13,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 凌兆新村站 入口附近"
+    },
+    {
+      "id": "metro-0827",
+      "name": "杨思站",
+      "mode": "person",
+      "position": [
+        -585.4599999999999,
+        2.12,
+        8171.75
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 1.1368683772161603e-13,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 杨思站 入口附近"
+    },
+    {
+      "id": "metro-0828",
+      "name": "成山路站",
+      "mode": "person",
+      "position": [
+        -265.25000000000006,
+        2.12,
+        7024.43
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 5.684341886080802e-14,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 成山路站 入口附近"
+    },
+    {
+      "id": "metro-0830",
+      "name": "中华艺术宫站",
+      "mode": "person",
+      "position": [
+        -575.16,
+        2.12,
+        5545
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 中华艺术宫站 入口附近"
+    },
+    {
+      "id": "metro-0832",
+      "name": "陆家浜路站",
+      "mode": "person",
+      "position": [
+        -1279.01,
+        2.12,
+        2629.87
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 陆家浜路站 入口附近"
+    },
+    {
+      "id": "metro-0833",
+      "name": "老西门站",
+      "mode": "person",
+      "position": [
+        -1535.81,
+        2.12,
+        1813.55
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 老西门站 入口附近"
+    },
+    {
+      "id": "metro-0834",
+      "name": "大世界站",
+      "mode": "person",
+      "position": [
+        -1847.48,
+        2.12,
+        902.89
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 大世界站 入口附近"
+    },
+    {
+      "id": "metro-0836",
+      "name": "曲阜路站",
+      "mode": "person",
+      "position": [
+        -2636.55,
+        2.12,
+        -827.07
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 曲阜路站 入口附近"
+    },
+    {
+      "id": "metro-0837",
+      "name": "中兴路站",
+      "mode": "person",
+      "position": [
+        -2860.38,
+        2.12,
+        -2004.75
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 中兴路站 入口附近"
+    },
+    {
+      "id": "metro-0838",
+      "name": "西藏北路站",
+      "mode": "person",
+      "position": [
+        -2873.84,
+        2.12,
+        -3170.35
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 西藏北路站 入口附近"
+    },
+    {
+      "id": "metro-0840",
+      "name": "曲阳路站",
+      "mode": "person",
+      "position": [
+        -884.29,
+        2.12,
+        -4618.63
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 曲阳路站 入口附近"
+    },
+    {
+      "id": "metro-0841",
+      "name": "四平路站",
+      "mode": "person",
+      "position": [
+        196.97999999999988,
+        2.12,
+        -4462.83
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 1.1368683772161603e-13,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 四平路站 入口附近"
+    },
+    {
+      "id": "metro-0842",
+      "name": "鞍山新村站",
+      "mode": "person",
+      "position": [
+        1007.2200000000001,
+        2.12,
+        -4245.25
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 1.1368683772161603e-13,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 鞍山新村站 入口附近"
+    },
+    {
+      "id": "metro-0843",
+      "name": "江浦路站",
+      "mode": "person",
+      "position": [
+        1865.51,
+        2.12,
+        -4431.56
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 江浦路站 入口附近"
+    },
+    {
+      "id": "metro-0844",
+      "name": "黄兴路站",
+      "mode": "person",
+      "position": [
+        2769.14,
+        2.12,
+        -4877.94
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 黄兴路站 入口附近"
+    },
+    {
+      "id": "metro-0845",
+      "name": "延吉中路站",
+      "mode": "person",
+      "position": [
+        3420.58,
+        2.12,
+        -5978.65
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 延吉中路站 入口附近"
+    },
+    {
+      "id": "metro-0846",
+      "name": "黄兴公园站",
+      "mode": "person",
+      "position": [
+        3179.16,
+        2.12,
+        -6752.32
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 黄兴公园站 入口附近"
+    },
+    {
+      "id": "metro-0847",
+      "name": "翔殷路站",
+      "mode": "person",
+      "position": [
+        3091.74,
+        2.12,
+        -7797
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 翔殷路站 入口附近"
+    },
+    {
+      "id": "metro-0848",
+      "name": "嫩江路站",
+      "mode": "person",
+      "position": [
+        3091.57,
+        2.12,
+        -8808.08
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 嫩江路站 入口附近"
+    },
+    {
+      "id": "metro-0849",
+      "name": "市光路站",
+      "mode": "person",
+      "position": [
+        3090.71,
+        2.12,
+        -9734.16
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 市光路站 入口附近"
+    },
+    {
+      "id": "metro-0918",
+      "name": "上海松江站",
+      "mode": "person",
+      "position": [
+        -25564.52,
+        2.12,
+        27708.64
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 上海松江站 入口附近"
+    },
+    {
+      "id": "metro-0919",
+      "name": "醉白池站",
+      "mode": "person",
+      "position": [
+        -25784.27,
+        2.12,
+        26010.85
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 醉白池站 入口附近"
+    },
+    {
+      "id": "metro-0920",
+      "name": "松江体育中心站",
+      "mode": "person",
+      "position": [
+        -25575.69,
+        2.12,
+        24319.92
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 松江体育中心站 入口附近"
+    },
+    {
+      "id": "metro-0921",
+      "name": "松江新城站",
+      "mode": "person",
+      "position": [
+        -25618.69,
+        2.12,
+        22763.88
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 松江新城站 入口附近"
+    },
+    {
+      "id": "metro-0922",
+      "name": "松江大学城站",
+      "mode": "person",
+      "position": [
+        -25433.69,
+        2.12,
+        20008.06
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 松江大学城站 入口附近"
+    },
+    {
+      "id": "metro-0923",
+      "name": "洞泾站",
+      "mode": "person",
+      "position": [
+        -25648.33,
+        2.12,
+        16727.28
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 洞泾站 入口附近"
+    },
+    {
+      "id": "metro-0924",
+      "name": "佘山站",
+      "mode": "person",
+      "position": [
+        -25675.92,
+        2.12,
+        14464.95
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 佘山站 入口附近"
+    },
+    {
+      "id": "metro-0925",
+      "name": "泗泾站",
+      "mode": "person",
+      "position": [
+        -22730.21,
+        2.12,
+        12940.37
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 泗泾站 入口附近"
+    },
+    {
+      "id": "metro-0926",
+      "name": "九亭站",
+      "mode": "person",
+      "position": [
+        -17111.91,
+        2.12,
+        10792.52
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 九亭站 入口附近"
+    },
+    {
+      "id": "metro-0927",
+      "name": "中春路站",
+      "mode": "person",
+      "position": [
+        -15487.91,
+        2.12,
+        9504.66
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 中春路站 入口附近"
+    },
+    {
+      "id": "metro-0928",
+      "name": "七宝站",
+      "mode": "person",
+      "position": [
+        -14392.42,
+        2.12,
+        8823.37
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 七宝站 入口附近"
+    },
+    {
+      "id": "metro-0929",
+      "name": "星中路站",
+      "mode": "person",
+      "position": [
+        -12469.46,
+        2.12,
+        8572.07
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 星中路站 入口附近"
+    },
+    {
+      "id": "metro-0930",
+      "name": "合川路站",
+      "mode": "person",
+      "position": [
+        -10871.91,
+        2.12,
+        7599.99
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 合川路站 入口附近"
+    },
+    {
+      "id": "metro-0931",
+      "name": "漕河泾开发区站",
+      "mode": "person",
+      "position": [
+        -9787.45,
+        2.12,
+        7204.06
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 漕河泾开发区站 入口附近"
+    },
+    {
+      "id": "metro-0932",
+      "name": "桂林路站",
+      "mode": "person",
+      "position": [
+        -7848.52,
+        2.12,
+        6668.72
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 桂林路站 入口附近"
+    },
+    {
+      "id": "metro-0936",
+      "name": "嘉善路站",
+      "mode": "person",
+      "position": [
+        -3625.18,
+        2.12,
+        3594.56
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 嘉善路站 入口附近"
+    },
+    {
+      "id": "metro-0937",
+      "name": "打浦桥站",
+      "mode": "person",
+      "position": [
+        -2997.62,
+        2.12,
+        3259.82
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 打浦桥站 入口附近"
+    },
+    {
+      "id": "metro-0938",
+      "name": "马当路站",
+      "mode": "person",
+      "position": [
+        -2240.7,
+        2.12,
+        2816.23
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 马当路站 入口附近"
+    },
+    {
+      "id": "metro-0940",
+      "name": "小南门站",
+      "mode": "person",
+      "position": [
+        -56.32000000000001,
+        2.12,
+        1998.41
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 7.105427357601002e-15,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 小南门站 入口附近"
+    },
+    {
+      "id": "metro-0941",
+      "name": "商城路站",
+      "mode": "person",
+      "position": [
+        1685.64,
+        2.12,
+        515.94
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 商城路站 入口附近"
+    },
+    {
+      "id": "metro-0943",
+      "name": "杨高中路站",
+      "mode": "person",
+      "position": [
+        4746.49,
+        2.12,
+        869.7400000000001
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 1.1368683772161603e-13,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 杨高中路站 入口附近"
+    },
+    {
+      "id": "metro-0944",
+      "name": "芳甸路站",
+      "mode": "person",
+      "position": [
+        5661.28,
+        2.12,
+        288.08
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 芳甸路站 入口附近"
+    },
+    {
+      "id": "metro-0945",
+      "name": "蓝天路站",
+      "mode": "person",
+      "position": [
+        7571.93,
+        2.12,
+        -698.2000000000002
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 1.1368683772161603e-13,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 蓝天路站 入口附近"
+    },
+    {
+      "id": "metro-0946",
+      "name": "台儿庄路站",
+      "mode": "person",
+      "position": [
+        9337.43,
+        2.12,
+        -1924.2699999999998
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 2.2737367544323206e-13,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 台儿庄路站 入口附近"
+    },
+    {
+      "id": "metro-0947",
+      "name": "金桥站",
+      "mode": "person",
+      "position": [
+        10744.54,
+        2.12,
+        -2949
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 金桥站 入口附近"
+    },
+    {
+      "id": "metro-0948",
+      "name": "金吉路站",
+      "mode": "person",
+      "position": [
+        12413.41,
+        2.12,
+        -3226.43
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 金吉路站 入口附近"
+    },
+    {
+      "id": "metro-0949",
+      "name": "金海路站",
+      "mode": "person",
+      "position": [
+        13359.29,
+        2.12,
+        -3188.88
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 金海路站 入口附近"
+    },
+    {
+      "id": "metro-0950",
+      "name": "顾唐路站",
+      "mode": "person",
+      "position": [
+        15043.1,
+        2.12,
+        -3508.05
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 顾唐路站 入口附近"
+    },
+    {
+      "id": "metro-0951",
+      "name": "民雷路站",
+      "mode": "person",
+      "position": [
+        16135.47,
+        2.12,
+        -3752.4
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 民雷路站 入口附近"
+    },
+    {
+      "id": "metro-0952",
+      "name": "曹路站",
+      "mode": "person",
+      "position": [
+        17475,
+        2.12,
+        -4060.28
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 曹路站 入口附近"
+    },
+    {
+      "id": "metro-1018",
+      "name": "航中路站",
+      "mode": "person",
+      "position": [
+        -13714.15,
+        2.12,
+        7674.09
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 航中路站 入口附近"
+    },
+    {
+      "id": "metro-1019",
+      "name": "紫藤路站",
+      "mode": "person",
+      "position": [
+        -12836.17,
+        2.12,
+        7189.61
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 紫藤路站 入口附近"
+    },
+    {
+      "id": "metro-1020",
+      "name": "龙柏新村站",
+      "mode": "person",
+      "position": [
+        -12280.15,
+        2.12,
+        6449.4
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 龙柏新村站 入口附近"
+    },
+    {
+      "id": "metro-1043",
+      "name": "虹桥1号航站楼站",
+      "mode": "person",
+      "position": [
+        -14558.15,
+        2.12,
+        4797.56
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 虹桥1号航站楼站 入口附近"
+    },
+    {
+      "id": "metro-1044",
+      "name": "上海动物园站",
+      "mode": "person",
+      "position": [
+        -12456.03,
+        2.12,
+        4947.64
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 上海动物园站 入口附近"
+    },
+    {
+      "id": "metro-1045",
+      "name": "龙溪路站",
+      "mode": "person",
+      "position": [
+        -11379.42,
+        2.12,
+        4477.97
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 龙溪路站 入口附近"
+    },
+    {
+      "id": "metro-1046",
+      "name": "水城路站",
+      "mode": "person",
+      "position": [
+        -10159.59,
+        2.12,
+        3959.33
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 水城路站 入口附近"
+    },
+    {
+      "id": "metro-1047",
+      "name": "伊犁路站",
+      "mode": "person",
+      "position": [
+        -9169.31,
+        2.12,
+        4032.09
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 伊犁路站 入口附近"
+    },
+    {
+      "id": "metro-1048",
+      "name": "宋园路站",
+      "mode": "person",
+      "position": [
+        -8295.23,
+        2.12,
+        4271.38
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 宋园路站 入口附近"
+    },
+    {
+      "id": "metro-1050",
+      "name": "交通大学站",
+      "mode": "person",
+      "position": [
+        -6136.29,
+        2.12,
+        3595.46
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 交通大学站 入口附近"
+    },
+    {
+      "id": "metro-1051",
+      "name": "上海图书馆站",
+      "mode": "person",
+      "position": [
+        -5222.22,
+        2.12,
+        2987.68
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 上海图书馆站 入口附近"
+    },
+    {
+      "id": "metro-1053",
+      "name": "一大会址·新天地站",
+      "mode": "person",
+      "position": [
+        -2390.94,
+        2.12,
+        2126.48
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 一大会址·新天地站 入口附近"
+    },
+    {
+      "id": "metro-1055",
+      "name": "豫园站",
+      "mode": "person",
+      "position": [
+        -1136.76,
+        2.12,
+        715.28
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 豫园站 入口附近"
+    },
+    {
+      "id": "metro-1057",
+      "name": "天潼路站",
+      "mode": "person",
+      "position": [
+        -1618.71,
+        2.12,
+        -1002.98
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 天潼路站 入口附近"
+    },
+    {
+      "id": "metro-1058",
+      "name": "四川北路站",
+      "mode": "person",
+      "position": [
+        -1488.23,
+        2.12,
+        -1888.23
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 四川北路站 入口附近"
+    },
+    {
+      "id": "metro-1060",
+      "name": "邮电新村站",
+      "mode": "person",
+      "position": [
+        -493.99,
+        2.12,
+        -3725.67
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 邮电新村站 入口附近"
+    },
+    {
+      "id": "metro-1062",
+      "name": "同济大学站",
+      "mode": "person",
+      "position": [
+        698.07,
+        2.12,
+        -5214.69
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 同济大学站 入口附近"
+    },
+    {
+      "id": "metro-1063",
+      "name": "国权路站",
+      "mode": "person",
+      "position": [
+        1076.8199999999997,
+        2.12,
+        -6030.99
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 2.2737367544323206e-13,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 国权路站 入口附近"
+    },
+    {
+      "id": "metro-1064",
+      "name": "五角场站",
+      "mode": "person",
+      "position": [
+        1462.6,
+        2.12,
+        -6958.35
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 五角场站 入口附近"
+    },
+    {
+      "id": "metro-1065",
+      "name": "江湾体育场站",
+      "mode": "person",
+      "position": [
+        1445.17,
+        2.12,
+        -7516.51
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 江湾体育场站 入口附近"
+    },
+    {
+      "id": "metro-1066",
+      "name": "三门路站",
+      "mode": "person",
+      "position": [
+        848.0399999999998,
+        2.12,
+        -8677.45
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 1.1368683772161603e-13,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 三门路站 入口附近"
+    },
+    {
+      "id": "metro-1067",
+      "name": "殷高东路 站",
+      "mode": "person",
+      "position": [
+        707.35,
+        2.12,
+        -9623.98
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 殷高东路 站 入口附近"
+    },
+    {
+      "id": "metro-1068",
+      "name": "新江湾城站",
+      "mode": "person",
+      "position": [
+        657.18,
+        2.12,
+        -10264.23
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 新江湾城站 入口附近"
+    },
+    {
+      "id": "metro-1069",
+      "name": "国帆路站",
+      "mode": "person",
+      "position": [
+        1327.91,
+        2.12,
+        -11597.58
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 国帆路站 入口附近"
+    },
+    {
+      "id": "metro-1070",
+      "name": "双江路站",
+      "mode": "person",
+      "position": [
+        3826.49,
+        2.12,
+        -13162.85
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 双江路站 入口附近"
+    },
+    {
+      "id": "metro-1071",
+      "name": "高桥西站",
+      "mode": "person",
+      "position": [
+        4768.66,
+        2.12,
+        -12947.4
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 高桥西站 入口附近"
+    },
+    {
+      "id": "metro-1072",
+      "name": "高桥站",
+      "mode": "person",
+      "position": [
+        6070.27,
+        2.12,
+        -13065.59
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 高桥站 入口附近"
+    },
+    {
+      "id": "metro-1074",
+      "name": "基隆路站",
+      "mode": "person",
+      "position": [
+        8687.43,
+        2.12,
+        -12921.65
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 基隆路站 入口附近"
+    },
+    {
+      "id": "metro-1117",
+      "name": "安亭站",
+      "mode": "person",
+      "position": [
+        -32151.44,
+        2.12,
+        -5919.92
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 安亭站 入口附近"
+    },
+    {
+      "id": "metro-1118",
+      "name": "上海汽车城站",
+      "mode": "person",
+      "position": [
+        -30361.6,
+        2.12,
+        -5590.53
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 上海汽车城站 入口附近"
+    },
+    {
+      "id": "metro-1119",
+      "name": "昌吉东路站",
+      "mode": "person",
+      "position": [
+        -28527.55,
+        2.12,
+        -6507.049999999999
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 9.094947017729282e-13,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 昌吉东路站 入口附近"
+    },
+    {
+      "id": "metro-1120",
+      "name": "上海赛车场站",
+      "mode": "person",
+      "position": [
+        -25978.07,
+        2.12,
+        -10696.5
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 上海赛车场站 入口附近"
+    },
+    {
+      "id": "metro-1131",
+      "name": "嘉定北站",
+      "mode": "person",
+      "position": [
+        -24901.34,
+        2.12,
+        -17370.21
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 嘉定北站 入口附近"
+    },
+    {
+      "id": "metro-1132",
+      "name": "嘉定西站",
+      "mode": "person",
+      "position": [
+        -25892.79,
+        2.12,
+        -15812.46
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 嘉定西站 入口附近"
+    },
+    {
+      "id": "metro-1133",
+      "name": "白银路站",
+      "mode": "person",
+      "position": [
+        -24234.93,
+        2.12,
+        -12211.7
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 白银路站 入口附近"
+    },
+    {
+      "id": "metro-1134",
+      "name": "嘉定新城站",
+      "mode": "person",
+      "position": [
+        -23362.28,
+        2.12,
+        -10489.16
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 嘉定新城站 入口附近"
+    },
+    {
+      "id": "metro-1135",
+      "name": "马陆站",
+      "mode": "person",
+      "position": [
+        -21279.32,
+        2.12,
+        -9362.85
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 马陆站 入口附近"
+    },
+    {
+      "id": "metro-1136",
+      "name": "陈翔公路站",
+      "mode": "person",
+      "position": [
+        -18336.61,
+        2.12,
+        -7883.799999999999
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 9.094947017729282e-13,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 陈翔公路站 入口附近"
+    },
+    {
+      "id": "metro-1137",
+      "name": "南翔站",
+      "mode": "person",
+      "position": [
+        -16768.45,
+        2.12,
+        -6834.13
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 南翔站 入口附近"
+    },
+    {
+      "id": "metro-1138",
+      "name": "桃浦新村站",
+      "mode": "person",
+      "position": [
+        -14238.73,
+        2.12,
+        -5130.45
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 桃浦新村站 入口附近"
+    },
+    {
+      "id": "metro-1139",
+      "name": "武威路站",
+      "mode": "person",
+      "position": [
+        -12821.07,
+        2.12,
+        -4634.34
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 武威路站 入口附近"
+    },
+    {
+      "id": "metro-1140",
+      "name": "祁连山路站",
+      "mode": "person",
+      "position": [
+        -11701.86,
+        2.12,
+        -4075.17
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 祁连山路站 入口附近"
+    },
+    {
+      "id": "metro-1141",
+      "name": "李子园站",
+      "mode": "person",
+      "position": [
+        -10427.54,
+        2.12,
+        -3764.21
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 李子园站 入口附近"
+    },
+    {
+      "id": "metro-1142",
+      "name": "上海西站",
+      "mode": "person",
+      "position": [
+        -9464.81,
+        2.12,
+        -3075.89
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 上海西站 入口附近"
+    },
+    {
+      "id": "metro-1143",
+      "name": "真如站",
+      "mode": "person",
+      "position": [
+        -8886.85,
+        2.12,
+        -1706.44
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 真如站 入口附近"
+    },
+    {
+      "id": "metro-1144",
+      "name": "枫桥路站",
+      "mode": "person",
+      "position": [
+        -8493.23,
+        2.12,
+        -769.5600000000001
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 1.1368683772161603e-13,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 枫桥路站 入口附近"
+    },
+    {
+      "id": "metro-1146",
+      "name": "隆德路站",
+      "mode": "person",
+      "position": [
+        -7206.4,
+        2.12,
+        544.51
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 隆德路站 入口附近"
+    },
+    {
+      "id": "metro-1150",
+      "name": "上海游泳馆站",
+      "mode": "person",
+      "position": [
+        -5518.97,
+        2.12,
+        6235.47
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 上海游泳馆站 入口附近"
+    },
+    {
+      "id": "metro-1151",
+      "name": "龙华站",
+      "mode": "person",
+      "position": [
+        -4412.09,
+        2.12,
+        6795.36
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 龙华站 入口附近"
+    },
+    {
+      "id": "metro-1152",
+      "name": "云锦路站",
+      "mode": "person",
+      "position": [
+        -3892.84,
+        2.12,
+        7525.48
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 云锦路站 入口附近"
+    },
+    {
+      "id": "metro-1153",
+      "name": "龙耀路站",
+      "mode": "person",
+      "position": [
+        -3784,
+        2.12,
+        8284.04
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 龙耀路站 入口附近"
+    },
+    {
+      "id": "metro-1155",
+      "name": "三林站",
+      "mode": "person",
+      "position": [
+        1280.2,
+        2.12,
+        10099.7
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 三林站 入口附近"
+    },
+    {
+      "id": "metro-1156",
+      "name": "三林东站",
+      "mode": "person",
+      "position": [
+        2318.05,
+        2.12,
+        9824.85
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 三林东站 入口附近"
+    },
+    {
+      "id": "metro-1157",
+      "name": "浦三路站",
+      "mode": "person",
+      "position": [
+        3828.39,
+        2.12,
+        9326.45
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 浦三路站 入口附近"
+    },
+    {
+      "id": "metro-1158",
+      "name": "康恒路站",
+      "mode": "person",
+      "position": [
+        5122.84,
+        2.12,
+        8968.44
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 康恒路站 入口附近"
+    },
+    {
+      "id": "metro-1159",
+      "name": "御桥站",
+      "mode": "person",
+      "position": [
+        6870.84,
+        2.12,
+        8437.19
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 御桥站 入口附近"
+    },
+    {
+      "id": "metro-1160",
+      "name": "罗山路站",
+      "mode": "person",
+      "position": [
+        8923.91,
+        2.12,
+        9039.86
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 罗山路站 入口附近"
+    },
+    {
+      "id": "metro-1161",
+      "name": "秀沿路站",
+      "mode": "person",
+      "position": [
+        9485.24,
+        2.12,
+        10756.46
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 秀沿路站 入口附近"
+    },
+    {
+      "id": "metro-1162",
+      "name": "康新公路站",
+      "mode": "person",
+      "position": [
+        11285.31,
+        2.12,
+        11534.13
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 康新公路站 入口附近"
+    },
+    {
+      "id": "metro-1163",
+      "name": "迪士尼站",
+      "mode": "person",
+      "position": [
+        16060.59,
+        2.12,
+        10334.98
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 迪士尼站 入口附近"
+    },
+    {
+      "id": "metro-1220",
+      "name": "七莘路站",
+      "mode": "person",
+      "position": [
+        -13147.5,
+        2.12,
+        11565.31
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 七莘路站 入口附近"
+    },
+    {
+      "id": "metro-1221",
+      "name": "虹莘路站",
+      "mode": "person",
+      "position": [
+        -11326.46,
+        2.12,
+        10780.96
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 虹莘路站 入口附近"
+    },
+    {
+      "id": "metro-1222",
+      "name": "顾戴路站",
+      "mode": "person",
+      "position": [
+        -10305.42,
+        2.12,
+        10413.94
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 顾戴路站 入口附近"
+    },
+    {
+      "id": "metro-1223",
+      "name": "东兰路站",
+      "mode": "person",
+      "position": [
+        -10319.99,
+        2.12,
+        8741.74
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 东兰路站 入口附近"
+    },
+    {
+      "id": "metro-1224",
+      "name": "虹梅路站",
+      "mode": "person",
+      "position": [
+        -9649.18,
+        2.12,
+        8214.54
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 虹梅路站 入口附近"
+    },
+    {
+      "id": "metro-1225",
+      "name": "虹漕路站",
+      "mode": "person",
+      "position": [
+        -8428.78,
+        2.12,
+        7811.46
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 虹漕路站 入口附近"
+    },
+    {
+      "id": "metro-1226",
+      "name": "桂林公园站",
+      "mode": "person",
+      "position": [
+        -7690.01,
+        2.12,
+        7532.66
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 桂林公园站 入口附近"
+    },
+    {
+      "id": "metro-1238",
+      "name": "国际客运中心站",
+      "mode": "person",
+      "position": [
+        -67.74,
+        2.12,
+        -1684.77
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 国际客运中心站 入口附近"
+    },
+    {
+      "id": "metro-1239",
+      "name": "提篮桥站",
+      "mode": "person",
+      "position": [
+        644.45,
+        2.12,
+        -2007.31
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 提篮桥站 入口附近"
+    },
+    {
+      "id": "metro-1241",
+      "name": "江浦公园站",
+      "mode": "person",
+      "position": [
+        2368.79,
+        2.12,
+        -3256.73
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 江浦公园站 入口附近"
+    },
+    {
+      "id": "metro-1242",
+      "name": "宁国路站",
+      "mode": "person",
+      "position": [
+        3216.62,
+        2.12,
+        -3740.46
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 宁国路站 入口附近"
+    },
+    {
+      "id": "metro-1243",
+      "name": "隆昌路站",
+      "mode": "person",
+      "position": [
+        4370.19,
+        2.12,
+        -4469.93
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 隆昌路站 入口附近"
+    },
+    {
+      "id": "metro-1244",
+      "name": "爱国路站",
+      "mode": "person",
+      "position": [
+        5018.87,
+        2.12,
+        -5007.3
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 爱国路站 入口附近"
+    },
+    {
+      "id": "metro-1245",
+      "name": "复兴岛站",
+      "mode": "person",
+      "position": [
+        5980.01,
+        2.12,
+        -5109.21
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 复兴岛站 入口附近"
+    },
+    {
+      "id": "metro-1246",
+      "name": "东陆路站",
+      "mode": "person",
+      "position": [
+        7562.9,
+        2.12,
+        -5253.14
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 东陆路站 入口附近"
+    },
+    {
+      "id": "metro-1248",
+      "name": "杨高北路站",
+      "mode": "person",
+      "position": [
+        9853.65,
+        2.12,
+        -5042.95
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 杨高北路站 入口附近"
+    },
+    {
+      "id": "metro-1249",
+      "name": "金京路站",
+      "mode": "person",
+      "position": [
+        11102.24,
+        2.12,
+        -4952.73
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 金京路站 入口附近"
+    },
+    {
+      "id": "metro-1250",
+      "name": "申江路站",
+      "mode": "person",
+      "position": [
+        12207.78,
+        2.12,
+        -5010.64
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 申江路站 入口附近"
+    },
+    {
+      "id": "metro-1321",
+      "name": "金运路站",
+      "mode": "person",
+      "position": [
+        -17207.1,
+        2.12,
+        -690.2900000000001
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 1.1368683772161603e-13,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 金运路站 入口附近"
+    },
+    {
+      "id": "metro-1322",
+      "name": "金沙江西路站",
+      "mode": "person",
+      "position": [
+        -15651.98,
+        2.12,
+        -646.6299999999999
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 1.1368683772161603e-13,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 金沙江西路站 入口附近"
+    },
+    {
+      "id": "metro-1323",
+      "name": "丰庄站",
+      "mode": "person",
+      "position": [
+        -13813.96,
+        2.12,
+        -871.51
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 丰庄站 入口附近"
+    },
+    {
+      "id": "metro-1324",
+      "name": "祁连山南路站",
+      "mode": "person",
+      "position": [
+        -12640.52,
+        2.12,
+        -262.39
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 祁连山南路站 入口附近"
+    },
+    {
+      "id": "metro-1325",
+      "name": "真北路站",
+      "mode": "person",
+      "position": [
+        -11210.28,
+        2.12,
+        300.66
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 真北路站 入口附近"
+    },
+    {
+      "id": "metro-1326",
+      "name": "大渡河路站",
+      "mode": "person",
+      "position": [
+        -9900.32,
+        2.12,
+        351.86
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 大渡河路站 入口附近"
+    },
+    {
+      "id": "metro-1329",
+      "name": "武宁路站",
+      "mode": "person",
+      "position": [
+        -6642.99,
+        2.12,
+        94.07000000000001
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 1.4210854715202004e-14,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 武宁路站 入口附近"
+    },
+    {
+      "id": "metro-1331",
+      "name": "江宁路站",
+      "mode": "person",
+      "position": [
+        -5256.16,
+        2.12,
+        -983.1699999999998
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 1.1368683772161603e-13,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 江宁路站 入口附近"
+    },
+    {
+      "id": "metro-1333",
+      "name": "自然博物馆站",
+      "mode": "person",
+      "position": [
+        -3509.14,
+        2.12,
+        -102.20000000000002
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 1.4210854715202004e-14,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 自然博物馆站 入口附近"
+    },
+    {
+      "id": "metro-1335",
+      "name": "淮海中路站",
+      "mode": "person",
+      "position": [
+        -3308.79,
+        2.12,
+        1735.84
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 淮海中路站 入口附近"
+    },
+    {
+      "id": "metro-1338",
+      "name": "世博会博物馆站",
+      "mode": "person",
+      "position": [
+        -1748.04,
+        2.12,
+        4108.36
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 世博会博物馆站 入口附近"
+    },
+    {
+      "id": "metro-1339",
+      "name": "世博大道站",
+      "mode": "person",
+      "position": [
+        -1392.98,
+        2.12,
+        5859.07
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 世博大道站 入口附近"
+    },
+    {
+      "id": "metro-1343",
+      "name": "华鹏路 站",
+      "mode": "person",
+      "position": [
+        2540.42,
+        2.12,
+        6537.43
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 华鹏路 站 入口附近"
+    },
+    {
+      "id": "metro-1344",
+      "name": "下南路站",
+      "mode": "person",
+      "position": [
+        3859.46,
+        2.12,
+        6145.35
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 下南路站 入口附近"
+    },
+    {
+      "id": "metro-1345",
+      "name": "北蔡站",
+      "mode": "person",
+      "position": [
+        4968.7,
+        2.12,
+        6053.51
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 北蔡站 入口附近"
+    },
+    {
+      "id": "metro-1346",
+      "name": "陈春路 站",
+      "mode": "person",
+      "position": [
+        5612.37,
+        2.12,
+        6672.28
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 陈春路 站 入口附近"
+    },
+    {
+      "id": "metro-1347",
+      "name": "莲溪路站",
+      "mode": "person",
+      "position": [
+        6443.34,
+        2.12,
+        7238.67
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 莲溪路站 入口附近"
+    },
+    {
+      "id": "metro-1348",
+      "name": "华夏中路站",
+      "mode": "person",
+      "position": [
+        7938.88,
+        2.12,
+        6518.72
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 华夏中路站 入口附近"
+    },
+    {
+      "id": "metro-1349",
+      "name": "中科路站",
+      "mode": "person",
+      "position": [
+        9758.03,
+        2.12,
+        6244.33
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 中科路站 入口附近"
+    },
+    {
+      "id": "metro-1350",
+      "name": "学林路 站",
+      "mode": "person",
+      "position": [
+        10905.6,
+        2.12,
+        5775.69
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 学林路 站 入口附近"
+    },
+    {
+      "id": "metro-1351",
+      "name": "张江路站",
+      "mode": "person",
+      "position": [
+        12442.86,
+        2.12,
+        5069.21
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 张江路站 入口附近"
+    },
+    {
+      "id": "metro-1421",
+      "name": "封浜站",
+      "mode": "person",
+      "position": [
+        -19284.02,
+        2.12,
+        -3611.53
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 封浜站 入口附近"
+    },
+    {
+      "id": "metro-1422",
+      "name": "乐秀路站",
+      "mode": "person",
+      "position": [
+        -17573.9,
+        2.12,
+        -3369.88
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 乐秀路站 入口附近"
+    },
+    {
+      "id": "metro-1423",
+      "name": "临洮路站",
+      "mode": "person",
+      "position": [
+        -15985.35,
+        2.12,
+        -3126.68
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 临洮路站 入口附近"
+    },
+    {
+      "id": "metro-1424",
+      "name": "嘉怡路站",
+      "mode": "person",
+      "position": [
+        -14684.94,
+        2.12,
+        -2696.28
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 嘉怡路站 入口附近"
+    },
+    {
+      "id": "metro-1425",
+      "name": "定边路站",
+      "mode": "person",
+      "position": [
+        -13097.74,
+        2.12,
+        -2373.91
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 定边路站 入口附近"
+    },
+    {
+      "id": "metro-1426",
+      "name": "真新新村站",
+      "mode": "person",
+      "position": [
+        -12021.75,
+        2.12,
+        -2248.39
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 真新新村站 入口附近"
+    },
+    {
+      "id": "metro-1427",
+      "name": "真光路站",
+      "mode": "person",
+      "position": [
+        -10984.33,
+        2.12,
+        -2001.02
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 真光路站 入口附近"
+    },
+    {
+      "id": "metro-1428",
+      "name": "铜川路站",
+      "mode": "person",
+      "position": [
+        -9688.93,
+        2.12,
+        -1833.6
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 铜川路站 入口附近"
+    },
+    {
+      "id": "metro-1430",
+      "name": "中宁路站",
+      "mode": "person",
+      "position": [
+        -8182.84,
+        2.12,
+        -1150.93
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 中宁路站 入口附近"
+    },
+    {
+      "id": "metro-1433",
+      "name": "武定路站",
+      "mode": "person",
+      "position": [
+        -5979.74,
+        2.12,
+        967.2499999999999
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 1.1368683772161603e-13,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 武定路站 入口附近"
+    },
+    {
+      "id": "metro-1441",
+      "name": "源深路站",
+      "mode": "person",
+      "position": [
+        3030.53,
+        2.12,
+        -686.73
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 源深路站 入口附近"
+    },
+    {
+      "id": "metro-1442",
+      "name": "昌邑路站",
+      "mode": "person",
+      "position": [
+        3925.38,
+        2.12,
+        -997.93
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 昌邑路站 入口附近"
+    },
+    {
+      "id": "metro-1443",
+      "name": "歇浦路站",
+      "mode": "person",
+      "position": [
+        4929.74,
+        2.12,
+        -1723.62
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 歇浦路站 入口附近"
+    },
+    {
+      "id": "metro-1447",
+      "name": "黄杨路站",
+      "mode": "person",
+      "position": [
+        8695.93,
+        2.12,
+        111.96000000000008
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 8.526512829121202e-14,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 黄杨路站 入口附近"
+    },
+    {
+      "id": "metro-1448",
+      "name": "云顺路站",
+      "mode": "person",
+      "position": [
+        9658.28,
+        2.12,
+        -268.5899999999999
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 5.684341886080802e-14,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 云顺路站 入口附近"
+    },
+    {
+      "id": "metro-1449",
+      "name": "浦东足球场站",
+      "mode": "person",
+      "position": [
+        11031.1,
+        2.12,
+        -732.48
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 浦东足球场站 入口附近"
+    },
+    {
+      "id": "metro-1450",
+      "name": "金粤路站",
+      "mode": "person",
+      "position": [
+        12365.85,
+        2.12,
+        -811.8
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 金粤路站 入口附近"
+    },
+    {
+      "id": "metro-1451",
+      "name": "桂桥路站",
+      "mode": "person",
+      "position": [
+        12970.62,
+        2.12,
+        -1589.82
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 桂桥路站 入口附近"
+    },
+    {
+      "id": "metro-1521",
+      "name": "紫竹高新区站",
+      "mode": "person",
+      "position": [
+        -4648.51,
+        2.12,
+        23404.73
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 紫竹高新区站 入口附近"
+    },
+    {
+      "id": "metro-1522",
+      "name": "永德路站",
+      "mode": "person",
+      "position": [
+        -5428.81,
+        2.12,
+        21679.26
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 永德路站 入口附近"
+    },
+    {
+      "id": "metro-1523",
+      "name": "元江路站",
+      "mode": "person",
+      "position": [
+        -6461.46,
+        2.12,
+        19098.01
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 元江路站 入口附近"
+    },
+    {
+      "id": "metro-1524",
+      "name": "双柏路站",
+      "mode": "person",
+      "position": [
+        -7432.5,
+        2.12,
+        16836.3
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 双柏路站 入口附近"
+    },
+    {
+      "id": "metro-1525",
+      "name": "曙建路站",
+      "mode": "person",
+      "position": [
+        -7819.58,
+        2.12,
+        16004.55
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 曙建路站 入口附近"
+    },
+    {
+      "id": "metro-1526",
+      "name": "景西路站",
+      "mode": "person",
+      "position": [
+        -7717.7,
+        2.12,
+        15021.56
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 景西路站 入口附近"
+    },
+    {
+      "id": "metro-1527",
+      "name": "虹梅南路站",
+      "mode": "person",
+      "position": [
+        -6351.52,
+        2.12,
+        14560.3
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 虹梅南路站 入口附近"
+    },
+    {
+      "id": "metro-1528",
+      "name": "景洪路站",
+      "mode": "person",
+      "position": [
+        -5420.35,
+        2.12,
+        13771.19
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 景洪路站 入口附近"
+    },
+    {
+      "id": "metro-1529",
+      "name": "朱梅路站",
+      "mode": "person",
+      "position": [
+        -5871.63,
+        2.12,
+        12267.22
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 朱梅路站 入口附近"
+    },
+    {
+      "id": "metro-1530",
+      "name": "罗秀路站",
+      "mode": "person",
+      "position": [
+        -6082.61,
+        2.12,
+        11459.33
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 罗秀路站 入口附近"
+    },
+    {
+      "id": "metro-1531",
+      "name": "华东理工大学站",
+      "mode": "person",
+      "position": [
+        -6755.53,
+        2.12,
+        10076.97
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 华东理工大学站 入口附近"
+    },
+    {
+      "id": "metro-1535",
+      "name": "吴中路站",
+      "mode": "person",
+      "position": [
+        -8177.86,
+        2.12,
+        5648.84
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 吴中路站 入口附近"
+    },
+    {
+      "id": "metro-1536",
+      "name": "姚虹路站",
+      "mode": "person",
+      "position": [
+        -8864.11,
+        2.12,
+        4819.77
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 姚虹路站 入口附近"
+    },
+    {
+      "id": "metro-1537",
+      "name": "红宝石路站",
+      "mode": "person",
+      "position": [
+        -9665.39,
+        2.12,
+        4037.7
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 红宝石路站 入口附近"
+    },
+    {
+      "id": "metro-1539",
+      "name": "长风公园站",
+      "mode": "person",
+      "position": [
+        -9864.46,
+        2.12,
+        1119.7
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 长风公园站 入口附近"
+    },
+    {
+      "id": "metro-1541",
+      "name": "梅岭北路站",
+      "mode": "person",
+      "position": [
+        -9809.93,
+        2.12,
+        -970.24
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 梅岭北路站 入口附近"
+    },
+    {
+      "id": "metro-1544",
+      "name": "武威东路站",
+      "mode": "person",
+      "position": [
+        -10251.93,
+        2.12,
+        -4450.47
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 武威东路站 入口附近"
+    },
+    {
+      "id": "metro-1545",
+      "name": "古浪路站",
+      "mode": "person",
+      "position": [
+        -10246.74,
+        2.12,
+        -5305.12
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 古浪路站 入口附近"
+    },
+    {
+      "id": "metro-1546",
+      "name": "祁安路站",
+      "mode": "person",
+      "position": [
+        -10918.66,
+        2.12,
+        -6219.19
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 祁安路站 入口附近"
+    },
+    {
+      "id": "metro-1547",
+      "name": "南大路站",
+      "mode": "person",
+      "position": [
+        -11388,
+        2.12,
+        -7040.75
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 南大路站 入口附近"
+    },
+    {
+      "id": "metro-1548",
+      "name": "丰翔路站",
+      "mode": "person",
+      "position": [
+        -11286.53,
+        2.12,
+        -8137.18
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 丰翔路站 入口附近"
+    },
+    {
+      "id": "metro-1549",
+      "name": "锦秋路站",
+      "mode": "person",
+      "position": [
+        -11208.22,
+        2.12,
+        -9444.91
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 锦秋路站 入口附近"
+    },
+    {
+      "id": "metro-1624",
+      "name": "周浦东站",
+      "mode": "person",
+      "position": [
+        10251.59,
+        2.12,
+        13821.48
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 周浦东站 入口附近"
+    },
+    {
+      "id": "metro-1625",
+      "name": "鹤沙航城站",
+      "mode": "person",
+      "position": [
+        10682.06,
+        2.12,
+        17335.68
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 鹤沙航城站 入口附近"
+    },
+    {
+      "id": "metro-1626",
+      "name": "航头东站",
+      "mode": "person",
+      "position": [
+        11278.5,
+        2.12,
+        19902.02
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 航头东站 入口附近"
+    },
+    {
+      "id": "metro-1627",
+      "name": "新场站",
+      "mode": "person",
+      "position": [
+        14277.61,
+        2.12,
+        20999.7
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 新场站 入口附近"
+    },
+    {
+      "id": "metro-1628",
+      "name": "野生动物园站",
+      "mode": "person",
+      "position": [
+        19103.62,
+        2.12,
+        20494.48
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 野生动物园站 入口附近"
+    },
+    {
+      "id": "metro-1629",
+      "name": "惠南站",
+      "mode": "person",
+      "position": [
+        25064.79,
+        2.12,
+        20036.67
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 惠南站 入口附近"
+    },
+    {
+      "id": "metro-1630",
+      "name": "惠南东站",
+      "mode": "person",
+      "position": [
+        28041.65,
+        2.12,
+        23067.75
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 惠南东站 入口附近"
+    },
+    {
+      "id": "metro-1631",
+      "name": "书院站",
+      "mode": "person",
+      "position": [
+        33481.33,
+        2.12,
+        30489.5
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 书院站 入口附近"
+    },
+    {
+      "id": "metro-1632",
+      "name": "临港大道站",
+      "mode": "person",
+      "position": [
+        39204.11,
+        2.12,
+        34412.3
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 临港大道站 入口附近"
+    },
+    {
+      "id": "metro-1633",
+      "name": "滴水湖站",
+      "mode": "person",
+      "position": [
+        41036.71,
+        2.12,
+        36331.55
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 滴水湖站 入口附近"
+    },
+    {
+      "id": "metro-1723",
+      "name": "蟠龙路站",
+      "mode": "person",
+      "position": [
+        -20972.11,
+        2.12,
+        5382.59
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 蟠龙路站 入口附近"
+    },
+    {
+      "id": "metro-1724",
+      "name": "徐盈路站",
+      "mode": "person",
+      "position": [
+        -23300.31,
+        2.12,
+        6275.66
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 徐盈路站 入口附近"
+    },
+    {
+      "id": "metro-1725",
+      "name": "徐泾北城站",
+      "mode": "person",
+      "position": [
+        -24512.31,
+        2.12,
+        6582.17
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 徐泾北城站 入口附近"
+    },
+    {
+      "id": "metro-1726",
+      "name": "嘉松中路站",
+      "mode": "person",
+      "position": [
+        -26230.62,
+        2.12,
+        7911.79
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 嘉松中路站 入口附近"
+    },
+    {
+      "id": "metro-1727",
+      "name": "赵巷站",
+      "mode": "person",
+      "position": [
+        -29287.7,
+        2.12,
+        8230.53
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 赵巷站 入口附近"
+    },
+    {
+      "id": "metro-1728",
+      "name": "汇金路站",
+      "mode": "person",
+      "position": [
+        -33087.3,
+        2.12,
+        8140.41
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 汇金路站 入口附近"
+    },
+    {
+      "id": "metro-1729",
+      "name": "青浦新城站",
+      "mode": "person",
+      "position": [
+        -35581.64,
+        2.12,
+        8495.31
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 青浦新城站 入口附近"
+    },
+    {
+      "id": "metro-1730",
+      "name": "漕盈路站",
+      "mode": "person",
+      "position": [
+        -38466.47,
+        2.12,
+        8322.9
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 漕盈路站 入口附近"
+    },
+    {
+      "id": "metro-1731",
+      "name": "淀山湖大道站",
+      "mode": "person",
+      "position": [
+        -39863.43,
+        2.12,
+        11181.26
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 淀山湖大道站 入口附近"
+    },
+    {
+      "id": "metro-1732",
+      "name": "朱家角站",
+      "mode": "person",
+      "position": [
+        -42987.5,
+        2.12,
+        14906.87
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 朱家角站 入口附近"
+    },
+    {
+      "id": "metro-1733",
+      "name": "东方绿舟站",
+      "mode": "person",
+      "position": [
+        -45789.85,
+        2.12,
+        15120.86
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 东方绿舟站 入口附近"
+    },
+    {
+      "id": "metro-1734",
+      "name": "西岑站",
+      "mode": "person",
+      "position": [
+        -50986.25,
+        2.12,
+        18208.77
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 西岑站 入口附近"
+    },
+    {
+      "id": "metro-1821",
+      "name": "航头站",
+      "mode": "person",
+      "position": [
+        9232.16,
+        2.12,
+        21973.21
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 航头站 入口附近"
+    },
+    {
+      "id": "metro-1822",
+      "name": "下沙站",
+      "mode": "person",
+      "position": [
+        8561.15,
+        2.12,
+        19924.76
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 下沙站 入口附近"
+    },
+    {
+      "id": "metro-1823",
+      "name": "鹤涛路站",
+      "mode": "person",
+      "position": [
+        8298.72,
+        2.12,
+        18096.03
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 鹤涛路站 入口附近"
+    },
+    {
+      "id": "metro-1824",
+      "name": "沈梅路站",
+      "mode": "person",
+      "position": [
+        7608.29,
+        2.12,
+        15848.69
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 沈梅路站 入口附近"
+    },
+    {
+      "id": "metro-1825",
+      "name": "繁荣路站",
+      "mode": "person",
+      "position": [
+        6749.72,
+        2.12,
+        14594.83
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 繁荣路站 入口附近"
+    },
+    {
+      "id": "metro-1826",
+      "name": "周浦站",
+      "mode": "person",
+      "position": [
+        6472.98,
+        2.12,
+        13344.17
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 周浦站 入口附近"
+    },
+    {
+      "id": "metro-1827",
+      "name": "康桥站",
+      "mode": "person",
+      "position": [
+        6513.85,
+        2.12,
+        11145.02
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 康桥站 入口附近"
+    },
+    {
+      "id": "metro-1830",
+      "name": "北中路站",
+      "mode": "person",
+      "position": [
+        5910.34,
+        2.12,
+        5741.42
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 北中路站 入口附近"
+    },
+    {
+      "id": "metro-1831",
+      "name": "芳芯路站",
+      "mode": "person",
+      "position": [
+        5732.78,
+        2.12,
+        4858.54
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 芳芯路站 入口附近"
+    },
+    {
+      "id": "metro-1833",
+      "name": "迎春路站",
+      "mode": "person",
+      "position": [
+        4943.33,
+        2.12,
+        1521.86
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 迎春路站 入口附近"
+    },
+    {
+      "id": "metro-1837",
+      "name": "丹阳路站",
+      "mode": "person",
+      "position": [
+        2957.94,
+        2.12,
+        -2206.85
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 丹阳路站 入口附近"
+    },
+    {
+      "id": "metro-1838",
+      "name": "平凉路站",
+      "mode": "person",
+      "position": [
+        2627.19,
+        2.12,
+        -2669
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 平凉路站 入口附近"
+    },
+    {
+      "id": "metro-1841",
+      "name": "抚顺路站",
+      "mode": "person",
+      "position": [
+        1570.15,
+        2.12,
+        -5443.06
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 抚顺路站 入口附近"
+    },
+    {
+      "id": "metro-1843",
+      "name": "复旦大学站",
+      "mode": "person",
+      "position": [
+        46.019999999999825,
+        2.12,
+        -6810.58
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 1.7763568394002505e-13,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 复旦大学站 入口附近"
+    },
+    {
+      "id": "metro-1844",
+      "name": "上海财经大学站",
+      "mode": "person",
+      "position": [
+        -277.27,
+        2.12,
+        -8180.31
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 上海财经大学站 入口附近"
+    },
+    {
+      "id": "metro-1845",
+      "name": "殷高路站",
+      "mode": "person",
+      "position": [
+        -385.74000000000007,
+        2.12,
+        -9601.26
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 5.684341886080802e-14,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 殷高路站 入口附近"
+    },
+    {
+      "id": "metro-1847",
+      "name": "通南路站",
+      "mode": "person",
+      "position": [
+        -1881.6100000000001,
+        2.12,
+        -11374.93
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 2.2737367544323206e-13,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 通南路站 入口附近"
+    },
+    {
+      "id": "metro-1848",
+      "name": "长江西路站",
+      "mode": "person",
+      "position": [
+        -2281.65,
+        2.12,
+        -12343.36
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 长江西路站 入口附近"
+    },
+    {
+      "id": "metro-1850",
+      "name": "爱辉路站",
+      "mode": "person",
+      "position": [
+        -4795.55,
+        2.12,
+        -12080.06
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 爱辉路站 入口附近"
+    },
+    {
+      "id": "metro-1852",
+      "name": "康文路站",
+      "mode": "person",
+      "position": [
+        -7673.15,
+        2.12,
+        -11099.54
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 康文路站 入口附近"
+    },
+    {
+      "id": "metro-4102",
+      "name": "三鲁公路站",
+      "mode": "person",
+      "position": [
+        2716.56,
+        2.12,
+        19811.17
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 三鲁公路站 入口附近"
+    },
+    {
+      "id": "metro-4103",
+      "name": "闵瑞路站",
+      "mode": "person",
+      "position": [
+        2937.77,
+        2.12,
+        20667.89
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 闵瑞路站 入口附近"
+    },
+    {
+      "id": "metro-4104",
+      "name": "浦航路站",
+      "mode": "person",
+      "position": [
+        2958.72,
+        2.12,
+        21532.37
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 浦航路站 入口附近"
+    },
+    {
+      "id": "metro-4105",
+      "name": "东城一路站",
+      "mode": "person",
+      "position": [
+        3104.82,
+        2.12,
+        22707.14
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 东城一路站 入口附近"
+    },
+    {
+      "id": "metro-4106",
+      "name": "汇臻路站",
+      "mode": "person",
+      "position": [
+        2368.04,
+        2.12,
+        23210.58
+      ],
+      "height": 2.12,
+      "ready": true,
+      "water": false,
+      "entryDistance": 0,
+      "entryMounted": true,
+      "signRendered": true,
+      "toast": "已到达 汇臻路站 入口附近"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,549 @@
+{
+  "state": {
+    "url": "https://shanghai.datiaomao.com/",
+    "title": "上海漫游 · 全市",
+    "loading": "沪\n上海漫游\n\n准备图形引擎\n\n步骤 3 / 6\n33%\n\n正在连接图形设备…\n\n0 / 2 项\n已用 60.5 秒\n读取程序与地图\n整理城市数据\n准备图形引擎\n构建城市场景\n准备出发街区\n准备光影与首帧\n按实际读取、场景任务与首帧就绪更新 · 上海全市",
+    "startup": {
+      "stages": [
+        {
+          "id": "download",
+          "label": "读取程序与地图",
+          "loaded": 14167330,
+          "total": 14167330,
+          "done": true,
+          "ratio": 1
+        },
+        {
+          "id": "data",
+          "label": "整理城市数据",
+          "loaded": 3,
+          "total": 3,
+          "done": true,
+          "ratio": 1
+        },
+        {
+          "id": "engine",
+          "label": "准备图形引擎",
+          "loaded": 0,
+          "total": 2,
+          "done": false,
+          "ratio": 0
+        },
+        {
+          "id": "scene",
+          "label": "构建城市场景",
+          "loaded": 0,
+          "total": null,
+          "done": false,
+          "ratio": 0
+        },
+        {
+          "id": "tiles",
+          "label": "准备出发街区",
+          "loaded": 0,
+          "total": null,
+          "done": false,
+          "ratio": 0
+        },
+        {
+          "id": "render",
+          "label": "准备光影与首帧",
+          "loaded": 0,
+          "total": null,
+          "done": false,
+          "ratio": 0
+        }
+      ],
+      "stage": {
+        "id": "engine",
+        "label": "准备图形引擎",
+        "loaded": 0,
+        "total": 2,
+        "done": false,
+        "ratio": 0
+      },
+      "index": 2,
+      "percent": 33.33333333333333,
+      "ready": false,
+      "error": null,
+      "detail": "正在连接图形设备…",
+      "elapsedMs": 60703.299999952316,
+      "stageElapsedMs": 50255.60000014305
+    },
+    "trace": [
+      {
+        "at": 9509.099999904633,
+        "stage": "download",
+        "percent": 15.61331716467864,
+        "loaded": 13271941,
+        "total": 14167330,
+        "ready": false,
+        "appReady": false,
+        "error": null
+      },
+      {
+        "at": 9529.899999856949,
+        "stage": "download",
+        "percent": 15.699921344859384,
+        "loaded": 13345558,
+        "total": 14167330,
+        "ready": false,
+        "appReady": false,
+        "error": null
+      },
+      {
+        "at": 9577.700000047684,
+        "stage": "download",
+        "percent": 15.789370097729542,
+        "loaded": 13421593,
+        "total": 14167330,
+        "ready": false,
+        "appReady": false,
+        "error": null
+      },
+      {
+        "at": 9608.700000047684,
+        "stage": "download",
+        "percent": 15.878009476732737,
+        "loaded": 13496940,
+        "total": 14167330,
+        "ready": false,
+        "appReady": false,
+        "error": null
+      },
+      {
+        "at": 9653.099999904633,
+        "stage": "download",
+        "percent": 15.966757085962326,
+        "loaded": 13572379,
+        "total": 14167330,
+        "ready": false,
+        "appReady": false,
+        "error": null
+      },
+      {
+        "at": 9676.599999904633,
+        "stage": "download",
+        "percent": 16.052249553491496,
+        "loaded": 13645051,
+        "total": 14167330,
+        "ready": false,
+        "appReady": false,
+        "error": null
+      },
+      {
+        "at": 9728.099999904633,
+        "stage": "download",
+        "percent": 16.12934711998191,
+        "loaded": 13710587,
+        "total": 14167330,
+        "ready": false,
+        "appReady": false,
+        "error": null
+      },
+      {
+        "at": 9753.599999904633,
+        "stage": "download",
+        "percent": 16.14280531335121,
+        "loaded": 13722027,
+        "total": 14167330,
+        "ready": false,
+        "appReady": false,
+        "error": null
+      },
+      {
+        "at": 9777.299999952316,
+        "stage": "download",
+        "percent": 16.233137554265106,
+        "loaded": 13798813,
+        "total": 14167330,
+        "ready": false,
+        "appReady": false,
+        "error": null
+      },
+      {
+        "at": 9804.200000047684,
+        "stage": "download",
+        "percent": 16.319653503283025,
+        "loaded": 13872355,
+        "total": 14167330,
+        "ready": false,
+        "appReady": false,
+        "error": null
+      },
+      {
+        "at": 9851.5,
+        "stage": "download",
+        "percent": 16.40586123143881,
+        "loaded": 13945635,
+        "total": 14167330,
+        "ready": false,
+        "appReady": false,
+        "error": null
+      },
+      {
+        "at": 9876.799999952316,
+        "stage": "download",
+        "percent": 16.49538056923923,
+        "loaded": 14021730,
+        "total": 14167330,
+        "ready": false,
+        "appReady": false,
+        "error": null
+      },
+      {
+        "at": 9926.700000047684,
+        "stage": "download",
+        "percent": 16.59447710566023,
+        "loaded": 14105966,
+        "total": 14167330,
+        "ready": false,
+        "appReady": false,
+        "error": null
+      },
+      {
+        "at": 9954.099999904633,
+        "stage": "download",
+        "percent": 16.648312231968433,
+        "loaded": 14151728,
+        "total": 14167330,
+        "ready": false,
+        "appReady": false,
+        "error": null
+      },
+      {
+        "at": 10016.299999952316,
+        "stage": "data",
+        "percent": 16.666666666666664,
+        "loaded": 0,
+        "total": 3,
+        "ready": false,
+        "appReady": false,
+        "error": null
+      },
+      {
+        "at": 10103.799999952316,
+        "stage": "data",
+        "percent": 22.22222222222222,
+        "loaded": 1,
+        "total": 3,
+        "ready": false,
+        "appReady": false,
+        "error": null
+      },
+      {
+        "at": 10139.700000047684,
+        "stage": "data",
+        "percent": 27.777777777777775,
+        "loaded": 2,
+        "total": 3,
+        "ready": false,
+        "appReady": false,
+        "error": null
+      },
+      {
+        "at": 10154.399999856949,
+        "stage": "engine",
+        "percent": 33.33333333333333,
+        "loaded": 0,
+        "total": null,
+        "ready": false,
+        "appReady": false,
+        "error": null
+      }
+    ],
+    "resources": [
+      {
+        "url": "https://shanghai.datiaomao.com/assets/index-BogUEJzF.js",
+        "duration": 57,
+        "bytes": 3751,
+        "status": 200
+      },
+      {
+        "url": "https://shanghai.datiaomao.com/assets/loading-progress-gm2pud_W.js",
+        "duration": 58.200000047683716,
+        "bytes": 2710,
+        "status": 200
+      },
+      {
+        "url": "https://shanghai.datiaomao.com/assets/index-BHHp1YQr.css",
+        "duration": 58.5,
+        "bytes": 13144,
+        "status": 200
+      },
+      {
+        "url": "https://shanghai.datiaomao.com/boot-manifest.json",
+        "duration": 23.699999809265137,
+        "bytes": 469,
+        "status": 200
+      },
+      {
+        "url": "https://shanghai.datiaomao.com/assets/app-CDigLgQs.js",
+        "duration": 452.60000014305115,
+        "bytes": 1108970,
+        "status": 200
+      },
+      {
+        "url": "https://shanghai.datiaomao.com/assets/loading-progress-gm2pud_W.js",
+        "duration": 27.5,
+        "bytes": 2710,
+        "status": 200
+      },
+      {
+        "url": "https://shanghai.datiaomao.com/data/manifest.json",
+        "duration": 5322.600000143051,
+        "bytes": 4941536,
+        "status": 200
+      },
+      {
+        "url": "https://shanghai.datiaomao.com/data/city.json",
+        "duration": 9064.5,
+        "bytes": 7727410,
+        "status": 200
+      },
+      {
+        "url": "https://shanghai.datiaomao.com/data/metro.json",
+        "duration": 1863.5999999046326,
+        "bytes": 386704,
+        "status": 200
+      },
+      {
+        "url": "https://shanghai.datiaomao.com/assets/app-CDigLgQs.js",
+        "duration": 616.2999999523163,
+        "bytes": 1108970,
+        "status": 200
+      }
+    ]
+  },
+  "errors": [],
+  "failures": [],
+  "responses": [
+    {
+      "url": "https://shanghai.datiaomao.com/",
+      "status": 200,
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-encoding": "gzip",
+        "content-length": "2681",
+        "content-type": "text/html",
+        "date": "Sat, 24 Oct 2026 14:05:09 GMT",
+        "etag": "\"6adcba71-a79\"",
+        "last-modified": "Sat, 24 Oct 2026 14:02:25 GMT",
+        "server": "nginx/1.20.1",
+        "vary": "Accept-Encoding",
+        "x-content-type-options": "nosniff"
+      }
+    },
+    {
+      "url": "chrome-extension://bpoadfkcbjbfhfodiogcnhhhpibjhbnh/content_main.js",
+      "status": 200,
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Content-Security-Policy": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'",
+        "Content-Type": "text/javascript",
+        "Cross-Origin-Resource-Policy": "cross-origin",
+        "ETag": "\"Pxp72OMYWyWFAxR4JN8TcW9MhHE=\"",
+        "Last-Modified": "Tue, 20 Oct 2026 06:05:33 GMT",
+        "cache-control": "no-cache"
+      }
+    },
+    {
+      "url": "https://shanghai.datiaomao.com/assets/index-BHHp1YQr.css",
+      "status": 200,
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-encoding": "gzip",
+        "content-length": "3870",
+        "content-type": "text/css",
+        "date": "Sat, 24 Oct 2026 14:05:09 GMT",
+        "etag": "\"6adcba72-f1e\"",
+        "last-modified": "Sat, 24 Oct 2026 14:02:26 GMT",
+        "server": "nginx/1.20.1",
+        "vary": "Accept-Encoding",
+        "x-content-type-options": "nosniff"
+      }
+    },
+    {
+      "url": "https://shanghai.datiaomao.com/assets/index-BogUEJzF.js",
+      "status": 200,
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-encoding": "gzip",
+        "content-length": "1943",
+        "content-type": "application/javascript",
+        "date": "Sat, 24 Oct 2026 14:05:09 GMT",
+        "etag": "\"6adcba72-797\"",
+        "last-modified": "Sat, 24 Oct 2026 14:02:26 GMT",
+        "server": "nginx/1.20.1",
+        "vary": "Accept-Encoding",
+        "x-content-type-options": "nosniff"
+      }
+    },
+    {
+      "url": "https://shanghai.datiaomao.com/assets/loading-progress-gm2pud_W.js",
+      "status": 200,
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-encoding": "gzip",
+        "content-length": "1424",
+        "content-type": "application/javascript",
+        "date": "Sat, 24 Oct 2026 14:05:09 GMT",
+        "etag": "\"6adcba72-590\"",
+        "last-modified": "Sat, 24 Oct 2026 14:02:26 GMT",
+        "server": "nginx/1.20.1",
+        "vary": "Accept-Encoding",
+        "x-content-type-options": "nosniff"
+      }
+    },
+    {
+      "url": "https://shanghai.datiaomao.com/boot-manifest.json",
+      "status": 200,
+      "headers": {
+        "accept-ranges": "bytes",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-length": "469",
+        "content-type": "application/json",
+        "date": "Sat, 24 Oct 2026 14:05:09 GMT",
+        "etag": "\"6adcba6e-1d5\"",
+        "last-modified": "Sat, 24 Oct 2026 14:02:22 GMT",
+        "server": "nginx/1.20.1",
+        "x-content-type-options": "nosniff"
+      }
+    },
+    {
+      "url": "chrome-extension://bpoadfkcbjbfhfodiogcnhhhpibjhbnh/default_config.content.json",
+      "status": 200,
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Content-Security-Policy": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'",
+        "Content-Type": "application/json",
+        "Cross-Origin-Resource-Policy": "cross-origin",
+        "ETag": "\"EmdU41yBPtOfiSpCHPKmbGfX7Po=\"",
+        "Last-Modified": "Tue, 20 Oct 2026 06:05:33 GMT",
+        "cache-control": "no-cache"
+      }
+    },
+    {
+      "url": "chrome-extension://omlgpaciclcjgbligehccipcikleeiea/content-scripts/content.css",
+      "status": 200,
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Content-Security-Policy": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'; frame-src 'self' https://g.alicdn.com https://dev.g.alicdn.com;",
+        "Content-Type": "text/css",
+        "Cross-Origin-Resource-Policy": "cross-origin",
+        "ETag": "\"PlgD1EmwJH3APSzy2cW3jtp/yX0=\"",
+        "Last-Modified": "Thu, 12 Mar 2026 08:59:33 GMT",
+        "cache-control": "no-cache"
+      }
+    },
+    {
+      "url": "https://shanghai.datiaomao.com/assets/loading-progress-gm2pud_W.js",
+      "status": 200,
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-encoding": "gzip",
+        "content-length": "1424",
+        "content-type": "application/javascript",
+        "date": "Sat, 24 Oct 2026 14:05:10 GMT",
+        "etag": "\"6adcba72-590\"",
+        "last-modified": "Sat, 24 Oct 2026 14:02:26 GMT",
+        "server": "nginx/1.20.1",
+        "vary": "Accept-Encoding",
+        "x-content-type-options": "nosniff"
+      }
+    },
+    {
+      "url": "https://shanghai.datiaomao.com/assets/app-CDigLgQs.js",
+      "status": 200,
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-encoding": "gzip",
+        "content-length": "323609",
+        "content-type": "application/javascript",
+        "date": "Sat, 24 Oct 2026 14:05:10 GMT",
+        "etag": "\"6adcba72-4f019\"",
+        "last-modified": "Sat, 24 Oct 2026 14:02:26 GMT",
+        "server": "nginx/1.20.1",
+        "vary": "Accept-Encoding",
+        "x-content-type-options": "nosniff"
+      }
+    },
+    {
+      "url": "https://shanghai.datiaomao.com/data/city.json",
+      "status": 200,
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-encoding": "gzip",
+        "content-length": "2103114",
+        "content-type": "application/json",
+        "date": "Sat, 24 Oct 2026 14:05:10 GMT",
+        "etag": "\"6adcba72-20174a\"",
+        "last-modified": "Sat, 24 Oct 2026 14:02:26 GMT",
+        "server": "nginx/1.20.1",
+        "vary": "Accept-Encoding",
+        "x-content-type-options": "nosniff"
+      }
+    },
+    {
+      "url": "https://shanghai.datiaomao.com/data/manifest.json",
+      "status": 200,
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-encoding": "gzip",
+        "content-length": "1638346",
+        "content-type": "application/json",
+        "date": "Sat, 24 Oct 2026 14:05:10 GMT",
+        "etag": "\"6adcba72-18ffca\"",
+        "last-modified": "Sat, 24 Oct 2026 14:02:26 GMT",
+        "server": "nginx/1.20.1",
+        "vary": "Accept-Encoding",
+        "x-content-type-options": "nosniff"
+      }
+    },
+    {
+      "url": "chrome-extension://bpoadfkcbjbfhfodiogcnhhhpibjhbnh/locales.json",
+      "status": 200,
+      "headers": {
+        "Access-Control-Allow-Origin": "*",
+        "Content-Security-Policy": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self'",
+        "Content-Type": "application/json",
+        "Cross-Origin-Resource-Policy": "cross-origin",
+        "ETag": "\"NG3Jry2q2/2Bwmz72zimsgXBEM4=\"",
+        "Last-Modified": "Tue, 20 Oct 2026 06:05:33 GMT",
+        "cache-control": "no-cache"
+      }
+    },
+    {
+      "url": "https://shanghai.datiaomao.com/data/metro.json",
+      "status": 200,
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-encoding": "gzip",
+        "content-length": "65325",
+        "content-type": "application/json",
+        "date": "Sat, 24 Oct 2026 14:05:10 GMT",
+        "etag": "\"6adcba71-ff2d\"",
+        "last-modified": "Sat, 24 Oct 2026 14:02:25 GMT",
+        "server": "nginx/1.20.1",
+        "vary": "Accept-Encoding",
+        "x-content-type-options": "nosniff"
+      }
+    },
+    {
+      "url": "https://shanghai.datiaomao.com/assets/app-CDigLgQs.js",
+      "status": 200,
+      "headers": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-encoding": "gzip",
+        "content-length": "323609",
+        "content-type": "application/javascript",
+        "date": "Sat, 24 Oct 2026 14:05:19 GMT",
+        "etag": "\"6adcba72-4f019\"",
+        "last-modified": "Sat, 24 Oct 2026 14:02:26 GMT",
+        "server": "nginx/1.20.1",
+        "vary": "Accept-Encoding",
+        "x-content-type-options": "nosniff"
+      }
+    }
+  ]
+}

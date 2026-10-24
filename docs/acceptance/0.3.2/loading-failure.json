@@ -1,0 +1,71 @@
+{
+  "startup": {
+    "stages": [
+      {
+        "id": "download",
+        "label": "读取程序与地图",
+        "loaded": 792916,
+        "total": 14167200,
+        "done": false,
+        "ratio": 0.055968434129538655
+      },
+      {
+        "id": "data",
+        "label": "整理城市数据",
+        "loaded": 0,
+        "total": null,
+        "done": false,
+        "ratio": 0
+      },
+      {
+        "id": "engine",
+        "label": "准备图形引擎",
+        "loaded": 0,
+        "total": null,
+        "done": false,
+        "ratio": 0
+      },
+      {
+        "id": "scene",
+        "label": "构建城市场景",
+        "loaded": 0,
+        "total": null,
+        "done": false,
+        "ratio": 0
+      },
+      {
+        "id": "tiles",
+        "label": "准备出发街区",
+        "loaded": 0,
+        "total": null,
+        "done": false,
+        "ratio": 0
+      },
+      {
+        "id": "render",
+        "label": "准备光影与首帧",
+        "loaded": 0,
+        "total": null,
+        "done": false,
+        "ratio": 0
+      }
+    ],
+    "stage": {
+      "id": "download",
+      "label": "读取程序与地图",
+      "loaded": 792916,
+      "total": 14167200,
+      "done": false,
+      "ratio": 0.055968434129538655
+    },
+    "index": 0,
+    "percent": 0.9328072354923109,
+    "ready": false,
+    "error": "资源未能读取，请重试 · ./data/metro.json",
+    "detail": "正在读取3D图形程序 · 793 KB / 14.2 MB",
+    "elapsedMs": 185.57500004768372,
+    "stageElapsedMs": 111.125
+  },
+  "visible": true,
+  "ready": false
+}

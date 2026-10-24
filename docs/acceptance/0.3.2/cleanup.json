@@ -1,0 +1,21 @@
+{
+  "temporaryStaticServer": {
+    "pid": 73480,
+    "port": 4194,
+    "stopped": true
+  },
+  "preview": {
+    "url": "http://127.0.0.1:4187/",
+    "asset": "./assets/app-CDigLgQs.js",
+    "servedAssetHashMatches": true
+  },
+  "browser": {
+    "restoredNetworkAndViewport": true,
+    "scratchTabClosed": 675491989,
+    "retainedTab": 675491992,
+    "taskFinished": true,
+    "forcedCleanup": false
+  },
+  "sourceAuditTempDirsRemoved": true,
+  "priorArchivesPreserved": true
+}

@@ -1,0 +1,26 @@
+{
+  "localBuildDirectoriesRemoved": [
+    "/Users/wuyanji/Desktop/编程/app-market/.build/20261024-220138-ab9a55",
+    "/Users/wuyanji/Desktop/编程/app-market/.build/20261024-220216-6a4aab"
+  ],
+  "remote": {
+    "release": "20261024-220216-6a4aab",
+    "removedIncomingAssets": true,
+    "path": "/var/www/app-market/incoming/20261024-220216-6a4aab/assets",
+    "successfulSnapshotPreserved": true,
+    "applicationVersionPreserved": true,
+    "previousVersionPreserved": true
+  },
+  "sourceAndRuntimeArchivesUnchanged": true,
+  "tabbitTestTabsClosed": [
+    675492006,
+    675492009
+  ],
+  "priorLocalTabPreserved": 675491992,
+  "isolatedChromeClosed": true,
+  "browserFinish": {
+    "finished": true,
+    "forcedCleanup": false
+  },
+  "deliverableBrowserURL": "https://shanghai.datiaomao.com/"
+}

@@ -1,0 +1,33 @@
+{
+  "context": "Historical issues returned by the finished Tabbit task; these precede or deliberately inject failures into validation. Final build session and final-browser.json have empty app error lists.",
+  "historicalIssues": [
+    {
+      "code": "NAVIGATION_FAILED",
+      "reason": "ERR_CONNECTION_REFUSED",
+      "timestamp": 1792825231467
+    },
+    {
+      "code": "PAGE_SCRIPT_ERROR",
+      "errorName": "ReferenceError",
+      "timestamp": 1792827074526
+    },
+    {
+      "code": "REQUEST_FAILED",
+      "path": "/data/tiles/-15_56.json",
+      "timestamp": 1792827561719,
+      "test": "intentional blocked request"
+    },
+    {
+      "code": "REQUEST_FAILED",
+      "path": "/data/tiles/-15_56.json",
+      "timestamp": 1792831075561,
+      "test": "intentional blocked request on final build"
+    }
+  ],
+  "finalBrowserTask": {
+    "finished": true,
+    "keep": true,
+    "closedTabIds": []
+  },
+  "finalFormalSessionErrors": []
+}

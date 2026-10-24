@@ -1,0 +1,5 @@
+Isolated browser launched 155.0.8059.85
+Public startup ready 24036.5
+page.waitForFunction: Timeout 10000ms exceeded.
+    at /Users/wuyanji/Desktop/上海漫游/output/playwright/shanghai-public-check.cjs:16:81
+{"status":"failed","version":"155.0.8059.85","startupMs":24036.5,"flight":{"mode":"helicopter","p":[326.2777140833732,180,-254.19045824495237],"ready":true,"entryDistance":7.649143265546453,"errors":[]},"closed":true}

@@ -1,0 +1,911 @@
+[
+  {
+    "file": "screenshots/V1-midday.png",
+    "index": 0,
+    "time": "midday",
+    "kind": "fixed-core",
+    "player": [
+      -881.1767128544541,
+      2.12,
+      -317.06281045038713
+    ],
+    "view": {
+      "name": "外滩看陆家嘴",
+      "position": [
+        -760,
+        26,
+        -310
+      ],
+      "target": [
+        400,
+        220,
+        -240
+      ]
+    },
+    "road": "中山东一路",
+    "canvas": [
+      1920,
+      1080
+    ],
+    "renderCalls": 6215908,
+    "ready": true,
+    "asset": "http://127.0.0.1:4187/assets/index-CkwP2jLv.js",
+    "errors": [],
+    "width": 1920,
+    "height": 1080,
+    "sha256": "d87d72c134f0f3c1d97d270b3cf900c5856ab6c547933ea91c563161218f080a"
+  },
+  {
+    "file": "screenshots/V1-golden.png",
+    "index": 0,
+    "time": "golden",
+    "kind": "fixed-core",
+    "player": [
+      -881.1767128544541,
+      2.12,
+      -317.06281045038713
+    ],
+    "view": {
+      "name": "外滩看陆家嘴",
+      "position": [
+        -760,
+        26,
+        -310
+      ],
+      "target": [
+        400,
+        220,
+        -240
+      ]
+    },
+    "road": "中山东一路",
+    "canvas": [
+      1920,
+      1080
+    ],
+    "renderCalls": 6217798,
+    "ready": true,
+    "asset": "http://127.0.0.1:4187/assets/index-CkwP2jLv.js",
+    "errors": [],
+    "width": 1920,
+    "height": 1080,
+    "sha256": "319df5a393a3169de6c2ce4fd1f097c6a1f0a6ddfb31b41387b03a7c14b57144"
+  },
+  {
+    "file": "screenshots/V1-midnight.png",
+    "index": 0,
+    "time": "midnight",
+    "kind": "fixed-core",
+    "player": [
+      -881.1767128544541,
+      2.12,
+      -317.06281045038713
+    ],
+    "view": {
+      "name": "外滩看陆家嘴",
+      "position": [
+        -760,
+        26,
+        -310
+      ],
+      "target": [
+        400,
+        220,
+        -240
+      ]
+    },
+    "road": "中山东一路",
+    "canvas": [
+      1920,
+      1080
+    ],
+    "renderCalls": 6219600,
+    "ready": true,
+    "asset": "http://127.0.0.1:4187/assets/index-CkwP2jLv.js",
+    "errors": [],
+    "width": 1920,
+    "height": 1080,
+    "sha256": "ef9cb6330337013ebeaf5ec6eb4c052e894458f4f60a08f8caf4472262e9e5ad"
+  },
+  {
+    "file": "screenshots/V2-midday.png",
+    "index": 1,
+    "time": "midday",
+    "kind": "fixed-core",
+    "player": [
+      -188.69755603620325,
+      2.12,
+      -629.0158012563617
+    ],
+    "view": {
+      "name": "陆家嘴看外滩",
+      "position": [
+        -350,
+        42,
+        -640
+      ],
+      "target": [
+        -930,
+        40,
+        -260
+      ]
+    },
+    "road": "滨江大道",
+    "canvas": [
+      1920,
+      1080
+    ],
+    "renderCalls": 6221908,
+    "ready": true,
+    "asset": "http://127.0.0.1:4187/assets/index-CkwP2jLv.js",
+    "errors": [],
+    "width": 1920,
+    "height": 1080,
+    "sha256": "bd1d83f6bdffc305a999b978782ecfc694c24f7a97619ecce095fca441dc3db9"
+  },
+  {
+    "file": "screenshots/V2-golden.png",
+    "index": 1,
+    "time": "golden",
+    "kind": "fixed-core",
+    "player": [
+      -188.69755603620325,
+      2.12,
+      -629.0158012563617
+    ],
+    "view": {
+      "name": "陆家嘴看外滩",
+      "position": [
+        -350,
+        42,
+        -640
+      ],
+      "target": [
+        -930,
+        40,
+        -260
+      ]
+    },
+    "road": "滨江大道",
+    "canvas": [
+      1920,
+      1080
+    ],
+    "renderCalls": 6223798,
+    "ready": true,
+    "asset": "http://127.0.0.1:4187/assets/index-CkwP2jLv.js",
+    "errors": [],
+    "width": 1920,
+    "height": 1080,
+    "sha256": "7fa1b6f06c15751b31c8872cf04b382f872e10084a07b40a8c27d024fddc6dce"
+  },
+  {
+    "file": "screenshots/V2-midnight.png",
+    "index": 1,
+    "time": "midnight",
+    "kind": "fixed-core",
+    "player": [
+      -188.69755603620325,
+      2.12,
+      -629.0158012563617
+    ],
+    "view": {
+      "name": "陆家嘴看外滩",
+      "position": [
+        -350,
+        42,
+        -640
+      ],
+      "target": [
+        -930,
+        40,
+        -260
+      ]
+    },
+    "road": "滨江大道",
+    "canvas": [
+      1920,
+      1080
+    ],
+    "renderCalls": 6225644,
+    "ready": true,
+    "asset": "http://127.0.0.1:4187/assets/index-CkwP2jLv.js",
+    "errors": [],
+    "width": 1920,
+    "height": 1080,
+    "sha256": "db71f7b02457b2c0443b9b9b0c421f6095c841a0c514180226a5f1340f9dc2c9"
+  },
+  {
+    "file": "screenshots/V3-midday.png",
+    "index": 2,
+    "time": "midday",
+    "kind": "fixed-core",
+    "player": [
+      -304.6864059896772,
+      2.12,
+      -173.25161435469553
+    ],
+    "view": {
+      "name": "东方明珠",
+      "position": [
+        -310,
+        90,
+        -190
+      ],
+      "target": [
+        -27,
+        210,
+        -520
+      ]
+    },
+    "road": "滨江大道",
+    "canvas": [
+      1920,
+      1080
+    ],
+    "renderCalls": 6227358,
+    "ready": true,
+    "asset": "http://127.0.0.1:4187/assets/index-CkwP2jLv.js",
+    "errors": [],
+    "width": 1920,
+    "height": 1080,
+    "sha256": "08d7ac1ded2eca14a622c5cd75554a611e1407643cac47faf54e94aa7593417b"
+  },
+  {
+    "file": "screenshots/V3-golden.png",
+    "index": 2,
+    "time": "golden",
+    "kind": "fixed-core",
+    "player": [
+      -304.6864059896772,
+      2.12,
+      -173.25161435469553
+    ],
+    "view": {
+      "name": "东方明珠",
+      "position": [
+        -310,
+        90,
+        -190
+      ],
+      "target": [
+        -27,
+        210,
+        -520
+      ]
+    },
+    "road": "滨江大道",
+    "canvas": [
+      1920,
+      1080
+    ],
+    "renderCalls": 6229072,
+    "ready": true,
+    "asset": "http://127.0.0.1:4187/assets/index-CkwP2jLv.js",
+    "errors": [],
+    "width": 1920,
+    "height": 1080,
+    "sha256": "02c160f290d45b029dc27d5cdae84f720dbea4c0712f4e769e405f618da117b2"
+  },
+  {
+    "file": "screenshots/V3-midnight.png",
+    "index": 2,
+    "time": "midnight",
+    "kind": "fixed-core",
+    "player": [
+      -304.6864059896772,
+      2.12,
+      -173.25161435469553
+    ],
+    "view": {
+      "name": "东方明珠",
+      "position": [
+        -310,
+        90,
+        -190
+      ],
+      "target": [
+        -27,
+        210,
+        -520
+      ]
+    },
+    "road": "滨江大道",
+    "canvas": [
+      1920,
+      1080
+    ],
+    "renderCalls": 6230742,
+    "ready": true,
+    "asset": "http://127.0.0.1:4187/assets/index-CkwP2jLv.js",
+    "errors": [],
+    "width": 1920,
+    "height": 1080,
+    "sha256": "fa0311a7291fcc366a3afdb30ebc3894da52f460916ddf55a63220df35bd445e"
+  },
+  {
+    "file": "screenshots/V4-midday.png",
+    "index": 3,
+    "time": "midday",
+    "kind": "fixed-core",
+    "player": [
+      34.77499740464678,
+      2.12,
+      923.2836921848304
+    ],
+    "view": {
+      "name": "陆家嘴三件套",
+      "position": [
+        100,
+        160,
+        750
+      ],
+      "target": [
+        660,
+        320,
+        50
+      ]
+    },
+    "road": "中山东二路",
+    "canvas": [
+      1920,
+      1080
+    ],
+    "renderCalls": 6232654,
+    "ready": true,
+    "asset": "http://127.0.0.1:4187/assets/index-CkwP2jLv.js",
+    "errors": [],
+    "width": 1920,
+    "height": 1080,
+    "sha256": "a9c20a7ad5e1d7a16e587e8dbe342b44db6a3a9125401416a15e0be8724a57ca"
+  },
+  {
+    "file": "screenshots/V4-golden.png",
+    "index": 3,
+    "time": "golden",
+    "kind": "fixed-core",
+    "player": [
+      34.77499740464678,
+      2.12,
+      923.2836921848304
+    ],
+    "view": {
+      "name": "陆家嘴三件套",
+      "position": [
+        100,
+        160,
+        750
+      ],
+      "target": [
+        660,
+        320,
+        50
+      ]
+    },
+    "road": "中山东二路",
+    "canvas": [
+      1920,
+      1080
+    ],
+    "renderCalls": 6234412,
+    "ready": true,
+    "asset": "http://127.0.0.1:4187/assets/index-CkwP2jLv.js",
+    "errors": [],
+    "width": 1920,
+    "height": 1080,
+    "sha256": "6389540389cb832865cf05bba7bf1fffddd21757c6a8f5389a27c432a53dc0af"
+  },
+  {
+    "file": "screenshots/V4-midnight.png",
+    "index": 3,
+    "time": "midnight",
+    "kind": "fixed-core",
+    "player": [
+      34.77499740464678,
+      2.12,
+      923.2836921848304
+    ],
+    "view": {
+      "name": "陆家嘴三件套",
+      "position": [
+        100,
+        160,
+        750
+      ],
+      "target": [
+        660,
+        320,
+        50
+      ]
+    },
+    "road": "中山东二路",
+    "canvas": [
+      1920,
+      1080
+    ],
+    "renderCalls": 6236104,
+    "ready": true,
+    "asset": "http://127.0.0.1:4187/assets/index-CkwP2jLv.js",
+    "errors": [],
+    "width": 1920,
+    "height": 1080,
+    "sha256": "c5839d7d17fd4af8610ce6a576c01d086d4d9d4bf1b1bf0fc770803f8db13967"
+  },
+  {
+    "file": "screenshots/V5-midday.png",
+    "index": 4,
+    "time": "midday",
+    "kind": "fixed-core",
+    "player": [
+      -868.1336505904692,
+      2.12,
+      -644.9696105557771
+    ],
+    "view": {
+      "name": "外滩街墙",
+      "position": [
+        -872,
+        5,
+        -525
+      ],
+      "target": [
+        -882,
+        15,
+        -140
+      ]
+    },
+    "road": "中山东一路",
+    "canvas": [
+      1920,
+      1080
+    ],
+    "renderCalls": 6237884,
+    "ready": true,
+    "asset": "http://127.0.0.1:4187/assets/index-CkwP2jLv.js",
+    "errors": [],
+    "width": 1920,
+    "height": 1080,
+    "sha256": "8e408caeb88e47d32f45562d00e68bcd4478f1a1242c14d0bd7fa6b4b17b7e97"
+  },
+  {
+    "file": "screenshots/V5-golden.png",
+    "index": 4,
+    "time": "golden",
+    "kind": "fixed-core",
+    "player": [
+      -868.1336505904692,
+      2.12,
+      -644.9696105557771
+    ],
+    "view": {
+      "name": "外滩街墙",
+      "position": [
+        -872,
+        5,
+        -525
+      ],
+      "target": [
+        -882,
+        15,
+        -140
+      ]
+    },
+    "road": "中山东一路",
+    "canvas": [
+      1920,
+      1080
+    ],
+    "renderCalls": 6239664,
+    "ready": true,
+    "asset": "http://127.0.0.1:4187/assets/index-CkwP2jLv.js",
+    "errors": [],
+    "width": 1920,
+    "height": 1080,
+    "sha256": "fa6f8592e600c3ae29ac0fbbebb66fd1c0473dfeb2a0a22d88f8e81c732a0c93"
+  },
+  {
+    "file": "screenshots/V5-midnight.png",
+    "index": 4,
+    "time": "midnight",
+    "kind": "fixed-core",
+    "player": [
+      -868.1336505904692,
+      2.12,
+      -644.9696105557771
+    ],
+    "view": {
+      "name": "外滩街墙",
+      "position": [
+        -872,
+        5,
+        -525
+      ],
+      "target": [
+        -882,
+        15,
+        -140
+      ]
+    },
+    "road": "中山东一路",
+    "canvas": [
+      1920,
+      1080
+    ],
+    "renderCalls": 6241378,
+    "ready": true,
+    "asset": "http://127.0.0.1:4187/assets/index-CkwP2jLv.js",
+    "errors": [],
+    "width": 1920,
+    "height": 1080,
+    "sha256": "4ad1afb7335d3050d0c63c02ecbcf4765ff110fbc5153078d5d2d28b63ad58c8"
+  },
+  {
+    "file": "screenshots/V6-midday.png",
+    "index": 5,
+    "time": "midday",
+    "kind": "fixed-core",
+    "player": [
+      -547.6196338602936,
+      2.12,
+      -1342.7253786723697
+    ],
+    "view": {
+      "name": "苏州河口俯瞰",
+      "position": [
+        -600,
+        390,
+        -1200
+      ],
+      "target": [
+        -710,
+        0,
+        -800
+      ]
+    },
+    "road": "塘沽路",
+    "canvas": [
+      1920,
+      1080
+    ],
+    "renderCalls": 6243092,
+    "ready": true,
+    "asset": "http://127.0.0.1:4187/assets/index-CkwP2jLv.js",
+    "errors": [],
+    "width": 1920,
+    "height": 1080,
+    "sha256": "0eed3559d3e99f00fd37a7ab43b5badb5ba18bee9fde6d1f1f1d04ad79b00995"
+  },
+  {
+    "file": "screenshots/V6-golden.png",
+    "index": 5,
+    "time": "golden",
+    "kind": "fixed-core",
+    "player": [
+      -547.6196338602936,
+      2.12,
+      -1342.7253786723697
+    ],
+    "view": {
+      "name": "苏州河口俯瞰",
+      "position": [
+        -600,
+        390,
+        -1200
+      ],
+      "target": [
+        -710,
+        0,
+        -800
+      ]
+    },
+    "road": "塘沽路",
+    "canvas": [
+      1920,
+      1080
+    ],
+    "renderCalls": 6245026,
+    "ready": true,
+    "asset": "http://127.0.0.1:4187/assets/index-CkwP2jLv.js",
+    "errors": [],
+    "width": 1920,
+    "height": 1080,
+    "sha256": "27db2477600df5cad9069ba0af802191bdec6441da2288b4ebbefbae98fe4154"
+  },
+  {
+    "file": "screenshots/V6-midnight.png",
+    "index": 5,
+    "time": "midnight",
+    "kind": "fixed-core",
+    "player": [
+      -547.6196338602936,
+      2.12,
+      -1342.7253786723697
+    ],
+    "view": {
+      "name": "苏州河口俯瞰",
+      "position": [
+        -600,
+        390,
+        -1200
+      ],
+      "target": [
+        -710,
+        0,
+        -800
+      ]
+    },
+    "road": "塘沽路",
+    "canvas": [
+      1920,
+      1080
+    ],
+    "renderCalls": 6246938,
+    "ready": true,
+    "asset": "http://127.0.0.1:4187/assets/index-CkwP2jLv.js",
+    "errors": [],
+    "width": 1920,
+    "height": 1080,
+    "sha256": "bf96e3b0e55952eb9674dcc1fee566ca55392d202801607f1c565e3c282628ac"
+  },
+  {
+    "file": "zhujiajiao.png",
+    "id": "zhujiajiao",
+    "time": "golden",
+    "kind": "citywide-destination",
+    "player": [
+      -42231.44920257313,
+      180,
+      14136.851562242919
+    ],
+    "view": {
+      "name": "青浦 · 朱家角",
+      "position": [
+        -42001.44920257313,
+        250,
+        14436.851562242919
+      ],
+      "target": [
+        -42231.44920257313,
+        15,
+        14136.851562242919
+      ]
+    },
+    "road": "祥凝浜路",
+    "canvas": [
+      1920,
+      1080
+    ],
+    "renderCalls": 6248740,
+    "ready": true,
+    "asset": "http://127.0.0.1:4187/assets/index-CkwP2jLv.js",
+    "errors": [],
+    "width": 1920,
+    "height": 1080,
+    "sha256": "30638f2407c2d64a473a7ac53ccf9a3e75426c637245e3a2c377ed97e7f32767"
+  },
+  {
+    "file": "chongming.png",
+    "id": "chongming",
+    "time": "golden",
+    "kind": "citywide-destination",
+    "player": [
+      -9328.551301723408,
+      180,
+      -42904.870544797544
+    ],
+    "view": {
+      "name": "崇明 · 南门",
+      "position": [
+        -9098.551301723408,
+        250,
+        -42604.870544797544
+      ],
+      "target": [
+        -9328.551301723408,
+        15,
+        -42904.870544797544
+      ]
+    },
+    "road": "崇明东门路",
+    "canvas": [
+      1920,
+      1080
+    ],
+    "renderCalls": 6251028,
+    "ready": true,
+    "asset": "http://127.0.0.1:4187/assets/index-CkwP2jLv.js",
+    "errors": [],
+    "width": 1920,
+    "height": 1080,
+    "sha256": "505e94ab43762529ef6acc95fdd08530a81cc0abdd8613945e9a0cdcf74197d2"
+  },
+  {
+    "file": "hengsha.png",
+    "id": "hengsha",
+    "time": "golden",
+    "kind": "citywide-destination",
+    "player": [
+      32654.83791665125,
+      180,
+      -10771.339528859462
+    ],
+    "view": {
+      "name": "横沙岛",
+      "position": [
+        32884.837916651246,
+        250,
+        -10471.339528859462
+      ],
+      "target": [
+        32654.83791665125,
+        15,
+        -10771.339528859462
+      ]
+    },
+    "road": "丰乐路",
+    "canvas": [
+      1920,
+      1080
+    ],
+    "renderCalls": 6253294,
+    "ready": true,
+    "asset": "http://127.0.0.1:4187/assets/index-CkwP2jLv.js",
+    "errors": [],
+    "width": 1920,
+    "height": 1080,
+    "sha256": "ce1c4cc620d8bddb1091425960429f0e15fdbb4cbad2d60ef63ee6461a618995"
+  },
+  {
+    "file": "dishui.png",
+    "id": "dishui",
+    "time": "golden",
+    "kind": "citywide-destination",
+    "player": [
+      41176.67,
+      180,
+      37395.5
+    ],
+    "view": {
+      "name": "临港 · 滴水湖",
+      "position": [
+        41406.67,
+        250,
+        37695.5
+      ],
+      "target": [
+        41176.67,
+        15,
+        37395.5
+      ]
+    },
+    "road": "申港南二路",
+    "canvas": [
+      1920,
+      1080
+    ],
+    "renderCalls": 6255032,
+    "ready": true,
+    "asset": "http://127.0.0.1:4187/assets/index-CkwP2jLv.js",
+    "errors": [],
+    "width": 1920,
+    "height": 1080,
+    "sha256": "e86a7c9b1db10ceef5b4618d9039b5c973cd98e6dd62256b247469ac283ebd81"
+  },
+  {
+    "file": "hongqiao.png",
+    "id": "hongqiao",
+    "time": "golden",
+    "kind": "citywide-destination",
+    "player": [
+      -17269.27,
+      180,
+      4435.91
+    ],
+    "view": {
+      "name": "虹桥枢纽周边",
+      "position": [
+        -17039.27,
+        250,
+        4735.91
+      ],
+      "target": [
+        -17269.27,
+        15,
+        4435.91
+      ]
+    },
+    "road": "申贵路",
+    "canvas": [
+      1920,
+      1080
+    ],
+    "renderCalls": 6257034,
+    "ready": true,
+    "asset": "http://127.0.0.1:4187/assets/index-CkwP2jLv.js",
+    "errors": [],
+    "width": 1920,
+    "height": 1080,
+    "sha256": "90cb31e89adbdb23e7c972350ab5c0d1d1848195f951a2a31fdeed06c50a15c4"
+  },
+  {
+    "file": "jinshan.png",
+    "id": "jinshan",
+    "time": "golden",
+    "kind": "citywide-destination",
+    "player": [
+      -14603.40948106658,
+      180,
+      56427.34222792508
+    ],
+    "view": {
+      "name": "金山 · 城市沙滩",
+      "position": [
+        -14373.40948106658,
+        250,
+        56727.34222792508
+      ],
+      "target": [
+        -14603.40948106658,
+        15,
+        56427.34222792508
+      ]
+    },
+    "road": "龙胜路",
+    "canvas": [
+      1920,
+      1080
+    ],
+    "renderCalls": 6259278,
+    "ready": true,
+    "asset": "http://127.0.0.1:4187/assets/index-CkwP2jLv.js",
+    "errors": [],
+    "width": 1920,
+    "height": 1080,
+    "sha256": "dbb97e5ca2da9f6a3564e46b5b04068b315353757f85f17d97ea5b46c9be74f2"
+  },
+  {
+    "file": "initial-waterfront.png",
+    "kind": "initial-waterfront",
+    "time": "golden",
+    "player": [
+      -905.9800808402572,
+      2.12,
+      -451.2004423613202
+    ],
+    "view": null,
+    "road": "中山东一路",
+    "canvas": [
+      1920,
+      1080
+    ],
+    "renderCalls": 6261258,
+    "ready": true,
+    "asset": "http://127.0.0.1:4187/assets/index-CkwP2jLv.js",
+    "errors": [],
+    "width": 1920,
+    "height": 1080,
+    "sha256": "7a23527885e7b66a53b7d85dabd4fc106caeb48ff0a52461becf8f92efa31386"
+  },
+  {
+    "file": "full-map.png",
+    "kind": "full-city-map",
+    "player": [
+      -905.9800808402572,
+      2.12,
+      -451.2004423613202
+    ],
+    "view": null,
+    "road": "中山东一路",
+    "canvas": [
+      1920,
+      1080
+    ],
+    "renderCalls": 6263040,
+    "ready": true,
+    "asset": "http://127.0.0.1:4187/assets/index-CkwP2jLv.js",
+    "errors": [],
+    "width": 1920,
+    "height": 1080,
+    "sha256": "2b3e9adb651c36660b8a7151cdfb369ce96476d9f5208a35a69aff847ae39d60"
+  }
+]

@@ -6,4 +6,6 @@ parser=argparse.ArgumentParser()
 parser.add_argument('--profile',choices=['citywide','central-b'],default='citywide')
 a=parser.parse_args()
 if a.profile=='central-b':runpy.run_path(str(root/'build-central.py'),run_name='__main__')
-else:runpy.run_path(str(root/'build-citywide.py'),run_name='__main__')
+else:
+ runpy.run_path(str(root/'build-citywide.py'),run_name='__main__')
+ runpy.run_path(str(root/'build-metro.py'),run_name='__main__')

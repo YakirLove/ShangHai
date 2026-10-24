@@ -1,0 +1,636 @@
+{
+  "lineChecks": [
+    {
+      "line": "1号线",
+      "count": 28
+    },
+    {
+      "line": "2号线",
+      "count": 31
+    },
+    {
+      "line": "3号线",
+      "count": 29
+    },
+    {
+      "line": "4号线",
+      "count": 26
+    },
+    {
+      "line": "5号线",
+      "count": 19
+    },
+    {
+      "line": "6号线",
+      "count": 28
+    },
+    {
+      "line": "7号线",
+      "count": 33
+    },
+    {
+      "line": "8号线",
+      "count": 30
+    },
+    {
+      "line": "9号线",
+      "count": 35
+    },
+    {
+      "line": "10号线",
+      "count": 37
+    },
+    {
+      "line": "11号线",
+      "count": 37
+    },
+    {
+      "line": "12号线",
+      "count": 32
+    },
+    {
+      "line": "13号线",
+      "count": 31
+    },
+    {
+      "line": "14号线",
+      "count": 30
+    },
+    {
+      "line": "15号线",
+      "count": 30
+    },
+    {
+      "line": "16号线",
+      "count": 13
+    },
+    {
+      "line": "17号线",
+      "count": 14
+    },
+    {
+      "line": "18号线",
+      "count": 31
+    },
+    {
+      "line": "浦江线",
+      "count": 6
+    }
+  ],
+  "districtResultCount": 17,
+  "selectionDidNotMove": true,
+  "flight": {
+    "mode": "helicopter",
+    "position": [
+      326.2777140833732,
+      180,
+      -254.19045824495237
+    ],
+    "entryDistance": 7.649143265546453,
+    "ready": true,
+    "errors": []
+  },
+  "ground": {
+    "mode": "person",
+    "position": [
+      -2389.48,
+      2.12,
+      238.41999999999996
+    ],
+    "errors": []
+  },
+  "clusters": [
+    {
+      "count": 153,
+      "ids": [
+        "metro-0111",
+        "metro-0112",
+        "metro-0113",
+        "metro-0114",
+        "metro-0115",
+        "metro-0116",
+        "metro-0117",
+        "metro-0118",
+        "metro-0119",
+        "metro-0120",
+        "metro-0121",
+        "metro-0122",
+        "metro-0123",
+        "metro-0124",
+        "metro-0125",
+        "metro-0126",
+        "metro-0127",
+        "metro-0237",
+        "metro-0238",
+        "metro-0239",
+        "metro-0240",
+        "metro-0241",
+        "metro-0242",
+        "metro-0243",
+        "metro-0244",
+        "metro-0246",
+        "metro-0247",
+        "metro-0248",
+        "metro-0312",
+        "metro-0313",
+        "metro-0314",
+        "metro-0315",
+        "metro-0316",
+        "metro-0317",
+        "metro-0319",
+        "metro-0320",
+        "metro-0321",
+        "metro-0322",
+        "metro-0324",
+        "metro-0325",
+        "metro-0326",
+        "metro-0412",
+        "metro-0413",
+        "metro-0414",
+        "metro-0415",
+        "metro-0416",
+        "metro-0418",
+        "metro-0419",
+        "metro-0420",
+        "metro-0421",
+        "metro-0422",
+        "metro-0423",
+        "metro-0424",
+        "metro-0425",
+        "metro-0426",
+        "metro-0621",
+        "metro-0622",
+        "metro-0623",
+        "metro-0624",
+        "metro-0625",
+        "metro-0626",
+        "metro-0627",
+        "metro-0628",
+        "metro-0629",
+        "metro-0631",
+        "metro-0633",
+        "metro-0634",
+        "metro-0733",
+        "metro-0734",
+        "metro-0735",
+        "metro-0737",
+        "metro-0738",
+        "metro-0741",
+        "metro-0743",
+        "metro-0744",
+        "metro-0745",
+        "metro-0746",
+        "metro-0747",
+        "metro-0749",
+        "metro-0750",
+        "metro-0751",
+        "metro-0825",
+        "metro-0827",
+        "metro-0828",
+        "metro-0830",
+        "metro-0832",
+        "metro-0833",
+        "metro-0834",
+        "metro-0836",
+        "metro-0837",
+        "metro-0838",
+        "metro-0840",
+        "metro-0841",
+        "metro-0842",
+        "metro-0843",
+        "metro-0931",
+        "metro-0932",
+        "metro-0936",
+        "metro-0937",
+        "metro-0938",
+        "metro-0940",
+        "metro-0941",
+        "metro-0943",
+        "metro-1045",
+        "metro-1046",
+        "metro-1047",
+        "metro-1048",
+        "metro-1050",
+        "metro-1051",
+        "metro-1053",
+        "metro-1055",
+        "metro-1057",
+        "metro-1058",
+        "metro-1060",
+        "metro-1142",
+        "metro-1143",
+        "metro-1144",
+        "metro-1146",
+        "metro-1150",
+        "metro-1151",
+        "metro-1152",
+        "metro-1153",
+        "metro-1155",
+        "metro-1224",
+        "metro-1225",
+        "metro-1226",
+        "metro-1238",
+        "metro-1239",
+        "metro-1241",
+        "metro-1325",
+        "metro-1326",
+        "metro-1329",
+        "metro-1331",
+        "metro-1333",
+        "metro-1335",
+        "metro-1338",
+        "metro-1339",
+        "metro-1343",
+        "metro-1344",
+        "metro-1428",
+        "metro-1430",
+        "metro-1433",
+        "metro-1441",
+        "metro-1442",
+        "metro-1531",
+        "metro-1535",
+        "metro-1536",
+        "metro-1537",
+        "metro-1539",
+        "metro-1541",
+        "metro-1833",
+        "metro-1837",
+        "metro-1838"
+      ]
+    },
+    {
+      "count": 54,
+      "ids": [
+        "metro-0128",
+        "metro-0129",
+        "metro-0130",
+        "metro-0131",
+        "metro-0132",
+        "metro-0133",
+        "metro-0134",
+        "metro-0135",
+        "metro-0136",
+        "metro-0137",
+        "metro-0138",
+        "metro-0327",
+        "metro-0328",
+        "metro-0329",
+        "metro-0330",
+        "metro-0331",
+        "metro-0332",
+        "metro-0333",
+        "metro-0334",
+        "metro-0335",
+        "metro-0336",
+        "metro-0337",
+        "metro-0338",
+        "metro-0339",
+        "metro-0725",
+        "metro-0726",
+        "metro-0727",
+        "metro-0728",
+        "metro-0729",
+        "metro-0730",
+        "metro-0731",
+        "metro-0732",
+        "metro-0848",
+        "metro-0849",
+        "metro-1062",
+        "metro-1063",
+        "metro-1064",
+        "metro-1065",
+        "metro-1066",
+        "metro-1067",
+        "metro-1068",
+        "metro-1069",
+        "metro-1070",
+        "metro-1071",
+        "metro-1548",
+        "metro-1549",
+        "metro-1841",
+        "metro-1843",
+        "metro-1844",
+        "metro-1845",
+        "metro-1847",
+        "metro-1848",
+        "metro-1850",
+        "metro-1852"
+      ]
+    },
+    {
+      "count": 22,
+      "ids": [
+        "metro-0233",
+        "metro-0234",
+        "metro-0235",
+        "metro-0236",
+        "metro-0926",
+        "metro-0927",
+        "metro-0928",
+        "metro-0929",
+        "metro-0930",
+        "metro-1018",
+        "metro-1019",
+        "metro-1020",
+        "metro-1043",
+        "metro-1044",
+        "metro-1220",
+        "metro-1221",
+        "metro-1222",
+        "metro-1223",
+        "metro-1322",
+        "metro-1323",
+        "metro-1324",
+        "metro-1723"
+      ]
+    },
+    {
+      "count": 47,
+      "ids": [
+        "metro-0249",
+        "metro-0250",
+        "metro-0251",
+        "metro-0252",
+        "metro-0253",
+        "metro-0254",
+        "metro-0255",
+        "metro-0256",
+        "metro-0635",
+        "metro-0636",
+        "metro-0637",
+        "metro-0638",
+        "metro-0639",
+        "metro-0640",
+        "metro-0641",
+        "metro-0642",
+        "metro-0643",
+        "metro-0644",
+        "metro-0753",
+        "metro-0844",
+        "metro-0845",
+        "metro-0846",
+        "metro-0847",
+        "metro-0944",
+        "metro-0945",
+        "metro-0946",
+        "metro-0947",
+        "metro-0948",
+        "metro-0949",
+        "metro-0950",
+        "metro-0951",
+        "metro-1242",
+        "metro-1243",
+        "metro-1244",
+        "metro-1245",
+        "metro-1246",
+        "metro-1248",
+        "metro-1249",
+        "metro-1250",
+        "metro-1443",
+        "metro-1447",
+        "metro-1448",
+        "metro-1449",
+        "metro-1450",
+        "metro-1451",
+        "metro-1830",
+        "metro-1831"
+      ]
+    },
+    {
+      "count": 9,
+      "ids": [
+        "metro-0257",
+        "metro-0258",
+        "metro-0259",
+        "metro-0260",
+        "metro-0261",
+        "metro-0952",
+        "metro-1163",
+        "metro-1350",
+        "metro-1351"
+      ]
+    },
+    {
+      "count": 2,
+      "ids": [
+        "metro-0262",
+        "metro-0263"
+      ]
+    },
+    {
+      "count": 21,
+      "ids": [
+        "metro-0502",
+        "metro-0503",
+        "metro-0505",
+        "metro-0507",
+        "metro-0508",
+        "metro-0509",
+        "metro-0510",
+        "metro-0511",
+        "metro-0512",
+        "metro-0513",
+        "metro-0531",
+        "metro-0532",
+        "metro-0533",
+        "metro-1521",
+        "metro-1522",
+        "metro-1523",
+        "metro-1524",
+        "metro-1525",
+        "metro-1526",
+        "metro-1527",
+        "metro-1528"
+      ]
+    },
+    {
+      "count": 5,
+      "ids": [
+        "metro-0534",
+        "metro-0535",
+        "metro-0536",
+        "metro-0537",
+        "metro-0538"
+      ]
+    },
+    {
+      "count": 6,
+      "ids": [
+        "metro-0645",
+        "metro-0646",
+        "metro-0647",
+        "metro-0648",
+        "metro-1072",
+        "metro-1074"
+      ]
+    },
+    {
+      "count": 4,
+      "ids": [
+        "metro-0721",
+        "metro-0722",
+        "metro-0723",
+        "metro-0724"
+      ]
+    },
+    {
+      "count": 25,
+      "ids": [
+        "metro-0820",
+        "metro-0821",
+        "metro-0822",
+        "metro-0823",
+        "metro-0824",
+        "metro-1156",
+        "metro-1157",
+        "metro-1158",
+        "metro-1159",
+        "metro-1160",
+        "metro-1161",
+        "metro-1162",
+        "metro-1345",
+        "metro-1346",
+        "metro-1347",
+        "metro-1348",
+        "metro-1349",
+        "metro-1624",
+        "metro-1625",
+        "metro-1823",
+        "metro-1824",
+        "metro-1825",
+        "metro-1826",
+        "metro-1827",
+        "metro-4102"
+      ]
+    },
+    {
+      "count": 7,
+      "ids": [
+        "metro-0918",
+        "metro-0919",
+        "metro-0920",
+        "metro-0921",
+        "metro-0922",
+        "metro-0923",
+        "metro-0924"
+      ]
+    },
+    {
+      "count": 6,
+      "ids": [
+        "metro-0925",
+        "metro-1724",
+        "metro-1725",
+        "metro-1726",
+        "metro-1727",
+        "metro-1728"
+      ]
+    },
+    {
+      "count": 10,
+      "ids": [
+        "metro-1117",
+        "metro-1118",
+        "metro-1119",
+        "metro-1120",
+        "metro-1133",
+        "metro-1134",
+        "metro-1135",
+        "metro-1136",
+        "metro-1421",
+        "metro-1422"
+      ]
+    },
+    {
+      "count": 2,
+      "ids": [
+        "metro-1131",
+        "metro-1132"
+      ]
+    },
+    {
+      "count": 15,
+      "ids": [
+        "metro-1137",
+        "metro-1138",
+        "metro-1139",
+        "metro-1140",
+        "metro-1141",
+        "metro-1321",
+        "metro-1423",
+        "metro-1424",
+        "metro-1425",
+        "metro-1426",
+        "metro-1427",
+        "metro-1544",
+        "metro-1545",
+        "metro-1546",
+        "metro-1547"
+      ]
+    },
+    {
+      "count": 2,
+      "ids": [
+        "metro-1529",
+        "metro-1530"
+      ]
+    },
+    {
+      "count": 5,
+      "ids": [
+        "metro-1626",
+        "metro-1627",
+        "metro-1628",
+        "metro-1821",
+        "metro-1822"
+      ]
+    },
+    {
+      "count": 2,
+      "ids": [
+        "metro-1629",
+        "metro-1630"
+      ]
+    },
+    {
+      "count": 3,
+      "ids": [
+        "metro-1631",
+        "metro-1632",
+        "metro-1633"
+      ]
+    },
+    {
+      "count": 5,
+      "ids": [
+        "metro-1729",
+        "metro-1730",
+        "metro-1731",
+        "metro-1732",
+        "metro-1733"
+      ]
+    },
+    {
+      "count": 4,
+      "ids": [
+        "metro-4103",
+        "metro-4104",
+        "metro-4105",
+        "metro-4106"
+      ]
+    }
+  ],
+  "zoomButtons": true,
+  "wheel": true,
+  "doubleClick": true,
+  "pan": true,
+  "inputIsolated": true,
+  "emptyRecovery": true,
+  "types": {
+    "landmarks": 12,
+    "metro": 410,
+    "places": 31,
+    "all": 453
+  },
+  "passed": true
+}

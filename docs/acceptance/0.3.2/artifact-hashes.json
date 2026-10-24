@@ -1,0 +1,35 @@
+{
+  "at": "2026-10-24T13:30:46.026301+00:00",
+  "files": [
+    {
+      "path": "dist/assets/app-CDigLgQs.js",
+      "bytes": 1108970,
+      "sha256": "72cfe2aee5f636a5c72e56b1a2817ec842ee47e1b92f77a8531f8effc8071970"
+    },
+    {
+      "path": "dist/boot-manifest.json",
+      "bytes": 469,
+      "sha256": "7548fe8fa432ee89d171aea9cc30c77c5522cdef1b30bdfb46f96e47f3ac3df2"
+    },
+    {
+      "path": "public/data/city.json",
+      "bytes": 7727410,
+      "sha256": "995d3195e12dbdd2cc442559d2ef7df0827ec208d00376fed8c13a1fc6dba30a"
+    },
+    {
+      "path": "public/data/metro.json",
+      "bytes": 386704,
+      "sha256": "4f436804060fd960ca2814a0879fdd0e76281d83ab9855b0b8d20707ecf8cc33"
+    },
+    {
+      "path": "release/shanghai-waterfront-0.3.2.tar.gz",
+      "bytes": 101454600,
+      "sha256": "dffb48b5ac030812e3d28285bbe411fe35ef5dcc9f5df345f227c7db2bb2e83d"
+    },
+    {
+      "path": "release/shanghai-waterfront-0.3.2-source.tar.gz",
+      "bytes": 107738377,
+      "sha256": "d684e89ce9e637a3a6b6b2606a7acc74e78fcdfaef8e16a8832df27f0ee63f2e"
+    }
+  ]
+}

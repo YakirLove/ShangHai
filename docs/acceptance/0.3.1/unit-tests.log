@@ -1,0 +1,63 @@
+
+> shanghai-waterfront-roam@0.3.1 test
+> node --test tests/*.test.mjs
+
+✔ citywide data covers all sixteen districts with real roads and safe destinations (546.897083ms)
+✔ citywide stream keeps full buildings out of the bootstrap and includes terrain in independent tiles (279.91125ms)
+✔ all-city water preserves Chongming and Hengsha land while the Yangtze mouth remains water (174.926083ms)
+✔ outside-core source road directions and levels survive independent render tiles (99.021583ms)
+✔ helicopter descent stops above Shanghai land and cancels its downward velocity (15.34575ms)
+✔ taxi collision contains its mirrors and bumper rather than only its narrow chassis (1.090125ms)
+✔ movement honours the expanded Shanghai bounds on both banks instead of clamping to the old release (0.118667ms)
+✔ helicopter can climb above Shanghai Tower and stops upward velocity at the new ceiling (27.747ms)
+✔ a high helicopter keeps its altitude when teleported to another location (1.454958ms)
+✔ WGS84 projection preserves east/north orientation and metre scale (19.973042ms)
+✔ surface sampling keeps a car underground while a pedestrian stays on the street above (8.139667ms)
+✔ collision query filters both horizontal extent and height and unregisters tiles (0.961416ms)
+✔ tile loader retries failures and ignores stale late mounts after disposal (2.337208ms)
+✔ road graph separates levels and respects one-way and walking-only paths (2.375833ms)
+✔ readiness gate blocks an unmounted cell and rejects positions outside the declared region (1.922791ms)
+✔ a pending explicit arrival survives background prefetch at the old position (1.456542ms)
+✔ landing and movement readiness include neighbouring owners of buildings spanning a tile boundary (0.382416ms)
+✔ underground follow camera remains below the ceiling without clamping to world zero (0.310083ms)
+✔ underground camera stays inside the actual bore when the vehicle is already near a wall (1.202875ms)
+✔ road surface triangles face upward for either travel direction (160.93025ms)
+✔ citywide readiness and prefetch do not scan the complete tile catalog (183.880583ms)
+✔ streamed road and water surfaces enter and leave with their owning tile (1.995542ms)
+✔ walking and cycling follow a raised bridge while staying above a separate tunnel (0.38275ms)
+✔ municipal mask blocks unmodelled neighbouring provinces without blocking island water (0.549417ms)
+✔ car arrivals exclude walking-only paths while pedestrians can use them (0.511125ms)
+✔ non-car modes stop before open tunnel ramps without blocking an upper street over a deep bore (0.509042ms)
+✔ release data contains twelve unique landmarks, sourced real buildings, river polygons and two directed tunnel routes (333.574708ms)
+✔ both widened bores keep their full open ramp width clear of terrain and surface asphalt (239.805208ms)
+✔ landmarks and procedural buildings do not overlap water, parks or landmark reservations (900.56225ms)
+✔ every playable cell is declared, including empty river tiles (185.11575ms)
+✔ collision readiness halo covers all source building extents and is retained along each tunnel (329.299584ms)
+✔ a car entering either bore from an ordinary road follows the ramp without an elevation snap (133.566ms)
+✔ whole-city expansion preserves B region arrivals at all newly selected neighbourhoods and preserves the old waterfront (264.64525ms)
+✔ nearest road query stays local as a city grows and still finds distant filtered streets (56.37875ms)
+✔ indexed surface lookup keeps elevation and excludes remote road work (22.593792ms)
+✔ B landmark exteriors keep distinct silhouettes and lane houses leave a walkable central passage (109.928292ms)
+✔ new landmark collision parts leave the sourced street centrelines clear for a complete taxi (334.537959ms)
+✔ full-city map zoom preserves the pointer location and supports street-scale views (9.37475ms)
+✔ map can pan to islands and recenter on a remote player without leaving city bounds (0.61225ms)
+✔ Shanghai water material constructs its physical waves and light graph without unresolved TSL functions (140.66625ms)
+✔ the metro vestibule is open at the front and inside, while its back and sides stop a pedestrian (15.235042ms)
+✔ rotating a metro entrance keeps its walk-in opening in the same direction as its approach point (0.792958ms)
+✔ a walking metro arrival uses its own ground floor rather than the adjacent elevated road (5.613292ms)
+✔ every officially referenced metro station inside Shanghai has one named entrance and safe placement evidence (21.746ms)
+✔ ambient pools select the current neighbourhood even when distant sites occur first (23.136417ms)
+✔ recycled ambient actors enter outside the visible centre and never duplicate an occupied site (0.199334ms)
+✔ citywide actor selection indexes distant streets instead of scanning every seed (138.456666ms)
+✔ unloading an instanced tile releases its instance buffers and geometry but preserves shared materials (5.150125ms)
+✔ unloading a regular tile mesh notifies WebGPU render objects before disposing geometry (0.887916ms)
+✔ tunnel wall clearance contains the entire taxi for straight and sideways headings (8.562125ms)
+✔ a 10m bore gives the taxi one extra metre on each side without letting its corners cross a wall (0.374708ms)
+ℹ tests 51
+ℹ suites 0
+ℹ pass 51
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2328.907834

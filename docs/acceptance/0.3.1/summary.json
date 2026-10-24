@@ -1,0 +1,146 @@
+{
+  "version": "0.3.1",
+  "status": "passed-local-flight-and-metro",
+  "applicationAsset": "index-CpMz8H2Y.js",
+  "applicationSHA256": "308142dba88fda4f357b82d330a0ebf29359a7fbe123c9ca587d2998f7b31aa2",
+  "performanceAsset": "index-DSISJdA1.js",
+  "sameJavaScriptBytesAsPerformance": true,
+  "styleOnlyTransition": {
+    "previousArchiveSHA256": "77443d1fec8de17f9217b82f3b32af087df39ad686b47c6b59ea3a041bb885af",
+    "finalArchiveSHA256": "f8d8d28e2e27ef0c48f63f6233717ea7d3fe8dadc16dfb34021e3ee4a1f1cea1",
+    "changedFiles": [
+      "style.css"
+    ],
+    "addedFiles": [],
+    "removedFiles": [],
+    "unchangedFiles": 17607
+  },
+  "nodeTests": 51,
+  "pythonTests": 7,
+  "metro": {
+    "stations": 410,
+    "outsideScope": [
+      "花桥",
+      "光明路",
+      "兆丰路"
+    ],
+    "realEntrances": 313,
+    "estimatedEntrances": 97,
+    "missingOfficialStations": [],
+    "bytes": 386704,
+    "sha256": "4f436804060fd960ca2814a0879fdd0e76281d83ab9855b0b8d20707ecf8cc33",
+    "maxPlacementDistanceM": 245.77
+  },
+  "metroArrivals": 410,
+  "metroSearchChecks": 410,
+  "walkedEntrances": [
+    "陆家嘴",
+    "上海南站",
+    "蟠祥路·国家会计学院"
+  ],
+  "maxFlightAltitudeM": 1200,
+  "flightChecks": {
+    "climbed": 854.6980317237425,
+    "over": {
+      "closest": 0.1149949366679783,
+      "height": 854.711460536079,
+      "towerHeight": 632
+    },
+    "jumps": {
+      "before": 854.711460536079,
+      "metro": 854.711460536079,
+      "landmark": 854.711460536079
+    },
+    "top": {
+      "height": 1200,
+      "verticalSpeed": 0
+    },
+    "descendMs": 1615
+  },
+  "performance": {
+    "highFlight": {
+      "checks": {
+        "climbed": 854.6980317237425,
+        "over": {
+          "closest": 0.1149949366679783,
+          "height": 854.711460536079,
+          "towerHeight": 632
+        },
+        "jumps": {
+          "before": 854.711460536079,
+          "metro": 854.711460536079,
+          "landmark": 854.711460536079
+        },
+        "top": {
+          "height": 1200,
+          "verticalSpeed": 0
+        },
+        "descendMs": 1615
+      },
+      "sampleSeconds": 301.0036050000191,
+      "p95": 22.21499991416931,
+      "frames": 22266,
+      "asset": "index-DSISJdA1.js"
+    },
+    "denseMetroGround": {
+      "sampleSeconds": 301.0363099999428,
+      "distance": 1233.9724658632886,
+      "p95": 25.049999952316284,
+      "frames": 19521,
+      "asset": "index-DSISJdA1.js"
+    }
+  },
+  "coldStartupMedianMs": 6918.390000104904,
+  "lifecycleMeasuredRoundtrips": 10,
+  "lifecycleTailMemory": {
+    "attributes": 861,
+    "attributesSize": 5223196,
+    "geometries": 364,
+    "indexAttributes": 363,
+    "indexAttributesSize": 1514958,
+    "indirectStorageAttributes": 0,
+    "indirectStorageAttributesSize": 0,
+    "programs": 87,
+    "programsSize": 1267334,
+    "readbackBuffers": 0,
+    "readbackBuffersSize": 0,
+    "renderTargets": 17,
+    "storageAttributes": 6,
+    "storageAttributesSize": 81344,
+    "textures": 35,
+    "texturesSize": 157181516,
+    "uniformBuffers": 522,
+    "uniformBuffersSize": 140096,
+    "total": 165408444
+  },
+  "continuousCrossingsThisUpdate": 1,
+  "tunnelRegression": {
+    "durationMs": 172830.50500011444,
+    "maxCrossTrackM": 0.9399454371192085,
+    "maxSeamM": 0,
+    "minCameraClearanceM": 2.656377615658103
+  },
+  "releaseFilesVerified": 8604,
+  "requiredHTTPFilesVerified": 8542,
+  "sourceReproductionFiles": 8542,
+  "externalBrowserRequests": 0,
+  "archives": [
+    {
+      "name": "shanghai-waterfront-0.3.1.tar.gz",
+      "bytes": 101440238,
+      "sha256": "3ec290eee50885c11ae8cde3ee3c4bb0860c9cae9cc6031217c0c5105e3eb196"
+    },
+    {
+      "name": "shanghai-waterfront-0.3.1-source.tar.gz",
+      "bytes": 107705996,
+      "sha256": "f8d8d28e2e27ef0c48f63f6233717ea7d3fe8dadc16dfb34021e3ee4a1f1cea1"
+    }
+  ],
+  "publishedThisTurn": false,
+  "limitations": [
+    "One representative surface entrance per station; no platforms, train rides or underground metro travel.",
+    "97 representative entrances are placed in nearby clear pedestrian space rather than exact mapped exit positions.",
+    "Operating reference covers metro lines 1–18 and Pujiang inside Shanghai; Kunshan stations, airport link and unbuilt stations are excluded.",
+    "This update uses targeted regression checks; the complete 0.3.0 citywide acceptance remains historical evidence."
+  ]
+}

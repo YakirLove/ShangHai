@@ -1,0 +1,10 @@
+{
+  "previousArchiveSHA256": "77443d1fec8de17f9217b82f3b32af087df39ad686b47c6b59ea3a041bb885af",
+  "finalArchiveSHA256": "f8d8d28e2e27ef0c48f63f6233717ea7d3fe8dadc16dfb34021e3ee4a1f1cea1",
+  "changedFiles": [
+    "style.css"
+  ],
+  "addedFiles": [],
+  "removedFiles": [],
+  "unchangedFiles": 17607
+}

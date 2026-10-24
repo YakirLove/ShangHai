@@ -1,0 +1,53 @@
+{
+  "results": [
+    {
+      "kind": "destination-flight",
+      "before": {
+        "mode": "car",
+        "position": [
+          -1393.1270745433605,
+          -3.012924108052937,
+          435.7091503458053
+        ],
+        "tunnel": true
+      },
+      "after": {
+        "success": false,
+        "mode": "car",
+        "position": [
+          -1393.1270745433605,
+          -3.012924108052937,
+          435.7091503458053
+        ],
+        "tunnel": true,
+        "toast": "驶出隧道后可切换漫游模式，请重试",
+        "errors": []
+      }
+    },
+    {
+      "kind": "mode-switch",
+      "before": {
+        "mode": "car",
+        "position": [
+          -1393.0682109044387,
+          -3.01649497596848,
+          435.7045340721959
+        ],
+        "tunnel": true
+      },
+      "after": {
+        "success": false,
+        "mode": "car",
+        "position": [
+          -1393.0682109044387,
+          -3.01649497596848,
+          435.7045340721959
+        ],
+        "tunnel": true,
+        "toast": "驶出隧道后可切换漫游模式，请重试",
+        "errors": []
+      }
+    }
+  ],
+  "passed": true
+}

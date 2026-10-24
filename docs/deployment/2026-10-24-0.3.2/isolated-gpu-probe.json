@@ -1,0 +1,9 @@
+{
+  "url": "http://127.0.0.1:4187/boot-manifest.json",
+  "hasApplication": false,
+  "result": {
+    "timedOut": true
+  },
+  "elapsed": 5200.589999914169,
+  "secure": true
+}

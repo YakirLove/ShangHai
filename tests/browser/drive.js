@@ -22,7 +22,7 @@ if(config.record)await beginRecording(config.label);
 return await page.evaluate(config=>{
  const app=shanghai,route=app.data.tunnels.find(t=>(t.points[0][0]<0)===(config.direction==='east')),approach=window.driveApproach,ps=approach?[...approach.prefix,...route.points,...approach.suffix]:route.points;
  if(window.driveRun?.timer)clearInterval(driveRun.timer);
- const run=window.driveRun={...config,groundConnection:approach,buildAsset:performance.getEntriesByType('resource').map(r=>r.name).find(n=>/\/assets\/index-.*\.js$/.test(n))?.split('/').at(-1),route:route.id,start:performance.now(),index:0,trace:[],fullFrameTimes:[],collecting:true,done:false,maxCrossTrack:0,maxTransitionStep:0,surfaceChanges:[],minY:2,minCameraClearance:Infinity,errors:[],lastTrace:0,maxStep:0,previous:null};
+ const run=window.driveRun={...config,groundConnection:approach,buildAsset:window.shanghaiStartup?.files?.module?.split('/').at(-1)||performance.getEntriesByType('resource').map(r=>r.name).find(n=>/\/assets\/index-.*\.js$/.test(n))?.split('/').at(-1),route:route.id,start:performance.now(),index:0,trace:[],fullFrameTimes:[],collecting:true,done:false,maxCrossTrack:0,maxTransitionStep:0,surfaceChanges:[],minY:2,minCameraClearance:Infinity,errors:[],lastTrace:0,maxStep:0,previous:null};
  window.activeFrameRun=run;if(!app.frameRecorderInstalled){app.frameRecorderInstalled=true;app.samples.push=function(...values){const r=window.activeFrameRun;if(r?.collecting&&!r.done)r.fullFrameTimes.push(...values);return Array.prototype.push.apply(this,values);};}
  app.samples.length=0;app.follow();app.cameras.activePresetId='chase';
  const wrap=a=>Math.atan2(Math.sin(a),Math.cos(a));

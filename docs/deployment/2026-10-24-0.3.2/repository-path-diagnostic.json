@@ -1,0 +1,16 @@
+{
+  "root": "/Users/wuyanji/Desktop/上海漫游",
+  "origin": "https://github.com/YakirLove/ShangHai.git",
+  "branch": "main",
+  "gitDirectory": ".git",
+  "coreWorktree": null,
+  "rootGitCreated": "2026-10-24T16:44:45.701302",
+  "configModified": "2026-10-24T16:45:07.609128",
+  "nestedOldPathExists": false,
+  "resolved": true,
+  "method": "GitHub Desktop Locate selected existing project root",
+  "verifiedUI": "Current Repository ShangHai / Current Branch main / Changes visible",
+  "headPreserved": "69aaf53",
+  "workingChangesPreserved": true,
+  "resolvedAt": "2026-10-24T14:29:19.385586+00:00"
+}

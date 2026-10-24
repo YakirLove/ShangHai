@@ -1,0 +1,199 @@
+{
+  "version": "0.3.2",
+  "release": "20261024-220216-6a4aab",
+  "requiredFilesChecked": 18,
+  "payloadFilesVerifiedByPublisher": 15823,
+  "criticalFiles": [
+    {
+      "url": "https://shanghai.datiaomao.com/index.html",
+      "status": 200,
+      "encoding": "gzip",
+      "transferBytes": 2681,
+      "decodedBytes": 6216,
+      "sha256": "760a73687f5a89abd4cbead69499028ffb087570ef763163c2cd3a6f2d31d1ac",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "matchesAcceptedBuild": true
+    },
+    {
+      "url": "https://shanghai.datiaomao.com/boot-manifest.json",
+      "status": 200,
+      "encoding": null,
+      "transferBytes": 469,
+      "decodedBytes": 469,
+      "sha256": "7548fe8fa432ee89d171aea9cc30c77c5522cdef1b30bdfb46f96e47f3ac3df2",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "matchesAcceptedBuild": true
+    },
+    {
+      "url": "https://shanghai.datiaomao.com/assets/app-CDigLgQs.js",
+      "status": 200,
+      "encoding": "gzip",
+      "transferBytes": 323609,
+      "decodedBytes": 1108970,
+      "sha256": "72cfe2aee5f636a5c72e56b1a2817ec842ee47e1b92f77a8531f8effc8071970",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "matchesAcceptedBuild": true
+    },
+    {
+      "url": "https://shanghai.datiaomao.com/assets/loading-progress-gm2pud_W.js",
+      "status": 200,
+      "encoding": "gzip",
+      "transferBytes": 1424,
+      "decodedBytes": 2710,
+      "sha256": "005bb720fb99039e06e6339b5978c7bd9cc40c5f76030c90c1801ec16300a19f",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "matchesAcceptedBuild": true
+    },
+    {
+      "url": "https://shanghai.datiaomao.com/data/city.json",
+      "status": 200,
+      "encoding": "gzip",
+      "transferBytes": 2103114,
+      "decodedBytes": 7727410,
+      "sha256": "995d3195e12dbdd2cc442559d2ef7df0827ec208d00376fed8c13a1fc6dba30a",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "matchesAcceptedBuild": true
+    },
+    {
+      "url": "https://shanghai.datiaomao.com/data/manifest.json",
+      "status": 200,
+      "encoding": "gzip",
+      "transferBytes": 1638346,
+      "decodedBytes": 4941536,
+      "sha256": "7cd94389265495922c4fa0810b3cedbee6c216102d40806f8014f7da5c12d926",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "matchesAcceptedBuild": true
+    },
+    {
+      "url": "https://shanghai.datiaomao.com/data/metro.json",
+      "status": 200,
+      "encoding": "gzip",
+      "transferBytes": 65325,
+      "decodedBytes": 386704,
+      "sha256": "4f436804060fd960ca2814a0879fdd0e76281d83ab9855b0b8d20707ecf8cc33",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "matchesAcceptedBuild": true
+    },
+    {
+      "url": "https://shanghai.datiaomao.com/assets/index-BogUEJzF.js",
+      "status": 200,
+      "encoding": "gzip",
+      "transferBytes": 1943,
+      "decodedBytes": 3751,
+      "sha256": "e775e95d28cf8e2e7aeabdbc9fb3788f204c2953538ced73029fec803091dc9f",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "matchesAcceptedBuild": true
+    },
+    {
+      "url": "https://shanghai.datiaomao.com/assets/index-BHHp1YQr.css",
+      "status": 200,
+      "encoding": "gzip",
+      "transferBytes": 3870,
+      "decodedBytes": 13144,
+      "sha256": "95cb1e16a1f6f9e23fef1f76bf90714b3275a7bef124bd9ee261207da081319f",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "matchesAcceptedBuild": true
+    },
+    {
+      "url": "https://apps.datiaomao.com/apps/shanghai-roam/index.html",
+      "status": 200,
+      "encoding": "gzip",
+      "transferBytes": 2681,
+      "decodedBytes": 6216,
+      "sha256": "760a73687f5a89abd4cbead69499028ffb087570ef763163c2cd3a6f2d31d1ac",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "matchesAcceptedBuild": true
+    },
+    {
+      "url": "https://apps.datiaomao.com/apps/shanghai-roam/boot-manifest.json",
+      "status": 200,
+      "encoding": null,
+      "transferBytes": 469,
+      "decodedBytes": 469,
+      "sha256": "7548fe8fa432ee89d171aea9cc30c77c5522cdef1b30bdfb46f96e47f3ac3df2",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "matchesAcceptedBuild": true
+    },
+    {
+      "url": "https://apps.datiaomao.com/apps/shanghai-roam/assets/app-CDigLgQs.js",
+      "status": 200,
+      "encoding": "gzip",
+      "transferBytes": 323609,
+      "decodedBytes": 1108970,
+      "sha256": "72cfe2aee5f636a5c72e56b1a2817ec842ee47e1b92f77a8531f8effc8071970",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "matchesAcceptedBuild": true
+    },
+    {
+      "url": "https://apps.datiaomao.com/apps/shanghai-roam/assets/loading-progress-gm2pud_W.js",
+      "status": 200,
+      "encoding": "gzip",
+      "transferBytes": 1424,
+      "decodedBytes": 2710,
+      "sha256": "005bb720fb99039e06e6339b5978c7bd9cc40c5f76030c90c1801ec16300a19f",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "matchesAcceptedBuild": true
+    },
+    {
+      "url": "https://apps.datiaomao.com/apps/shanghai-roam/data/city.json",
+      "status": 200,
+      "encoding": "gzip",
+      "transferBytes": 2103114,
+      "decodedBytes": 7727410,
+      "sha256": "995d3195e12dbdd2cc442559d2ef7df0827ec208d00376fed8c13a1fc6dba30a",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "matchesAcceptedBuild": true
+    },
+    {
+      "url": "https://apps.datiaomao.com/apps/shanghai-roam/data/manifest.json",
+      "status": 200,
+      "encoding": "gzip",
+      "transferBytes": 1638346,
+      "decodedBytes": 4941536,
+      "sha256": "7cd94389265495922c4fa0810b3cedbee6c216102d40806f8014f7da5c12d926",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "matchesAcceptedBuild": true
+    },
+    {
+      "url": "https://apps.datiaomao.com/apps/shanghai-roam/data/metro.json",
+      "status": 200,
+      "encoding": "gzip",
+      "transferBytes": 65325,
+      "decodedBytes": 386704,
+      "sha256": "4f436804060fd960ca2814a0879fdd0e76281d83ab9855b0b8d20707ecf8cc33",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "matchesAcceptedBuild": true
+    },
+    {
+      "url": "https://apps.datiaomao.com/apps/shanghai-roam/assets/index-BogUEJzF.js",
+      "status": 200,
+      "encoding": "gzip",
+      "transferBytes": 1943,
+      "decodedBytes": 3751,
+      "sha256": "e775e95d28cf8e2e7aeabdbc9fb3788f204c2953538ced73029fec803091dc9f",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "matchesAcceptedBuild": true
+    },
+    {
+      "url": "https://apps.datiaomao.com/apps/shanghai-roam/assets/index-BHHp1YQr.css",
+      "status": 200,
+      "encoding": "gzip",
+      "transferBytes": 3870,
+      "decodedBytes": 13144,
+      "sha256": "95cb1e16a1f6f9e23fef1f76bf90714b3275a7bef124bd9ee261207da081319f",
+      "cacheControl": "public, max-age=0, must-revalidate",
+      "matchesAcceptedBuild": true
+    }
+  ],
+  "missingAssets": [
+    {
+      "url": "https://shanghai.datiaomao.com/missing-0.3.2.js",
+      "status": 404
+    },
+    {
+      "url": "https://apps.datiaomao.com/apps/shanghai-roam/missing-0.3.2.js",
+      "status": 404
+    }
+  ],
+  "passed": true
+}

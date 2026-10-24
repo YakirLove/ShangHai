@@ -1,0 +1,29 @@
+
+> shanghai-waterfront-roam@0.3.2 build
+> vite build --outDir=/Users/wuyanji/Desktop/编程/app-market/.build/20261024-220216-6a4aab/export/dist
+
+vite v8.3.5 building client environment for production...
+transforming...
+✓ 49 modules transformed.
+
+(!) outDir /Users/wuyanji/Desktop/编程/app-market/.build/20261024-220216-6a4aab/export/dist is not inside project root and will not be emptied.
+Use --emptyOutDir to override.
+
+rendering chunks...
+computing gzip size...
+../编程/app-market/.build/20261024-220216-6a4aab/export/dist/boot-manifest.json                       0.46 kB │ gzip:   0.28 kB
+../编程/app-market/.build/20261024-220216-6a4aab/export/dist/index.html                               6.21 kB │ gzip:   2.72 kB
+../编程/app-market/.build/20261024-220216-6a4aab/export/dist/assets/index-BHHp1YQr.css               13.14 kB │ gzip:   3.83 kB
+../编程/app-market/.build/20261024-220216-6a4aab/export/dist/assets/loading-progress-gm2pud_W.js      2.71 kB │ gzip:   1.40 kB
+../编程/app-market/.build/20261024-220216-6a4aab/export/dist/assets/index-BogUEJzF.js                 3.75 kB │ gzip:   1.92 kB
+../编程/app-market/.build/20261024-220216-6a4aab/export/dist/assets/app-CDigLgQs.js               1,108.97 kB │ gzip: 324.33 kB
+
+✓ built in 5.37s
+[33m[PLUGIN_TIMINGS] [0mJavaScript callbacks ran for 5.1s of this 5.4s build (95%).
+The slowest callbacks, timed inside each callback (the wait before a callback starts is excluded, the time it awaits is included):
+  - plugin vite:prepare-out-dir renderStart (94%, 5.0s, 1 call)
+Additional callback time came from the callbacks below and from callbacks under 1s.
+1 callback is listed without a time. Its calls overlapped, so the time inside one call includes work from other calls. To find its cost, profile the build with `node --cpu-prof`:
+  - plugin vite:css-post renderChunk (3 calls)
+See https://rolldown.rs/reference/InputOptions.checks#bundlertimings for more details.
+

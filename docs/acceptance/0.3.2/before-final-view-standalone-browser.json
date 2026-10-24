@@ -1,0 +1,80 @@
+{
+  "name": "沈杜公路站",
+  "ready": true,
+  "startup": {
+    "stages": [
+      {
+        "id": "download",
+        "label": "读取程序与地图",
+        "loaded": 14167290,
+        "total": 14167290,
+        "done": true,
+        "ratio": 1
+      },
+      {
+        "id": "data",
+        "label": "整理城市数据",
+        "loaded": 3,
+        "total": 3,
+        "done": true,
+        "ratio": 1
+      },
+      {
+        "id": "engine",
+        "label": "准备图形引擎",
+        "loaded": 2,
+        "total": 2,
+        "done": true,
+        "ratio": 1
+      },
+      {
+        "id": "scene",
+        "label": "构建城市场景",
+        "loaded": 8,
+        "total": 8,
+        "done": true,
+        "ratio": 1
+      },
+      {
+        "id": "tiles",
+        "label": "准备出发街区",
+        "loaded": 5,
+        "total": 5,
+        "done": true,
+        "ratio": 1
+      },
+      {
+        "id": "render",
+        "label": "准备光影与首帧",
+        "loaded": 281,
+        "total": 281,
+        "done": true,
+        "ratio": 1
+      }
+    ],
+    "stage": {
+      "id": "render",
+      "label": "准备光影与首帧",
+      "loaded": 281,
+      "total": 281,
+      "done": true,
+      "ratio": 1
+    },
+    "index": 5,
+    "percent": 100,
+    "ready": true,
+    "error": null,
+    "detail": "城市已就绪，可以出发",
+    "elapsedMs": 4488.615000009537,
+    "stageElapsedMs": 2581.9649999141693
+  },
+  "mode": "helicopter",
+  "position": [
+    1200.0481416368843,
+    180,
+    19247.22183303141
+  ],
+  "asset": "./assets/app-BnWJjc5z.js",
+  "errors": [],
+  "externalRequests": []
+}

@@ -1,0 +1,29 @@
+{
+  "phase": "complete",
+  "done": true,
+  "error": null,
+  "result": {
+    "checks": {
+      "climbed": 854.6980317237425,
+      "over": {
+        "closest": 0.1149949366679783,
+        "height": 854.711460536079,
+        "towerHeight": 632
+      },
+      "jumps": {
+        "before": 854.711460536079,
+        "metro": 854.711460536079,
+        "landmark": 854.711460536079
+      },
+      "top": {
+        "height": 1200,
+        "verticalSpeed": 0
+      },
+      "descendMs": 1615
+    },
+    "sampleSeconds": 301.0036050000191,
+    "p95": 22.21499991416931,
+    "frames": 22266,
+    "asset": "index-DSISJdA1.js"
+  }
+}

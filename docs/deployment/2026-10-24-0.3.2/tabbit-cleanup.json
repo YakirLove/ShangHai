@@ -1,0 +1,89 @@
+{
+  "diagnostic": [
+    {
+      "url": "https://shanghai.datiaomao.com/?webgl",
+      "state": {
+        "ready": true,
+        "startup": {
+          "stages": [
+            {
+              "id": "download",
+              "label": "读取程序与地图",
+              "loaded": 14167330,
+              "total": 14167330,
+              "done": true,
+              "ratio": 1
+            },
+            {
+              "id": "data",
+              "label": "整理城市数据",
+              "loaded": 3,
+              "total": 3,
+              "done": true,
+              "ratio": 1
+            },
+            {
+              "id": "engine",
+              "label": "准备图形引擎",
+              "loaded": 2,
+              "total": 2,
+              "done": true,
+              "ratio": 1
+            },
+            {
+              "id": "scene",
+              "label": "构建城市场景",
+              "loaded": 8,
+              "total": 8,
+              "done": true,
+              "ratio": 1
+            },
+            {
+              "id": "tiles",
+              "label": "准备出发街区",
+              "loaded": 5,
+              "total": 5,
+              "done": true,
+              "ratio": 1
+            },
+            {
+              "id": "render",
+              "label": "准备光影与首帧",
+              "loaded": 283,
+              "total": 283,
+              "done": true,
+              "ratio": 1
+            }
+          ],
+          "stage": {
+            "id": "render",
+            "label": "准备光影与首帧",
+            "loaded": 283,
+            "total": 283,
+            "done": true,
+            "ratio": 1
+          },
+          "index": 5,
+          "percent": 100,
+          "ready": true,
+          "error": null,
+          "detail": "城市已就绪，可以出发",
+          "elapsedMs": 551615,
+          "stageElapsedMs": 533343.2999999523
+        }
+      }
+    },
+    {
+      "url": "http://127.0.0.1:4187/boot-manifest.json",
+      "state": {
+        "ready": false
+      }
+    }
+  ],
+  "closedTaskCreatedTabs": [
+    675492006,
+    675492009
+  ],
+  "networkRestored": true,
+  "priorLocalTabPreserved": 675491992
+}

@@ -10,6 +10,7 @@ import {buildLandmarks} from './shanghai-landmarks.js';
 import {disposeTileGeometry} from './resources.js';
 import {nearbySites} from './nearby-sites.js';
 import {buildTileStreets} from './tile-streets.js';
+import {createMetroSystem} from './metro-scene.js';
 
 function shapeGeo(rings){
  const ring=rings[0];const s=new THREE.Shape(ring.map(p=>new THREE.Vector2(p[0],-p[1])));
@@ -24,7 +25,7 @@ function flat(scene,polys,y,material,name){
 
 function random(seed){let x=seed|0;return()=>{x^=x<<13;x^=x>>>17;x^=x<<5;return(x>>>0)/4294967296;};}
 
-export function createCityScene(scene,data,collisionWorld,surfaceProvider=null){
+export async function createCityScene(scene,data,collisionWorld,surfaceProvider=null,onProgress=async()=>{}){
  const streamed=data.schemaVersion>=3;
  const roadMat=createRoadSurfaceMaterial(),sidewalk=createSidewalkMaterial();
  if(data.outside)flat(scene,data.outside,1.99,new THREE.MeshStandardNodeMaterial({color:0x727c6e,roughness:1}),'Outside Shanghai boundary');
@@ -49,6 +50,7 @@ export function createCityScene(scene,data,collisionWorld,surfaceProvider=null){
   }
  }
  if(lineGeo.length){const m=new THREE.Mesh(mergeGeometries(lineGeo),new THREE.MeshStandardNodeMaterial({color:0xdad7b9,roughness:.8}));m.name='Lane markings';scene.add(m);for(const g of lineGeo)g.dispose();}
+ await onProgress(1,'地面、水系与道路已构建');
  const tunnelLamps=new THREE.MeshBasicNodeMaterial({color:0xffe9b9});
  const panel=document.createElement('canvas');panel.width=256;panel.height=256;const pc=panel.getContext('2d');pc.fillStyle='#a8b0ad';pc.fillRect(0,0,256,256);pc.strokeStyle='#737d7c';pc.lineWidth=3;for(let y=0;y<=256;y+=64){pc.beginPath();pc.moveTo(0,y);pc.lineTo(256,y);pc.stroke();for(let x=(y%128?0:64);x<256;x+=128){pc.beginPath();pc.moveTo(x,y);pc.lineTo(x,y+64);pc.stroke();}}pc.fillStyle='#477c82';pc.fillRect(0,180,256,16);
  const panelMap=new THREE.CanvasTexture(panel);panelMap.colorSpace=THREE.SRGBColorSpace;panelMap.wrapS=panelMap.wrapT=THREE.RepeatWrapping;
@@ -76,7 +78,8 @@ export function createCityScene(scene,data,collisionWorld,surfaceProvider=null){
   // Portal signs at both banks. Inner lighting is completed by the player's headlights.
   for(const p of [t.points[0],t.points.at(-1)]){const sign=makeSign('延安东路隧道  →',0x155658);sign.position.set(p[0],7.6,p[2]);g.add(sign);}
  }
- const landmarkSystem=buildLandmarks(scene,data.landmarks);
+ await onProgress(2,'跨江隧道已构建');
+ const landmarkSystem=buildLandmarks(scene,data.landmarks);await onProgress(3,'上海地标已构建');
  const styles=[
   createCurtainWallMaterial({glassTint:0x24445b,frameTint:0x53616b,boxLocal:true,seed:2}),
   createPreWarBuildingMaterial({stoneColor:0xb8b6ab,trimColor:0x807d72,windowWidth:2.1,floorHeight:3.1,boxLocal:true,seed:8}),
@@ -93,14 +96,16 @@ export function createCityScene(scene,data,collisionWorld,surfaceProvider=null){
   data.buildings.forEach((b,i)=>{const id=Math.floor(b.x/overviewSize)+'_'+Math.floor(b.z/overviewSize);if(!overview.has(id))overview.set(id,[]);overview.get(id).push(i);const m=new THREE.Matrix4();overviewMesh.getMatrixAt(i,m);overviewMatrices.set(i,m);});
  }else for(const [id,bs]of grouped){const mesh=createFacadeBoxes(distantMat,bs.map(b=>({...b,y:2+b.h/2})));mesh.castShadow=false;scene.add(mesh);overview.set(id,mesh);}
  function showOverview(id,show){const entry=overview.get(id);if(!entry)return;if(!streamed){entry.visible=show;return;}for(const i of entry)overviewMesh.setMatrixAt(i,show?overviewMatrices.get(i):new THREE.Matrix4().makeScale(0,0,0));overviewMesh.instanceMatrix.needsUpdate=true;}
+ await onProgress(4,'城市远景楼群已构建');
  const streetMaterials={road:roadMat,paint:new THREE.MeshStandardNodeMaterial({color:0xdad7b9,roughness:.8}),rail:new THREE.MeshStandardNodeMaterial({color:0xadb9b3,roughness:.7}),pole:new THREE.MeshStandardNodeMaterial({color:0x364640,roughness:.6}),bulb:new THREE.MeshStandardNodeMaterial({color:0xd4d5bd,emissive:0xffc66d,emissiveIntensity:.1}),poleGeo:new THREE.CylinderGeometry(.09,.14,7,6),bulbGeo:new THREE.SphereGeometry(.28,6,4),land:new THREE.MeshStandardNodeMaterial({color:0xa39c86,roughness:.9}),park:new THREE.MeshStandardNodeMaterial({color:0x536447,roughness:.95}),farm:new THREE.MeshStandardNodeMaterial({color:0x8a9460,roughness:1})};
  const streetTiles=new Map();let streetRevision=0;
  const roofMat=new THREE.MeshStandardNodeMaterial({color:0x8b8f8b,roughness:.7});
+ const metroSystem=createMetroSystem(data.metroStations||[]);
  function mountTile(tile,meta){
   const group=new THREE.Group();group.name='tile:'+meta.id;const colliders=[];
   if(streamed){
    flat(group,tile.land,2.015,streetMaterials.land,'Tile land');if(tile.farmland)flat(group,tile.farmland,2.035,streetMaterials.farm,'Farmland');flat(group,tile.water,.012,waterMat,'Tile water');flat(group,tile.parks,2.06,streetMaterials.park,'Tile parks');flat(group,tile.shoulders,2.08,sidewalk,'Tile pavements');
-   streetTiles.set(meta.id,{...buildTileStreets(group,tile,streetMaterials),roads:tile.roads,water:tile.water});streetRevision++;surfaceProvider?.setTileWater(meta,tile.water);surfaceProvider?.setTileRoads(meta,tile.roads);
+   streetTiles.set(meta.id,{...buildTileStreets(group,tile,streetMaterials),roads:tile.roads,water:tile.water});streetRevision++;surfaceProvider?.setTileWater(meta,tile.water);
   }
   for(let i=0;i<styles.length;i++){
    const bs=tile.buildings.filter(b=>b.style===i).map(b=>({...b,y:2+b.h/2}));if(!bs.length)continue;
@@ -109,11 +114,13 @@ export function createCityScene(scene,data,collisionWorld,surfaceProvider=null){
   const roofs=tile.buildings.filter(b=>b.h>24).map(b=>({...b,w:b.w*.38,d:b.d*.35,h:1.8,y:2+b.h+.9}));
   if(roofs.length)group.add(createFacadeBoxes(roofMat,roofs));
   for(const b of tile.buildings){const cs=Math.cos(b.ry),sn=Math.sin(b.ry),ex=Math.abs(cs)*b.w/2+Math.abs(sn)*b.d/2,ez=Math.abs(sn)*b.w/2+Math.abs(cs)*b.d/2;colliders.push({id:b.id,minX:b.x-ex,maxX:b.x+ex,minY:2,maxY:2+b.h,minZ:b.z-ez,maxZ:b.z+ez,obb:{cx:b.x,cz:b.z,cs,sn,hx:b.w/2,hz:b.d/2}});}
+  const metro=metroSystem.mountTile(group,meta.id);colliders.push(...metro.colliders);if(streamed)surfaceProvider?.setTileRoads(meta,[...tile.roads,...metro.floorRoads]);
   scene.add(group);showOverview(meta.id,false);loaded.set(meta.id,group);collisionWorld.addTile(meta.id,colliders);
-  return {dispose(){scene.remove(group);disposeTileGeometry(group);showOverview(meta.id,true);loaded.delete(meta.id);collisionWorld.removeTile(meta.id);streetTiles.get(meta.id)?.dispose?.();streetTiles.delete(meta.id);surfaceProvider?.removeTileWater(meta.id);surfaceProvider?.removeTileRoads(meta.id);streetRevision++;}};
+  return {dispose(){scene.remove(group);disposeTileGeometry(group);metro.dispose();showOverview(meta.id,true);loaded.delete(meta.id);collisionWorld.removeTile(meta.id);streetTiles.get(meta.id)?.dispose?.();streetTiles.delete(meta.id);surfaceProvider?.removeTileWater(meta.id);surfaceProvider?.removeTileRoads(meta.id);streetRevision++;}};
  }
  // Landmark collision volumes remain present even when neighbouring detail tiles are unloaded.
  collisionWorld.addTile('landmarks',landmarkSystem.groups.flatMap((g,i)=>{g.updateMatrixWorld(true);return (g.userData.collisionParts||[g]).map((part,j)=>{const b=new THREE.Box3().setFromObject(part);return {id:data.landmarks[i].id+':'+j,minX:b.min.x,maxX:b.max.x,minZ:b.min.z,maxZ:b.max.z,minY:2,maxY:b.max.y};});}));
+ await onProgress(5,'地铁入口与分层碰撞已准备');
  const trees=createTreeField(scene,treeSites.filter(p=>p.x>data.bounds[0]&&p.x<data.bounds[2]&&p.z>data.bounds[1]&&p.z<data.bounds[3]),streamed?{capacity:640}:{});
  const poles=new THREE.InstancedMesh(new THREE.CylinderGeometry(.09,.14,7,8),new THREE.MeshStandardNodeMaterial({color:0x364640,roughness:.6}),lampSites.length);
  const bulbsMat=new THREE.MeshStandardNodeMaterial({color:0xd4d5bd,emissive:0xffc66d,emissiveIntensity:.1});
@@ -138,7 +145,8 @@ export function createCityScene(scene,data,collisionWorld,surfaceProvider=null){
   }
   crowd.begin();walkers.forEach((p,i)=>{if(!p.site)return;const distance=Math.hypot(p.site.x-camera.position.x,p.site.z-camera.position.z);if(distance>240)return;const d=Math.sin(time*.3+i)*4;const x=p.site.x+Math.sin(p.site.angle)*d,z=p.site.z+Math.cos(p.site.angle)*d;p.rig.update(1/60,x,z,p.site.angle,()=>2,null);crowd.add(p.rig,distance);});crowd.end();
  }
- return {mountTile,loaded,overview,update,landmarkSystem,trees,walkers,streetTiles,get streetRevision(){return streetRevision;}};
+ await onProgress(6,'绿化与行人已准备');
+ return {mountTile,loaded,overview,update,landmarkSystem,trees,walkers,streetTiles,metroSystem,get streetRevision(){return streetRevision;}};
 }
 
 function makeSign(text,bg){

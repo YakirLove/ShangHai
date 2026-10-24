@@ -1,0 +1,2808 @@
+{
+  "url": "https://shanghai.datiaomao.com/?webgl",
+  "startup": {
+    "stages": [
+      {
+        "id": "download",
+        "label": "读取程序与地图",
+        "loaded": 14167330,
+        "total": 14167330,
+        "done": true,
+        "ratio": 1
+      },
+      {
+        "id": "data",
+        "label": "整理城市数据",
+        "loaded": 3,
+        "total": 3,
+        "done": true,
+        "ratio": 1
+      },
+      {
+        "id": "engine",
+        "label": "准备图形引擎",
+        "loaded": 2,
+        "total": 2,
+        "done": true,
+        "ratio": 1
+      },
+      {
+        "id": "scene",
+        "label": "构建城市场景",
+        "loaded": 8,
+        "total": 8,
+        "done": true,
+        "ratio": 1
+      },
+      {
+        "id": "tiles",
+        "label": "准备出发街区",
+        "loaded": 5,
+        "total": 5,
+        "done": true,
+        "ratio": 1
+      },
+      {
+        "id": "render",
+        "label": "准备光影与首帧",
+        "loaded": 281,
+        "total": 283,
+        "done": false,
+        "ratio": 0.9929328621908127
+      }
+    ],
+    "stage": {
+      "id": "render",
+      "label": "准备光影与首帧",
+      "loaded": 281,
+      "total": 283,
+      "done": false,
+      "ratio": 0.9929328621908127
+    },
+    "index": 5,
+    "percent": 99,
+    "ready": false,
+    "error": null,
+    "detail": "光影材质 281 / 282 已准备",
+    "elapsedMs": 45077.90000009537,
+    "stageElapsedMs": 26806.200000047684
+  },
+  "ready": false,
+  "asset": "./assets/app-CDigLgQs.js",
+  "trace": [
+    {
+      "at": 401.2999999523163,
+      "stage": "download",
+      "percent": 0,
+      "loaded": 0,
+      "total": null,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 735.6000001430511,
+      "stage": "download",
+      "percent": 0.003188086016678278,
+      "loaded": 2710,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 757.1000001430511,
+      "stage": "download",
+      "percent": 0.29615083905483014,
+      "loaded": 251740,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 785.2999999523163,
+      "stage": "download",
+      "percent": 0.8463262543706777,
+      "loaded": 719411,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 806.9000000953674,
+      "stage": "download",
+      "percent": 1.6999486376990818,
+      "loaded": 1445024,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 859.2000000476837,
+      "stage": "download",
+      "percent": 1.817196088936071,
+      "loaded": 1544689,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 902.4000000953674,
+      "stage": "download",
+      "percent": 1.8645491658155302,
+      "loaded": 1584941,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 941.5,
+      "stage": "download",
+      "percent": 1.9125692702859327,
+      "loaded": 1625760,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 1213.2999999523163,
+      "stage": "download",
+      "percent": 1.959681181987008,
+      "loaded": 1665807,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 1231.7000000476837,
+      "stage": "download",
+      "percent": 1.9630022029556733,
+      "loaded": 1668630,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 1265.6000001430511,
+      "stage": "download",
+      "percent": 2.2513628185409673,
+      "loaded": 1913748,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 1282.7999999523163,
+      "stage": "download",
+      "percent": 2.2614470522439065,
+      "loaded": 1922320,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 1318.7999999523163,
+      "stage": "download",
+      "percent": 2.3200254858654854,
+      "loaded": 1972114,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 1353.4000000953674,
+      "stage": "download",
+      "percent": 2.378672151586314,
+      "loaded": 2021966,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 1425.5,
+      "stage": "download",
+      "percent": 2.43711882667141,
+      "loaded": 2071648,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 1436.4000000953674,
+      "stage": "download",
+      "percent": 2.5396128510688563,
+      "loaded": 2158772,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 1461.1000001430511,
+      "stage": "download",
+      "percent": 2.6932703621642187,
+      "loaded": 2289387,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 1507.4000000953674,
+      "stage": "download",
+      "percent": 2.8122894951506976,
+      "loaded": 2390558,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 1611.2999999523163,
+      "stage": "download",
+      "percent": 3.035956669323013,
+      "loaded": 2580684,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 1631.4000000953674,
+      "stage": "download",
+      "percent": 3.153687627332273,
+      "loaded": 2680760,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 1936.2999999523163,
+      "stage": "download",
+      "percent": 3.2714079976019947,
+      "loaded": 2780827,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 1964,
+      "stage": "download",
+      "percent": 3.389640108616091,
+      "loaded": 2881329,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 1985,
+      "stage": "download",
+      "percent": 3.43681319392339,
+      "loaded": 2921428,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 2034.1000001430511,
+      "stage": "download",
+      "percent": 3.644954036269831,
+      "loaded": 3098356,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 2059.2000000476837,
+      "stage": "download",
+      "percent": 3.703733636942647,
+      "loaded": 3148321,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 2137.100000143051,
+      "stage": "download",
+      "percent": 3.839800207002072,
+      "loaded": 3263983,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 2158.600000143051,
+      "stage": "download",
+      "percent": 3.8813017931630966,
+      "loaded": 3299261,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 2227.4000000953674,
+      "stage": "download",
+      "percent": 3.939549654027964,
+      "loaded": 3348774,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 2269.2999999523163,
+      "stage": "download",
+      "percent": 3.997472824213643,
+      "loaded": 3398011,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 2319.9000000953674,
+      "stage": "download",
+      "percent": 4.0557995049172995,
+      "loaded": 3447591,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 2331.2000000476837,
+      "stage": "download",
+      "percent": 4.113807377019288,
+      "loaded": 3496900,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 2379.7000000476837,
+      "stage": "download",
+      "percent": 4.170236499514493,
+      "loaded": 3544867,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 2433.600000143051,
+      "stage": "download",
+      "percent": 4.2264985710080865,
+      "loaded": 3592692,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 2492.7000000476837,
+      "stage": "download",
+      "percent": 4.283575898446167,
+      "loaded": 3641210,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 2508.2000000476837,
+      "stage": "download",
+      "percent": 4.340306183310475,
+      "loaded": 3689433,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 2539.7000000476837,
+      "stage": "download",
+      "percent": 4.397236458810517,
+      "loaded": 3737826,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 2587.100000143051,
+      "stage": "download",
+      "percent": 4.454779646788303,
+      "loaded": 3786740,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 2607.7999999523163,
+      "stage": "download",
+      "percent": 4.513033389730692,
+      "loaded": 3836258,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 2631.7000000476837,
+      "stage": "download",
+      "percent": 4.570938913683807,
+      "loaded": 3885480,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 2680.600000143051,
+      "stage": "download",
+      "percent": 4.629083249984295,
+      "loaded": 3934905,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 2710.7999999523163,
+      "stage": "download",
+      "percent": 4.687007596585477,
+      "loaded": 3984143,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 2754,
+      "stage": "download",
+      "percent": 4.744977823391328,
+      "loaded": 4033420,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 2835.7999999523163,
+      "stage": "download",
+      "percent": 4.794931954950815,
+      "loaded": 4075883,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 2871.2999999523163,
+      "stage": "download",
+      "percent": 4.84416729663717,
+      "loaded": 4117735,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 2902.5,
+      "stage": "download",
+      "percent": 4.896049573208219,
+      "loaded": 4161837,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 2950.4000000953674,
+      "stage": "download",
+      "percent": 4.950831713997392,
+      "loaded": 4208404,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 2967,
+      "stage": "download",
+      "percent": 5.008637242632639,
+      "loaded": 4257541,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 3020.7999999523163,
+      "stage": "download",
+      "percent": 5.0667180524958955,
+      "loaded": 4306912,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 3035.600000143051,
+      "stage": "download",
+      "percent": 5.105535058476085,
+      "loaded": 4339908,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 3056.600000143051,
+      "stage": "download",
+      "percent": 5.124656516083129,
+      "loaded": 4356162,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 3085.9000000953674,
+      "stage": "download",
+      "percent": 5.182790264644079,
+      "loaded": 4405578,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 3123.4000000953674,
+      "stage": "download",
+      "percent": 5.240759315034426,
+      "loaded": 4454854,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 3138.4000000953674,
+      "stage": "download",
+      "percent": 5.298893063595375,
+      "loaded": 4504270,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 3231.600000143051,
+      "stage": "download",
+      "percent": 5.356797411132985,
+      "loaded": 4553491,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 3272.600000143051,
+      "stage": "download",
+      "percent": 5.414727639811689,
+      "loaded": 4602734,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 3305.7000000476837,
+      "stage": "download",
+      "percent": 5.472709630772583,
+      "loaded": 4652021,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 3345,
+      "stage": "download",
+      "percent": 5.53071985570558,
+      "loaded": 4701332,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 3377.4000000953674,
+      "stage": "download",
+      "percent": 5.588855957097538,
+      "loaded": 4750750,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 3384.7000000476837,
+      "stage": "download",
+      "percent": 5.646989705658488,
+      "loaded": 4800166,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 3450.600000143051,
+      "stage": "download",
+      "percent": 5.762787812994168,
+      "loaded": 4898599,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 3486.2999999523163,
+      "stage": "download",
+      "percent": 5.820659220897657,
+      "loaded": 4947792,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 3527.9000000953674,
+      "stage": "download",
+      "percent": 5.878909434593533,
+      "loaded": 4997307,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 3567.600000143051,
+      "stage": "download",
+      "percent": 5.936738491538867,
+      "loaded": 5046464,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 3645.9000000953674,
+      "stage": "download",
+      "percent": 5.994658132478032,
+      "loaded": 5095698,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 3680,
+      "stage": "download",
+      "percent": 6.052576597001694,
+      "loaded": 5144931,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 3720.2999999523163,
+      "stage": "download",
+      "percent": 6.1106809351750355,
+      "loaded": 5194322,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 3738.5,
+      "stage": "download",
+      "percent": 6.168444112852128,
+      "loaded": 5243423,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 3803.9000000953674,
+      "stage": "download",
+      "percent": 6.22619905562069,
+      "loaded": 5292517,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 3810.2000000476837,
+      "stage": "download",
+      "percent": 6.284298688132014,
+      "loaded": 5341904,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 3876.600000143051,
+      "stage": "download",
+      "percent": 6.342387732903801,
+      "loaded": 5391282,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 3913.7000000476837,
+      "stage": "download",
+      "percent": 6.400263846469306,
+      "loaded": 5440479,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 3959,
+      "stage": "download",
+      "percent": 6.4582928940503725,
+      "loaded": 5489806,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 3988.9000000953674,
+      "stage": "download",
+      "percent": 6.516206652912017,
+      "loaded": 5539035,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 4071.100000143051,
+      "stage": "download",
+      "percent": 6.573875717348764,
+      "loaded": 5588056,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 4107.799999952316,
+      "stage": "download",
+      "percent": 6.632609437816912,
+      "loaded": 5637982,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 4145.900000095367,
+      "stage": "download",
+      "percent": 6.691077288381085,
+      "loaded": 5687682,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 4171.700000047684,
+      "stage": "download",
+      "percent": 6.797845230305686,
+      "loaded": 5778439,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 4218.900000095367,
+      "stage": "download",
+      "percent": 6.855508412664914,
+      "loaded": 5827455,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 4258.299999952316,
+      "stage": "download",
+      "percent": 6.913252767693937,
+      "loaded": 5876540,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 4337.100000143051,
+      "stage": "download",
+      "percent": 7.028979113683853,
+      "loaded": 5974912,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 4369.5,
+      "stage": "download",
+      "percent": 7.086815229122213,
+      "loaded": 6024075,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 4450.200000047684,
+      "stage": "download",
+      "percent": 7.145661885478774,
+      "loaded": 6074097,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 4484.600000143051,
+      "stage": "download",
+      "percent": 7.204183851156146,
+      "loaded": 6123843,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 4519.700000047684,
+      "stage": "download",
+      "percent": 7.26326579061357,
+      "loaded": 6174065,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 4557.799999952316,
+      "stage": "download",
+      "percent": 7.322057155441428,
+      "loaded": 6224040,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 4602.400000095367,
+      "stage": "download",
+      "percent": 7.380877930656895,
+      "loaded": 6274040,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 4609.700000047684,
+      "stage": "download",
+      "percent": 7.439761055894088,
+      "loaded": 6324093,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 4657,
+      "stage": "download",
+      "percent": 7.498688884920448,
+      "loaded": 6374184,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 4720.400000095367,
+      "stage": "download",
+      "percent": 7.557732002666227,
+      "loaded": 6424373,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 4755.900000095367,
+      "stage": "download",
+      "percent": 7.61645866464135,
+      "loaded": 6474293,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 4782.900000095367,
+      "stage": "download",
+      "percent": 7.675208854926558,
+      "loaded": 6524233,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 4814.700000047684,
+      "stage": "download",
+      "percent": 7.734599015246109,
+      "loaded": 6574717,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 4877.900000095367,
+      "stage": "download",
+      "percent": 7.793305678157658,
+      "loaded": 6624620,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 4916.200000047684,
+      "stage": "download",
+      "percent": 7.852168804331279,
+      "loaded": 6674656,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 4954,
+      "stage": "download",
+      "percent": 7.910982521053721,
+      "loaded": 6724650,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 4983.100000143051,
+      "stage": "download",
+      "percent": 7.970135045441403,
+      "loaded": 6774932,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 5016,
+      "stage": "download",
+      "percent": 8.029127577320498,
+      "loaded": 6825078,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 5083,
+      "stage": "download",
+      "percent": 8.087753067562248,
+      "loaded": 6874912,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 5111,
+      "stage": "download",
+      "percent": 8.14682912494215,
+      "loaded": 6925129,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 5148,
+      "stage": "download",
+      "percent": 8.205941651202684,
+      "loaded": 6975377,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 5219.900000095367,
+      "stage": "download",
+      "percent": 8.264625962219652,
+      "loaded": 7025261,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 5252.900000095367,
+      "stage": "download",
+      "percent": 8.32341967987852,
+      "loaded": 7075238,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 5293.400000095367,
+      "stage": "download",
+      "percent": 8.38210516731099,
+      "loaded": 7125123,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 5328.700000047684,
+      "stage": "download",
+      "percent": 8.440809477391529,
+      "loaded": 7175024,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 5385,
+      "stage": "download",
+      "percent": 8.499520845965096,
+      "loaded": 7224931,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 5570.299999952316,
+      "stage": "download",
+      "percent": 8.713840222540169,
+      "loaded": 7407111,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 5587.200000047684,
+      "stage": "download",
+      "percent": 8.822475135870107,
+      "loaded": 7499455,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 5648.5,
+      "stage": "download",
+      "percent": 8.880619472170597,
+      "loaded": 7548880,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 5657.5,
+      "stage": "download",
+      "percent": 8.93059477920916,
+      "loaded": 7591361,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 5720.400000095367,
+      "stage": "download",
+      "percent": 8.98008540305995,
+      "loaded": 7633430,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 5754.200000047684,
+      "stage": "download",
+      "percent": 9.031195951060173,
+      "loaded": 7676876,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 5790.700000047684,
+      "stage": "download",
+      "percent": 9.082788829417163,
+      "loaded": 7720732,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 5819.100000143051,
+      "stage": "download",
+      "percent": 9.135084027830226,
+      "loaded": 7765185,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 5849.700000047684,
+      "stage": "download",
+      "percent": 9.187755679204667,
+      "loaded": 7809958,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 5882.200000047684,
+      "stage": "download",
+      "percent": 9.242326065203065,
+      "loaded": 7856345,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 5976.799999952316,
+      "stage": "download",
+      "percent": 9.295498869582342,
+      "loaded": 7901544,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 5984.200000047684,
+      "stage": "download",
+      "percent": 9.348959895760174,
+      "loaded": 7946988,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 6007,
+      "stage": "download",
+      "percent": 9.400150440014691,
+      "loaded": 7990502,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 6094.100000143051,
+      "stage": "download",
+      "percent": 9.499464613303989,
+      "loaded": 8074923,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 6118.700000047684,
+      "stage": "download",
+      "percent": 9.548584666270921,
+      "loaded": 8116677,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 6235.600000143051,
+      "stage": "download",
+      "percent": 9.605923157950958,
+      "loaded": 8165417,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 6274.200000047684,
+      "stage": "download",
+      "percent": 9.72067072624129,
+      "loaded": 8262957,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 6317.400000095367,
+      "stage": "download",
+      "percent": 9.767533237855451,
+      "loaded": 8302792,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 6335.299999952316,
+      "stage": "download",
+      "percent": 9.817840294066231,
+      "loaded": 8345555,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 6381.5,
+      "stage": "download",
+      "percent": 9.865599234294677,
+      "loaded": 8386152,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 6411.100000143051,
+      "stage": "download",
+      "percent": 9.914567529661552,
+      "loaded": 8427777,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 6454.400000095367,
+      "stage": "download",
+      "percent": 9.968546178661281,
+      "loaded": 8473661,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 6484,
+      "stage": "download",
+      "percent": 10.018395609240887,
+      "loaded": 8516035,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 6571.200000047684,
+      "stage": "download",
+      "percent": 10.068674431479561,
+      "loaded": 8558774,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 6601.799999952316,
+      "stage": "download",
+      "percent": 10.116881586015149,
+      "loaded": 8599752,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 6631.700000047684,
+      "stage": "download",
+      "percent": 10.166542790114065,
+      "loaded": 8641966,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 6666.799999952316,
+      "stage": "download",
+      "percent": 10.213986450987354,
+      "loaded": 8682295,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 6721.600000143051,
+      "stage": "download",
+      "percent": 10.264608786553287,
+      "loaded": 8725326,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 6743.100000143051,
+      "stage": "download",
+      "percent": 10.312825352412911,
+      "loaded": 8766312,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 6825,
+      "stage": "download",
+      "percent": 10.410727827097038,
+      "loaded": 8849533,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 6872.400000095367,
+      "stage": "download",
+      "percent": 10.460934887989952,
+      "loaded": 8892211,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 6920.400000095367,
+      "stage": "download",
+      "percent": 10.511196063996064,
+      "loaded": 8934935,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 6981.100000143051,
+      "stage": "download",
+      "percent": 10.563273625540827,
+      "loaded": 8979203,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 7014.5,
+      "stage": "download",
+      "percent": 10.613583034582618,
+      "loaded": 9021968,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 7034.700000047684,
+      "stage": "download",
+      "percent": 10.662753673416232,
+      "loaded": 9063765,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 7072.900000095367,
+      "stage": "download",
+      "percent": 10.71258781059428,
+      "loaded": 9106126,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 7086.799999952316,
+      "stage": "download",
+      "percent": 10.762813694135263,
+      "loaded": 9148820,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 7160.400000095367,
+      "stage": "download",
+      "percent": 10.813380738172496,
+      "loaded": 9191804,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 7190.900000095367,
+      "stage": "download",
+      "percent": 10.888732504054516,
+      "loaded": 9255856,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 7237.100000143051,
+      "stage": "download",
+      "percent": 10.986750267458065,
+      "loaded": 9339175,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 7267.600000143051,
+      "stage": "download",
+      "percent": 11.106934051793809,
+      "loaded": 9441336,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 7312.100000143051,
+      "stage": "download",
+      "percent": 11.220513439488363,
+      "loaded": 9537883,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 7331.400000095367,
+      "stage": "download",
+      "percent": 11.344534691199165,
+      "loaded": 9643306,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 7382.299999952316,
+      "stage": "download",
+      "percent": 11.457979967526228,
+      "loaded": 9739739,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 7441.200000047684,
+      "stage": "download",
+      "percent": 11.556956509565786,
+      "loaded": 9823873,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 7483.299999952316,
+      "stage": "download",
+      "percent": 11.660004625665763,
+      "loaded": 9911468,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 7506.600000143051,
+      "stage": "download",
+      "percent": 11.73710219215618,
+      "loaded": 9977004,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 7532.5,
+      "stage": "download",
+      "percent": 11.879570815390055,
+      "loaded": 10098108,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 7597.100000143051,
+      "stage": "download",
+      "percent": 11.996217118304342,
+      "loaded": 10197262,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 7637.900000095367,
+      "stage": "download",
+      "percent": 12.121339494927179,
+      "loaded": 10303621,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 7659.600000143051,
+      "stage": "download",
+      "percent": 12.198437061417595,
+      "loaded": 10369157,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 7692.100000143051,
+      "stage": "download",
+      "percent": 12.246083065757627,
+      "loaded": 10409658,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 7725.799999952316,
+      "stage": "download",
+      "percent": 12.35783077451197,
+      "loaded": 10504648,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 7739.600000143051,
+      "stage": "download",
+      "percent": 12.494472611753004,
+      "loaded": 10620799,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 7819.299999952316,
+      "stage": "download",
+      "percent": 12.584508395959812,
+      "loaded": 10697333,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 7863.799999952316,
+      "stage": "download",
+      "percent": 12.704412193405531,
+      "loaded": 10799256,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 7890.299999952316,
+      "stage": "download",
+      "percent": 12.825035957139889,
+      "loaded": 10901791,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 7906.5,
+      "stage": "download",
+      "percent": 12.878861672124058,
+      "loaded": 10947545,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 7933.400000095367,
+      "stage": "download",
+      "percent": 12.933200304268105,
+      "loaded": 10993735,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 7981.200000047684,
+      "stage": "download",
+      "percent": 12.979295792973458,
+      "loaded": 11032918,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 8033.5,
+      "stage": "download",
+      "percent": 13.034963774637376,
+      "loaded": 11080238,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 8064.400000095367,
+      "stage": "download",
+      "percent": 13.101044209929935,
+      "loaded": 11136409,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 8115.5,
+      "stage": "download",
+      "percent": 13.20767333482503,
+      "loaded": 11227048,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 8132.100000143051,
+      "stage": "download",
+      "percent": 13.290344757974863,
+      "loaded": 11297322,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 8214.299999952316,
+      "stage": "download",
+      "percent": 13.446882134224774,
+      "loaded": 11430385,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 8258.700000047684,
+      "stage": "download",
+      "percent": 13.542651767599587,
+      "loaded": 11511793,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 8316.5,
+      "stage": "download",
+      "percent": 13.635646236799737,
+      "loaded": 11590842,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 8335.700000047684,
+      "stage": "download",
+      "percent": 13.71831765994957,
+      "loaded": 11661116,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 8393.600000143051,
+      "stage": "download",
+      "percent": 13.805950027281074,
+      "loaded": 11735607,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 8469.600000143051,
+      "stage": "download",
+      "percent": 13.89297536421236,
+      "loaded": 11809582,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 8517.299999952316,
+      "stage": "download",
+      "percent": 13.974206854784917,
+      "loaded": 11878632,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 8535.100000143051,
+      "stage": "download",
+      "percent": 14.058909947510692,
+      "loaded": 11950633,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 8556.799999952316,
+      "stage": "download",
+      "percent": 14.142484857767837,
+      "loaded": 12021675,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 8594,
+      "stage": "download",
+      "percent": 14.22901845301832,
+      "loaded": 12095232,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 8632.5,
+      "stage": "download",
+      "percent": 14.311008731591155,
+      "loaded": 12164927,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 8668.200000047684,
+      "stage": "download",
+      "percent": 14.389819159055847,
+      "loaded": 12231919,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 8763.5,
+      "stage": "download",
+      "percent": 14.474566955570786,
+      "loaded": 12303958,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 8834.900000095367,
+      "stage": "download",
+      "percent": 14.651182215232748,
+      "loaded": 12454088,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 8883.5,
+      "stage": "download",
+      "percent": 14.73898280998137,
+      "loaded": 12528722,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 8913.700000047684,
+      "stage": "download",
+      "percent": 14.91345816984099,
+      "loaded": 12677033,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 8939.200000047684,
+      "stage": "download",
+      "percent": 15.000185873649682,
+      "loaded": 12750755,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 8963.700000047684,
+      "stage": "download",
+      "percent": 15.086867697253705,
+      "loaded": 12824438,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 9012.100000143051,
+      "stage": "download",
+      "percent": 15.176098813255567,
+      "loaded": 12900288,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 9066.5,
+      "stage": "download",
+      "percent": 15.264515849728447,
+      "loaded": 12975446,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 9086.600000143051,
+      "stage": "download",
+      "percent": 15.350311832457727,
+      "loaded": 13048376,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 9160.100000143051,
+      "stage": "download",
+      "percent": 15.44096758763531,
+      "loaded": 13125437,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 9189.700000047684,
+      "stage": "download",
+      "percent": 15.527676468795931,
+      "loaded": 13199143,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 9233.700000047684,
+      "stage": "download",
+      "percent": 15.613505391159332,
+      "loaded": 13272101,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 9271.799999952316,
+      "stage": "download",
+      "percent": 15.700096630769526,
+      "loaded": 13345707,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 9311.200000047684,
+      "stage": "download",
+      "percent": 15.789168930678304,
+      "loaded": 13421422,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 9340.700000047684,
+      "stage": "download",
+      "percent": 15.877795369110952,
+      "loaded": 13496758,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 9359.5,
+      "stage": "download",
+      "percent": 15.966966487922093,
+      "loaded": 13572557,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 9418.600000143051,
+      "stage": "download",
+      "percent": 16.052416604493107,
+      "loaded": 13645193,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 9465.799999952316,
+      "stage": "download",
+      "percent": 16.14261355762401,
+      "loaded": 13721864,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 9507.100000143051,
+      "stage": "download",
+      "percent": 16.232954033446433,
+      "loaded": 13798657,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 9543.600000143051,
+      "stage": "download",
+      "percent": 16.319481746619395,
+      "loaded": 13872209,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 9595.200000047684,
+      "stage": "download",
+      "percent": 16.405678887035645,
+      "loaded": 13945480,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 9631.200000047684,
+      "stage": "download",
+      "percent": 16.49538056923923,
+      "loaded": 14021730,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 9656.400000095367,
+      "stage": "download",
+      "percent": 16.59447710566023,
+      "loaded": 14105966,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 9685.400000095367,
+      "stage": "download",
+      "percent": 16.648312231968433,
+      "loaded": 14151728,
+      "total": 14167330,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 9776.299999952316,
+      "stage": "data",
+      "percent": 16.666666666666664,
+      "loaded": 0,
+      "total": 3,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 10037.900000095367,
+      "stage": "data",
+      "percent": 22.22222222222222,
+      "loaded": 1,
+      "total": 3,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 10150.5,
+      "stage": "data",
+      "percent": 27.777777777777775,
+      "loaded": 2,
+      "total": 3,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 10158.600000143051,
+      "stage": "engine",
+      "percent": 33.33333333333333,
+      "loaded": 0,
+      "total": null,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 11802.400000095367,
+      "stage": "engine",
+      "percent": 41.66666666666667,
+      "loaded": 1,
+      "total": 2,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 13985.400000095367,
+      "stage": "scene",
+      "percent": 50,
+      "loaded": 0,
+      "total": 8,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 17341.10000014305,
+      "stage": "scene",
+      "percent": 52.083333333333336,
+      "loaded": 1,
+      "total": 8,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 17448.400000095367,
+      "stage": "scene",
+      "percent": 54.166666666666664,
+      "loaded": 2,
+      "total": 8,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 17558.900000095367,
+      "stage": "scene",
+      "percent": 56.25,
+      "loaded": 3,
+      "total": 8,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 17597,
+      "stage": "scene",
+      "percent": 60.416666666666664,
+      "loaded": 5,
+      "total": 8,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 17924.700000047684,
+      "stage": "scene",
+      "percent": 62.5,
+      "loaded": 6,
+      "total": 8,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 18142,
+      "stage": "scene",
+      "percent": 64.58333333333334,
+      "loaded": 7,
+      "total": 8,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 18252,
+      "stage": "tiles",
+      "percent": 66.66666666666666,
+      "loaded": 0,
+      "total": 5,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 18510.5,
+      "stage": "tiles",
+      "percent": 73.33333333333334,
+      "loaded": 2,
+      "total": 5,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 18600,
+      "stage": "tiles",
+      "percent": 80,
+      "loaded": 4,
+      "total": 5,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 18637.700000047684,
+      "stage": "render",
+      "percent": 83.33333333333334,
+      "loaded": 0,
+      "total": null,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 19276.299999952316,
+      "stage": "render",
+      "percent": 83.3922261484099,
+      "loaded": 1,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 20016.900000095367,
+      "stage": "render",
+      "percent": 83.45111896348646,
+      "loaded": 2,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 20062.10000014305,
+      "stage": "render",
+      "percent": 84.39340400471141,
+      "loaded": 18,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 20102.900000095367,
+      "stage": "render",
+      "percent": 85.04122497055359,
+      "loaded": 29,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 20324.700000047684,
+      "stage": "render",
+      "percent": 85.15901060070671,
+      "loaded": 31,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 20339.5,
+      "stage": "render",
+      "percent": 85.86572438162544,
+      "loaded": 43,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 20376.700000047684,
+      "stage": "render",
+      "percent": 87.04358068315665,
+      "loaded": 63,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 20551.10000014305,
+      "stage": "render",
+      "percent": 87.22025912838633,
+      "loaded": 66,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 20841.700000047684,
+      "stage": "render",
+      "percent": 88.63368669022378,
+      "loaded": 90,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 20872.10000014305,
+      "stage": "render",
+      "percent": 89.34040047114252,
+      "loaded": 102,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 20896.900000095367,
+      "stage": "render",
+      "percent": 89.92932862190813,
+      "loaded": 112,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 20940.700000047684,
+      "stage": "render",
+      "percent": 89.98822143698469,
+      "loaded": 113,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 20968.60000014305,
+      "stage": "render",
+      "percent": 90.10600706713781,
+      "loaded": 115,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 21065.5,
+      "stage": "render",
+      "percent": 90.34157832744405,
+      "loaded": 119,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 21159,
+      "stage": "render",
+      "percent": 90.40047114252062,
+      "loaded": 120,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 21405.5,
+      "stage": "render",
+      "percent": 90.51825677267374,
+      "loaded": 122,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 21536.10000014305,
+      "stage": "render",
+      "percent": 90.57714958775028,
+      "loaded": 123,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 21637.10000014305,
+      "stage": "render",
+      "percent": 90.63604240282685,
+      "loaded": 124,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 21725.799999952316,
+      "stage": "render",
+      "percent": 93.69846878680801,
+      "loaded": 176,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 21744.400000095367,
+      "stage": "render",
+      "percent": 94.11071849234393,
+      "loaded": 183,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 21778.900000095367,
+      "stage": "render",
+      "percent": 94.40518256772674,
+      "loaded": 188,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 21798.700000047684,
+      "stage": "render",
+      "percent": 95.11189634864546,
+      "loaded": 200,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 21810.10000014305,
+      "stage": "render",
+      "percent": 95.3474676089517,
+      "loaded": 204,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 22054.5,
+      "stage": "render",
+      "percent": 95.40636042402826,
+      "loaded": 205,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 22129,
+      "stage": "render",
+      "percent": 95.46525323910483,
+      "loaded": 206,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 22393,
+      "stage": "render",
+      "percent": 95.52414605418139,
+      "loaded": 207,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 22551.299999952316,
+      "stage": "render",
+      "percent": 95.64193168433451,
+      "loaded": 209,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 23094.400000095367,
+      "stage": "render",
+      "percent": 95.87750294464075,
+      "loaded": 213,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 23174.400000095367,
+      "stage": "render",
+      "percent": 95.99528857479388,
+      "loaded": 215,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 23251.400000095367,
+      "stage": "render",
+      "percent": 96.113074204947,
+      "loaded": 217,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 23345.60000014305,
+      "stage": "render",
+      "percent": 96.23085983510012,
+      "loaded": 219,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 23400.5,
+      "stage": "render",
+      "percent": 96.28975265017668,
+      "loaded": 220,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 23502.900000095367,
+      "stage": "render",
+      "percent": 96.4075382803298,
+      "loaded": 222,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 23589.400000095367,
+      "stage": "render",
+      "percent": 96.46643109540636,
+      "loaded": 223,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 23640.5,
+      "stage": "render",
+      "percent": 96.58421672555949,
+      "loaded": 225,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 23692,
+      "stage": "render",
+      "percent": 96.64310954063605,
+      "loaded": 226,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 23784.299999952316,
+      "stage": "render",
+      "percent": 96.70200235571261,
+      "loaded": 227,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 23871.5,
+      "stage": "render",
+      "percent": 96.76089517078917,
+      "loaded": 228,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 24209.60000014305,
+      "stage": "render",
+      "percent": 96.93757361601885,
+      "loaded": 231,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 24335.10000014305,
+      "stage": "render",
+      "percent": 96.99646643109541,
+      "loaded": 232,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 24377.799999952316,
+      "stage": "render",
+      "percent": 97.34982332155477,
+      "loaded": 238,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 24509.5,
+      "stage": "render",
+      "percent": 97.52650176678445,
+      "loaded": 241,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 24618,
+      "stage": "render",
+      "percent": 97.58539458186101,
+      "loaded": 242,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 24695.299999952316,
+      "stage": "render",
+      "percent": 98.0565371024735,
+      "loaded": 250,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 24817.400000095367,
+      "stage": "render",
+      "percent": 98.46878680800943,
+      "loaded": 257,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 24844.799999952316,
+      "stage": "render",
+      "percent": 99,
+      "loaded": 271,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 24943.60000014305,
+      "stage": "render",
+      "percent": 99,
+      "loaded": 273,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 25190.900000095367,
+      "stage": "render",
+      "percent": 99,
+      "loaded": 274,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 25422.5,
+      "stage": "render",
+      "percent": 99,
+      "loaded": 275,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 25518.60000014305,
+      "stage": "render",
+      "percent": 99,
+      "loaded": 279,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 25682.299999952316,
+      "stage": "render",
+      "percent": 99,
+      "loaded": 280,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    },
+    {
+      "at": 25957.700000047684,
+      "stage": "render",
+      "percent": 99,
+      "loaded": 281,
+      "total": 283,
+      "ready": false,
+      "appReady": false,
+      "error": null
+    }
+  ],
+  "errors": [],
+  "webgpu": true,
+  "pageErrors": [],
+  "failed": []
+}

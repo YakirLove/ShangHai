@@ -1,0 +1,11 @@
+{
+  "actors": [
+    "person",
+    "car",
+    "cyclist",
+    "helicopter"
+  ],
+  "expected": [
+    "car"
+  ]
+}

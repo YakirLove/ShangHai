@@ -1,0 +1,754 @@
+{
+  "network": {
+    "mbps": 50,
+    "rttMs": 80,
+    "cache": "site storage cleared; HTTP cache bypassed"
+  },
+  "runs": [
+    {
+      "operableMs": 6806.8949999809265,
+      "bootMs": 6404.764999866486,
+      "marks": [
+        {
+          "stage": "download",
+          "text": "读取程序与地图",
+          "ms": 0.5149998664855957
+        },
+        {
+          "stage": "data",
+          "text": "整理城市数据",
+          "ms": 2888.8899998664856
+        },
+        {
+          "stage": "engine",
+          "text": "准备图形引擎",
+          "ms": 2979.7699999809265
+        },
+        {
+          "stage": "scene",
+          "text": "构建城市场景",
+          "ms": 3400.664999961853
+        },
+        {
+          "stage": "tiles",
+          "text": "准备出发街区",
+          "ms": 4125.450000047684
+        },
+        {
+          "stage": "render",
+          "text": "准备光影与首帧",
+          "ms": 4449.5
+        },
+        {
+          "text": "读取上海全市道路与城市块…",
+          "ms": 3318.1349999904633
+        },
+        {
+          "text": "准备天空、光线和材质…",
+          "ms": 3318.1549999713898
+        }
+      ],
+      "navigation": {
+        "name": "http://127.0.0.1:4187/",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 410.31500005722046,
+        "navigationId": 6982,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.1",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 7.629999876022339,
+        "domainLookupStart": 7.629999876022339,
+        "domainLookupEnd": 7.629999876022339,
+        "connectStart": 7.629999876022339,
+        "secureConnectionStart": 0,
+        "connectEnd": 7.629999876022339,
+        "requestStart": 14.559999942779541,
+        "responseStart": 19.02999997138977,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 19.02999997138977,
+        "responseEnd": 106.85999989509583,
+        "transferSize": 6516,
+        "encodedBodySize": 6216,
+        "decodedBodySize": 6216,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 114.5149998664856,
+        "unloadEventEnd": 114.5149998664856,
+        "domInteractive": 332.59500002861023,
+        "domContentLoadedEventStart": 336.47000002861023,
+        "domContentLoadedEventEnd": 336.4949998855591,
+        "domComplete": 410.2349998950958,
+        "loadEventStart": 410.2449998855591,
+        "loadEventEnd": 410.31500005722046,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {
+          "randomizedTriggerRate": 0.4994798,
+          "value": "high"
+        }
+      },
+      "resources": [
+        {
+          "url": "/assets/index-BogUEJzF.js",
+          "startTime": 143.08500003814697,
+          "duration": 141.59500002861023,
+          "transferSize": 4051,
+          "encodedBodySize": 3751
+        },
+        {
+          "url": "/assets/loading-progress-gm2pud_W.js",
+          "startTime": 143.20499992370605,
+          "duration": 141.24000000953674,
+          "transferSize": 3010,
+          "encodedBodySize": 2710
+        },
+        {
+          "url": "/assets/index-BHHp1YQr.css",
+          "startTime": 143.24000000953674,
+          "duration": 143.5699999332428,
+          "transferSize": 13444,
+          "encodedBodySize": 13144
+        },
+        {
+          "url": "/boot-manifest.json",
+          "startTime": 336.4249999523163,
+          "duration": 109.20000004768372,
+          "transferSize": 769,
+          "encodedBodySize": 469
+        },
+        {
+          "url": "/assets/app-BnWJjc5z.js",
+          "startTime": 493,
+          "duration": 731.7549998760223,
+          "transferSize": 1109230,
+          "encodedBodySize": 1108930
+        },
+        {
+          "url": "/assets/loading-progress-gm2pud_W.js",
+          "startTime": 493.09500002861023,
+          "duration": 94.24499988555908,
+          "transferSize": 3010,
+          "encodedBodySize": 2710
+        },
+        {
+          "url": "/data/city.json",
+          "startTime": 493.14999985694885,
+          "duration": 2664.1050000190735,
+          "transferSize": 7727710,
+          "encodedBodySize": 7727410
+        },
+        {
+          "url": "/data/manifest.json",
+          "startTime": 493.210000038147,
+          "duration": 2047.0149998664856,
+          "transferSize": 4941836,
+          "encodedBodySize": 4941536
+        },
+        {
+          "url": "/data/metro.json",
+          "startTime": 614.2749998569489,
+          "duration": 356.1650002002716,
+          "transferSize": 387004,
+          "encodedBodySize": 386704
+        },
+        {
+          "url": "/assets/app-BnWJjc5z.js",
+          "startTime": 3317.9249999523163,
+          "duration": 288.8199999332428,
+          "transferSize": 1109230,
+          "encodedBodySize": 1108930
+        },
+        {
+          "url": "/data/tiles/-2_-1.json",
+          "startTime": 4463.869999885559,
+          "duration": 123.77500009536743,
+          "transferSize": 126152,
+          "encodedBodySize": 125852
+        },
+        {
+          "url": "/data/tiles/-1_-1.json",
+          "startTime": 4464.224999904633,
+          "duration": 106.80999994277954,
+          "transferSize": 44773,
+          "encodedBodySize": 44473
+        },
+        {
+          "url": "/data/tiles/-2_0.json",
+          "startTime": 4608.754999876022,
+          "duration": 141.3050000667572,
+          "transferSize": 121224,
+          "encodedBodySize": 120924
+        },
+        {
+          "url": "/data/tiles/-1_0.json",
+          "startTime": 4609.119999885559,
+          "duration": 129.43500018119812,
+          "transferSize": 76909,
+          "encodedBodySize": 76609
+        },
+        {
+          "url": "/data/tiles/0_-1.json",
+          "startTime": 4609.484999895096,
+          "duration": 137.37000012397766,
+          "transferSize": 103545,
+          "encodedBodySize": 103245
+        }
+      ],
+      "webgpu": true,
+      "canvas": [
+        1920,
+        1080
+      ],
+      "pixelRatio": 1,
+      "visibility": "visible",
+      "quality": "medium",
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "versions": {
+        "architecture": "arm",
+        "brands": [
+          {
+            "brand": "Chromium",
+            "version": "154"
+          },
+          {
+            "brand": "Google Chrome",
+            "version": "154"
+          },
+          {
+            "brand": "Not A(Brand",
+            "version": "99"
+          }
+        ],
+        "fullVersionList": [
+          {
+            "brand": "Chromium",
+            "version": "154.0.8037.58"
+          },
+          {
+            "brand": "Google Chrome",
+            "version": "154.0.8037.58"
+          },
+          {
+            "brand": "Not A(Brand",
+            "version": "99.0.0.0"
+          }
+        ],
+        "mobile": false,
+        "platform": "macOS",
+        "platformVersion": "27.0.1"
+      },
+      "errors": []
+    },
+    {
+      "operableMs": 6547.675000190735,
+      "bootMs": 6213.22000002861,
+      "marks": [
+        {
+          "stage": "download",
+          "text": "读取程序与地图",
+          "ms": 0.1549999713897705
+        },
+        {
+          "stage": "data",
+          "text": "整理城市数据",
+          "ms": 2746.079999923706
+        },
+        {
+          "stage": "engine",
+          "text": "准备图形引擎",
+          "ms": 2917.4800000190735
+        },
+        {
+          "stage": "scene",
+          "text": "构建城市场景",
+          "ms": 3297.2599999904633
+        },
+        {
+          "stage": "tiles",
+          "text": "准备出发街区",
+          "ms": 4287.555000066757
+        },
+        {
+          "stage": "render",
+          "text": "准备光影与首帧",
+          "ms": 4608.40499997139
+        },
+        {
+          "text": "读取上海全市道路与城市块…",
+          "ms": 3237.664999961853
+        },
+        {
+          "text": "准备天空、光线和材质…",
+          "ms": 3237.6849999427795
+        }
+      ],
+      "navigation": {
+        "name": "http://127.0.0.1:4187/",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 391.710000038147,
+        "navigationId": 206,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.1",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 3.7150001525878906,
+        "domainLookupStart": 3.7150001525878906,
+        "domainLookupEnd": 3.7150001525878906,
+        "connectStart": 3.7150001525878906,
+        "secureConnectionStart": 0,
+        "connectEnd": 3.7150001525878906,
+        "requestStart": 16.890000104904175,
+        "responseStart": 18.81000018119812,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 18.81000018119812,
+        "responseEnd": 110.08500003814697,
+        "transferSize": 6516,
+        "encodedBodySize": 6216,
+        "decodedBodySize": 6216,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 119.1650002002716,
+        "unloadEventEnd": 119.1650002002716,
+        "domInteractive": 177.65499997138977,
+        "domContentLoadedEventStart": 322.7650001049042,
+        "domContentLoadedEventEnd": 322.7900002002716,
+        "domComplete": 391.65499997138977,
+        "loadEventStart": 391.6650002002716,
+        "loadEventEnd": 391.710000038147,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {
+          "randomizedTriggerRate": 0.4994798,
+          "value": "high"
+        }
+      },
+      "resources": [
+        {
+          "url": "/assets/index-BogUEJzF.js",
+          "startTime": 137,
+          "duration": 148.25999999046326,
+          "transferSize": 4051,
+          "encodedBodySize": 3751
+        },
+        {
+          "url": "/assets/loading-progress-gm2pud_W.js",
+          "startTime": 137.2350001335144,
+          "duration": 148.28999996185303,
+          "transferSize": 3010,
+          "encodedBodySize": 2710
+        },
+        {
+          "url": "/assets/index-BHHp1YQr.css",
+          "startTime": 137.31500005722046,
+          "duration": 150.5,
+          "transferSize": 13444,
+          "encodedBodySize": 13144
+        },
+        {
+          "url": "/boot-manifest.json",
+          "startTime": 322.72500014305115,
+          "duration": 90.5149998664856,
+          "transferSize": 769,
+          "encodedBodySize": 469
+        },
+        {
+          "url": "/assets/app-BnWJjc5z.js",
+          "startTime": 437.625,
+          "duration": 672.3200001716614,
+          "transferSize": 1109230,
+          "encodedBodySize": 1108930
+        },
+        {
+          "url": "/assets/loading-progress-gm2pud_W.js",
+          "startTime": 437.74000000953674,
+          "duration": 93.83000016212463,
+          "transferSize": 3010,
+          "encodedBodySize": 2710
+        },
+        {
+          "url": "/data/city.json",
+          "startTime": 437.8050000667572,
+          "duration": 2534.9649999141693,
+          "transferSize": 7727710,
+          "encodedBodySize": 7727410
+        },
+        {
+          "url": "/data/manifest.json",
+          "startTime": 437.85000014305115,
+          "duration": 1966.3399999141693,
+          "transferSize": 4941836,
+          "encodedBodySize": 4941536
+        },
+        {
+          "url": "/data/metro.json",
+          "startTime": 543.6650002002716,
+          "duration": 334.52499985694885,
+          "transferSize": 387004,
+          "encodedBodySize": 386704
+        },
+        {
+          "url": "/assets/app-BnWJjc5z.js",
+          "startTime": 3241.430000066757,
+          "duration": 276.914999961853,
+          "transferSize": 1109230,
+          "encodedBodySize": 1108930
+        },
+        {
+          "url": "/data/tiles/-2_-1.json",
+          "startTime": 4613.3550000190735,
+          "duration": 123.68500018119812,
+          "transferSize": 126152,
+          "encodedBodySize": 125852
+        },
+        {
+          "url": "/data/tiles/-1_-1.json",
+          "startTime": 4613.610000133514,
+          "duration": 107.83999991416931,
+          "transferSize": 44773,
+          "encodedBodySize": 44473
+        },
+        {
+          "url": "/data/tiles/-2_0.json",
+          "startTime": 4761.840000152588,
+          "duration": 140.0699999332428,
+          "transferSize": 121224,
+          "encodedBodySize": 120924
+        },
+        {
+          "url": "/data/tiles/-1_0.json",
+          "startTime": 4762.2699999809265,
+          "duration": 127.27000021934509,
+          "transferSize": 76909,
+          "encodedBodySize": 76609
+        },
+        {
+          "url": "/data/tiles/0_-1.json",
+          "startTime": 4762.555000066757,
+          "duration": 136.1949999332428,
+          "transferSize": 103545,
+          "encodedBodySize": 103245
+        }
+      ],
+      "webgpu": true,
+      "canvas": [
+        1920,
+        1080
+      ],
+      "pixelRatio": 1,
+      "visibility": "visible",
+      "quality": "medium",
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "versions": {
+        "architecture": "arm",
+        "brands": [
+          {
+            "brand": "Chromium",
+            "version": "154"
+          },
+          {
+            "brand": "Google Chrome",
+            "version": "154"
+          },
+          {
+            "brand": "Not A(Brand",
+            "version": "99"
+          }
+        ],
+        "fullVersionList": [
+          {
+            "brand": "Chromium",
+            "version": "154.0.8037.58"
+          },
+          {
+            "brand": "Google Chrome",
+            "version": "154.0.8037.58"
+          },
+          {
+            "brand": "Not A(Brand",
+            "version": "99.0.0.0"
+          }
+        ],
+        "mobile": false,
+        "platform": "macOS",
+        "platformVersion": "27.0.1"
+      },
+      "errors": []
+    },
+    {
+      "operableMs": 6499.1050000190735,
+      "bootMs": 6187.8099999427795,
+      "marks": [
+        {
+          "stage": "download",
+          "text": "读取程序与地图",
+          "ms": 0.1549999713897705
+        },
+        {
+          "stage": "data",
+          "text": "整理城市数据",
+          "ms": 2873.479999780655
+        },
+        {
+          "stage": "engine",
+          "text": "准备图形引擎",
+          "ms": 3050.244999885559
+        },
+        {
+          "stage": "scene",
+          "text": "构建城市场景",
+          "ms": 3463.8349997997284
+        },
+        {
+          "stage": "tiles",
+          "text": "准备出发街区",
+          "ms": 4251.639999866486
+        },
+        {
+          "stage": "render",
+          "text": "准备光影与首帧",
+          "ms": 4589.924999952316
+        },
+        {
+          "text": "读取上海全市道路与城市块…",
+          "ms": 3384.4349999427795
+        },
+        {
+          "text": "准备天空、光线和材质…",
+          "ms": 3384.4749999046326
+        }
+      ],
+      "navigation": {
+        "name": "http://127.0.0.1:4187/",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 365.1449999809265,
+        "navigationId": 3275,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.1",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 0.7300000190734863,
+        "domainLookupStart": 0.7300000190734863,
+        "domainLookupEnd": 0.7300000190734863,
+        "connectStart": 0.7300000190734863,
+        "secureConnectionStart": 0,
+        "connectEnd": 0.7300000190734863,
+        "requestStart": 1.9800000190734863,
+        "responseStart": 3.2950000762939453,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 3.2950000762939453,
+        "responseEnd": 94.67499995231628,
+        "transferSize": 6516,
+        "encodedBodySize": 6216,
+        "decodedBodySize": 6216,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 97.78500008583069,
+        "unloadEventEnd": 97.78500008583069,
+        "domInteractive": 151.95000004768372,
+        "domContentLoadedEventStart": 301.2000000476837,
+        "domContentLoadedEventEnd": 301.2300000190735,
+        "domComplete": 365.07999992370605,
+        "loadEventStart": 365.09500002861023,
+        "loadEventEnd": 365.1449999809265,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {
+          "randomizedTriggerRate": 0.4994798,
+          "value": "high"
+        }
+      },
+      "resources": [
+        {
+          "url": "/assets/index-BogUEJzF.js",
+          "startTime": 122.22000002861023,
+          "duration": 132.75999999046326,
+          "transferSize": 4051,
+          "encodedBodySize": 3751
+        },
+        {
+          "url": "/assets/loading-progress-gm2pud_W.js",
+          "startTime": 122.30999994277954,
+          "duration": 132.17000007629395,
+          "transferSize": 3010,
+          "encodedBodySize": 2710
+        },
+        {
+          "url": "/assets/index-BHHp1YQr.css",
+          "startTime": 122.34500002861023,
+          "duration": 137.0699999332428,
+          "transferSize": 13444,
+          "encodedBodySize": 13144
+        },
+        {
+          "url": "/boot-manifest.json",
+          "startTime": 301.15000009536743,
+          "duration": 91.8899998664856,
+          "transferSize": 769,
+          "encodedBodySize": 469
+        },
+        {
+          "url": "/assets/app-BnWJjc5z.js",
+          "startTime": 406.63499999046326,
+          "duration": 677.9650001525879,
+          "transferSize": 1109230,
+          "encodedBodySize": 1108930
+        },
+        {
+          "url": "/assets/loading-progress-gm2pud_W.js",
+          "startTime": 407.2300000190735,
+          "duration": 98.4449999332428,
+          "transferSize": 3010,
+          "encodedBodySize": 2710
+        },
+        {
+          "url": "/data/city.json",
+          "startTime": 407.49500012397766,
+          "duration": 2699.0549998283386,
+          "transferSize": 7727710,
+          "encodedBodySize": 7727410
+        },
+        {
+          "url": "/data/manifest.json",
+          "startTime": 407.75999999046326,
+          "duration": 1943.8700001239777,
+          "transferSize": 4941836,
+          "encodedBodySize": 4941536
+        },
+        {
+          "url": "/data/metro.json",
+          "startTime": 525.6549999713898,
+          "duration": 331.22000002861023,
+          "transferSize": 387004,
+          "encodedBodySize": 386704
+        },
+        {
+          "url": "/assets/app-BnWJjc5z.js",
+          "startTime": 3353.625,
+          "duration": 281.92000007629395,
+          "transferSize": 1109230,
+          "encodedBodySize": 1108930
+        },
+        {
+          "url": "/data/tiles/-2_-1.json",
+          "startTime": 4560.200000047684,
+          "duration": 118.6399998664856,
+          "transferSize": 126152,
+          "encodedBodySize": 125852
+        },
+        {
+          "url": "/data/tiles/-1_-1.json",
+          "startTime": 4560.535000085831,
+          "duration": 104.58500003814697,
+          "transferSize": 44773,
+          "encodedBodySize": 44473
+        },
+        {
+          "url": "/data/tiles/-2_0.json",
+          "startTime": 4706.130000114441,
+          "duration": 138.92499995231628,
+          "transferSize": 121224,
+          "encodedBodySize": 120924
+        },
+        {
+          "url": "/data/tiles/-1_0.json",
+          "startTime": 4706.5199999809265,
+          "duration": 126.16000008583069,
+          "transferSize": 76909,
+          "encodedBodySize": 76609
+        },
+        {
+          "url": "/data/tiles/0_-1.json",
+          "startTime": 4706.819999933243,
+          "duration": 135.17000007629395,
+          "transferSize": 103545,
+          "encodedBodySize": 103245
+        }
+      ],
+      "webgpu": true,
+      "canvas": [
+        1920,
+        1080
+      ],
+      "pixelRatio": 1,
+      "visibility": "visible",
+      "quality": "medium",
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "versions": {
+        "architecture": "arm",
+        "brands": [
+          {
+            "brand": "Chromium",
+            "version": "154"
+          },
+          {
+            "brand": "Google Chrome",
+            "version": "154"
+          },
+          {
+            "brand": "Not A(Brand",
+            "version": "99"
+          }
+        ],
+        "fullVersionList": [
+          {
+            "brand": "Chromium",
+            "version": "154.0.8037.58"
+          },
+          {
+            "brand": "Google Chrome",
+            "version": "154.0.8037.58"
+          },
+          {
+            "brand": "Not A(Brand",
+            "version": "99.0.0.0"
+          }
+        ],
+        "mobile": false,
+        "platform": "macOS",
+        "platformVersion": "27.0.1"
+      },
+      "errors": []
+    }
+  ],
+  "failure": null
+}

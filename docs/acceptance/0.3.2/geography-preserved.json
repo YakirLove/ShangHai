@@ -1,0 +1,8 @@
+{
+  "baselineArchive": "release/shanghai-waterfront-0.3.1-source.tar.gz",
+  "baselineArchiveSHA256": "f8d8d28e2e27ef0c48f63f6233717ea7d3fe8dadc16dfb34021e3ee4a1f1cea1",
+  "contentFilesCompared": 8586,
+  "ignoredTarAppleDoubleMetadata": 8819,
+  "changed": [],
+  "passed": true
+}

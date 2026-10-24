@@ -1,0 +1,78 @@
+{
+  "version": "0.3.2",
+  "status": "passed",
+  "localOnly": true,
+  "buildAsset": "./assets/app-CDigLgQs.js",
+  "features": {
+    "realTaskProgress": true,
+    "metroLines": 19,
+    "metroStations": 410,
+    "districts": 16,
+    "destinationTypes": {
+      "landmark": 12,
+      "metro": 410,
+      "place": 31,
+      "all": 453
+    },
+    "explicitFlight": true,
+    "clusteredPoints": true,
+    "manualMinViewWidthMetres": 250,
+    "filteredResultMinViewWidthMetres": 2000
+  },
+  "tests": {
+    "node": 64,
+    "python": 7,
+    "cleanSourceRebuildFiles": 8545,
+    "releaseFiles": 8608,
+    "requiredHTTPFiles": 8545
+  },
+  "coldStart": {
+    "buildAsset": "app-BnWJjc5z.js",
+    "samplesMs": [
+      6806.8949999809265,
+      6547.675000190735,
+      6499.1050000190735
+    ],
+    "medianMs": 6547.675000190735,
+    "mbps": 50,
+    "rttMs": 80
+  },
+  "performance": {
+    "longSample": {
+      "buildAsset": "app-BnWJjc5z.js",
+      "durationMs": 301002.66499996185,
+      "frames": 32974,
+      "p95Ms": 11.729999780654907
+    },
+    "finalBuildSmoke": {
+      "buildAsset": "app-CDigLgQs.js",
+      "durationMs": 30007.414999961853,
+      "frames": 2144,
+      "p95Ms": 15.90499997138977
+    },
+    "subsequentRuntimeChange": "Only filtered-result viewport fitting in map.js and map-view.js changed after the long sample; renderer, controllers, scene and loading source remained unchanged."
+  },
+  "resourceCycles": {
+    "warmup": 2,
+    "measured": 10,
+    "last5GPUResourceBytes": [
+      168175490,
+      168175490,
+      168175490,
+      168175490,
+      168175490
+    ],
+    "errors": []
+  },
+  "geography": {
+    "contentFilesUnchanged": 8586,
+    "generatorsRerun": false
+  },
+  "evidence": {
+    "report": "REPORT.md",
+    "hashes": "artifact-hashes.json",
+    "source": "source-reproduction.json",
+    "standalone": "standalone-browser.json",
+    "cleanup": "cleanup.json"
+  }
+}

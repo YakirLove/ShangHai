@@ -24,6 +24,7 @@ import { HEADLIGHTS, createVehicleHeadlight, placeVehicleHeadlight } from './veh
 import { bryantParkLawn } from './landmarks.js';
 import {TAXI_FOOTPRINT} from './vehicle-road.js';
 const {halfWidth:CAR_HALF_W,halfLength:CAR_HALF_L}=TAXI_FOOTPRINT;
+export const HELICOPTER_MAX_ALTITUDE=1200;
 
 // js/controllers.js
 // Sculpted, non-blocky GTA 6-style 3D models, animations, and physics controllers
@@ -226,7 +227,7 @@ class ThirdPersonControllerManager {
     this.resetInput();
     if (!Number.isFinite(heading)) heading = ent.heading;
     const heli = this.activeMode === 'helicopter';
-    const altitude = heli ? Math.max(92, Math.min(380, ent.position.y)) : 0;
+    const altitude = heli ? Math.max(92, Math.min(HELICOPTER_MAX_ALTITUDE, ent.position.y)) : 0;
     const destination = this.findTeleportPosition(x, z, heading, altitude);
     if (destination) {
       ent.position.x = destination.x;
@@ -1163,7 +1164,7 @@ class ThirdPersonControllerManager {
 
     const landingHeight=(this.surfaceProvider?.isWater(h.position.x,h.position.z)?0:this.getGroundHeight(h.position.x,h.position.z,'helicopter'))+.8;
     if(h.position.y<landingHeight){h.position.y=landingHeight;h.verticalSpeed=Math.max(0,h.verticalSpeed);}
-    h.position.y = Math.min(380, h.position.y);
+    if(h.position.y>=HELICOPTER_MAX_ALTITUDE){h.position.y=HELICOPTER_MAX_ALTITUDE;h.verticalSpeed=Math.min(0,h.verticalSpeed);}
     this.resolveHorizontalCollision(h.position, 4.5, h.position.y);
 
     const targetPitch = (h.speed / maxHorizSpeed) * 0.24;

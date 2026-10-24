@@ -1,0 +1,12 @@
+{
+  "phase": "performance-complete",
+  "done": true,
+  "error": null,
+  "result": {
+    "sampleSeconds": 301.0363099999428,
+    "distance": 1233.9724658632886,
+    "p95": 25.049999952316284,
+    "frames": 19521,
+    "asset": "index-DSISJdA1.js"
+  }
+}

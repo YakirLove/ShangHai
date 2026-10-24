@@ -1,0 +1,74 @@
+{
+  "done": true,
+  "phase": "complete",
+  "steps": [
+    {
+      "mode": "person",
+      "beginSeconds": 0,
+      "endSeconds": 24.364,
+      "stopped": true,
+      "speed": 0.09598666095517272,
+      "camera": "chase",
+      "cameraChanges": 3,
+      "errors": [],
+      "quality": "medium",
+      "canvas": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "mode": "car",
+      "beginSeconds": 24.585,
+      "endSeconds": 50.175,
+      "stopped": true,
+      "speed": 0.09661166855752801,
+      "camera": "chase",
+      "cameraChanges": 3,
+      "errors": [],
+      "quality": "medium",
+      "canvas": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "mode": "cyclist",
+      "beginSeconds": 50.432,
+      "endSeconds": 76.277,
+      "stopped": true,
+      "speed": 0.09947361064396308,
+      "camera": "chase",
+      "cameraChanges": 3,
+      "errors": [],
+      "quality": "medium",
+      "canvas": [
+        1920,
+        1080
+      ]
+    },
+    {
+      "mode": "helicopter",
+      "beginSeconds": 76.571,
+      "endSeconds": 103.562,
+      "stopped": true,
+      "speed": 0.09863718427028081,
+      "camera": "chase",
+      "cameraChanges": 3,
+      "errors": [],
+      "quality": "medium",
+      "canvas": [
+        1920,
+        1080
+      ]
+    }
+  ],
+  "error": null,
+  "recording": {
+    "label": "four-modes-release",
+    "frames": 862,
+    "duration": 103.29293894767761,
+    "errors": [],
+    "format": "CDP owned-page native JPEG, maximum bounds 1280x720; actual dimensions in encoded-audit.json; timestamps preserved in VFR encode"
+  }
+}

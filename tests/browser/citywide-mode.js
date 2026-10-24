@@ -21,12 +21,12 @@ await page.evaluate(async config=>{
  const first=route.points[0],second=route.points[1];await app.teleport(first[0],first[2],Math.atan2(second[0]-first[0],second[2]-first[2]));await app.setMode(mode);
  if(mode==='helicopter')await app.teleport(first[0],first[2],Math.atan2(second[0]-first[0],second[2]-first[2]));
  const e=app.controllers.getActiveEntity();e.heading=Math.atan2(second[0]-first[0],second[2]-first[2]);app.follow();app.setTime('golden');
- const ps=route.points,run=window.modeRun={mode,buildAsset:performance.getEntriesByType('resource').map(r=>r.name).find(n=>/\/assets\/index-.*\.js$/.test(n))?.split('/').at(-1),start:performance.now(),route:route.name,points:ps,index:1,direction:1,trace:[],fullFrameTimes:[],collecting:false,errors:[],done:false,distance:0,lastPosition:e.position.clone(),lastTrace:0,warmed:false,cameraChanges:0};
+ const ps=route.points,run=window.modeRun={mode,buildAsset:window.shanghaiStartup?.files?.module?.split('/').at(-1)||performance.getEntriesByType('resource').map(r=>r.name).find(n=>/\/assets\/index-.*\.js$/.test(n))?.split('/').at(-1),start:performance.now(),route:route.name,points:ps,index:1,direction:1,trace:[],fullFrameTimes:[],collecting:false,errors:[],done:false,distance:0,lastPosition:e.position.clone(),lastTrace:0,warmed:false,cameraChanges:0};
  window.activeFrameRun=run;if(!app.frameRecorderInstalled){app.frameRecorderInstalled=true;app.samples.push=function(...values){const r=window.activeFrameRun;if(r?.collecting&&!r.done)r.fullFrameTimes.push(...values);return Array.prototype.push.apply(this,values);};}
  if(window.modeTimer)clearInterval(modeTimer);const wrap=a=>Math.atan2(Math.sin(a),Math.cos(a));
  window.modeTimer=setInterval(()=>{try{
   const now=performance.now(),elapsed=now-run.start,e=app.controllers.getActiveEntity();if(app.controllers.activeMode!==mode)throw Error('Mode changed during benchmark');const step=e.position.distanceTo(run.lastPosition);if(step>30)throw Error('Position discontinuity during benchmark: '+step);run.maxStep=Math.max(run.maxStep||0,step);run.distance+=step;run.lastPosition.copy(e.position);
-  if(!run.warmed&&elapsed>=30000){run.warmed=true;run.collecting=true;app.samples.length=0;run.sampleStart=now;}
+  if(!run.warmed&&elapsed>=(config.warmupMs??30000)){run.warmed=true;run.collecting=true;app.samples.length=0;run.sampleStart=now;}
   const p=ps[run.index];if(Math.hypot(e.position.x-p[0],e.position.z-p[2])<Math.max(6,Math.abs(e.speed)*.5)){
    if(mode==='helicopter')run.index=(run.index+1)%ps.length;
    else{if(run.index===ps.length-1)run.direction=-1;if(run.index===0)run.direction=1;run.index+=run.direction;}
@@ -39,7 +39,7 @@ await page.evaluate(async config=>{
   const preview=Math.floor(elapsed/6000);if(elapsed<25000&&preview>(run.previewChanges||0)){run.previewChanges=preview;document.getElementById('camera-button').click();}
   const cameraChange=Math.floor(elapsed/60000);if(cameraChange>run.cameraChanges){run.cameraChanges=cameraChange;document.getElementById('camera-button').click();if(cameraChange===2)app.setTime('midnight');if(cameraChange===4)app.setTime('midday');}
   if(now-run.lastTrace>=500){run.lastTrace=now;run.trace.push({ms:elapsed,mode:app.controllers.activeMode,x:e.position.x,y:e.position.y,z:e.position.z,speed:e.speed,heading:e.heading,surface:e.surfaceId,camera:app.cameras.activePresetId});}
-  if(run.warmed&&now-run.sampleStart>=301000){clearInterval(modeTimer);app.controllers.clearGamepadInput();run.done=true;run.duration=elapsed;run.sampleDuration=now-run.sampleStart;run.metrics=app.metrics();run.frameTimes=run.fullFrameTimes.slice();const sorted=run.frameTimes.slice().sort((a,b)=>a-b);Object.assign(run.metrics,{frames:sorted.length,p50:sorted[Math.floor(sorted.length*.5)],p95:sorted[Math.floor(sorted.length*.95)],p99:sorted[Math.floor(sorted.length*.99)]});delete run.fullFrameTimes;}
+  if(run.warmed&&now-run.sampleStart>=(config.sampleMs??301000)){clearInterval(modeTimer);app.controllers.clearGamepadInput();run.done=true;run.duration=elapsed;run.sampleDuration=now-run.sampleStart;run.metrics=app.metrics();run.frameTimes=run.fullFrameTimes.slice();const sorted=run.frameTimes.slice().sort((a,b)=>a-b);Object.assign(run.metrics,{frames:sorted.length,p50:sorted[Math.floor(sorted.length*.5)],p95:sorted[Math.floor(sorted.length*.95)],p99:sorted[Math.floor(sorted.length*.99)]});delete run.fullFrameTimes;}
  }catch(e){run.errors.push(String(e));clearInterval(modeTimer);app.controllers.clearGamepadInput();run.done=true;}},25);
 },config);
 if(config.record){await beginRecording(config.label);setTimeout(async()=>{if(recording?.label===config.label)await endRecording();},25000);}

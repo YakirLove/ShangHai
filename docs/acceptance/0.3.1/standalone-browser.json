@@ -1,0 +1,14 @@
+{
+  "ready": true,
+  "metroStations": 410,
+  "sign": true,
+  "mode": "person",
+  "position": [
+    323.15,
+    2.12,
+    -247.21
+  ],
+  "asset": "http://127.0.0.1:4194/assets/index-CpMz8H2Y.js",
+  "errors": [],
+  "externalRequests": []
+}

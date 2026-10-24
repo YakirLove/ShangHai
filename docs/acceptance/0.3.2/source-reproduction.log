@@ -1,0 +1,116 @@
+
+added 17 packages in 2s
+
+8 packages are looking for funding
+  run `npm fund` for details
+
+> shanghai-waterfront-roam@0.3.2 test
+> node --test tests/*.test.mjs
+
+✔ citywide data covers all sixteen districts with real roads and safe destinations (494.174125ms)
+✔ citywide stream keeps full buildings out of the bootstrap and includes terrain in independent tiles (178.253ms)
+✔ all-city water preserves Chongming and Hengsha land while the Yangtze mouth remains water (85.746ms)
+✔ outside-core source road directions and levels survive independent render tiles (60.363083ms)
+✔ helicopter descent stops above Shanghai land and cancels its downward velocity (4.42925ms)
+✔ taxi collision contains its mirrors and bumper rather than only its narrow chassis (0.5275ms)
+✔ movement honours the expanded Shanghai bounds on both banks instead of clamping to the old release (0.122542ms)
+✔ helicopter can climb above Shanghai Tower and stops upward velocity at the new ceiling (23.056792ms)
+✔ a high helicopter keeps its altitude when teleported to another location (0.484791ms)
+✔ WGS84 projection preserves east/north orientation and metre scale (28.445459ms)
+✔ surface sampling keeps a car underground while a pedestrian stays on the street above (2.176625ms)
+✔ collision query filters both horizontal extent and height and unregisters tiles (2.336125ms)
+✔ tile loader retries failures and ignores stale late mounts after disposal (1.401209ms)
+✔ road graph separates levels and respects one-way and walking-only paths (2.728875ms)
+✔ readiness gate blocks an unmounted cell and rejects positions outside the declared region (1.473459ms)
+✔ a pending explicit arrival survives background prefetch at the old position (0.886417ms)
+✔ landing and movement readiness include neighbouring owners of buildings spanning a tile boundary (0.336416ms)
+✔ underground follow camera remains below the ceiling without clamping to world zero (1.458041ms)
+✔ underground camera stays inside the actual bore when the vehicle is already near a wall (0.485292ms)
+✔ road surface triangles face upward for either travel direction (157.657958ms)
+✔ citywide readiness and prefetch do not scan the complete tile catalog (174.938416ms)
+✔ streamed road and water surfaces enter and leave with their owning tile (1.712667ms)
+✔ walking and cycling follow a raised bridge while staying above a separate tunnel (4.377417ms)
+✔ municipal mask blocks unmodelled neighbouring provinces without blocking island water (1.250792ms)
+✔ car arrivals exclude walking-only paths while pedestrians can use them (0.229375ms)
+✔ non-car modes stop before open tunnel ramps without blocking an upper street over a deep bore (0.137875ms)
+✔ release data contains twelve unique landmarks, sourced real buildings, river polygons and two directed tunnel routes (238.321541ms)
+✔ both widened bores keep their full open ramp width clear of terrain and surface asphalt (260.605125ms)
+✔ landmarks and procedural buildings do not overlap water, parks or landmark reservations (463.271667ms)
+✔ every playable cell is declared, including empty river tiles (127.096459ms)
+✔ collision readiness halo covers all source building extents and is retained along each tunnel (217.11825ms)
+✔ a car entering either bore from an ordinary road follows the ramp without an elevation snap (102.172833ms)
+✔ whole-city expansion preserves B region arrivals at all newly selected neighbourhoods and preserves the old waterfront (236.295041ms)
+✔ nearest road query stays local as a city grows and still finds distant filtered streets (47.177917ms)
+✔ indexed surface lookup keeps elevation and excludes remote road work (8.278ms)
+✔ B landmark exteriors keep distinct silhouettes and lane houses leave a walkable central passage (102.156625ms)
+✔ new landmark collision parts leave the sourced street centrelines clear for a complete taxi (319.017083ms)
+✔ startup percentage advances with completed work, never with elapsed time, and waits for a usable frame (23.539875ms)
+✔ a startup failure stays incomplete and preserves a useful error for retry (2.29275ms)
+✔ stream progress counts decoded bytes against a pinned size even when the wire Content-Length is compressed (42.191417ms)
+✔ unknown-length streams are counted without an invented percentage and truncated pinned assets fail (4.428791ms)
+✔ map defaults to landmarks and combines station line, geographic district and search filters (39.83325ms)
+✔ the full Shanghai catalog assigns actual districts to stations and keeps 19 selectable line groups (308.734458ms)
+✔ screen-space clusters preserve every matching destination and split when zoomed in (0.6685ms)
+✔ fly-to prepares the destination before changing modes and preserves a high flight altitude (24.393959ms)
+✔ late or failed destinations cannot overwrite a newer arrival or strand the player in another mode (1.080791ms)
+✔ flying out of a road tunnel is rejected and an explicit cancellation invalidates an in-flight request (0.218167ms)
+✔ a car that enters a tunnel while a flight destination loads remains underground in car mode (0.142041ms)
+✔ full-city map zoom preserves the pointer location and supports street-scale views (39.419875ms)
+✔ map can fit filtered results to a wide panel and zoom to a station entrance without letterbox drift (1.050459ms)
+✔ fitting a single search result preserves neighbourhood context while manual zoom can still inspect the entrance (3.660292ms)
+✔ map can pan to islands and recenter on a remote player without leaving city bounds (0.164042ms)
+✔ Shanghai water material constructs its physical waves and light graph without unresolved TSL functions (69.589417ms)
+✔ the metro vestibule is open at the front and inside, while its back and sides stop a pedestrian (7.909625ms)
+✔ rotating a metro entrance keeps its walk-in opening in the same direction as its approach point (0.815792ms)
+✔ a walking metro arrival uses its own ground floor rather than the adjacent elevated road (2.525458ms)
+✔ every officially referenced metro station inside Shanghai has one named entrance and safe placement evidence (10.69075ms)
+✔ ambient pools select the current neighbourhood even when distant sites occur first (8.08925ms)
+✔ recycled ambient actors enter outside the visible centre and never duplicate an occupied site (0.212584ms)
+✔ citywide actor selection indexes distant streets instead of scanning every seed (93.042292ms)
+✔ unloading an instanced tile releases its instance buffers and geometry but preserves shared materials (3.710375ms)
+✔ unloading a regular tile mesh notifies WebGPU render objects before disposing geometry (0.758708ms)
+✔ tunnel wall clearance contains the entire taxi for straight and sideways headings (5.189833ms)
+✔ a 10m bore gives the taxi one extra metre on each side without letting its corners cross a wall (0.478792ms)
+ℹ tests 64
+ℹ suites 0
+ℹ pass 64
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1572.117375
+test_offshore_road_does_not_turn_estuary_into_land (test_citywide_geo.CoastTests.test_offshore_road_does_not_turn_estuary_into_land) ... ok
+test_uninhabited_island_survives_without_any_road_seeds (test_citywide_geo.CoastTests.test_uninhabited_island_survives_without_any_road_seeds) ... ok
+test_changed_administrative_boundary_is_rejected_before_pbf_parsing (test_citywide_geo.SourceIntegrityTests.test_changed_administrative_boundary_is_rejected_before_pbf_parsing) ... ok
+test_old_station_alias_uses_current_official_name_and_future_stations_are_excluded (test_metro_data.MetroDataTests.test_old_station_alias_uses_current_official_name_and_future_stations_are_excluded) ... ok
+test_real_entrance_faces_the_nearby_path_instead_of_away_from_it (test_metro_data.MetroDataTests.test_real_entrance_faces_the_nearby_path_instead_of_away_from_it) ... ok
+test_rounded_self_intersecting_land_is_repaired_without_filling_holes (test_metro_data.MetroDataTests.test_rounded_self_intersecting_land_is_repaired_without_filling_holes) ... ok
+test_transfer_station_merges_lines_but_does_not_use_platform_stops_as_the_station_centre (test_metro_data.MetroDataTests.test_transfer_station_merges_lines_but_does_not_use_platform_stops_as_the_station_centre) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.053s
+
+OK
+
+> shanghai-waterfront-roam@0.3.2 build
+> vite build
+
+vite v8.3.5 building client environment for production...
+transforming...
+✓ 49 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/boot-manifest.json                       0.46 kB │ gzip:   0.28 kB
+dist/index.html                               6.21 kB │ gzip:   2.72 kB
+dist/assets/index-BHHp1YQr.css               13.14 kB │ gzip:   3.83 kB
+dist/assets/loading-progress-gm2pud_W.js      2.71 kB │ gzip:   1.40 kB
+dist/assets/index-BogUEJzF.js                 3.75 kB │ gzip:   1.92 kB
+dist/assets/app-CDigLgQs.js               1,108.97 kB │ gzip: 324.33 kB
+
+✓ built in 6.74s
+[33m[PLUGIN_TIMINGS] [0mJavaScript callbacks ran for 6.5s of this 6.7s build (97%).
+The slowest callbacks, timed inside each callback (the wait before a callback starts is excluded, the time it awaits is included):
+  - plugin vite:prepare-out-dir renderStart (94%, 6.3s, 1 call)
+Additional callback time came from callbacks under 1s.
+See https://rolldown.rs/reference/InputOptions.checks#bundlertimings for more details.
+

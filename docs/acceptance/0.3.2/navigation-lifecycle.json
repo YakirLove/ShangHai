@@ -1,0 +1,37 @@
+{
+  "origin": {
+    "mode": "person",
+    "position": [
+      -2389.48,
+      2.12,
+      238.41999999999996
+    ]
+  },
+  "pending": {
+    "mode": "person",
+    "position": [
+      -2389.48,
+      2.12,
+      238.41999999999996
+    ]
+  },
+  "newer": {
+    "mode": "person",
+    "position": [
+      323.15,
+      2.12,
+      -247.21
+    ]
+  },
+  "late": {
+    "mode": "person",
+    "position": [
+      323.15,
+      2.12,
+      -247.21
+    ]
+  },
+  "failurePreservedPosition": true,
+  "errors": [],
+  "passed": true
+}

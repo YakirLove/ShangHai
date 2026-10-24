@@ -1,6 +1,6 @@
 {
   "startedAt": "2026-10-24T08:38:47.614Z",
-  "phase": "citywide-cyclist",
+  "phase": "complete",
   "results": [
     {
       "mode": "person",
@@ -23,8 +23,90 @@
       "frames": 34589,
       "buildAsset": "index-CkwP2jLv.js",
       "stopped": true
+    },
+    {
+      "mode": "cyclist",
+      "destination": "baoshan",
+      "duration": 331008.9550001621,
+      "sampleDuration": 301006.58500003815,
+      "distance": 2880.0653256667165,
+      "p95": 11.884999990463257,
+      "frames": 33508,
+      "buildAsset": "index-CkwP2jLv.js",
+      "stopped": true
+    },
+    {
+      "mode": "helicopter",
+      "destination": "dishui",
+      "duration": 331026.5450000763,
+      "sampleDuration": 301022.6849999428,
+      "distance": 7154.074376467528,
+      "p95": 9.290000200271606,
+      "frames": 35816,
+      "buildAsset": "index-CkwP2jLv.js",
+      "stopped": true
+    },
+    {
+      "label": "east-midday-release",
+      "duration": 159950.96000003815,
+      "maxCrossTrack": 0.9152823752225618,
+      "maxStep": 3.8613136913802113,
+      "minCameraClearance": 2.66182284059942,
+      "p95": 10.710000038146973,
+      "frames": 18770,
+      "trace": 746
+    },
+    {
+      "label": "west-midday-release",
+      "duration": 135578.97500014305,
+      "maxCrossTrack": 1.430651018055665,
+      "maxStep": 3.616227525936994,
+      "minCameraClearance": 2.641713308848052,
+      "p95": 11.184999942779541,
+      "frames": 15560,
+      "trace": 635
+    },
+    {
+      "label": "east-midnight-release",
+      "duration": 159931.52499985695,
+      "maxCrossTrack": 0.928998812358483,
+      "maxStep": 3.549310361928925,
+      "minCameraClearance": 2.6619602523725057,
+      "p95": 11.289999961853027,
+      "frames": 18346,
+      "trace": 747
+    },
+    {
+      "label": "west-midnight-release",
+      "duration": 135402.9850001335,
+      "maxCrossTrack": 1.4061581523403173,
+      "maxStep": 3.6178513241590466,
+      "minCameraClearance": 2.6417365220805458,
+      "p95": 11.174999952316284,
+      "frames": 15439,
+      "trace": 632
+    },
+    {
+      "label": "east-golden-release",
+      "duration": 171763.97499990463,
+      "maxCrossTrack": 0.9085981945685984,
+      "maxStep": 3.5508034080927797,
+      "minCameraClearance": 2.6613183191438097,
+      "p95": 11.569999933242798,
+      "frames": 19702,
+      "trace": 804
+    },
+    {
+      "label": "west-golden-release",
+      "duration": 161129.74000000954,
+      "maxCrossTrack": 1.4097288944570798,
+      "maxStep": 3.461467743215521,
+      "minCameraClearance": 2.642119645827403,
+      "p95": 11.920000076293945,
+      "frames": 18017,
+      "trace": 754
     }
   ],
   "error": null,
-  "done": false
+  "done": true
 }

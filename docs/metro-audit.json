@@ -1,0 +1,14 @@
+{
+  "stations": 410,
+  "outsideScope": [
+    "花桥",
+    "光明路",
+    "兆丰路"
+  ],
+  "realEntrances": 313,
+  "estimatedEntrances": 97,
+  "missingOfficialStations": [],
+  "bytes": 386704,
+  "sha256": "4f436804060fd960ca2814a0879fdd0e76281d83ab9855b0b8d20707ecf8cc33",
+  "maxPlacementDistanceM": 245.77
+}

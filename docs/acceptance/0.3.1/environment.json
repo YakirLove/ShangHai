@@ -1,0 +1,52 @@
+{
+  "at": "2026-10-24T10:37:05.089Z",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+  "versions": {
+    "architecture": "arm",
+    "brands": [
+      {
+        "brand": "Chromium",
+        "version": "154"
+      },
+      {
+        "brand": "Google Chrome",
+        "version": "154"
+      },
+      {
+        "brand": "Not A(Brand",
+        "version": "99"
+      }
+    ],
+    "fullVersionList": [
+      {
+        "brand": "Chromium",
+        "version": "154.0.8037.58"
+      },
+      {
+        "brand": "Google Chrome",
+        "version": "154.0.8037.58"
+      },
+      {
+        "brand": "Not A(Brand",
+        "version": "99.0.0.0"
+      }
+    ],
+    "mobile": false,
+    "platform": "macOS",
+    "platformVersion": "27.0.1"
+  },
+  "webgpu": true,
+  "canvas": [
+    1920,
+    1080
+  ],
+  "dpr": 1.0000000211927613,
+  "rendererPixelRatio": 1,
+  "quality": "medium",
+  "visibility": "visible",
+  "asset": "http://127.0.0.1:4187/assets/index-DSISJdA1.js",
+  "hardware": {
+    "cpu": "Apple M2 Pro",
+    "memoryBytes": 17179869184
+  }
+}

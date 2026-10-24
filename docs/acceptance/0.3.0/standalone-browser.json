@@ -1,0 +1,16 @@
+{
+  "url": "http://127.0.0.1:4193/",
+  "ready": true,
+  "arrived": true,
+  "position": [
+    -9328.551301723408,
+    2.12,
+    -42904.870544797544
+  ],
+  "asset": "http://127.0.0.1:4193/assets/index-CkwP2jLv.js",
+  "errors": [],
+  "canvas": [
+    1920,
+    1080
+  ]
+}

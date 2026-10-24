@@ -1,0 +1,10 @@
+{
+  "style": {
+    "foreground": "rgb(21, 32, 37)",
+    "background": "rgb(255, 205, 66)",
+    "pressed": "true"
+  },
+  "asset": "http://127.0.0.1:4187/assets/index-CpMz8H2Y.js",
+  "errors": [],
+  "passed": true
+}

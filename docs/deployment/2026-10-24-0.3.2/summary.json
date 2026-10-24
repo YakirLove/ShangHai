@@ -1,0 +1,91 @@
+{
+  "publication": {
+    "status": "published",
+    "version": "0.3.2",
+    "release": "20261024-220216-6a4aab",
+    "publishedAt": "2026-10-24T22:03:54+08:00",
+    "url": "https://shanghai.datiaomao.com/",
+    "marketUrl": "https://apps.datiaomao.com/apps/shanghai-roam/",
+    "report": "docs/deployment/2026-10-24-0.3.2/REPORT.md",
+    "browserValidation": {
+      "browser": "Google Chrome 155.0.8059.85",
+      "webgpu": true,
+      "status": "passed",
+      "tabbitThisRun": "GPU initialization blocked; recorded separately"
+    },
+    "rollbackVersion": "20261024-101402-46d277"
+  },
+  "runtimeAsset": "./assets/app-CDigLgQs.js",
+  "payloadFiles": 15823,
+  "criticalHTTPChecks": 18,
+  "marketProbeChecks": 46,
+  "map": {
+    "defaultLandmarks": 12,
+    "stations": 410,
+    "lineOptions": 19,
+    "districtOptions": 16,
+    "line2": 31,
+    "selectedStation": "陆家嘴站",
+    "selectionDidNotMove": true,
+    "zoom": true,
+    "clusters": 21,
+    "clusterMembersTotal": 410
+  },
+  "flight": {
+    "mode": "helicopter",
+    "p": [
+      326.2777140833732,
+      180,
+      -254.19045824495237
+    ],
+    "ready": true,
+    "entryDistance": 7.649143265546453,
+    "errors": [],
+    "focusBefore": "<body>\n <main id=\"scene\" aria-label=\"上海三维漫游场景\"><canvas data-engine=\"three.js r187dev webgpu\" width=\"1440\" height=\"900\" style=\"display: block; width: 1440px; height: 900px; touch-action: none;\"></canvas></main>\n <div id=\"",
+    "controlledAscent": 183.09427865944153
+  },
+  "pageErrors": [],
+  "failedRequests": [],
+  "cleanup": {
+    "localBuildDirectoriesRemoved": [
+      "/Users/wuyanji/Desktop/编程/app-market/.build/20261024-220138-ab9a55",
+      "/Users/wuyanji/Desktop/编程/app-market/.build/20261024-220216-6a4aab"
+    ],
+    "remote": {
+      "release": "20261024-220216-6a4aab",
+      "removedIncomingAssets": true,
+      "path": "/var/www/app-market/incoming/20261024-220216-6a4aab/assets",
+      "successfulSnapshotPreserved": true,
+      "applicationVersionPreserved": true,
+      "previousVersionPreserved": true
+    },
+    "sourceAndRuntimeArchivesUnchanged": true,
+    "tabbitTestTabsClosed": [
+      675492006,
+      675492009
+    ],
+    "priorLocalTabPreserved": 675491992,
+    "isolatedChromeClosed": true,
+    "browserFinish": {
+      "finished": true,
+      "forcedCleanup": false
+    },
+    "deliverableBrowserURL": "https://shanghai.datiaomao.com/"
+  },
+  "repositoryPath": {
+    "root": "/Users/wuyanji/Desktop/上海漫游",
+    "origin": "https://github.com/YakirLove/ShangHai.git",
+    "branch": "main",
+    "gitDirectory": ".git",
+    "coreWorktree": null,
+    "rootGitCreated": "2026-10-24T16:44:45.701302",
+    "configModified": "2026-10-24T16:45:07.609128",
+    "nestedOldPathExists": false,
+    "resolved": true,
+    "method": "GitHub Desktop Locate selected existing project root",
+    "verifiedUI": "Current Repository ShangHai / Current Branch main / Changes visible",
+    "headPreserved": "69aaf53",
+    "workingChangesPreserved": true,
+    "resolvedAt": "2026-10-24T14:29:19.385586+00:00"
+  }
+}

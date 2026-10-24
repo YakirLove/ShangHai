@@ -1,0 +1,94 @@
+{
+  "results": [
+    {
+      "before": [
+        -2706.542,
+        2.12,
+        -1076.582
+      ],
+      "mode": "person",
+      "position": [
+        -2702.163747294528,
+        2.12,
+        -1077.3746367242913
+      ],
+      "speed": 0.05842259206682994,
+      "ready": true,
+      "errors": [],
+      "cameras": [
+        "action",
+        "pov",
+        "chase"
+      ]
+    },
+    {
+      "before": [
+        -2706.542,
+        2.12,
+        -1076.582
+      ],
+      "mode": "car",
+      "position": [
+        -2698.9098594241755,
+        2.12,
+        -1077.9637189898137
+      ],
+      "speed": 0.08432531158685622,
+      "ready": true,
+      "errors": [],
+      "cameras": [
+        "action",
+        "pov",
+        "chase"
+      ]
+    },
+    {
+      "before": [
+        -2706.542,
+        2.12,
+        -1076.582
+      ],
+      "mode": "cyclist",
+      "position": [
+        -2699.0510998074865,
+        2.12,
+        -1077.9381489000311
+      ],
+      "speed": 0.08891245151960235,
+      "ready": true,
+      "errors": [],
+      "cameras": [
+        "action",
+        "pov",
+        "chase"
+      ]
+    },
+    {
+      "before": [
+        -2706.542,
+        180,
+        -1076.582
+      ],
+      "mode": "helicopter",
+      "position": [
+        -2695.0838195093997,
+        180,
+        -1078.6563833810806
+      ],
+      "speed": 0.08906948089267812,
+      "ready": true,
+      "errors": [],
+      "cameras": [
+        "action",
+        "pov",
+        "chase"
+      ]
+    }
+  ],
+  "landed": {
+    "height": 2.12,
+    "ready": true,
+    "water": false
+  },
+  "passed": true
+}

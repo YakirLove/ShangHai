@@ -1,0 +1,46 @@
+{
+  "release": "20261024-220216-6a4aab",
+  "status": "published",
+  "market": "https://apps.datiaomao.com/",
+  "apps": [
+    {
+      "id": "wonder-study",
+      "version": "20260924-wide-paw",
+      "url": "https://apps.datiaomao.com/apps/wonder-study/",
+      "standalone_urls": []
+    },
+    {
+      "id": "fuxing-3d",
+      "version": "20261011-optimized-assets-190216",
+      "url": "https://apps.datiaomao.com/apps/fuxing-3d/",
+      "standalone_urls": []
+    },
+    {
+      "id": "number-split",
+      "version": "20261014-182159-51df32",
+      "url": "https://apps.datiaomao.com/apps/number-split/",
+      "standalone_urls": []
+    },
+    {
+      "id": "image-studio",
+      "version": "20261014-181608-734412",
+      "url": "https://apps.datiaomao.com/apps/image-studio/",
+      "standalone_urls": []
+    },
+    {
+      "id": "xiangqi-basics",
+      "version": "20261023-151853-712bc4",
+      "url": "https://apps.datiaomao.com/apps/xiangqi-basics/",
+      "standalone_urls": []
+    },
+    {
+      "id": "shanghai-roam",
+      "version": "20261024-220216-6a4aab",
+      "url": "https://apps.datiaomao.com/apps/shanghai-roam/",
+      "standalone_urls": [
+        "https://shanghai.datiaomao.com/"
+      ]
+    }
+  ],
+  "record": "/Users/wuyanji/Desktop/编程/app-market/deployment/records/20261024-220216-6a4aab.json"
+}

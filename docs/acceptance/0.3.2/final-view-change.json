@@ -1,0 +1,9 @@
+{
+  "sampledAsset": "app-BnWJjc5z.js",
+  "sampledSourceArchiveSHA256": "382f7da84c55bddccb1c846357565e2750dbc179663a06cafbc847cd5022aa26",
+  "runtimeChangesAfterFiveMinuteSample": [
+    "js/map-view.js",
+    "js/map.js"
+  ],
+  "scope": "Only filtered-result fitting minimum width changed; rendering, controls, scene and loading sources are unchanged."
+}

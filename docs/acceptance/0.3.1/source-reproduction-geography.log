@@ -1,0 +1,211 @@
+
+added 17 packages in 1s
+
+8 packages are looking for funding
+  run `npm fund` for details
+
+> shanghai-waterfront-roam@0.3.1 test
+> node --test tests/*.test.mjs
+
+✔ citywide data covers all sixteen districts with real roads and safe destinations (1051.10975ms)
+✔ citywide stream keeps full buildings out of the bootstrap and includes terrain in independent tiles (309.953625ms)
+✔ all-city water preserves Chongming and Hengsha land while the Yangtze mouth remains water (147.223666ms)
+✔ outside-core source road directions and levels survive independent render tiles (86.802208ms)
+✔ helicopter descent stops above Shanghai land and cancels its downward velocity (1.632167ms)
+✔ taxi collision contains its mirrors and bumper rather than only its narrow chassis (0.303958ms)
+✔ movement honours the expanded Shanghai bounds on both banks instead of clamping to the old release (0.0955ms)
+✔ helicopter can climb above Shanghai Tower and stops upward velocity at the new ceiling (129.996708ms)
+✔ a high helicopter keeps its altitude when teleported to another location (0.589ms)
+✔ WGS84 projection preserves east/north orientation and metre scale (31.349042ms)
+✔ surface sampling keeps a car underground while a pedestrian stays on the street above (4.714042ms)
+✔ collision query filters both horizontal extent and height and unregisters tiles (0.274708ms)
+✔ tile loader retries failures and ignores stale late mounts after disposal (1.425708ms)
+✔ road graph separates levels and respects one-way and walking-only paths (1.657042ms)
+✔ readiness gate blocks an unmounted cell and rejects positions outside the declared region (0.913917ms)
+✔ a pending explicit arrival survives background prefetch at the old position (1.152042ms)
+✔ landing and movement readiness include neighbouring owners of buildings spanning a tile boundary (2.885666ms)
+✔ underground follow camera remains below the ceiling without clamping to world zero (1.723417ms)
+✔ underground camera stays inside the actual bore when the vehicle is already near a wall (4.287542ms)
+✔ road surface triangles face upward for either travel direction (294.933292ms)
+✔ citywide readiness and prefetch do not scan the complete tile catalog (155.111334ms)
+✔ streamed road and water surfaces enter and leave with their owning tile (0.909916ms)
+✔ walking and cycling follow a raised bridge while staying above a separate tunnel (0.449167ms)
+✔ municipal mask blocks unmodelled neighbouring provinces without blocking island water (1.079ms)
+✔ car arrivals exclude walking-only paths while pedestrians can use them (0.3215ms)
+✔ non-car modes stop before open tunnel ramps without blocking an upper street over a deep bore (0.300167ms)
+✔ release data contains twelve unique landmarks, sourced real buildings, river polygons and two directed tunnel routes (391.753625ms)
+✔ both widened bores keep their full open ramp width clear of terrain and surface asphalt (303.966625ms)
+✔ landmarks and procedural buildings do not overlap water, parks or landmark reservations (1294.154916ms)
+✔ every playable cell is declared, including empty river tiles (184.65225ms)
+✔ collision readiness halo covers all source building extents and is retained along each tunnel (316.136291ms)
+✔ a car entering either bore from an ordinary road follows the ramp without an elevation snap (120.29875ms)
+✔ whole-city expansion preserves B region arrivals at all newly selected neighbourhoods and preserves the old waterfront (336.841833ms)
+✔ nearest road query stays local as a city grows and still finds distant filtered streets (89.852459ms)
+✔ indexed surface lookup keeps elevation and excludes remote road work (9.229458ms)
+✔ B landmark exteriors keep distinct silhouettes and lane houses leave a walkable central passage (256.011958ms)
+✔ new landmark collision parts leave the sourced street centrelines clear for a complete taxi (716.895333ms)
+✔ full-city map zoom preserves the pointer location and supports street-scale views (12.191333ms)
+✔ map can pan to islands and recenter on a remote player without leaving city bounds (0.310625ms)
+✔ Shanghai water material constructs its physical waves and light graph without unresolved TSL functions (99.671708ms)
+✔ the metro vestibule is open at the front and inside, while its back and sides stop a pedestrian (52.53875ms)
+✔ rotating a metro entrance keeps its walk-in opening in the same direction as its approach point (1.6495ms)
+✔ a walking metro arrival uses its own ground floor rather than the adjacent elevated road (4.028958ms)
+✔ every officially referenced metro station inside Shanghai has one named entrance and safe placement evidence (54.75675ms)
+✔ ambient pools select the current neighbourhood even when distant sites occur first (30.182542ms)
+✔ recycled ambient actors enter outside the visible centre and never duplicate an occupied site (0.28675ms)
+✔ citywide actor selection indexes distant streets instead of scanning every seed (155.090917ms)
+✔ unloading an instanced tile releases its instance buffers and geometry but preserves shared materials (6.469167ms)
+✔ unloading a regular tile mesh notifies WebGPU render objects before disposing geometry (2.219542ms)
+✔ tunnel wall clearance contains the entire taxi for straight and sideways headings (11.424625ms)
+✔ a 10m bore gives the taxi one extra metre on each side without letting its corners cross a wall (0.366625ms)
+ℹ tests 51
+ℹ suites 0
+ℹ pass 51
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2816.431917
+test_offshore_road_does_not_turn_estuary_into_land (test_citywide_geo.CoastTests.test_offshore_road_does_not_turn_estuary_into_land) ... ok
+test_uninhabited_island_survives_without_any_road_seeds (test_citywide_geo.CoastTests.test_uninhabited_island_survives_without_any_road_seeds) ... ok
+test_changed_administrative_boundary_is_rejected_before_pbf_parsing (test_citywide_geo.SourceIntegrityTests.test_changed_administrative_boundary_is_rejected_before_pbf_parsing) ... ok
+test_old_station_alias_uses_current_official_name_and_future_stations_are_excluded (test_metro_data.MetroDataTests.test_old_station_alias_uses_current_official_name_and_future_stations_are_excluded) ... ok
+test_real_entrance_faces_the_nearby_path_instead_of_away_from_it (test_metro_data.MetroDataTests.test_real_entrance_faces_the_nearby_path_instead_of_away_from_it) ... ok
+test_rounded_self_intersecting_land_is_repaired_without_filling_holes (test_metro_data.MetroDataTests.test_rounded_self_intersecting_land_is_repaired_without_filling_holes) ... ok
+test_transfer_station_merges_lines_but_does_not_use_platform_stops_as_the_station_centre (test_metro_data.MetroDataTests.test_transfer_station_merges_lines_but_does_not_use_platform_stops_as_the_station_centre) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.128s
+
+OK
+{"roads": 202044, "buildings": 158758, "coastWays": 130, "areas": 34127, "districts": ["虹口区", "杨浦区", "长宁区", "普陀区", "黄浦区", "松江区", "青浦区", "徐汇区", "嘉定区", "金山区", "闵行区", "浦东新区", "静安区", "宝山区", "崇明区", "奉贤区"], "skippedGeometries": 116, "timestamp": "2026-10-23T02:06:05Z"}
+Water and parks assembled
+Clipped ground road objects: 4493
+Infill exclusion index: MultiPolygon; sourced buildings: 1048
+{
+  "realBuildings": 1048,
+  "proceduralBuildings": 22604,
+  "roads": 4493,
+  "waterAreaM2": 3744857,
+  "tiles": 320,
+  "tunnels": [
+    {
+      "id": "yanan-0",
+      "length": 1975.6,
+      "width": 10,
+      "widthSource": "gameplay-visual-estimate",
+      "heightSource": "visual-estimate-continuous-profile"
+    },
+    {
+      "id": "yanan-1",
+      "length": 2331.96,
+      "width": 10,
+      "widthSource": "gameplay-visual-estimate",
+      "heightSource": "visual-estimate-continuous-profile"
+    }
+  ],
+  "citySHA256": "91f010cc2656aebd7a55e500b5b6f38afd16da68e9cb25f45c3c325d802f4e15"
+}
+Coastline land area 7432.73 faces 33
+Water, land use and administrative boundaries assembled
+Drivable / pedestrian road objects 188784
+Source buildings outside core 116526
+City tiles 1000 bytes 1884489
+City tiles 2000 bytes 5099537
+City tiles 3000 bytes 18079825
+City tiles 4000 bytes 37480873
+City tiles 5000 bytes 61695615
+City tiles 6000 bytes 92107600
+City tiles 7000 bytes 129786506
+City tiles 8000 bytes 177040912
+City tiles 9000 bytes 220159592
+City tiles 10000 bytes 256122832
+City tiles 11000 bytes 281641381
+City tiles 12000 bytes 304166084
+City tiles 13000 bytes 319736838
+City tiles 14000 bytes 328179351
+City tiles 15000 bytes 329276023
+City tiles 16000 bytes 329348425
+City tiles 17000 bytes 329358591
+City tiles 18000 bytes 329384878
+City tiles 19000 bytes 329388227
+City tiles 20000 bytes 329396380
+City tiles 21000 bytes 329401846
+City tiles 22000 bytes 329406285
+City tiles 23000 bytes 329411239
+City tiles 24000 bytes 329416001
+City tiles 25000 bytes 329420893
+City tiles 26000 bytes 329425282
+City tiles 27000 bytes 329429260
+City tiles 28000 bytes 329433923
+City tiles 29000 bytes 329437980
+City tiles 30000 bytes 329442646
+{
+  "version": "0.3.0",
+  "profile": "shanghai-citywide",
+  "districts": 16,
+  "roads": 188784,
+  "realBuildings": 117574,
+  "proceduralBuildings": 455961,
+  "centralBuildings": 23652,
+  "tiles": 30418,
+  "tileSizeM": 1000,
+  "tilePayloadBytes": 329443848,
+  "tilesWithFarmland": 1485,
+  "bootstrapBytes": 7727410,
+  "landAreaKm2": 7148.98,
+  "administrativeAreaKm2": 16205.45,
+  "boundsAreaKm2": 30168.03,
+  "waterAreaM2": 9056454123,
+  "destinations": 43,
+  "sourceSHA256": "dd18c877fa0d4c798a3a0d84eccae53aa73238754f7e62a68f79ff9684258706",
+  "sourceTimestamp": "2026-10-23T02:06:05Z",
+  "skippedSourceGeometries": 116,
+  "otherUndergroundRoadsExcluded": 1477,
+  "tunnels": [
+    {
+      "id": "yanan-0",
+      "length": 1975.6,
+      "width": 10,
+      "widthSource": "gameplay-visual-estimate",
+      "heightSource": "visual-estimate-continuous-profile"
+    },
+    {
+      "id": "yanan-1",
+      "length": 2331.96,
+      "width": 10,
+      "widthSource": "gameplay-visual-estimate",
+      "heightSource": "visual-estimate-continuous-profile"
+    }
+  ],
+  "citySHA256": "995d3195e12dbdd2cc442559d2ef7df0827ec208d00376fed8c13a1fc6dba30a"
+}
+Metro entrances 50
+Metro entrances 100
+Metro entrances 150
+Metro entrances 200
+Metro entrances 250
+Metro entrances 300
+Metro entrances 350
+Metro entrances 400
+{"stations": 410, "outsideScope": ["花桥", "光明路", "兆丰路"], "realEntrances": 313, "estimatedEntrances": 97, "missingOfficialStations": [], "bytes": 386704, "sha256": "4f436804060fd960ca2814a0879fdd0e76281d83ab9855b0b8d20707ecf8cc33", "maxPlacementDistanceM": 245.77}
+
+> shanghai-waterfront-roam@0.3.1 build
+> vite build
+
+vite v8.3.5 building client environment for production...
+transforming...
+✓ 44 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                     3.99 kB │ gzip:   1.91 kB
+dist/assets/index-CnaCvqLA.css      7.29 kB │ gzip:   2.40 kB
+dist/assets/index-DSISJdA1.js   1,098.34 kB │ gzip: 320.55 kB
+
+✓ built in 6.22s
+[33m[PLUGIN_TIMINGS] [0mJavaScript callbacks ran for 5.9s of this 6.2s build (95%).
+The slowest callbacks, timed inside each callback (the wait before a callback starts is excluded, the time it awaits is included):
+  - plugin vite:prepare-out-dir renderStart (92%, 5.7s, 1 call)
+Additional callback time came from callbacks under 1s.
+See https://rolldown.rs/reference/InputOptions.checks#bundlertimings for more details.
+

@@ -1,0 +1,77 @@
+{
+  "url": "http://127.0.0.1:4187/",
+  "asset": "./assets/app-CDigLgQs.js",
+  "startupReady": true,
+  "applicationErrors": [],
+  "resources": [
+    {
+      "url": "http://127.0.0.1:4187/assets/index-BogUEJzF.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4187/assets/loading-progress-gm2pud_W.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4187/assets/index-BHHp1YQr.css",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4187/boot-manifest.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4187/assets/app-CDigLgQs.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4187/assets/loading-progress-gm2pud_W.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4187/data/city.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4187/data/manifest.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4187/data/metro.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4187/assets/app-CDigLgQs.js",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4187/data/tiles/-2_-1.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4187/data/tiles/-1_-1.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4187/data/tiles/-2_0.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4187/data/tiles/-1_0.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4187/data/tiles/0_-1.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4187/data/tiles/-2_-2.json",
+      "status": 200
+    },
+    {
+      "url": "http://127.0.0.1:4187/data/tiles/-1_-2.json",
+      "status": 200
+    }
+  ],
+  "externalRequests": []
+}

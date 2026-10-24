@@ -1,0 +1,12 @@
+test_offshore_road_does_not_turn_estuary_into_land (test_citywide_geo.CoastTests.test_offshore_road_does_not_turn_estuary_into_land) ... ok
+test_uninhabited_island_survives_without_any_road_seeds (test_citywide_geo.CoastTests.test_uninhabited_island_survives_without_any_road_seeds) ... ok
+test_changed_administrative_boundary_is_rejected_before_pbf_parsing (test_citywide_geo.SourceIntegrityTests.test_changed_administrative_boundary_is_rejected_before_pbf_parsing) ... ok
+test_old_station_alias_uses_current_official_name_and_future_stations_are_excluded (test_metro_data.MetroDataTests.test_old_station_alias_uses_current_official_name_and_future_stations_are_excluded) ... ok
+test_real_entrance_faces_the_nearby_path_instead_of_away_from_it (test_metro_data.MetroDataTests.test_real_entrance_faces_the_nearby_path_instead_of_away_from_it) ... ok
+test_rounded_self_intersecting_land_is_repaired_without_filling_holes (test_metro_data.MetroDataTests.test_rounded_self_intersecting_land_is_repaired_without_filling_holes) ... ok
+test_transfer_station_merges_lines_but_does_not_use_platform_stops_as_the_station_centre (test_metro_data.MetroDataTests.test_transfer_station_merges_lines_but_does_not_use_platform_stops_as_the_station_centre) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.052s
+
+OK

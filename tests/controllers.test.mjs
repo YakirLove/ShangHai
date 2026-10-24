@@ -14,3 +14,15 @@ test('movement honours the expanded Shanghai bounds on both banks instead of cla
  car.position.set(-5100,2.12,1200);c.resolveHorizontalCollision(car.position,1.35,1,car);assert.equal(car.position.x,-5100,'Jing’an was clamped to the old border');
  car.position.set(5000,2.12,6000);c.resolveHorizontalCollision(car.position,1.35,1,car);assert.equal(car.position.x,4288);assert.equal(car.position.z,4103);
 });
+test('helicopter can climb above Shanghai Tower and stops upward velocity at the new ceiling',()=>{
+ const c=Object.create(ThirdPersonControllerManager.prototype),h={type:'helicopter',position:new THREE.Vector3(0,620,0),speed:0,heading:0,verticalSpeed:0,pitchAngle:0,rollAngle:0,tiltPivot:{rotation:{},position:{}}};
+ c.entities={helicopter:h};c.keys={up:true};c.surfaceProvider={isWater:()=>false,sample:()=>({height:2.12,surfaceId:'ground'})};c.resolveHorizontalCollision=()=>{};
+ for(let i=0;i<900;i++)c.updateHelicopter(1/60,i/60);assert.ok(h.position.y>800,'flight remained below the skyline: '+h.position.y);
+ for(let i=0;i<3600;i++)c.updateHelicopter(1/60,i/60);assert.ok(h.position.y<=1200);assert.equal(h.verticalSpeed,0,'upward velocity remained at ceiling');
+ c.keys={down:true};for(let i=0;i<60;i++)c.updateHelicopter(1/60,i/60);assert.ok(h.position.y<1190,'descent did not respond after hitting ceiling');
+});
+test('a high helicopter keeps its altitude when teleported to another location',()=>{
+ const c=Object.create(ThirdPersonControllerManager.prototype),h={type:'helicopter',position:new THREE.Vector3(0,900,0),heading:0,chaseDistance:20,chaseHeight:6,tiltPivot:{rotation:{},position:{}},mesh:{position:new THREE.Vector3(),rotation:{}}};
+ c.entities={helicopter:h};c.activeMode='helicopter';c.keys={};c._pressedCodes=new Set();c.worldBounds=[-500,-500,500,500];c.nearColliders=()=>[];
+ c.teleportActiveTo(100,100,0);assert.equal(h.position.y,900);assert.equal(h.position.x,100);assert.equal(h.position.z,100);
+});
