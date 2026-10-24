@@ -1,0 +1,488 @@
+[
+  {
+    "file": "V1-midday.png",
+    "index": 0,
+    "time": "midday",
+    "view": {
+      "name": "外滩看陆家嘴",
+      "position": [
+        -760,
+        26,
+        -310
+      ],
+      "target": [
+        400,
+        220,
+        -240
+      ]
+    },
+    "canvas": [
+      1920,
+      1080
+    ],
+    "buildAsset": "index-DqNtY0-r.js",
+    "width": 1920,
+    "height": 1080,
+    "sha256": "f609dfc869f5452195269f4fcdd26a0461a1a17a72c2603725149504b121e6ba",
+    "capture": "Native Page.captureScreenshot; no pixel editing"
+  },
+  {
+    "file": "V1-golden.png",
+    "index": 0,
+    "time": "golden",
+    "view": {
+      "name": "外滩看陆家嘴",
+      "position": [
+        -760,
+        26,
+        -310
+      ],
+      "target": [
+        400,
+        220,
+        -240
+      ]
+    },
+    "canvas": [
+      1920,
+      1080
+    ],
+    "buildAsset": "index-DqNtY0-r.js",
+    "width": 1920,
+    "height": 1080,
+    "sha256": "bed01a4d181293bf95c458fbdc29cfa5247a89b0c7a1a04e0ee4943d1bb3def1",
+    "capture": "Native Page.captureScreenshot; no pixel editing"
+  },
+  {
+    "file": "V1-midnight.png",
+    "index": 0,
+    "time": "midnight",
+    "view": {
+      "name": "外滩看陆家嘴",
+      "position": [
+        -760,
+        26,
+        -310
+      ],
+      "target": [
+        400,
+        220,
+        -240
+      ]
+    },
+    "canvas": [
+      1920,
+      1080
+    ],
+    "buildAsset": "index-DqNtY0-r.js",
+    "width": 1920,
+    "height": 1080,
+    "sha256": "f94b2dde2fac0d948ea085cb5ec9106d0bd673d95f2b5726d7402e33d0c6c864",
+    "capture": "Native Page.captureScreenshot; no pixel editing"
+  },
+  {
+    "file": "V2-midday.png",
+    "index": 1,
+    "time": "midday",
+    "view": {
+      "name": "陆家嘴看外滩",
+      "position": [
+        -350,
+        42,
+        -640
+      ],
+      "target": [
+        -930,
+        40,
+        -260
+      ]
+    },
+    "canvas": [
+      1920,
+      1080
+    ],
+    "buildAsset": "index-DqNtY0-r.js",
+    "width": 1920,
+    "height": 1080,
+    "sha256": "878aad01c7938f4711bdd9ac99f4a75f3f124acdc9c7a1c814b9243540dc25f1",
+    "capture": "Native Page.captureScreenshot; no pixel editing"
+  },
+  {
+    "file": "V2-golden.png",
+    "index": 1,
+    "time": "golden",
+    "view": {
+      "name": "陆家嘴看外滩",
+      "position": [
+        -350,
+        42,
+        -640
+      ],
+      "target": [
+        -930,
+        40,
+        -260
+      ]
+    },
+    "canvas": [
+      1920,
+      1080
+    ],
+    "buildAsset": "index-DqNtY0-r.js",
+    "width": 1920,
+    "height": 1080,
+    "sha256": "fa78cb9c32f0ec1ae7c5171e8f659cfb69b0969bf5530e1135ac53b7ae0b434d",
+    "capture": "Native Page.captureScreenshot; no pixel editing"
+  },
+  {
+    "file": "V2-midnight.png",
+    "index": 1,
+    "time": "midnight",
+    "view": {
+      "name": "陆家嘴看外滩",
+      "position": [
+        -350,
+        42,
+        -640
+      ],
+      "target": [
+        -930,
+        40,
+        -260
+      ]
+    },
+    "canvas": [
+      1920,
+      1080
+    ],
+    "buildAsset": "index-DqNtY0-r.js",
+    "width": 1920,
+    "height": 1080,
+    "sha256": "63e7f06c32b7122e4b061ab58a051cce73f7e0f5ede5572356fc1956940de766",
+    "capture": "Native Page.captureScreenshot; no pixel editing"
+  },
+  {
+    "file": "V3-midday.png",
+    "index": 2,
+    "time": "midday",
+    "view": {
+      "name": "东方明珠",
+      "position": [
+        -310,
+        90,
+        -190
+      ],
+      "target": [
+        -27,
+        210,
+        -520
+      ]
+    },
+    "canvas": [
+      1920,
+      1080
+    ],
+    "buildAsset": "index-DqNtY0-r.js",
+    "width": 1920,
+    "height": 1080,
+    "sha256": "efd6eb476a130cffe21643d0f1934a73b5b7394e8a2079152b6a79dd1c851a7b",
+    "capture": "Native Page.captureScreenshot; no pixel editing"
+  },
+  {
+    "file": "V3-golden.png",
+    "index": 2,
+    "time": "golden",
+    "view": {
+      "name": "东方明珠",
+      "position": [
+        -310,
+        90,
+        -190
+      ],
+      "target": [
+        -27,
+        210,
+        -520
+      ]
+    },
+    "canvas": [
+      1920,
+      1080
+    ],
+    "buildAsset": "index-DqNtY0-r.js",
+    "width": 1920,
+    "height": 1080,
+    "sha256": "8b7eb65e93d2230db2cb1b4955491396aff22743c3ae2eccc4c9473bfc35350e",
+    "capture": "Native Page.captureScreenshot; no pixel editing"
+  },
+  {
+    "file": "V3-midnight.png",
+    "index": 2,
+    "time": "midnight",
+    "view": {
+      "name": "东方明珠",
+      "position": [
+        -310,
+        90,
+        -190
+      ],
+      "target": [
+        -27,
+        210,
+        -520
+      ]
+    },
+    "canvas": [
+      1920,
+      1080
+    ],
+    "buildAsset": "index-DqNtY0-r.js",
+    "width": 1920,
+    "height": 1080,
+    "sha256": "82993aa1bd38f3488ba32d2a79297690100287e8e3bfbd91003d7c80782c28ce",
+    "capture": "Native Page.captureScreenshot; no pixel editing"
+  },
+  {
+    "file": "V4-midday.png",
+    "index": 3,
+    "time": "midday",
+    "view": {
+      "name": "陆家嘴三件套",
+      "position": [
+        100,
+        160,
+        750
+      ],
+      "target": [
+        660,
+        320,
+        50
+      ]
+    },
+    "canvas": [
+      1920,
+      1080
+    ],
+    "buildAsset": "index-DqNtY0-r.js",
+    "width": 1920,
+    "height": 1080,
+    "sha256": "5f16f27a9ae8444afe42397b6b97c1b20204ce1e6afcd752013b8725ca5056df",
+    "capture": "Native Page.captureScreenshot; no pixel editing"
+  },
+  {
+    "file": "V4-golden.png",
+    "index": 3,
+    "time": "golden",
+    "view": {
+      "name": "陆家嘴三件套",
+      "position": [
+        100,
+        160,
+        750
+      ],
+      "target": [
+        660,
+        320,
+        50
+      ]
+    },
+    "canvas": [
+      1920,
+      1080
+    ],
+    "buildAsset": "index-DqNtY0-r.js",
+    "width": 1920,
+    "height": 1080,
+    "sha256": "9c224a62daff738a271581f5a8a0610b2245c342b4f80dccc7a11af29173ad42",
+    "capture": "Native Page.captureScreenshot; no pixel editing"
+  },
+  {
+    "file": "V4-midnight.png",
+    "index": 3,
+    "time": "midnight",
+    "view": {
+      "name": "陆家嘴三件套",
+      "position": [
+        100,
+        160,
+        750
+      ],
+      "target": [
+        660,
+        320,
+        50
+      ]
+    },
+    "canvas": [
+      1920,
+      1080
+    ],
+    "buildAsset": "index-DqNtY0-r.js",
+    "width": 1920,
+    "height": 1080,
+    "sha256": "728cafd8db5cf903c032b4c6565ddd815bac2e1169178adf9bb28c359f58357f",
+    "capture": "Native Page.captureScreenshot; no pixel editing"
+  },
+  {
+    "file": "V5-midday.png",
+    "index": 4,
+    "time": "midday",
+    "view": {
+      "name": "外滩街墙",
+      "position": [
+        -872,
+        5,
+        -525
+      ],
+      "target": [
+        -882,
+        15,
+        -140
+      ]
+    },
+    "canvas": [
+      1920,
+      1080
+    ],
+    "buildAsset": "index-DqNtY0-r.js",
+    "width": 1920,
+    "height": 1080,
+    "sha256": "e210f5d8e7286f8664cdc64acc573de1978434d88385944d80deffbe33bad75a",
+    "capture": "Native Page.captureScreenshot; no pixel editing"
+  },
+  {
+    "file": "V5-golden.png",
+    "index": 4,
+    "time": "golden",
+    "view": {
+      "name": "外滩街墙",
+      "position": [
+        -872,
+        5,
+        -525
+      ],
+      "target": [
+        -882,
+        15,
+        -140
+      ]
+    },
+    "canvas": [
+      1920,
+      1080
+    ],
+    "buildAsset": "index-DqNtY0-r.js",
+    "width": 1920,
+    "height": 1080,
+    "sha256": "933724d0063dddab1d1ac5688e83ca1f0c7beb16861c7a168806121a4ebfaf8a",
+    "capture": "Native Page.captureScreenshot; no pixel editing"
+  },
+  {
+    "file": "V5-midnight.png",
+    "index": 4,
+    "time": "midnight",
+    "view": {
+      "name": "外滩街墙",
+      "position": [
+        -872,
+        5,
+        -525
+      ],
+      "target": [
+        -882,
+        15,
+        -140
+      ]
+    },
+    "canvas": [
+      1920,
+      1080
+    ],
+    "buildAsset": "index-DqNtY0-r.js",
+    "width": 1920,
+    "height": 1080,
+    "sha256": "26670256a265714d44736eaa4feed00fcdcc1d1ee1c1ee7b597d8f7c430987b8",
+    "capture": "Native Page.captureScreenshot; no pixel editing"
+  },
+  {
+    "file": "V6-midday.png",
+    "index": 5,
+    "time": "midday",
+    "view": {
+      "name": "苏州河口俯瞰",
+      "position": [
+        -600,
+        390,
+        -1200
+      ],
+      "target": [
+        -710,
+        0,
+        -800
+      ]
+    },
+    "canvas": [
+      1920,
+      1080
+    ],
+    "buildAsset": "index-DqNtY0-r.js",
+    "width": 1920,
+    "height": 1080,
+    "sha256": "b9b37bb258d742d491a702cdbc4fb9dbeb05b8928df1f459d691341c946db93a",
+    "capture": "Native Page.captureScreenshot; no pixel editing"
+  },
+  {
+    "file": "V6-golden.png",
+    "index": 5,
+    "time": "golden",
+    "view": {
+      "name": "苏州河口俯瞰",
+      "position": [
+        -600,
+        390,
+        -1200
+      ],
+      "target": [
+        -710,
+        0,
+        -800
+      ]
+    },
+    "canvas": [
+      1920,
+      1080
+    ],
+    "buildAsset": "index-DqNtY0-r.js",
+    "width": 1920,
+    "height": 1080,
+    "sha256": "2b8794d1babff66f23db7319dc1974cce0905234d99ff29284999ab92933cd44",
+    "capture": "Native Page.captureScreenshot; no pixel editing"
+  },
+  {
+    "file": "V6-midnight.png",
+    "index": 5,
+    "time": "midnight",
+    "view": {
+      "name": "苏州河口俯瞰",
+      "position": [
+        -600,
+        390,
+        -1200
+      ],
+      "target": [
+        -710,
+        0,
+        -800
+      ]
+    },
+    "canvas": [
+      1920,
+      1080
+    ],
+    "buildAsset": "index-DqNtY0-r.js",
+    "width": 1920,
+    "height": 1080,
+    "sha256": "651fcf033bf26fd93ee917891ab1b46093608171516c95ba81454c9e458bdbb6",
+    "capture": "Native Page.captureScreenshot; no pixel editing"
+  }
+]

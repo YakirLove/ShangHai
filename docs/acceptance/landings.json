@@ -1,0 +1,50 @@
+[
+  {
+    "id": "pearl",
+    "shift": 0,
+    "distance": 66.41538559708533,
+    "ready": true
+  },
+  {
+    "id": "tower",
+    "shift": 0,
+    "distance": 80.93849244031217,
+    "ready": true
+  },
+  {
+    "id": "swfc",
+    "shift": 0,
+    "distance": 76.11866781001584,
+    "ready": true
+  },
+  {
+    "id": "jinmao",
+    "shift": 0,
+    "distance": 62.97182462998785,
+    "ready": true
+  },
+  {
+    "id": "conference",
+    "shift": 0,
+    "distance": 65.89703461774319,
+    "ready": true
+  },
+  {
+    "id": "customs",
+    "shift": 0,
+    "distance": 34.48228718608388,
+    "ready": true
+  },
+  {
+    "id": "hsbc",
+    "shift": 0,
+    "distance": 35.56464683042006,
+    "ready": true
+  },
+  {
+    "id": "peace",
+    "shift": 0,
+    "distance": 73.3211697125828,
+    "ready": true
+  }
+]

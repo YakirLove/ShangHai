@@ -1,0 +1,414 @@
+{
+  "completed": 24,
+  "total": 24,
+  "results": [
+    {
+      "id": "huangpu",
+      "name": "黄浦 · 人民广场",
+      "district": "黄浦区",
+      "mode": "car",
+      "position": [
+        -1891.122184143975,
+        2.12,
+        800.6362347741127
+      ],
+      "ready": true,
+      "water": false,
+      "loaded": 8,
+      "localRoads": 879,
+      "localBuildings": 4017,
+      "errors": []
+    },
+    {
+      "id": "xuhui",
+      "name": "徐汇 · 徐家汇",
+      "district": "徐汇区",
+      "mode": "car",
+      "position": [
+        -5571.4,
+        2.12,
+        5410.84
+      ],
+      "ready": true,
+      "water": false,
+      "loaded": 9,
+      "localRoads": 976,
+      "localBuildings": 4662,
+      "errors": []
+    },
+    {
+      "id": "changning",
+      "name": "长宁 · 中山公园",
+      "district": "长宁区",
+      "mode": "car",
+      "position": [
+        -7628.61,
+        2.12,
+        1989.39
+      ],
+      "ready": true,
+      "water": false,
+      "loaded": 11,
+      "localRoads": 1363,
+      "localBuildings": 6065,
+      "errors": []
+    },
+    {
+      "id": "jingan-district",
+      "name": "静安 · 大宁",
+      "district": "静安区",
+      "mode": "car",
+      "position": [
+        -4063.3791266100475,
+        2.12,
+        -4194.770258933367
+      ],
+      "ready": true,
+      "water": false,
+      "loaded": 13,
+      "localRoads": 1543,
+      "localBuildings": 7299,
+      "errors": []
+    },
+    {
+      "id": "putuo",
+      "name": "普陀 · 长风",
+      "district": "普陀区",
+      "mode": "car",
+      "position": [
+        -9143.599805628128,
+        2.12,
+        784.2407687088311
+      ],
+      "ready": true,
+      "water": false,
+      "loaded": 15,
+      "localRoads": 1920,
+      "localBuildings": 8685,
+      "errors": []
+    },
+    {
+      "id": "hongkou",
+      "name": "虹口 · 鲁迅公园",
+      "district": "虹口区",
+      "mode": "car",
+      "position": [
+        -1617.1455161598728,
+        2.12,
+        -3658.3691415023513
+      ],
+      "ready": true,
+      "water": false,
+      "loaded": 5,
+      "localRoads": 616,
+      "localBuildings": 2612,
+      "errors": []
+    },
+    {
+      "id": "yangpu",
+      "name": "杨浦 · 五角场",
+      "district": "杨浦区",
+      "mode": "car",
+      "position": [
+        1988.102085002299,
+        2.12,
+        -6983.790207356195
+      ],
+      "ready": true,
+      "water": false,
+      "loaded": 17,
+      "localRoads": 2212,
+      "localBuildings": 10491,
+      "errors": []
+    },
+    {
+      "id": "minhang",
+      "name": "闵行 · 莘庄",
+      "district": "闵行区",
+      "mode": "car",
+      "position": [
+        -10801.58932485572,
+        2.12,
+        14086.681337347678
+      ],
+      "ready": true,
+      "water": false,
+      "loaded": 19,
+      "localRoads": 2417,
+      "localBuildings": 10837,
+      "errors": []
+    },
+    {
+      "id": "baoshan",
+      "name": "宝山 · 友谊路",
+      "district": "宝山区",
+      "mode": "car",
+      "position": [
+        -962.7202804654728,
+        2.12,
+        -18513.50993368499
+      ],
+      "ready": true,
+      "water": false,
+      "loaded": 21,
+      "localRoads": 2491,
+      "localBuildings": 11237,
+      "errors": []
+    },
+    {
+      "id": "jiading",
+      "name": "嘉定 · 州桥",
+      "district": "嘉定区",
+      "mode": "car",
+      "position": [
+        -24032.53224321336,
+        2.12,
+        -16323.312217740395
+      ],
+      "ready": true,
+      "water": false,
+      "loaded": 23,
+      "localRoads": 2679,
+      "localBuildings": 11994,
+      "errors": []
+    },
+    {
+      "id": "pudong",
+      "name": "浦东 · 世纪公园",
+      "district": "浦东新区",
+      "mode": "car",
+      "position": [
+        5272.869015149927,
+        2.12,
+        2538.3670566945007
+      ],
+      "ready": true,
+      "water": false,
+      "loaded": 24,
+      "localRoads": 2747,
+      "localBuildings": 12378,
+      "errors": []
+    },
+    {
+      "id": "jinshan",
+      "name": "金山 · 城市沙滩",
+      "district": "金山区",
+      "mode": "car",
+      "position": [
+        -14603.40948106658,
+        2.12,
+        56427.34222792508
+      ],
+      "ready": true,
+      "water": false,
+      "loaded": 25,
+      "localRoads": 2775,
+      "localBuildings": 12468,
+      "errors": []
+    },
+    {
+      "id": "songjiang",
+      "name": "松江 · 老城",
+      "district": "松江区",
+      "mode": "car",
+      "position": [
+        -25639.97103379509,
+        2.12,
+        25187.941553370856
+      ],
+      "ready": true,
+      "water": false,
+      "loaded": 14,
+      "localRoads": 820,
+      "localBuildings": 3408,
+      "errors": []
+    },
+    {
+      "id": "zhujiajiao",
+      "name": "青浦 · 朱家角",
+      "district": "青浦区",
+      "mode": "car",
+      "position": [
+        -42231.44920257313,
+        2.12,
+        14136.851562242919
+      ],
+      "ready": true,
+      "water": false,
+      "loaded": 16,
+      "localRoads": 1022,
+      "localBuildings": 3691,
+      "errors": []
+    },
+    {
+      "id": "fengxian",
+      "name": "奉贤 · 南桥",
+      "district": "奉贤区",
+      "mode": "car",
+      "position": [
+        -2447.718485695662,
+        2.12,
+        35250.90964378333
+      ],
+      "ready": true,
+      "water": false,
+      "loaded": 11,
+      "localRoads": 1102,
+      "localBuildings": 3423,
+      "errors": []
+    },
+    {
+      "id": "chongming",
+      "name": "崇明 · 南门",
+      "district": "崇明区",
+      "mode": "car",
+      "position": [
+        -9328.551301723408,
+        2.12,
+        -42904.870544797544
+      ],
+      "ready": true,
+      "water": false,
+      "loaded": 13,
+      "localRoads": 1166,
+      "localBuildings": 4254,
+      "errors": []
+    },
+    {
+      "id": "changxing",
+      "name": "长兴岛",
+      "district": "崇明区",
+      "mode": "car",
+      "position": [
+        20990.169044964296,
+        2.12,
+        -16506.110427749252
+      ],
+      "ready": true,
+      "water": false,
+      "loaded": 12,
+      "localRoads": 807,
+      "localBuildings": 4320,
+      "errors": []
+    },
+    {
+      "id": "hengsha",
+      "name": "横沙岛",
+      "district": "崇明区",
+      "mode": "car",
+      "position": [
+        32654.83791665125,
+        2.12,
+        -10771.339528859462
+      ],
+      "ready": true,
+      "water": false,
+      "loaded": 13,
+      "localRoads": 850,
+      "localBuildings": 4384,
+      "errors": []
+    },
+    {
+      "id": "dishui",
+      "name": "临港 · 滴水湖",
+      "district": "浦东新区",
+      "mode": "car",
+      "position": [
+        41176.67,
+        2.12,
+        37395.5
+      ],
+      "ready": true,
+      "water": false,
+      "loaded": 15,
+      "localRoads": 1000,
+      "localBuildings": 4646,
+      "errors": []
+    },
+    {
+      "id": "pudong-airport",
+      "name": "浦东机场周边",
+      "district": "浦东新区",
+      "mode": "car",
+      "position": [
+        29508.130908657087,
+        2.12,
+        9654.569684970082
+      ],
+      "ready": true,
+      "water": false,
+      "loaded": 11,
+      "localRoads": 1229,
+      "localBuildings": 3092,
+      "errors": []
+    },
+    {
+      "id": "hongqiao",
+      "name": "虹桥枢纽周边",
+      "district": "闵行区",
+      "mode": "car",
+      "position": [
+        -17269.27,
+        2.12,
+        4435.91
+      ],
+      "ready": true,
+      "water": false,
+      "loaded": 12,
+      "localRoads": 1376,
+      "localBuildings": 3454,
+      "errors": []
+    },
+    {
+      "id": "disney",
+      "name": "上海迪士尼周边",
+      "district": "浦东新区",
+      "mode": "car",
+      "position": [
+        15717.808759817299,
+        2.12,
+        10307.586480971093
+      ],
+      "ready": true,
+      "water": false,
+      "loaded": 14,
+      "localRoads": 1704,
+      "localBuildings": 4948,
+      "errors": []
+    },
+    {
+      "id": "sheshan",
+      "name": "佘山周边",
+      "district": "松江区",
+      "mode": "car",
+      "position": [
+        -28885.252398426637,
+        2.12,
+        15379.331012774359
+      ],
+      "ready": true,
+      "water": false,
+      "loaded": 16,
+      "localRoads": 1786,
+      "localBuildings": 5148,
+      "errors": []
+    },
+    {
+      "id": "qingpu",
+      "name": "青浦 · 夏阳湖",
+      "district": "青浦区",
+      "mode": "car",
+      "position": [
+        -35739.44923446477,
+        2.12,
+        9832.245945520239
+      ],
+      "ready": true,
+      "water": false,
+      "loaded": 18,
+      "localRoads": 1965,
+      "localBuildings": 5991,
+      "errors": []
+    }
+  ]
+}

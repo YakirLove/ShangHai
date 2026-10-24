@@ -1,0 +1,407 @@
+[
+  {
+    "file": "V7-midday.png",
+    "index": 6,
+    "time": "midday",
+    "view": {
+      "name": "静安寺",
+      "position": [
+        -5030.153507721669,
+        70,
+        1450.024404987076
+      ],
+      "target": [
+        -5170.153507721669,
+        22,
+        1285.024404987076
+      ]
+    },
+    "canvas": [
+      1920,
+      1080
+    ],
+    "buildAsset": "index-DqNtY0-r.js",
+    "width": 1920,
+    "height": 1080,
+    "sha256": "352333aa4bf3422b6e36f0f459c608b84e9f5124e944864c37ec78e954ad5b18",
+    "capture": "Native Page.captureScreenshot; no pixel editing"
+  },
+  {
+    "file": "V7-golden.png",
+    "index": 6,
+    "time": "golden",
+    "view": {
+      "name": "静安寺",
+      "position": [
+        -5030.153507721669,
+        70,
+        1450.024404987076
+      ],
+      "target": [
+        -5170.153507721669,
+        22,
+        1285.024404987076
+      ]
+    },
+    "canvas": [
+      1920,
+      1080
+    ],
+    "buildAsset": "index-DqNtY0-r.js",
+    "width": 1920,
+    "height": 1080,
+    "sha256": "705141c78dc5b34d797963a271ee5b37eaf58cf517c4785d399a0f83fdb0daa6",
+    "capture": "Native Page.captureScreenshot; no pixel editing"
+  },
+  {
+    "file": "V7-midnight.png",
+    "index": 6,
+    "time": "midnight",
+    "view": {
+      "name": "静安寺",
+      "position": [
+        -5030.153507721669,
+        70,
+        1450.024404987076
+      ],
+      "target": [
+        -5170.153507721669,
+        22,
+        1285.024404987076
+      ]
+    },
+    "canvas": [
+      1920,
+      1080
+    ],
+    "buildAsset": "index-DqNtY0-r.js",
+    "width": 1920,
+    "height": 1080,
+    "sha256": "aed84b241b30946a6377d910d176fd46e4cb9e051907a6067f91514599fcaf08",
+    "capture": "Native Page.captureScreenshot; no pixel editing"
+  },
+  {
+    "file": "V8-midday.png",
+    "index": 7,
+    "time": "midday",
+    "view": {
+      "name": "上海博物馆人民广场馆",
+      "position": [
+        -2198.2362553014405,
+        65,
+        894.959359543175
+      ],
+      "target": [
+        -2328.2362553014405,
+        16,
+        744.959359543175
+      ]
+    },
+    "canvas": [
+      1920,
+      1080
+    ],
+    "buildAsset": "index-DqNtY0-r.js",
+    "width": 1920,
+    "height": 1080,
+    "sha256": "4cf06bad20d9b317723b4dfed73c2a7f659aa59f70a4246e8fae85a389526c40",
+    "capture": "Native Page.captureScreenshot; no pixel editing"
+  },
+  {
+    "file": "V8-golden.png",
+    "index": 7,
+    "time": "golden",
+    "view": {
+      "name": "上海博物馆人民广场馆",
+      "position": [
+        -2198.2362553014405,
+        65,
+        894.959359543175
+      ],
+      "target": [
+        -2328.2362553014405,
+        16,
+        744.959359543175
+      ]
+    },
+    "canvas": [
+      1920,
+      1080
+    ],
+    "buildAsset": "index-DqNtY0-r.js",
+    "width": 1920,
+    "height": 1080,
+    "sha256": "2138116da7bef25e83f31af2063036880a90d9cf3309cd483508cb02d62cb3cb",
+    "capture": "Native Page.captureScreenshot; no pixel editing"
+  },
+  {
+    "file": "V8-midnight.png",
+    "index": 7,
+    "time": "midnight",
+    "view": {
+      "name": "上海博物馆人民广场馆",
+      "position": [
+        -2198.2362553014405,
+        65,
+        894.959359543175
+      ],
+      "target": [
+        -2328.2362553014405,
+        16,
+        744.959359543175
+      ]
+    },
+    "canvas": [
+      1920,
+      1080
+    ],
+    "buildAsset": "index-DqNtY0-r.js",
+    "width": 1920,
+    "height": 1080,
+    "sha256": "bb656da46e91aa74164c8c69f0f72156679dd3e84f87a4fbce219c305d65528e",
+    "capture": "Native Page.captureScreenshot; no pixel editing"
+  },
+  {
+    "file": "V9-midday.png",
+    "index": 8,
+    "time": "midday",
+    "view": {
+      "name": "上海展览中心",
+      "position": [
+        -4317.2256544413,
+        115,
+        1390.656356922567
+      ],
+      "target": [
+        -4472.2256544413,
+        48,
+        1145.656356922567
+      ]
+    },
+    "canvas": [
+      1920,
+      1080
+    ],
+    "buildAsset": "index-DqNtY0-r.js",
+    "width": 1920,
+    "height": 1080,
+    "sha256": "3a5f081a1381f456ee6b1e38fb769e4f9d3a1aa301b6fc66991e310953bf7492",
+    "capture": "Native Page.captureScreenshot; no pixel editing"
+  },
+  {
+    "file": "V9-golden.png",
+    "index": 8,
+    "time": "golden",
+    "view": {
+      "name": "上海展览中心",
+      "position": [
+        -4317.2256544413,
+        115,
+        1390.656356922567
+      ],
+      "target": [
+        -4472.2256544413,
+        48,
+        1145.656356922567
+      ]
+    },
+    "canvas": [
+      1920,
+      1080
+    ],
+    "buildAsset": "index-DqNtY0-r.js",
+    "width": 1920,
+    "height": 1080,
+    "sha256": "50ddd120acd86165ddd0ca788a58b713c30faceae0337a04e722f1ed3ee4bced",
+    "capture": "Native Page.captureScreenshot; no pixel editing"
+  },
+  {
+    "file": "V9-midnight.png",
+    "index": 8,
+    "time": "midnight",
+    "view": {
+      "name": "上海展览中心",
+      "position": [
+        -4317.2256544413,
+        115,
+        1390.656356922567
+      ],
+      "target": [
+        -4472.2256544413,
+        48,
+        1145.656356922567
+      ]
+    },
+    "canvas": [
+      1920,
+      1080
+    ],
+    "buildAsset": "index-DqNtY0-r.js",
+    "width": 1920,
+    "height": 1080,
+    "sha256": "1c358a75ba9d8cbb6acadaf8eafa933a280afc9b1e71852183b82d57f65cf39f",
+    "capture": "Native Page.captureScreenshot; no pixel editing"
+  },
+  {
+    "file": "V10-midday.png",
+    "index": 9,
+    "time": "midday",
+    "view": {
+      "name": "田子坊",
+      "position": [
+        -2872.899922303266,
+        35,
+        3073.0848422353874
+      ],
+      "target": [
+        -2940.899922303266,
+        7,
+        2968.0848422353874
+      ]
+    },
+    "canvas": [
+      1920,
+      1080
+    ],
+    "buildAsset": "index-DqNtY0-r.js",
+    "width": 1920,
+    "height": 1080,
+    "sha256": "51e463d879b0812433a5939757c458cd32c3044096ac1d0ebd5cb314302f900a",
+    "capture": "Native Page.captureScreenshot; no pixel editing"
+  },
+  {
+    "file": "V10-golden.png",
+    "index": 9,
+    "time": "golden",
+    "view": {
+      "name": "田子坊",
+      "position": [
+        -2872.899922303266,
+        35,
+        3073.0848422353874
+      ],
+      "target": [
+        -2940.899922303266,
+        7,
+        2968.0848422353874
+      ]
+    },
+    "canvas": [
+      1920,
+      1080
+    ],
+    "buildAsset": "index-DqNtY0-r.js",
+    "width": 1920,
+    "height": 1080,
+    "sha256": "d653b4701b2734740f25e63925e5220669f261dc7b309e47771c4d9347c55376",
+    "capture": "Native Page.captureScreenshot; no pixel editing"
+  },
+  {
+    "file": "V10-midnight.png",
+    "index": 9,
+    "time": "midnight",
+    "view": {
+      "name": "田子坊",
+      "position": [
+        -2872.899922303266,
+        35,
+        3073.0848422353874
+      ],
+      "target": [
+        -2940.899922303266,
+        7,
+        2968.0848422353874
+      ]
+    },
+    "canvas": [
+      1920,
+      1080
+    ],
+    "buildAsset": "index-DqNtY0-r.js",
+    "width": 1920,
+    "height": 1080,
+    "sha256": "09a39b80e86fa6903091d7014227c3e57c88ecd5add46527b3258bb8642438c2",
+    "capture": "Native Page.captureScreenshot; no pixel editing"
+  },
+  {
+    "file": "V11-midday.png",
+    "index": 10,
+    "time": "midday",
+    "view": {
+      "name": "田子坊中央里弄",
+      "position": [
+        -2940.899922303266,
+        4,
+        2923.0848422353874
+      ],
+      "target": [
+        -2940.899922303266,
+        4,
+        3003.0848422353874
+      ]
+    },
+    "canvas": [
+      1920,
+      1080
+    ],
+    "buildAsset": "index-DqNtY0-r.js",
+    "width": 1920,
+    "height": 1080,
+    "sha256": "f481d1b5b32db472c69dc22889f48d6daed0894134a2d4b7cc82cda740b39bc1",
+    "capture": "Native Page.captureScreenshot; no pixel editing"
+  },
+  {
+    "file": "V11-golden.png",
+    "index": 10,
+    "time": "golden",
+    "view": {
+      "name": "田子坊中央里弄",
+      "position": [
+        -2940.899922303266,
+        4,
+        2923.0848422353874
+      ],
+      "target": [
+        -2940.899922303266,
+        4,
+        3003.0848422353874
+      ]
+    },
+    "canvas": [
+      1920,
+      1080
+    ],
+    "buildAsset": "index-DqNtY0-r.js",
+    "width": 1920,
+    "height": 1080,
+    "sha256": "c257aaad109a6d0aa517d6680770e01be686dff81e6754b56c500bec397396a7",
+    "capture": "Native Page.captureScreenshot; no pixel editing"
+  },
+  {
+    "file": "V11-midnight.png",
+    "index": 10,
+    "time": "midnight",
+    "view": {
+      "name": "田子坊中央里弄",
+      "position": [
+        -2940.899922303266,
+        4,
+        2923.0848422353874
+      ],
+      "target": [
+        -2940.899922303266,
+        4,
+        3003.0848422353874
+      ]
+    },
+    "canvas": [
+      1920,
+      1080
+    ],
+    "buildAsset": "index-DqNtY0-r.js",
+    "width": 1920,
+    "height": 1080,
+    "sha256": "18cced8fc29f473e038d18ff0c7e097f83615bca119af9654167ba38ff3140b0",
+    "capture": "Native Page.captureScreenshot; no pixel editing"
+  }
+]

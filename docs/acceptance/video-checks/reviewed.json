@@ -1,0 +1,36 @@
+[
+  {
+    "file": "docs/acceptance/recordings/east-midday-release.mp4",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "format": {
+        "duration": "160.560000"
+      }
+    }
+  },
+  {
+    "file": "docs/acceptance/recordings/east-midnight-release.mp4",
+    "probe": {
+      "programs": [],
+      "stream_groups": [],
+      "streams": [
+        {
+          "codec_name": "h264",
+          "width": 1280,
+          "height": 720
+        }
+      ],
+      "format": {
+        "duration": "160.600000"
+      }
+    }
+  }
+]

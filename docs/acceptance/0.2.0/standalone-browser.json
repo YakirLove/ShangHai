@@ -1,0 +1,41 @@
+{
+  "ready": true,
+  "region": {
+    "id": "central-b",
+    "name": "上海中心城区",
+    "boundsWgs84": [
+      121.44,
+      31.2,
+      121.54,
+      31.265
+    ],
+    "areaKm2": 68.66
+  },
+  "landmarks": 12,
+  "places": 7,
+  "tunnelWidths": [
+    10,
+    10
+  ],
+  "arrivals": [
+    {
+      "id": "jingan",
+      "ready": true,
+      "water": false
+    },
+    {
+      "id": "yuanshen",
+      "ready": true,
+      "water": false
+    }
+  ],
+  "canvas": [
+    1920,
+    1080
+  ],
+  "webgpu": true,
+  "quality": "medium",
+  "errors": [],
+  "asset": "index-DqNtY0-r.js",
+  "externalRequests": []
+}

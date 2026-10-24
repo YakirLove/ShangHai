@@ -1,0 +1,162 @@
+{
+  "id": "central-b",
+  "name": "上海中心城区",
+  "boundsWgs84": [
+    121.44,
+    31.2,
+    121.54,
+    31.265
+  ],
+  "decision": "User selected expansion B on 2026-10-23; source snapshot remains 2026-09-08.",
+  "landmarks": [
+    {
+      "id": "jingan",
+      "name": "静安寺",
+      "lon": 121.44073,
+      "lat": 31.22541,
+      "height": 48,
+      "reserve": 85,
+      "type": "temple",
+      "district": "静安 · 南京西路",
+      "source": "OSM way 13981430 location; architectural silhouette from Shanghai tourism authority",
+      "positionSource": "https://www.openstreetmap.org/way/13981430",
+      "visualSource": "https://www.meet-in-shanghai.net/cn/jingan-district/jingan-temple-382508/",
+      "heightSource": "visual-estimate",
+      "modelSource": "procedural-exterior-estimate",
+      "modelFit": {
+        "scale": [
+          0.65,
+          1,
+          0.8
+        ],
+        "offsetM": [
+          18,
+          0,
+          0
+        ],
+        "reason": "Visual exterior fitted inside cached Huashan Road block; not a surveyed footprint"
+      }
+    },
+    {
+      "id": "museum",
+      "name": "上海博物馆人民广场馆",
+      "lon": 121.470561,
+      "lat": 31.230281,
+      "height": 29.5,
+      "reserve": 82,
+      "type": "museum",
+      "district": "黄浦 · 人民广场",
+      "source": "Wikidata Q1051293 coordinate; official museum ding-shaped exterior",
+      "positionSource": "https://www.wikidata.org/wiki/Q1051293",
+      "visualSource": "https://www.shanghaimuseum.cn/mu/frontend/pg/m/infomation/about",
+      "heightSource": "visual-estimate",
+      "modelSource": "procedural-exterior-estimate"
+    },
+    {
+      "id": "exhibition",
+      "name": "上海展览中心",
+      "lon": 121.448056,
+      "lat": 31.226667,
+      "height": 110,
+      "reserve": 150,
+      "type": "exhibition",
+      "district": "静安 · 南京西路",
+      "source": "Wikidata Q3481394 coordinate; Jing'an district exterior description",
+      "positionSource": "https://www.wikidata.org/wiki/Q3481394",
+      "visualSource": "https://www.jingan.gov.cn/rmtzx/003008/003008005/20211229/b85d5e32-725a-4bdb-a6bd-be4e803a1418.html",
+      "heightSource": "visual-estimate",
+      "modelSource": "procedural-exterior-estimate"
+    },
+    {
+      "id": "tianzifang",
+      "name": "田子坊",
+      "lon": 121.46413,
+      "lat": 31.21023,
+      "height": 12,
+      "reserve": 76,
+      "type": "lane",
+      "district": "黄浦 · 泰康路",
+      "source": "Selected anchor north of cached OSM Taikang Road; lane layout is a visual estimate, not a cadastral reconstruction",
+      "positionSource": "data/source/shanghai-basemap.json: 泰康路",
+      "heightSource": "visual-estimate",
+      "modelSource": "procedural-lane-estimate"
+    }
+  ],
+  "places": [
+    {
+      "id": "nanjing-west",
+      "name": "南京西路",
+      "road": "南京西路",
+      "near": [
+        121.459,
+        31.231
+      ],
+      "district": "静安 · 商业街"
+    },
+    {
+      "id": "huaihai",
+      "name": "淮海中路",
+      "road": "淮海中路",
+      "near": [
+        121.459,
+        31.221
+      ],
+      "district": "黄浦 · 淮海路"
+    },
+    {
+      "id": "xintiandi",
+      "name": "新天地",
+      "road": "马当路",
+      "near": [
+        121.47036,
+        31.22183
+      ],
+      "district": "黄浦 · 石库门街区"
+    },
+    {
+      "id": "north-bund",
+      "name": "北外滩",
+      "road": "东大名路",
+      "near": [
+        121.505,
+        31.254
+      ],
+      "district": "虹口 · 北外滩"
+    },
+    {
+      "id": "nanpu-area",
+      "name": "南浦大桥周边",
+      "road": "中山南路",
+      "near": [
+        121.497,
+        31.211
+      ],
+      "district": "黄浦 · 地面道路"
+    },
+    {
+      "id": "yuanshen",
+      "name": "源深",
+      "road": "源深路",
+      "near": [
+        121.53,
+        31.234
+      ],
+      "district": "浦东 · 源深路"
+    },
+    {
+      "id": "nanjing-east",
+      "name": "南京东路",
+      "road": "河南中路",
+      "near": [
+        121.4784,
+        31.2393
+      ],
+      "district": "黄浦 · 河南中路口"
+    }
+  ],
+  "notes": [
+    "Some web coordinates use a different map datum. Tianzifang is anchored against the fixed OSM street cache instead of a conflicting Wikidata coordinate.",
+    "Direct OSM full-geometry requests for ways 13981430, 161090899 and 438483942 timed out after 25 seconds on this host; no downloaded geometry was substituted.",
+    "New district destinations use the nearest point on the named cached street, not a road inferred from a place label."
+  ]
+}

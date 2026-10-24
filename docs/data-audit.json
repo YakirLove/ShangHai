@@ -1,0 +1,40 @@
+{
+  "version": "0.3.0",
+  "profile": "shanghai-citywide",
+  "districts": 16,
+  "roads": 188784,
+  "realBuildings": 117574,
+  "proceduralBuildings": 455961,
+  "centralBuildings": 23652,
+  "tiles": 30418,
+  "tileSizeM": 1000,
+  "tilePayloadBytes": 329443848,
+  "bootstrapBytes": 7727410,
+  "landAreaKm2": 7148.98,
+  "administrativeAreaKm2": 16205.45,
+  "boundsAreaKm2": 30168.03,
+  "waterAreaM2": 9056454123,
+  "destinations": 43,
+  "sourceSHA256": "dd18c877fa0d4c798a3a0d84eccae53aa73238754f7e62a68f79ff9684258706",
+  "sourceTimestamp": "2026-10-23T02:06:05Z",
+  "skippedSourceGeometries": 116,
+  "otherUndergroundRoadsExcluded": 1477,
+  "tunnels": [
+    {
+      "id": "yanan-0",
+      "length": 1975.6,
+      "width": 10,
+      "widthSource": "gameplay-visual-estimate",
+      "heightSource": "visual-estimate-continuous-profile"
+    },
+    {
+      "id": "yanan-1",
+      "length": 2331.96,
+      "width": 10,
+      "widthSource": "gameplay-visual-estimate",
+      "heightSource": "visual-estimate-continuous-profile"
+    }
+  ],
+  "citySHA256": "995d3195e12dbdd2cc442559d2ef7df0827ec208d00376fed8c13a1fc6dba30a",
+  "tilesWithFarmland": 1485
+}

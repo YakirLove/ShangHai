@@ -1,0 +1,114 @@
+{
+  "startedAt": "2026-10-23T09:15:17.694Z",
+  "continuingFrom": "2026-10-23T09:06:26.483Z",
+  "build": {
+    "asset": "index-znyxrDSI.js",
+    "sha256": "7b557160d6a963e1884a89616568482ab11caf33ddbaab563622a8b4b03dc001",
+    "changes": "Nearby fixed 100-car/80-pedestrian pools; perspective-correct Shanghai night light streaks; corrected fixed and landmark viewpoints; includes taxi footprint and Escape fixes."
+  },
+  "phase": "complete",
+  "results": [
+    {
+      "label": "east-midday-release",
+      "duration": 159779.75,
+      "maxCrossTrack": 0.9570494153796821,
+      "maxStep": 3.792664702225152,
+      "minCameraClearance": 2.658214005656223,
+      "p95": 17.90499997138977,
+      "frames": 9513,
+      "trace": 745
+    },
+    {
+      "label": "west-midday-release",
+      "duration": 138555.36500000954,
+      "maxCrossTrack": 1.4357675021320737,
+      "maxStep": 4.324195218946827,
+      "minCameraClearance": 2.6370809050773882,
+      "p95": 20.72000002861023,
+      "frames": 7884,
+      "trace": 635
+    },
+    {
+      "label": "east-midnight-release",
+      "duration": 159875.8450000286,
+      "maxCrossTrack": 0.9223428496427166,
+      "maxStep": 4.166899130867428,
+      "minCameraClearance": 2.6572234914505586,
+      "p95": 18.110000133514404,
+      "frames": 9490,
+      "trace": 744
+    },
+    {
+      "label": "west-midnight-release",
+      "duration": 136027.8299999237,
+      "maxCrossTrack": 1.4563010168560289,
+      "maxStep": 3.8872764947847314,
+      "minCameraClearance": 2.634349115586563,
+      "p95": 18.075000047683716,
+      "frames": 8035,
+      "trace": 632
+    },
+    {
+      "label": "east-golden-release",
+      "duration": 173950.7649998665,
+      "maxCrossTrack": 0.919552627795457,
+      "maxStep": 4.225252583164919,
+      "minCameraClearance": 2.658429660738685,
+      "p95": 20.33999991416931,
+      "frames": 10090,
+      "trace": 807
+    },
+    {
+      "label": "west-golden-release",
+      "duration": 240792.0799999237,
+      "maxCrossTrack": 1.4470116013186547,
+      "maxStep": 4.798109766931815,
+      "minCameraClearance": 2.6224658827272087,
+      "p95": 47.640000104904175,
+      "frames": 8123,
+      "trace": 804
+    },
+    {
+      "label": "car-performance-release",
+      "duration": 370482.00500011444,
+      "maxCrossTrack": 0.3077637251666137,
+      "maxStep": 2.2746640265502203,
+      "minCameraClearance": 2.6386887150349603,
+      "p95": 30.90499997138977,
+      "frames": 18812,
+      "trace": 1605
+    },
+    {
+      "mode": "person",
+      "duration": 331032.66499996185,
+      "sampleDuration": 301030.0750000477,
+      "distance": 1202.6313273190656,
+      "p95": 22.200000047683716,
+      "frames": 17201,
+      "buildAsset": "index-znyxrDSI.js",
+      "stopped": true
+    },
+    {
+      "mode": "cyclist",
+      "sampleDuration": 301030.2800002098,
+      "distance": 2761.0509865543895,
+      "p95": 25.494999885559082,
+      "frames": 16492,
+      "buildAsset": "index-znyxrDSI.js",
+      "stopped": true,
+      "protocol": "Fresh page; no Page.screencast; 30s warmup then 301s foreground sampling."
+    },
+    {
+      "mode": "helicopter",
+      "sampleDuration": 301001.3550000191,
+      "distance": 6926.399542156051,
+      "p95": 17.800000190734863,
+      "frames": 26346,
+      "buildAsset": "index-znyxrDSI.js",
+      "stopped": true,
+      "protocol": "Fresh page; no Page.screencast; 30s warmup then 301s foreground sampling."
+    }
+  ],
+  "error": null,
+  "done": true
+}

@@ -1,0 +1,7 @@
+{
+  "shift": 0,
+  "failureToast": "验收注入：新区目标请求失败，请重试",
+  "retryDistance": 49.05035073814403,
+  "retryReady": true,
+  "errors": []
+}

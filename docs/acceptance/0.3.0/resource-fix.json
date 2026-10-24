@@ -1,0 +1,13 @@
+{
+  "symptom": "48 extra uniform buffers per remote round trip before fix",
+  "rootCause": "Geometry disposal alone leaves WebGPU per-object render bindings alive for regular meshes sharing materials. RenderObject.onGeometryDispose only clears vertex state.",
+  "fix": "Notify ordinary mesh dispose before disposing geometry; retain InstancedMesh.dispose and shared materials.",
+  "unitTests": {
+    "tests": 45,
+    "pass": 45,
+    "fail": 0
+  },
+  "fixedAsset": "index-CkwP2jLv.js",
+  "browserProof": "lifecycle.json",
+  "vendorEvidence": "vendor/three/build/three.webgpu.js RenderObject.onGeometryDispose/onObjectDispose and RenderObjects.createRenderObject.onDispose"
+}

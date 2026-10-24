@@ -1,0 +1,751 @@
+{
+  "network": {
+    "mbps": 50,
+    "rttMs": 80,
+    "cache": "site storage cleared; HTTP cache bypassed"
+  },
+  "runs": [
+    {
+      "operableMs": 7515.585000038147,
+      "bootMs": 6062.994999885559,
+      "marks": [
+        {
+          "text": "读取浦江两岸的道路与建筑…",
+          "ms": 1.4749999046325684
+        },
+        {
+          "text": "准备天空、光线和材质…",
+          "ms": 3906.689999818802
+        },
+        {
+          "text": "构建上海天际线与街道…",
+          "ms": 3977.0199999809265
+        },
+        {
+          "text": "编译光影，准备出发…",
+          "ms": 5396.794999837875
+        }
+      ],
+      "navigation": {
+        "name": "http://127.0.0.1:4187/",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 1730.5550000667572,
+        "navigationId": 6017,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.1",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 16.694999933242798,
+        "domainLookupStart": 16.694999933242798,
+        "domainLookupEnd": 16.694999933242798,
+        "connectStart": 16.694999933242798,
+        "secureConnectionStart": 0,
+        "connectEnd": 16.694999933242798,
+        "requestStart": 32.234999895095825,
+        "responseStart": 68.71000003814697,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 68.71000003814697,
+        "responseEnd": 124.98499989509583,
+        "transferSize": 4018,
+        "encodedBodySize": 3718,
+        "decodedBodySize": 3718,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 140.15000009536743,
+        "unloadEventEnd": 140.15000009536743,
+        "domInteractive": 429.56500005722046,
+        "domContentLoadedEventStart": 1233.3150000572205,
+        "domContentLoadedEventEnd": 1233.3599998950958,
+        "domComplete": 1730.210000038147,
+        "loadEventStart": 1730.2300000190735,
+        "loadEventEnd": 1730.5550000667572,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {
+          "randomizedTriggerRate": 0.4994798,
+          "value": "low"
+        }
+      },
+      "resources": [
+        {
+          "url": "/assets/index-DqNtY0-r.js",
+          "startTime": 198.75499987602234,
+          "duration": 975.75,
+          "transferSize": 1083262,
+          "encodedBodySize": 1082962
+        },
+        {
+          "url": "/assets/index-BGgYhXhh.css",
+          "startTime": 198.97499990463257,
+          "duration": 222.77500009536743,
+          "transferSize": 7358,
+          "encodedBodySize": 7058
+        },
+        {
+          "url": "/data/city.json",
+          "startTime": 1233.0750000476837,
+          "duration": 3815.1799998283386,
+          "transferSize": 9121651,
+          "encodedBodySize": 9121351
+        },
+        {
+          "url": "/data/manifest.json",
+          "startTime": 1233.2549998760223,
+          "duration": 113.8600001335144,
+          "transferSize": 53532,
+          "encodedBodySize": 53232
+        },
+        {
+          "url": "/data/tiles/-2_-1.json",
+          "startTime": 6318.65499997139,
+          "duration": 91.41000008583069,
+          "transferSize": 6310,
+          "encodedBodySize": 6010
+        },
+        {
+          "url": "/data/tiles/-3_-1.json",
+          "startTime": 6318.744999885559,
+          "duration": 96.36500000953674,
+          "transferSize": 25343,
+          "encodedBodySize": 25043
+        },
+        {
+          "url": "/data/tiles/-1_-1.json",
+          "startTime": 6416.59500002861,
+          "duration": 89.7649998664856,
+          "transferSize": 13291,
+          "encodedBodySize": 12991
+        },
+        {
+          "url": "/data/tiles/-1_-2.json",
+          "startTime": 6416.6849999427795,
+          "duration": 85.42499995231628,
+          "transferSize": 1049,
+          "encodedBodySize": 749
+        },
+        {
+          "url": "/data/tiles/-1_0.json",
+          "startTime": 6416.7300000190735,
+          "duration": 94.9449999332428,
+          "transferSize": 2514,
+          "encodedBodySize": 2214
+        },
+        {
+          "url": "/data/tiles/-2_0.json",
+          "startTime": 6416.77999997139,
+          "duration": 103.80999994277954,
+          "transferSize": 19929,
+          "encodedBodySize": 19629
+        },
+        {
+          "url": "/data/tiles/-2_1.json",
+          "startTime": 6416.835000038147,
+          "duration": 102.04499983787537,
+          "transferSize": 18602,
+          "encodedBodySize": 18302
+        },
+        {
+          "url": "/data/tiles/-3_0.json",
+          "startTime": 6416.930000066757,
+          "duration": 102.39499998092651,
+          "transferSize": 20838,
+          "encodedBodySize": 20538
+        },
+        {
+          "url": "/data/tiles/-3_1.json",
+          "startTime": 6416.9800000190735,
+          "duration": 177.65499997138977,
+          "transferSize": 17511,
+          "encodedBodySize": 17211
+        },
+        {
+          "url": "/data/tiles/-4_0.json",
+          "startTime": 6417.045000076294,
+          "duration": 180.4649999141693,
+          "transferSize": 17521,
+          "encodedBodySize": 17221
+        },
+        {
+          "url": "/data/tiles/-4_1.json",
+          "startTime": 6417.115000009537,
+          "duration": 182.0699999332428,
+          "transferSize": 11682,
+          "encodedBodySize": 11382
+        },
+        {
+          "url": "/data/tiles/0_-1.json",
+          "startTime": 6417.170000076294,
+          "duration": 189.69999980926514,
+          "transferSize": 15239,
+          "encodedBodySize": 14939
+        },
+        {
+          "url": "/data/tiles/0_-2.json",
+          "startTime": 6417.210000038147,
+          "duration": 192.7149999141693,
+          "transferSize": 14768,
+          "encodedBodySize": 14468
+        },
+        {
+          "url": "/data/tiles/1_-1.json",
+          "startTime": 6417.264999866486,
+          "duration": 187.0900001525879,
+          "transferSize": 4604,
+          "encodedBodySize": 4304
+        }
+      ],
+      "webgpu": true,
+      "canvas": [
+        1920,
+        1080
+      ],
+      "pixelRatio": 1,
+      "visibility": "visible",
+      "quality": "medium",
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "versions": {
+        "architecture": "arm",
+        "brands": [
+          {
+            "brand": "Chromium",
+            "version": "154"
+          },
+          {
+            "brand": "Google Chrome",
+            "version": "154"
+          },
+          {
+            "brand": "Not A(Brand",
+            "version": "99"
+          }
+        ],
+        "fullVersionList": [
+          {
+            "brand": "Chromium",
+            "version": "154.0.8037.58"
+          },
+          {
+            "brand": "Google Chrome",
+            "version": "154.0.8037.58"
+          },
+          {
+            "brand": "Not A(Brand",
+            "version": "99.0.0.0"
+          }
+        ],
+        "mobile": false,
+        "platform": "macOS",
+        "platformVersion": "27.0.1"
+      },
+      "errors": []
+    },
+    {
+      "operableMs": 6381.490000009537,
+      "bootMs": 5700,
+      "marks": [
+        {
+          "text": "读取浦江两岸的道路与建筑…",
+          "ms": 0.10500001907348633
+        },
+        {
+          "text": "准备天空、光线和材质…",
+          "ms": 3497.545000076294
+        },
+        {
+          "text": "构建上海天际线与街道…",
+          "ms": 3540.295000076294
+        },
+        {
+          "text": "编译光影，准备出发…",
+          "ms": 4985.795000076294
+        }
+      ],
+      "navigation": {
+        "name": "http://127.0.0.1:4187/",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 689.7549998760223,
+        "navigationId": 7993,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.1",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 1.5750000476837158,
+        "domainLookupStart": 1.5750000476837158,
+        "domainLookupEnd": 1.5750000476837158,
+        "connectStart": 1.5750000476837158,
+        "secureConnectionStart": 0,
+        "connectEnd": 1.5750000476837158,
+        "requestStart": 5.754999876022339,
+        "responseStart": 9.634999990463257,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 9.634999990463257,
+        "responseEnd": 92.04999995231628,
+        "transferSize": 4018,
+        "encodedBodySize": 3718,
+        "decodedBodySize": 3718,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 92.29999995231628,
+        "unloadEventEnd": 92.29999995231628,
+        "domInteractive": 153.1399998664856,
+        "domContentLoadedEventStart": 617.6399998664856,
+        "domContentLoadedEventEnd": 617.6699998378754,
+        "domComplete": 689.6549999713898,
+        "loadEventStart": 689.6949999332428,
+        "loadEventEnd": 689.7549998760223,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {
+          "randomizedTriggerRate": 0.4994798,
+          "value": "high"
+        }
+      },
+      "resources": [
+        {
+          "url": "/assets/index-DqNtY0-r.js",
+          "startTime": 113.67499995231628,
+          "duration": 484.6449999809265,
+          "transferSize": 1083262,
+          "encodedBodySize": 1082962
+        },
+        {
+          "url": "/assets/index-BGgYhXhh.css",
+          "startTime": 113.82500004768372,
+          "duration": 114.15499997138977,
+          "transferSize": 7358,
+          "encodedBodySize": 7058
+        },
+        {
+          "url": "/data/city.json",
+          "startTime": 617.454999923706,
+          "duration": 3438.25,
+          "transferSize": 9121651,
+          "encodedBodySize": 9121351
+        },
+        {
+          "url": "/data/manifest.json",
+          "startTime": 617.579999923706,
+          "duration": 127.81500005722046,
+          "transferSize": 53532,
+          "encodedBodySize": 53232
+        },
+        {
+          "url": "/data/tiles/-2_-1.json",
+          "startTime": 5109.054999828339,
+          "duration": 106.64000010490417,
+          "transferSize": 6310,
+          "encodedBodySize": 6010
+        },
+        {
+          "url": "/data/tiles/-3_-1.json",
+          "startTime": 5109.234999895096,
+          "duration": 155.8949999809265,
+          "transferSize": 25343,
+          "encodedBodySize": 25043
+        },
+        {
+          "url": "/data/tiles/-1_-1.json",
+          "startTime": 5265.964999914169,
+          "duration": 141.8050000667572,
+          "transferSize": 13291,
+          "encodedBodySize": 12991
+        },
+        {
+          "url": "/data/tiles/-1_-2.json",
+          "startTime": 5266.049999952316,
+          "duration": 129.37999987602234,
+          "transferSize": 1049,
+          "encodedBodySize": 749
+        },
+        {
+          "url": "/data/tiles/-1_0.json",
+          "startTime": 5266.099999904633,
+          "duration": 233.5199999809265,
+          "transferSize": 2514,
+          "encodedBodySize": 2214
+        },
+        {
+          "url": "/data/tiles/-2_0.json",
+          "startTime": 5266.1449999809265,
+          "duration": 143.7849998474121,
+          "transferSize": 19929,
+          "encodedBodySize": 19629
+        },
+        {
+          "url": "/data/tiles/-2_1.json",
+          "startTime": 5266.194999933243,
+          "duration": 155.45499992370605,
+          "transferSize": 18602,
+          "encodedBodySize": 18302
+        },
+        {
+          "url": "/data/tiles/-3_0.json",
+          "startTime": 5266.2300000190735,
+          "duration": 326.4649999141693,
+          "transferSize": 20838,
+          "encodedBodySize": 20538
+        },
+        {
+          "url": "/data/tiles/-3_1.json",
+          "startTime": 5266.2699999809265,
+          "duration": 140.23499989509583,
+          "transferSize": 17511,
+          "encodedBodySize": 17211
+        },
+        {
+          "url": "/data/tiles/-4_0.json",
+          "startTime": 5266.319999933243,
+          "duration": 335.7999999523163,
+          "transferSize": 17521,
+          "encodedBodySize": 17221
+        },
+        {
+          "url": "/data/tiles/-4_1.json",
+          "startTime": 5266.359999895096,
+          "duration": 136.125,
+          "transferSize": 11682,
+          "encodedBodySize": 11382
+        },
+        {
+          "url": "/data/tiles/0_-1.json",
+          "startTime": 5266.40499997139,
+          "duration": 253.0149998664856,
+          "transferSize": 15239,
+          "encodedBodySize": 14939
+        },
+        {
+          "url": "/data/tiles/0_-2.json",
+          "startTime": 5266.450000047684,
+          "duration": 316.6749999523163,
+          "transferSize": 14768,
+          "encodedBodySize": 14468
+        },
+        {
+          "url": "/data/tiles/1_-1.json",
+          "startTime": 5266.494999885559,
+          "duration": 301.8550000190735,
+          "transferSize": 4604,
+          "encodedBodySize": 4304
+        }
+      ],
+      "webgpu": true,
+      "canvas": [
+        1920,
+        1080
+      ],
+      "pixelRatio": 1,
+      "visibility": "visible",
+      "quality": "medium",
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "versions": {
+        "architecture": "arm",
+        "brands": [
+          {
+            "brand": "Chromium",
+            "version": "154"
+          },
+          {
+            "brand": "Google Chrome",
+            "version": "154"
+          },
+          {
+            "brand": "Not A(Brand",
+            "version": "99"
+          }
+        ],
+        "fullVersionList": [
+          {
+            "brand": "Chromium",
+            "version": "154.0.8037.58"
+          },
+          {
+            "brand": "Google Chrome",
+            "version": "154.0.8037.58"
+          },
+          {
+            "brand": "Not A(Brand",
+            "version": "99.0.0.0"
+          }
+        ],
+        "mobile": false,
+        "platform": "macOS",
+        "platformVersion": "27.0.1"
+      },
+      "errors": []
+    },
+    {
+      "operableMs": 7979.8099999427795,
+      "bootMs": 7284.864999771118,
+      "marks": [
+        {
+          "text": "读取浦江两岸的道路与建筑…",
+          "ms": 0.10499978065490723
+        },
+        {
+          "text": "准备天空、光线和材质…",
+          "ms": 4830.754999876022
+        },
+        {
+          "text": "构建上海天际线与街道…",
+          "ms": 4867.634999990463
+        },
+        {
+          "text": "编译光影，准备出发…",
+          "ms": 6533.939999818802
+        }
+      ],
+      "navigation": {
+        "name": "http://127.0.0.1:4187/",
+        "entryType": "navigation",
+        "startTime": 0,
+        "duration": 707.6599998474121,
+        "navigationId": 8225,
+        "initiatorType": "navigation",
+        "deliveryType": "",
+        "nextHopProtocol": "http/1.1",
+        "renderBlockingStatus": "non-blocking",
+        "contentType": "text/html",
+        "contentEncoding": "",
+        "workerStart": 0,
+        "workerRouterEvaluationStart": 0,
+        "workerCacheLookupStart": 0,
+        "workerMatchedSourceType": "",
+        "workerFinalSourceType": "",
+        "redirectStart": 0,
+        "redirectEnd": 0,
+        "fetchStart": 0.744999885559082,
+        "domainLookupStart": 0.744999885559082,
+        "domainLookupEnd": 0.744999885559082,
+        "connectStart": 0.744999885559082,
+        "secureConnectionStart": 0,
+        "connectEnd": 0.744999885559082,
+        "requestStart": 2.56499981880188,
+        "responseStart": 4.324999809265137,
+        "firstInterimResponseStart": 0,
+        "finalResponseHeadersStart": 4.324999809265137,
+        "responseEnd": 89.57499980926514,
+        "transferSize": 4018,
+        "encodedBodySize": 3718,
+        "decodedBodySize": 3718,
+        "responseStatus": 200,
+        "serverTiming": [],
+        "unloadEventStart": 90.55999994277954,
+        "unloadEventEnd": 90.55999994277954,
+        "domInteractive": 143.75,
+        "domContentLoadedEventStart": 659.4899997711182,
+        "domContentLoadedEventEnd": 659.5249998569489,
+        "domComplete": 707.5649998188019,
+        "loadEventStart": 707.5999999046326,
+        "loadEventEnd": 707.6599998474121,
+        "type": "navigate",
+        "redirectCount": 0,
+        "activationStart": 0,
+        "criticalCHRestart": 0,
+        "notRestoredReasons": null,
+        "confidence": {
+          "randomizedTriggerRate": 0.4994798,
+          "value": "high"
+        }
+      },
+      "resources": [
+        {
+          "url": "/assets/index-DqNtY0-r.js",
+          "startTime": 115.43999981880188,
+          "duration": 527.4400000572205,
+          "transferSize": 1083262,
+          "encodedBodySize": 1082962
+        },
+        {
+          "url": "/assets/index-BGgYhXhh.css",
+          "startTime": 115.60999989509583,
+          "duration": 103.86500000953674,
+          "transferSize": 7358,
+          "encodedBodySize": 7058
+        },
+        {
+          "url": "/data/city.json",
+          "startTime": 659.3099999427795,
+          "duration": 4762.5650000572205,
+          "transferSize": 9121651,
+          "encodedBodySize": 9121351
+        },
+        {
+          "url": "/data/manifest.json",
+          "startTime": 659.454999923706,
+          "duration": 114.54999995231628,
+          "transferSize": 53532,
+          "encodedBodySize": 53232
+        },
+        {
+          "url": "/data/tiles/-2_-1.json",
+          "startTime": 6758.929999828339,
+          "duration": 103.34500002861023,
+          "transferSize": 6310,
+          "encodedBodySize": 6010
+        },
+        {
+          "url": "/data/tiles/-3_-1.json",
+          "startTime": 6759.0199999809265,
+          "duration": 117.68999981880188,
+          "transferSize": 25343,
+          "encodedBodySize": 25043
+        },
+        {
+          "url": "/data/tiles/-1_-1.json",
+          "startTime": 6877.6849999427795,
+          "duration": 163.5,
+          "transferSize": 13291,
+          "encodedBodySize": 12991
+        },
+        {
+          "url": "/data/tiles/-1_-2.json",
+          "startTime": 6877.7699999809265,
+          "duration": 126.80999994277954,
+          "transferSize": 1049,
+          "encodedBodySize": 749
+        },
+        {
+          "url": "/data/tiles/-1_0.json",
+          "startTime": 6877.824999809265,
+          "duration": 128.38000011444092,
+          "transferSize": 2514,
+          "encodedBodySize": 2214
+        },
+        {
+          "url": "/data/tiles/-2_0.json",
+          "startTime": 6877.875,
+          "duration": 191.375,
+          "transferSize": 19929,
+          "encodedBodySize": 19629
+        },
+        {
+          "url": "/data/tiles/-2_1.json",
+          "startTime": 6877.929999828339,
+          "duration": 267.3550000190735,
+          "transferSize": 18602,
+          "encodedBodySize": 18302
+        },
+        {
+          "url": "/data/tiles/-3_0.json",
+          "startTime": 6877.969999790192,
+          "duration": 288.6950001716614,
+          "transferSize": 20838,
+          "encodedBodySize": 20538
+        },
+        {
+          "url": "/data/tiles/-3_1.json",
+          "startTime": 6878.014999866486,
+          "duration": 293.99000000953674,
+          "transferSize": 17511,
+          "encodedBodySize": 17211
+        },
+        {
+          "url": "/data/tiles/-4_0.json",
+          "startTime": 6878.054999828339,
+          "duration": 189.83000016212463,
+          "transferSize": 17521,
+          "encodedBodySize": 17221
+        },
+        {
+          "url": "/data/tiles/-4_1.json",
+          "startTime": 6878.099999904633,
+          "duration": 290.12999987602234,
+          "transferSize": 11682,
+          "encodedBodySize": 11382
+        },
+        {
+          "url": "/data/tiles/0_-1.json",
+          "startTime": 6878.139999866486,
+          "duration": 184.96000003814697,
+          "transferSize": 15239,
+          "encodedBodySize": 14939
+        },
+        {
+          "url": "/data/tiles/0_-2.json",
+          "startTime": 6878.174999952316,
+          "duration": 314.1599998474121,
+          "transferSize": 14768,
+          "encodedBodySize": 14468
+        },
+        {
+          "url": "/data/tiles/1_-1.json",
+          "startTime": 6878.229999780655,
+          "duration": 231.08500003814697,
+          "transferSize": 4604,
+          "encodedBodySize": 4304
+        }
+      ],
+      "webgpu": true,
+      "canvas": [
+        1920,
+        1080
+      ],
+      "pixelRatio": 1,
+      "visibility": "visible",
+      "quality": "medium",
+      "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+      "versions": {
+        "architecture": "arm",
+        "brands": [
+          {
+            "brand": "Chromium",
+            "version": "154"
+          },
+          {
+            "brand": "Google Chrome",
+            "version": "154"
+          },
+          {
+            "brand": "Not A(Brand",
+            "version": "99"
+          }
+        ],
+        "fullVersionList": [
+          {
+            "brand": "Chromium",
+            "version": "154.0.8037.58"
+          },
+          {
+            "brand": "Google Chrome",
+            "version": "154.0.8037.58"
+          },
+          {
+            "brand": "Not A(Brand",
+            "version": "99.0.0.0"
+          }
+        ],
+        "mobile": false,
+        "platform": "macOS",
+        "platformVersion": "27.0.1"
+      },
+      "errors": []
+    }
+  ],
+  "failure": null
+}

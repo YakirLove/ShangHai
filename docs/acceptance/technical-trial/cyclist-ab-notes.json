@@ -1,0 +1,45 @@
+{
+  "conclusion": "The short sequential variants did not isolate a stable scene bottleneck; lower quality and hidden crowd did not consistently improve P95. No app code/quality change was retained. Retest uses a fresh page with no screencast ever enabled.",
+  "runs": [
+    {
+      "stage": "baseline",
+      "frames": 788,
+      "p50": 16.65999984741211,
+      "p95": 29.255000114440918,
+      "p99": 94.33500003814697,
+      "errors": []
+    },
+    {
+      "stage": "minimap-hidden",
+      "frames": 868,
+      "p50": 16.65999984741211,
+      "p95": 22.81499981880188,
+      "p99": 43.87000012397766,
+      "errors": []
+    },
+    {
+      "stage": "no-shadows",
+      "frames": 540,
+      "p50": 16.65499997138977,
+      "p95": 41.74500012397766,
+      "p99": 94.79999995231628,
+      "errors": []
+    },
+    {
+      "stage": "no-crowd",
+      "frames": 585,
+      "p50": 16.65499997138977,
+      "p95": 49.53999996185303,
+      "p99": 250.0699999332428,
+      "errors": []
+    },
+    {
+      "stage": "low-quality",
+      "frames": 754,
+      "p50": 16.640000104904175,
+      "p95": 43.75,
+      "p99": 93.75,
+      "errors": []
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "metrics": [
+    "31.02 ms",
+    "22.20 ms",
+    "25.49 ms",
+    "17.80 ms"
+  ],
+  "videos": 7,
+  "images": [
+    {
+      "src": "performance.png",
+      "loaded": true
+    },
+    {
+      "src": "stability.png",
+      "loaded": true
+    },
+    {
+      "src": "lifecycle.png",
+      "loaded": true
+    },
+    {
+      "src": "landmarks-contact.jpg",
+      "loaded": true
+    },
+    {
+      "src": "driving-trajectories.png",
+      "loaded": true
+    }
+  ],
+  "filterChecks": true
+}

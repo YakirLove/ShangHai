@@ -1,0 +1,11 @@
+[
+  {
+    "domain": "shanghai.datiaomao.com",
+    "status": "would-provision",
+    "existing_config": "/etc/nginx/conf.d/app-market.conf",
+    "remote_changes": false,
+    "dns_addresses": [
+      "47.116.215.55"
+    ]
+  }
+]

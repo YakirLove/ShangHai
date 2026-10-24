@@ -1,0 +1,12 @@
+{
+  "command": "python3 -m unittest discover -s tests -v",
+  "passed": 22,
+  "failed": 0,
+  "newCases": [
+    "Private standalone-domain metadata",
+    "Same app domain across refresh and rollback",
+    "Reserved/invalid domains leave current untouched",
+    "Cross-app domain collision rejection"
+  ],
+  "remoteDomainStaging": "nginx -t and independent certificate issuance succeeded; original configuration restored byte-for-byte before publication"
+}

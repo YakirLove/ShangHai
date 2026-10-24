@@ -1,0 +1,20 @@
+{
+  "comparedWith": "release/shanghai-waterfront-0.1.0/data/city.json",
+  "unchanged": {
+    "bounds": true,
+    "roads": true,
+    "buildings": true,
+    "landmarks": true,
+    "water": true,
+    "parks": true,
+    "tunnelCentreLines": true
+  },
+  "tunnelWidthsBefore": [
+    8,
+    8
+  ],
+  "tunnelWidthsAfter": [
+    10,
+    10
+  ]
+}

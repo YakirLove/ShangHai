@@ -1,0 +1,1635 @@
+{
+  "version": "0.2.0",
+  "at": "2026-10-23T15:12:23.983Z",
+  "sourceDataSHA256": "91f010cc2656aebd7a55e500b5b6f38afd16da68e9cb25f45c3c325d802f4e15",
+  "manifestFilesVerified": 345,
+  "necessaryFilesServed": 325,
+  "base": "http://127.0.0.1:4191",
+  "files": [
+    {
+      "path": "assets/index-BGgYhXhh.css",
+      "status": 200,
+      "bytes": 7058
+    },
+    {
+      "path": "data/manifest.json",
+      "status": 200,
+      "bytes": 53232
+    },
+    {
+      "path": "assets/index-DqNtY0-r.js",
+      "status": 200,
+      "bytes": 1082962
+    },
+    {
+      "path": "data/city.json",
+      "status": 200,
+      "bytes": 9121351
+    },
+    {
+      "path": "data/tiles/-1_-1.json",
+      "status": 200,
+      "bytes": 12991
+    },
+    {
+      "path": "data/tiles/-1_-3.json",
+      "status": 200,
+      "bytes": 7407
+    },
+    {
+      "path": "data/tiles/-1_-4.json",
+      "status": 200,
+      "bytes": 19675
+    },
+    {
+      "path": "data/tiles/-1_-2.json",
+      "status": 200,
+      "bytes": 749
+    },
+    {
+      "path": "data/tiles/-1_-7.json",
+      "status": 200,
+      "bytes": 4778
+    },
+    {
+      "path": "data/tiles/-1_0.json",
+      "status": 200,
+      "bytes": 2214
+    },
+    {
+      "path": "data/tiles/-1_-5.json",
+      "status": 200,
+      "bytes": 22371
+    },
+    {
+      "path": "data/tiles/-1_-6.json",
+      "status": 200,
+      "bytes": 23763
+    },
+    {
+      "path": "data/tiles/-1_1.json",
+      "status": 200,
+      "bytes": 8440
+    },
+    {
+      "path": "data/tiles/-1_2.json",
+      "status": 200,
+      "bytes": 20591
+    },
+    {
+      "path": "data/tiles/-1_3.json",
+      "status": 200,
+      "bytes": 24042
+    },
+    {
+      "path": "data/tiles/-1_4.json",
+      "status": 200,
+      "bytes": 21214
+    },
+    {
+      "path": "data/tiles/-1_5.json",
+      "status": 200,
+      "bytes": 25193
+    },
+    {
+      "path": "data/tiles/-1_6.json",
+      "status": 200,
+      "bytes": 19089
+    },
+    {
+      "path": "data/tiles/-1_7.json",
+      "status": 200,
+      "bytes": 23040
+    },
+    {
+      "path": "data/tiles/-1_8.json",
+      "status": 200,
+      "bytes": 4739
+    },
+    {
+      "path": "data/tiles/-10_-2.json",
+      "status": 200,
+      "bytes": 21829
+    },
+    {
+      "path": "data/tiles/-10_-4.json",
+      "status": 200,
+      "bytes": 17043
+    },
+    {
+      "path": "data/tiles/-10_-1.json",
+      "status": 200,
+      "bytes": 24181
+    },
+    {
+      "path": "data/tiles/-10_-3.json",
+      "status": 200,
+      "bytes": 22212
+    },
+    {
+      "path": "data/tiles/-10_-6.json",
+      "status": 200,
+      "bytes": 26541
+    },
+    {
+      "path": "data/tiles/-10_-5.json",
+      "status": 200,
+      "bytes": 24655
+    },
+    {
+      "path": "data/tiles/-10_-7.json",
+      "status": 200,
+      "bytes": 9348
+    },
+    {
+      "path": "data/tiles/-10_0.json",
+      "status": 200,
+      "bytes": 28978
+    },
+    {
+      "path": "data/tiles/-10_2.json",
+      "status": 200,
+      "bytes": 20029
+    },
+    {
+      "path": "data/tiles/-10_1.json",
+      "status": 200,
+      "bytes": 28120
+    },
+    {
+      "path": "data/tiles/-10_3.json",
+      "status": 200,
+      "bytes": 30427
+    },
+    {
+      "path": "data/tiles/-10_4.json",
+      "status": 200,
+      "bytes": 26398
+    },
+    {
+      "path": "data/tiles/-10_6.json",
+      "status": 200,
+      "bytes": 28312
+    },
+    {
+      "path": "data/tiles/-10_7.json",
+      "status": 200,
+      "bytes": 30759
+    },
+    {
+      "path": "data/tiles/-10_8.json",
+      "status": 200,
+      "bytes": 3771
+    },
+    {
+      "path": "data/tiles/-10_5.json",
+      "status": 200,
+      "bytes": 21272
+    },
+    {
+      "path": "data/tiles/-11_-2.json",
+      "status": 200,
+      "bytes": 11817
+    },
+    {
+      "path": "data/tiles/-11_-3.json",
+      "status": 200,
+      "bytes": 13889
+    },
+    {
+      "path": "data/tiles/-11_-4.json",
+      "status": 200,
+      "bytes": 9405
+    },
+    {
+      "path": "data/tiles/-11_-1.json",
+      "status": 200,
+      "bytes": 10964
+    },
+    {
+      "path": "data/tiles/-11_-5.json",
+      "status": 200,
+      "bytes": 11951
+    },
+    {
+      "path": "data/tiles/-11_-7.json",
+      "status": 200,
+      "bytes": 2223
+    },
+    {
+      "path": "data/tiles/-11_-6.json",
+      "status": 200,
+      "bytes": 15911
+    },
+    {
+      "path": "data/tiles/-11_0.json",
+      "status": 200,
+      "bytes": 13717
+    },
+    {
+      "path": "data/tiles/-11_2.json",
+      "status": 200,
+      "bytes": 7270
+    },
+    {
+      "path": "data/tiles/-11_3.json",
+      "status": 200,
+      "bytes": 10700
+    },
+    {
+      "path": "data/tiles/-11_1.json",
+      "status": 200,
+      "bytes": 12294
+    },
+    {
+      "path": "data/tiles/-11_4.json",
+      "status": 200,
+      "bytes": 10578
+    },
+    {
+      "path": "data/tiles/-11_6.json",
+      "status": 200,
+      "bytes": 14437
+    },
+    {
+      "path": "data/tiles/-11_7.json",
+      "status": 200,
+      "bytes": 13224
+    },
+    {
+      "path": "data/tiles/-11_8.json",
+      "status": 200,
+      "bytes": 2169
+    },
+    {
+      "path": "data/tiles/-11_5.json",
+      "status": 200,
+      "bytes": 10188
+    },
+    {
+      "path": "data/tiles/-2_-1.json",
+      "status": 200,
+      "bytes": 6010
+    },
+    {
+      "path": "data/tiles/-2_-2.json",
+      "status": 200,
+      "bytes": 3576
+    },
+    {
+      "path": "data/tiles/-2_-4.json",
+      "status": 200,
+      "bytes": 19048
+    },
+    {
+      "path": "data/tiles/-2_-3.json",
+      "status": 200,
+      "bytes": 13581
+    },
+    {
+      "path": "data/tiles/-2_-5.json",
+      "status": 200,
+      "bytes": 18538
+    },
+    {
+      "path": "data/tiles/-2_-6.json",
+      "status": 200,
+      "bytes": 24479
+    },
+    {
+      "path": "data/tiles/-2_-7.json",
+      "status": 200,
+      "bytes": 3752
+    },
+    {
+      "path": "data/tiles/-2_0.json",
+      "status": 200,
+      "bytes": 19629
+    },
+    {
+      "path": "data/tiles/-2_1.json",
+      "status": 200,
+      "bytes": 18302
+    },
+    {
+      "path": "data/tiles/-2_2.json",
+      "status": 200,
+      "bytes": 23681
+    },
+    {
+      "path": "data/tiles/-2_4.json",
+      "status": 200,
+      "bytes": 19401
+    },
+    {
+      "path": "data/tiles/-2_3.json",
+      "status": 200,
+      "bytes": 23151
+    },
+    {
+      "path": "data/tiles/-2_5.json",
+      "status": 200,
+      "bytes": 21824
+    },
+    {
+      "path": "data/tiles/-2_7.json",
+      "status": 200,
+      "bytes": 27568
+    },
+    {
+      "path": "data/tiles/-2_6.json",
+      "status": 200,
+      "bytes": 18730
+    },
+    {
+      "path": "data/tiles/-2_8.json",
+      "status": 200,
+      "bytes": 3408
+    },
+    {
+      "path": "data/tiles/-3_-1.json",
+      "status": 200,
+      "bytes": 25043
+    },
+    {
+      "path": "data/tiles/-3_-2.json",
+      "status": 200,
+      "bytes": 21580
+    },
+    {
+      "path": "data/tiles/-3_-3.json",
+      "status": 200,
+      "bytes": 22299
+    },
+    {
+      "path": "data/tiles/-3_-4.json",
+      "status": 200,
+      "bytes": 21336
+    },
+    {
+      "path": "data/tiles/-3_-5.json",
+      "status": 200,
+      "bytes": 10893
+    },
+    {
+      "path": "data/tiles/-3_-7.json",
+      "status": 200,
+      "bytes": 6862
+    },
+    {
+      "path": "data/tiles/-3_-6.json",
+      "status": 200,
+      "bytes": 20221
+    },
+    {
+      "path": "data/tiles/-3_0.json",
+      "status": 200,
+      "bytes": 20538
+    },
+    {
+      "path": "data/tiles/-3_1.json",
+      "status": 200,
+      "bytes": 17211
+    },
+    {
+      "path": "data/tiles/-3_2.json",
+      "status": 200,
+      "bytes": 24430
+    },
+    {
+      "path": "data/tiles/-3_3.json",
+      "status": 200,
+      "bytes": 22651
+    },
+    {
+      "path": "data/tiles/-3_4.json",
+      "status": 200,
+      "bytes": 23422
+    },
+    {
+      "path": "data/tiles/-3_5.json",
+      "status": 200,
+      "bytes": 23517
+    },
+    {
+      "path": "data/tiles/-3_6.json",
+      "status": 200,
+      "bytes": 29227
+    },
+    {
+      "path": "data/tiles/-3_7.json",
+      "status": 200,
+      "bytes": 27915
+    },
+    {
+      "path": "data/tiles/-3_8.json",
+      "status": 200,
+      "bytes": 7508
+    },
+    {
+      "path": "data/tiles/-4_-2.json",
+      "status": 200,
+      "bytes": 14034
+    },
+    {
+      "path": "data/tiles/-4_-1.json",
+      "status": 200,
+      "bytes": 23284
+    },
+    {
+      "path": "data/tiles/-4_-4.json",
+      "status": 200,
+      "bytes": 26460
+    },
+    {
+      "path": "data/tiles/-4_-3.json",
+      "status": 200,
+      "bytes": 20650
+    },
+    {
+      "path": "data/tiles/-4_-5.json",
+      "status": 200,
+      "bytes": 25524
+    },
+    {
+      "path": "data/tiles/-4_-6.json",
+      "status": 200,
+      "bytes": 22375
+    },
+    {
+      "path": "data/tiles/-4_-7.json",
+      "status": 200,
+      "bytes": 6295
+    },
+    {
+      "path": "data/tiles/-4_0.json",
+      "status": 200,
+      "bytes": 17221
+    },
+    {
+      "path": "data/tiles/-4_1.json",
+      "status": 200,
+      "bytes": 11382
+    },
+    {
+      "path": "data/tiles/-4_2.json",
+      "status": 200,
+      "bytes": 21872
+    },
+    {
+      "path": "data/tiles/-4_3.json",
+      "status": 200,
+      "bytes": 24112
+    },
+    {
+      "path": "data/tiles/-4_4.json",
+      "status": 200,
+      "bytes": 28736
+    },
+    {
+      "path": "data/tiles/-4_5.json",
+      "status": 200,
+      "bytes": 21302
+    },
+    {
+      "path": "data/tiles/-4_7.json",
+      "status": 200,
+      "bytes": 30608
+    },
+    {
+      "path": "data/tiles/-4_6.json",
+      "status": 200,
+      "bytes": 29263
+    },
+    {
+      "path": "data/tiles/-4_8.json",
+      "status": 200,
+      "bytes": 4038
+    },
+    {
+      "path": "data/tiles/-5_-1.json",
+      "status": 200,
+      "bytes": 15280
+    },
+    {
+      "path": "data/tiles/-5_-2.json",
+      "status": 200,
+      "bytes": 22179
+    },
+    {
+      "path": "data/tiles/-5_-4.json",
+      "status": 200,
+      "bytes": 30292
+    },
+    {
+      "path": "data/tiles/-5_-3.json",
+      "status": 200,
+      "bytes": 24323
+    },
+    {
+      "path": "data/tiles/-5_-5.json",
+      "status": 200,
+      "bytes": 23542
+    },
+    {
+      "path": "data/tiles/-5_-6.json",
+      "status": 200,
+      "bytes": 22096
+    },
+    {
+      "path": "data/tiles/-5_-7.json",
+      "status": 200,
+      "bytes": 5746
+    },
+    {
+      "path": "data/tiles/-5_0.json",
+      "status": 200,
+      "bytes": 9578
+    },
+    {
+      "path": "data/tiles/-5_2.json",
+      "status": 200,
+      "bytes": 11695
+    },
+    {
+      "path": "data/tiles/-5_1.json",
+      "status": 200,
+      "bytes": 2867
+    },
+    {
+      "path": "data/tiles/-5_4.json",
+      "status": 200,
+      "bytes": 26930
+    },
+    {
+      "path": "data/tiles/-5_3.json",
+      "status": 200,
+      "bytes": 23823
+    },
+    {
+      "path": "data/tiles/-5_5.json",
+      "status": 200,
+      "bytes": 28200
+    },
+    {
+      "path": "data/tiles/-5_7.json",
+      "status": 200,
+      "bytes": 29822
+    },
+    {
+      "path": "data/tiles/-5_8.json",
+      "status": 200,
+      "bytes": 5101
+    },
+    {
+      "path": "data/tiles/-5_6.json",
+      "status": 200,
+      "bytes": 23626
+    },
+    {
+      "path": "data/tiles/-6_-1.json",
+      "status": 200,
+      "bytes": 15792
+    },
+    {
+      "path": "data/tiles/-6_-2.json",
+      "status": 200,
+      "bytes": 18559
+    },
+    {
+      "path": "data/tiles/-6_-3.json",
+      "status": 200,
+      "bytes": 26254
+    },
+    {
+      "path": "data/tiles/-6_-4.json",
+      "status": 200,
+      "bytes": 25648
+    },
+    {
+      "path": "data/tiles/-6_-5.json",
+      "status": 200,
+      "bytes": 20225
+    },
+    {
+      "path": "data/tiles/-6_-6.json",
+      "status": 200,
+      "bytes": 24862
+    },
+    {
+      "path": "data/tiles/-6_-7.json",
+      "status": 200,
+      "bytes": 7409
+    },
+    {
+      "path": "data/tiles/-6_0.json",
+      "status": 200,
+      "bytes": 17530
+    },
+    {
+      "path": "data/tiles/-6_1.json",
+      "status": 200,
+      "bytes": 20328
+    },
+    {
+      "path": "data/tiles/-6_2.json",
+      "status": 200,
+      "bytes": 15197
+    },
+    {
+      "path": "data/tiles/-6_3.json",
+      "status": 200,
+      "bytes": 18149
+    },
+    {
+      "path": "data/tiles/-6_4.json",
+      "status": 200,
+      "bytes": 23104
+    },
+    {
+      "path": "data/tiles/-6_5.json",
+      "status": 200,
+      "bytes": 21669
+    },
+    {
+      "path": "data/tiles/-6_7.json",
+      "status": 200,
+      "bytes": 28841
+    },
+    {
+      "path": "data/tiles/-6_6.json",
+      "status": 200,
+      "bytes": 25922
+    },
+    {
+      "path": "data/tiles/-6_8.json",
+      "status": 200,
+      "bytes": 4822
+    },
+    {
+      "path": "data/tiles/-7_-1.json",
+      "status": 200,
+      "bytes": 19919
+    },
+    {
+      "path": "data/tiles/-7_-2.json",
+      "status": 200,
+      "bytes": 20775
+    },
+    {
+      "path": "data/tiles/-7_-3.json",
+      "status": 200,
+      "bytes": 25358
+    },
+    {
+      "path": "data/tiles/-7_-4.json",
+      "status": 200,
+      "bytes": 25391
+    },
+    {
+      "path": "data/tiles/-7_-5.json",
+      "status": 200,
+      "bytes": 29782
+    },
+    {
+      "path": "data/tiles/-7_-6.json",
+      "status": 200,
+      "bytes": 24592
+    },
+    {
+      "path": "data/tiles/-7_-7.json",
+      "status": 200,
+      "bytes": 4666
+    },
+    {
+      "path": "data/tiles/-7_0.json",
+      "status": 200,
+      "bytes": 19166
+    },
+    {
+      "path": "data/tiles/-7_1.json",
+      "status": 200,
+      "bytes": 27302
+    },
+    {
+      "path": "data/tiles/-7_2.json",
+      "status": 200,
+      "bytes": 22898
+    },
+    {
+      "path": "data/tiles/-7_3.json",
+      "status": 200,
+      "bytes": 27676
+    },
+    {
+      "path": "data/tiles/-7_4.json",
+      "status": 200,
+      "bytes": 31672
+    },
+    {
+      "path": "data/tiles/-7_5.json",
+      "status": 200,
+      "bytes": 20771
+    },
+    {
+      "path": "data/tiles/-7_7.json",
+      "status": 200,
+      "bytes": 25590
+    },
+    {
+      "path": "data/tiles/-7_6.json",
+      "status": 200,
+      "bytes": 27708
+    },
+    {
+      "path": "data/tiles/-7_8.json",
+      "status": 200,
+      "bytes": 6454
+    },
+    {
+      "path": "data/tiles/-8_-1.json",
+      "status": 200,
+      "bytes": 18321
+    },
+    {
+      "path": "data/tiles/-8_-3.json",
+      "status": 200,
+      "bytes": 21056
+    },
+    {
+      "path": "data/tiles/-8_-4.json",
+      "status": 200,
+      "bytes": 30631
+    },
+    {
+      "path": "data/tiles/-8_-2.json",
+      "status": 200,
+      "bytes": 17846
+    },
+    {
+      "path": "data/tiles/-8_-5.json",
+      "status": 200,
+      "bytes": 33323
+    },
+    {
+      "path": "data/tiles/-8_-6.json",
+      "status": 200,
+      "bytes": 24910
+    },
+    {
+      "path": "data/tiles/-8_-7.json",
+      "status": 200,
+      "bytes": 9034
+    },
+    {
+      "path": "data/tiles/-8_0.json",
+      "status": 200,
+      "bytes": 20968
+    },
+    {
+      "path": "data/tiles/-8_1.json",
+      "status": 200,
+      "bytes": 28132
+    },
+    {
+      "path": "data/tiles/-8_3.json",
+      "status": 200,
+      "bytes": 25958
+    },
+    {
+      "path": "data/tiles/-8_4.json",
+      "status": 200,
+      "bytes": 23347
+    },
+    {
+      "path": "data/tiles/-8_2.json",
+      "status": 200,
+      "bytes": 27697
+    },
+    {
+      "path": "data/tiles/-8_6.json",
+      "status": 200,
+      "bytes": 31338
+    },
+    {
+      "path": "data/tiles/-8_7.json",
+      "status": 200,
+      "bytes": 27659
+    },
+    {
+      "path": "data/tiles/-8_8.json",
+      "status": 200,
+      "bytes": 6460
+    },
+    {
+      "path": "data/tiles/-8_5.json",
+      "status": 200,
+      "bytes": 24258
+    },
+    {
+      "path": "data/tiles/-9_-1.json",
+      "status": 200,
+      "bytes": 23148
+    },
+    {
+      "path": "data/tiles/-9_-2.json",
+      "status": 200,
+      "bytes": 17396
+    },
+    {
+      "path": "data/tiles/-9_-3.json",
+      "status": 200,
+      "bytes": 26066
+    },
+    {
+      "path": "data/tiles/-9_-4.json",
+      "status": 200,
+      "bytes": 35957
+    },
+    {
+      "path": "data/tiles/-9_-5.json",
+      "status": 200,
+      "bytes": 27263
+    },
+    {
+      "path": "data/tiles/-9_-6.json",
+      "status": 200,
+      "bytes": 25512
+    },
+    {
+      "path": "data/tiles/-9_-7.json",
+      "status": 200,
+      "bytes": 7146
+    },
+    {
+      "path": "data/tiles/-9_0.json",
+      "status": 200,
+      "bytes": 25679
+    },
+    {
+      "path": "data/tiles/-9_2.json",
+      "status": 200,
+      "bytes": 22963
+    },
+    {
+      "path": "data/tiles/-9_4.json",
+      "status": 200,
+      "bytes": 23285
+    },
+    {
+      "path": "data/tiles/-9_1.json",
+      "status": 200,
+      "bytes": 25924
+    },
+    {
+      "path": "data/tiles/-9_3.json",
+      "status": 200,
+      "bytes": 30474
+    },
+    {
+      "path": "data/tiles/-9_5.json",
+      "status": 200,
+      "bytes": 27985
+    },
+    {
+      "path": "data/tiles/-9_7.json",
+      "status": 200,
+      "bytes": 25373
+    },
+    {
+      "path": "data/tiles/-9_6.json",
+      "status": 200,
+      "bytes": 34185
+    },
+    {
+      "path": "data/tiles/-9_8.json",
+      "status": 200,
+      "bytes": 3967
+    },
+    {
+      "path": "data/tiles/0_-1.json",
+      "status": 200,
+      "bytes": 14939
+    },
+    {
+      "path": "data/tiles/0_-2.json",
+      "status": 200,
+      "bytes": 14468
+    },
+    {
+      "path": "data/tiles/0_-3.json",
+      "status": 200,
+      "bytes": 1250
+    },
+    {
+      "path": "data/tiles/0_-4.json",
+      "status": 200,
+      "bytes": 23432
+    },
+    {
+      "path": "data/tiles/0_0.json",
+      "status": 200,
+      "bytes": 10998
+    },
+    {
+      "path": "data/tiles/0_-7.json",
+      "status": 200,
+      "bytes": 6485
+    },
+    {
+      "path": "data/tiles/0_-5.json",
+      "status": 200,
+      "bytes": 21529
+    },
+    {
+      "path": "data/tiles/0_-6.json",
+      "status": 200,
+      "bytes": 22731
+    },
+    {
+      "path": "data/tiles/0_1.json",
+      "status": 200,
+      "bytes": 775
+    },
+    {
+      "path": "data/tiles/0_2.json",
+      "status": 200,
+      "bytes": 9289
+    },
+    {
+      "path": "data/tiles/0_3.json",
+      "status": 200,
+      "bytes": 21245
+    },
+    {
+      "path": "data/tiles/0_4.json",
+      "status": 200,
+      "bytes": 25903
+    },
+    {
+      "path": "data/tiles/0_7.json",
+      "status": 200,
+      "bytes": 2730
+    },
+    {
+      "path": "data/tiles/0_5.json",
+      "status": 200,
+      "bytes": 16849
+    },
+    {
+      "path": "data/tiles/0_8.json",
+      "status": 200,
+      "bytes": 526
+    },
+    {
+      "path": "data/tiles/0_6.json",
+      "status": 200,
+      "bytes": 12967
+    },
+    {
+      "path": "data/tiles/1_-1.json",
+      "status": 200,
+      "bytes": 4304
+    },
+    {
+      "path": "data/tiles/1_-2.json",
+      "status": 200,
+      "bytes": 18285
+    },
+    {
+      "path": "data/tiles/1_-3.json",
+      "status": 200,
+      "bytes": 2885
+    },
+    {
+      "path": "data/tiles/1_-4.json",
+      "status": 200,
+      "bytes": 20555
+    },
+    {
+      "path": "data/tiles/1_-5.json",
+      "status": 200,
+      "bytes": 25758
+    },
+    {
+      "path": "data/tiles/1_-6.json",
+      "status": 200,
+      "bytes": 24726
+    },
+    {
+      "path": "data/tiles/1_-7.json",
+      "status": 200,
+      "bytes": 4442
+    },
+    {
+      "path": "data/tiles/1_0.json",
+      "status": 200,
+      "bytes": 13775
+    },
+    {
+      "path": "data/tiles/1_1.json",
+      "status": 200,
+      "bytes": 18784
+    },
+    {
+      "path": "data/tiles/1_2.json",
+      "status": 200,
+      "bytes": 2299
+    },
+    {
+      "path": "data/tiles/1_3.json",
+      "status": 200,
+      "bytes": 8134
+    },
+    {
+      "path": "data/tiles/1_4.json",
+      "status": 200,
+      "bytes": 13658
+    },
+    {
+      "path": "data/tiles/1_5.json",
+      "status": 200,
+      "bytes": 6414
+    },
+    {
+      "path": "data/tiles/1_6.json",
+      "status": 200,
+      "bytes": 7836
+    },
+    {
+      "path": "data/tiles/1_7.json",
+      "status": 200,
+      "bytes": 18240
+    },
+    {
+      "path": "data/tiles/1_8.json",
+      "status": 200,
+      "bytes": 4094
+    },
+    {
+      "path": "data/tiles/2_-1.json",
+      "status": 200,
+      "bytes": 22672
+    },
+    {
+      "path": "data/tiles/2_-2.json",
+      "status": 200,
+      "bytes": 26461
+    },
+    {
+      "path": "data/tiles/2_-4.json",
+      "status": 200,
+      "bytes": 21542
+    },
+    {
+      "path": "data/tiles/2_-3.json",
+      "status": 200,
+      "bytes": 19693
+    },
+    {
+      "path": "data/tiles/2_-5.json",
+      "status": 200,
+      "bytes": 22623
+    },
+    {
+      "path": "data/tiles/2_-6.json",
+      "status": 200,
+      "bytes": 21040
+    },
+    {
+      "path": "data/tiles/2_0.json",
+      "status": 200,
+      "bytes": 21885
+    },
+    {
+      "path": "data/tiles/2_-7.json",
+      "status": 200,
+      "bytes": 6145
+    },
+    {
+      "path": "data/tiles/2_1.json",
+      "status": 200,
+      "bytes": 27167
+    },
+    {
+      "path": "data/tiles/2_3.json",
+      "status": 200,
+      "bytes": 13481
+    },
+    {
+      "path": "data/tiles/2_2.json",
+      "status": 200,
+      "bytes": 26463
+    },
+    {
+      "path": "data/tiles/2_4.json",
+      "status": 200,
+      "bytes": 13745
+    },
+    {
+      "path": "data/tiles/2_5.json",
+      "status": 200,
+      "bytes": 18024
+    },
+    {
+      "path": "data/tiles/2_6.json",
+      "status": 200,
+      "bytes": 26166
+    },
+    {
+      "path": "data/tiles/2_8.json",
+      "status": 200,
+      "bytes": 5990
+    },
+    {
+      "path": "data/tiles/2_7.json",
+      "status": 200,
+      "bytes": 26421
+    },
+    {
+      "path": "data/tiles/3_-1.json",
+      "status": 200,
+      "bytes": 28607
+    },
+    {
+      "path": "data/tiles/3_-2.json",
+      "status": 200,
+      "bytes": 25239
+    },
+    {
+      "path": "data/tiles/3_-3.json",
+      "status": 200,
+      "bytes": 40998
+    },
+    {
+      "path": "data/tiles/3_-4.json",
+      "status": 200,
+      "bytes": 31128
+    },
+    {
+      "path": "data/tiles/3_-5.json",
+      "status": 200,
+      "bytes": 25022
+    },
+    {
+      "path": "data/tiles/3_-7.json",
+      "status": 200,
+      "bytes": 5068
+    },
+    {
+      "path": "data/tiles/3_0.json",
+      "status": 200,
+      "bytes": 20089
+    },
+    {
+      "path": "data/tiles/3_-6.json",
+      "status": 200,
+      "bytes": 24758
+    },
+    {
+      "path": "data/tiles/3_1.json",
+      "status": 200,
+      "bytes": 25298
+    },
+    {
+      "path": "data/tiles/3_2.json",
+      "status": 200,
+      "bytes": 29836
+    },
+    {
+      "path": "data/tiles/3_3.json",
+      "status": 200,
+      "bytes": 26703
+    },
+    {
+      "path": "data/tiles/3_4.json",
+      "status": 200,
+      "bytes": 28788
+    },
+    {
+      "path": "data/tiles/3_5.json",
+      "status": 200,
+      "bytes": 22547
+    },
+    {
+      "path": "data/tiles/3_6.json",
+      "status": 200,
+      "bytes": 26953
+    },
+    {
+      "path": "data/tiles/3_8.json",
+      "status": 200,
+      "bytes": 6282
+    },
+    {
+      "path": "data/tiles/3_7.json",
+      "status": 200,
+      "bytes": 29323
+    },
+    {
+      "path": "data/tiles/4_-1.json",
+      "status": 200,
+      "bytes": 27327
+    },
+    {
+      "path": "data/tiles/4_-2.json",
+      "status": 200,
+      "bytes": 24490
+    },
+    {
+      "path": "data/tiles/4_-3.json",
+      "status": 200,
+      "bytes": 35431
+    },
+    {
+      "path": "data/tiles/4_-4.json",
+      "status": 200,
+      "bytes": 38955
+    },
+    {
+      "path": "data/tiles/4_-6.json",
+      "status": 200,
+      "bytes": 18290
+    },
+    {
+      "path": "data/tiles/4_-5.json",
+      "status": 200,
+      "bytes": 27448
+    },
+    {
+      "path": "data/tiles/4_-7.json",
+      "status": 200,
+      "bytes": 2956
+    },
+    {
+      "path": "data/tiles/4_0.json",
+      "status": 200,
+      "bytes": 22821
+    },
+    {
+      "path": "data/tiles/4_1.json",
+      "status": 200,
+      "bytes": 27100
+    },
+    {
+      "path": "data/tiles/4_2.json",
+      "status": 200,
+      "bytes": 29541
+    },
+    {
+      "path": "data/tiles/4_3.json",
+      "status": 200,
+      "bytes": 31868
+    },
+    {
+      "path": "data/tiles/4_4.json",
+      "status": 200,
+      "bytes": 31101
+    },
+    {
+      "path": "data/tiles/4_5.json",
+      "status": 200,
+      "bytes": 28221
+    },
+    {
+      "path": "data/tiles/4_6.json",
+      "status": 200,
+      "bytes": 32640
+    },
+    {
+      "path": "data/tiles/4_8.json",
+      "status": 200,
+      "bytes": 6506
+    },
+    {
+      "path": "data/tiles/4_7.json",
+      "status": 200,
+      "bytes": 27490
+    },
+    {
+      "path": "data/tiles/5_-1.json",
+      "status": 200,
+      "bytes": 24533
+    },
+    {
+      "path": "data/tiles/5_-2.json",
+      "status": 200,
+      "bytes": 22176
+    },
+    {
+      "path": "data/tiles/5_-3.json",
+      "status": 200,
+      "bytes": 29773
+    },
+    {
+      "path": "data/tiles/5_-4.json",
+      "status": 200,
+      "bytes": 35423
+    },
+    {
+      "path": "data/tiles/5_-5.json",
+      "status": 200,
+      "bytes": 26896
+    },
+    {
+      "path": "data/tiles/5_-7.json",
+      "status": 200,
+      "bytes": 4544
+    },
+    {
+      "path": "data/tiles/5_0.json",
+      "status": 200,
+      "bytes": 23371
+    },
+    {
+      "path": "data/tiles/5_-6.json",
+      "status": 200,
+      "bytes": 20487
+    },
+    {
+      "path": "data/tiles/5_1.json",
+      "status": 200,
+      "bytes": 20524
+    },
+    {
+      "path": "data/tiles/5_2.json",
+      "status": 200,
+      "bytes": 25189
+    },
+    {
+      "path": "data/tiles/5_3.json",
+      "status": 200,
+      "bytes": 19461
+    },
+    {
+      "path": "data/tiles/5_4.json",
+      "status": 200,
+      "bytes": 28239
+    },
+    {
+      "path": "data/tiles/5_8.json",
+      "status": 200,
+      "bytes": 1841
+    },
+    {
+      "path": "data/tiles/5_7.json",
+      "status": 200,
+      "bytes": 27944
+    },
+    {
+      "path": "data/tiles/5_6.json",
+      "status": 200,
+      "bytes": 31052
+    },
+    {
+      "path": "data/tiles/5_5.json",
+      "status": 200,
+      "bytes": 25368
+    },
+    {
+      "path": "data/tiles/6_-2.json",
+      "status": 200,
+      "bytes": 29096
+    },
+    {
+      "path": "data/tiles/6_-1.json",
+      "status": 200,
+      "bytes": 30461
+    },
+    {
+      "path": "data/tiles/6_-3.json",
+      "status": 200,
+      "bytes": 30302
+    },
+    {
+      "path": "data/tiles/6_-4.json",
+      "status": 200,
+      "bytes": 36962
+    },
+    {
+      "path": "data/tiles/6_-7.json",
+      "status": 200,
+      "bytes": 6408
+    },
+    {
+      "path": "data/tiles/6_-6.json",
+      "status": 200,
+      "bytes": 25064
+    },
+    {
+      "path": "data/tiles/6_-5.json",
+      "status": 200,
+      "bytes": 22401
+    },
+    {
+      "path": "data/tiles/6_0.json",
+      "status": 200,
+      "bytes": 20059
+    },
+    {
+      "path": "data/tiles/6_1.json",
+      "status": 200,
+      "bytes": 26097
+    },
+    {
+      "path": "data/tiles/6_3.json",
+      "status": 200,
+      "bytes": 15679
+    },
+    {
+      "path": "data/tiles/6_2.json",
+      "status": 200,
+      "bytes": 16675
+    },
+    {
+      "path": "data/tiles/6_4.json",
+      "status": 200,
+      "bytes": 26159
+    },
+    {
+      "path": "data/tiles/6_5.json",
+      "status": 200,
+      "bytes": 26949
+    },
+    {
+      "path": "data/tiles/6_6.json",
+      "status": 200,
+      "bytes": 30804
+    },
+    {
+      "path": "data/tiles/6_7.json",
+      "status": 200,
+      "bytes": 27488
+    },
+    {
+      "path": "data/tiles/6_8.json",
+      "status": 200,
+      "bytes": 4352
+    },
+    {
+      "path": "data/tiles/7_-1.json",
+      "status": 200,
+      "bytes": 31539
+    },
+    {
+      "path": "data/tiles/7_-3.json",
+      "status": 200,
+      "bytes": 30583
+    },
+    {
+      "path": "data/tiles/7_-4.json",
+      "status": 200,
+      "bytes": 44772
+    },
+    {
+      "path": "data/tiles/7_-2.json",
+      "status": 200,
+      "bytes": 34075
+    },
+    {
+      "path": "data/tiles/7_-6.json",
+      "status": 200,
+      "bytes": 22684
+    },
+    {
+      "path": "data/tiles/7_-5.json",
+      "status": 200,
+      "bytes": 28779
+    },
+    {
+      "path": "data/tiles/7_-7.json",
+      "status": 200,
+      "bytes": 6424
+    },
+    {
+      "path": "data/tiles/7_0.json",
+      "status": 200,
+      "bytes": 15060
+    },
+    {
+      "path": "data/tiles/7_1.json",
+      "status": 200,
+      "bytes": 22021
+    },
+    {
+      "path": "data/tiles/7_2.json",
+      "status": 200,
+      "bytes": 15606
+    },
+    {
+      "path": "data/tiles/7_3.json",
+      "status": 200,
+      "bytes": 22048
+    },
+    {
+      "path": "data/tiles/7_4.json",
+      "status": 200,
+      "bytes": 22817
+    },
+    {
+      "path": "data/tiles/7_6.json",
+      "status": 200,
+      "bytes": 26724
+    },
+    {
+      "path": "data/tiles/7_8.json",
+      "status": 200,
+      "bytes": 6246
+    },
+    {
+      "path": "data/tiles/7_5.json",
+      "status": 200,
+      "bytes": 30576
+    },
+    {
+      "path": "data/tiles/7_7.json",
+      "status": 200,
+      "bytes": 26223
+    },
+    {
+      "path": "data/tiles/8_-2.json",
+      "status": 200,
+      "bytes": 16198
+    },
+    {
+      "path": "data/tiles/8_-3.json",
+      "status": 200,
+      "bytes": 15757
+    },
+    {
+      "path": "data/tiles/8_-1.json",
+      "status": 200,
+      "bytes": 13281
+    },
+    {
+      "path": "data/tiles/8_-4.json",
+      "status": 200,
+      "bytes": 19245
+    },
+    {
+      "path": "data/tiles/8_-7.json",
+      "status": 200,
+      "bytes": 5357
+    },
+    {
+      "path": "data/tiles/8_-5.json",
+      "status": 200,
+      "bytes": 20292
+    },
+    {
+      "path": "data/tiles/8_-6.json",
+      "status": 200,
+      "bytes": 17675
+    },
+    {
+      "path": "data/tiles/8_0.json",
+      "status": 200,
+      "bytes": 20659
+    },
+    {
+      "path": "data/tiles/8_1.json",
+      "status": 200,
+      "bytes": 15497
+    },
+    {
+      "path": "data/tiles/8_3.json",
+      "status": 200,
+      "bytes": 5984
+    },
+    {
+      "path": "data/tiles/8_2.json",
+      "status": 200,
+      "bytes": 5497
+    },
+    {
+      "path": "data/tiles/8_4.json",
+      "status": 200,
+      "bytes": 6023
+    },
+    {
+      "path": "data/tiles/8_5.json",
+      "status": 200,
+      "bytes": 17182
+    },
+    {
+      "path": "data/tiles/8_6.json",
+      "status": 200,
+      "bytes": 15823
+    },
+    {
+      "path": "data/tiles/8_8.json",
+      "status": 200,
+      "bytes": 2379
+    },
+    {
+      "path": "data/tiles/8_7.json",
+      "status": 200,
+      "bytes": 19533
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "bytes": 3718
+    }
+  ]
+}

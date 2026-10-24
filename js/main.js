@@ -1,0 +1,149 @@
+import * as THREE from 'three/webgpu';
+import {pass,mrt,output,normalView,positionView,metalness,roughness,vec2,vec3,smoothstep} from 'three/tsl';
+import {ssr} from 'three/addons/tsl/display/SSRNode.js';
+import {LightingSystem} from './lighting.js';
+import {createPostProcessing} from './post-processing.js';
+import {ThirdPersonControllerManager} from './controllers.js';
+import {CameraSystem} from './cameras.js';
+import {cityUniforms} from './tsl-materials.js';
+import {createCityScene} from './city-scene.js';
+import {createShanghaiTraffic} from './traffic-shanghai.js';
+import {createMap} from './map.js';
+import {vehicleLateralLimit} from './vehicle-road.js';
+import {SurfaceProvider,CollisionWorld,TileLoader,projectWgs84,unprojectWorld,constrainTunnelCamera,clamp} from './core.js';
+
+const $=id=>document.getElementById(id),start=performance.now();
+const bootMarks=[];function status(text){$('loading-text').textContent=text;bootMarks.push({text,ms:performance.now()-start});}
+function toast(text){$('toast').textContent=text;$('toast').hidden=false;clearTimeout(toast.timer);toast.timer=setTimeout(()=>$('toast').hidden=true,3500);}
+async function init(){
+ status('读取上海全市道路与城市块…');
+ const [data,manifest]=await Promise.all(['./data/city.json','./data/manifest.json'].map(async u=>{const r=await fetch(u);if(!r.ok)throw Error('城市数据加载失败');return r.json();}));
+ status('准备天空、光线和材质…');
+ const renderer=new THREE.WebGPURenderer({antialias:true,powerPreference:'high-performance',reversedDepthBuffer:true,forceWebGL:new URLSearchParams(location.search).has('webgl')});
+ renderer.setPixelRatio(1);renderer.setSize(innerWidth,innerHeight);renderer.shadowMap.enabled=true;$('scene').append(renderer.domElement);await renderer.init();
+ const scene=new THREE.Scene(),lighting=new LightingSystem(scene,renderer);lighting.sunLight.shadow.mapSize.set(2048,2048);lighting.sky.scale.setScalar(600000);
+ const surface=new SurfaceProvider([...data.roads,...data.tunnels],data.water,data.rampCuts),world=new CollisionWorld();
+ status('构建上海天际线与街道…');
+ const city=createCityScene(scene,data,world,surface),traffic=createShanghaiTraffic(scene,data.schemaVersion>=3?[]:data.roads,data.rampCuts);
+ const controllers=new ThirdPersonControllerManager(scene,[]);controllers.surfaceProvider=surface;controllers.worldBounds=data.bounds;
+ controllers.nearColliders=(x,z,r)=>world.query({minX:x-r,maxX:x+r,minY:controllers.getActiveEntity().position.y-1,maxY:controllers.getActiveEntity().position.y+3,minZ:z-r,maxZ:z+r});
+ const cameras=new CameraSystem(renderer.domElement,controllers);
+ const loader=new TileLoader(manifest,async(t,signal)=>{if(t.inline){const b=t.bounds;return {id:t.id,buildings:[],roads:[],land:[],parks:[],shoulders:[],water:t.inline==='water'?[[[[b[0],b[1]],[b[2],b[1]],[b[2],b[3]],[b[0],b[3]],[b[0],b[1]]]]]:[]};}const r=await fetch(t.url,{signal});if(!r.ok)throw Error('街区暂时未能加载');return r.json();},city.mountTile);
+ const rootRoad=surface.nearest(...Object.values(projectWgs84(121.4862,31.239)),r=>r.name==='中山东一路')||surface.nearest(-850,-200);
+ const spawn={x:rootRoad.x,z:rootRoad.z,y:2.12};
+ for(const [i,e]of Object.values(controllers.entities).entries()){e.position.set(spawn.x+i*4,2.12,spawn.z);e.heading=0;e.mesh.rotation.order='YXZ';}
+ controllers.entities.car.position.set(spawn.x,2.12,spawn.z);controllers.entities.helicopter.position.y=110;
+ await loader.ensureAt(spawn,'car');await Promise.all(data.tunnels.map(t=>loader.ensureRoute(t.id)));
+ status('编译光影，准备出发…');
+ const camera=cameras.camera;camera.near=.15;camera.far=16000;camera.updateProjectionMatrix();
+ const scenePass=pass(scene,camera);scenePass.setMRT(mrt({output,normal:normalView,metalRough:vec2(metalness,roughness)}));
+ const reflections=ssr(scenePass.getTextureNode('output'),scenePass.getTextureNode('depth'),scenePass.getTextureNode('normal'),{metalnessNode:scenePass.getTextureNode('metalRough').r,roughnessNode:scenePass.getTextureNode('metalRough').g,camera});
+ reflections.resolutionScale=.35;reflections.quality.value=.25;reflections.maxDistance.value=48;reflections.intensity.value=.4;reflections.blurQuality=1;
+ const post=createPostProcessing(renderer,scenePass.getTextureNode('output'),reflections),pipeline=new THREE.RenderPipeline(renderer,post.outputNode);
+ let fixedView=null,last=performance.now(),elapsed=0,frame=0,lastHud=0,quality='medium',ready=false,lastBlocked=0,lastModeHint=0,loadingAhead=false;
+ const samples=[],errors=[],longTasks=[];let maxSamples=24000;
+ new PerformanceObserver(list=>{for(const e of list.getEntries())if(e.duration>200)longTasks.push({start:e.startTime,duration:e.duration});}).observe({type:'longtask',buffered:true});
+ function setTime(id){lighting.applyPreset(id);post.applyPreset(id);document.querySelectorAll('[data-time]').forEach(b=>b.classList.toggle('active',b.dataset.time===id));}
+ function resetCamera(){fixedView=null;cameras.initialized=false;cameras.activePresetId='chase';cameras.orbitYawOffset=0;cameras.orbitPitchOffset=.09;$('camera-label').textContent='第三人称跟随';}
+ let arrivalRevision=0;
+ async function prepareLanding(x,z,mode,revision){
+  await loader.ensureAt({x,z},mode);if(revision!==arrivalRevision)return false;
+  const radius={person:.6,cyclist:1.2,car:2.6,helicopter:3}[mode]||2.6;
+  for(const p of surface.landingCandidates(x,z,mode)){
+   if(!loader.tilesAt(p).length)continue;
+   try{await loader.ensureAt(p,mode);}catch(e){if(revision!==arrivalRevision)return false;throw e;}
+   if(revision!==arrivalRevision)return false;
+   const b={minX:p.x-radius,maxX:p.x+radius,minY:p.y??2.12,maxY:(p.y??2.12)+2,minZ:p.z-radius,maxZ:p.z+radius};
+   const occupied=world.query(b).some(c=>{if(!c.obb)return true;const o=c.obb,dx=p.x-o.cx,dz=p.z-o.cz;return Math.abs(dx*o.cs-dz*o.sn)<o.hx+radius&&Math.abs(dx*o.sn+dz*o.cs)<o.hz+radius;});
+   if(!occupied&&surface.canTraverse({...p,mode})&&(p.road?.bridge||!surface.isWater(p.x,p.z)))return p;
+  }
+  throw Error('附近暂无安全落点');
+ }
+ function arrive(p,mode,heading,surfaceId=null){
+  controllers.setMode(mode);const e=controllers.getActiveEntity();e.position.set(p.x,p.y??2.12,p.z);e.heading=heading;e.surfaceId=surfaceId;e.surface=null;e.speed=e.verticalVel=e.verticalSpeed=e.vx=e.vz=e.angularVel=0;
+  controllers.resetInput();controllers.clearGamepadInput();resetCamera();document.querySelectorAll('[data-mode]').forEach(b=>b.classList.toggle('active',b.dataset.mode===mode));return e.position;
+ }
+ async function teleport(x,z,heading=0){
+  const revision=++arrivalRevision,mode=controllers.activeMode,p=await prepareLanding(x,z,mode,revision);
+  if(!p||revision!==arrivalRevision)return false;
+  return arrive({...p,y:mode==='helicopter'?180:(p.y??2.12)},mode,heading);
+ }
+ const destinations=[...data.landmarks,...(data.places||[])];
+ async function gotoLandmark(id){const l=destinations.find(l=>l.id===id);if(!l)return;try{if(!await teleport(l.x,l.z))return;$('map-modal').hidden=true;$('places').hidden=true;toast('已到达 '+l.name+' 附近');}catch(e){toast(e.message+'，请重试');}}
+ async function setMode(mode){
+  if(!controllers.entities[mode])return false;
+  if(mode===controllers.activeMode){arrivalRevision++;return true;}
+  const previous=controllers.getActiveEntity();if(previous.surface?.tunnel&&mode!=='car'){toast('驶出隧道后可切换漫游模式');return false;}
+  const revision=++arrivalRevision,old=previous.position.clone(),heading=previous.heading;
+  try{const p=mode==='helicopter'?{x:old.x,z:old.z,y:Math.max(80,old.y)}:await prepareLanding(old.x,old.z,mode,revision);if(!p)return false;await loader.ensureAt(p,mode);if(revision!==arrivalRevision)return false;arrive(p,mode,heading);return true;}catch(e){if(revision===arrivalRevision)toast(e.message+'，请重试');return false;}
+ }
+ const map=createMap(data,gotoLandmark,()=>city.streetTiles);
+ for(const l of destinations){const b=document.createElement('button');b.textContent=l.name;b.onclick=()=>gotoLandmark(l.id);$('places').append(b);}
+ for(const t of data.tunnels){const b=document.createElement('button');b.textContent=t.points[0][0]<0?'驾车过江 · 浦西入口':'驾车过江 · 浦东入口';b.onclick=async()=>{const revision=++arrivalRevision;try{await loader.ensureRoute(t.id);if(revision!==arrivalRevision)return;const p=t.points[0],q=t.points[1];arrive({x:p[0],y:p[1],z:p[2]},'car',Math.atan2(q[0]-p[0],q[2]-p[2]),t.id);$('places').hidden=true;toast('沿坡道驶入，可连续驾车过江');}catch(e){if(revision===arrivalRevision)toast('跨江线路未就绪，停留在当前道路。请重试');}};$('places').append(b);}
+ document.querySelectorAll('[data-mode]').forEach(b=>b.onclick=()=>setMode(b.dataset.mode));
+ document.querySelectorAll('[data-time]').forEach(b=>b.onclick=()=>setTime(b.dataset.time));
+ function toggleMap(){const m=$('map-modal');m.hidden=!m.hidden;if(!m.hidden){controllers.resetInput();$('search').focus();}}
+ $('map-button').onclick=toggleMap;$('mini-map').onclick=toggleMap;$('close-map').onclick=()=>{$('map-modal').hidden=true;$('search').blur();};
+ $('places-button').onclick=()=>$('places').hidden=!$('places').hidden;
+ const presets=['chase','action','pov'],labels=['第三人称跟随','低机位跟随','第一人称视角'];function cycleCamera(){fixedView=null;let i=(presets.indexOf(cameras.activePresetId)+1)%3;cameras.activePresetId=presets[i];$('camera-label').textContent=labels[i];}
+ $('camera-button').onclick=cycleCamera;$('hide-ui').onclick=()=>document.body.classList.toggle('clean');
+ $('quality').onchange=e=>{quality=e.target.value;renderer.setPixelRatio(quality==='low'?.75:quality==='high'?1.25:1);reflections.intensity.value=quality==='low'?.1:.4;renderer.shadowMap.enabled=quality!=='low';};
+ document.addEventListener('keydown',e=>{if(e.code==='Escape'){$('map-modal').hidden=true;$('places').hidden=true;$('search').blur();document.body.classList.remove('clean');return;}if(/INPUT|TEXTAREA|SELECT/.test(e.target.tagName))return;const modes=['person','car','cyclist','helicopter'];if(/^[1-4]$/.test(e.key))setMode(modes[+e.key-1]);if(e.code==='KeyM')toggleMap();if(e.code==='KeyV')cycleCamera();});
+ addEventListener('resize',()=>{renderer.setSize(innerWidth,innerHeight);cameras.onResize(innerWidth,innerHeight);});
+ const views=[
+  {name:'外滩看陆家嘴',position:[-760,26,-310],target:[400,220,-240]},
+  {name:'陆家嘴看外滩',position:[-350,42,-640],target:[-930,40,-260]},
+  {name:'东方明珠',position:[-310,90,-190],target:[-27,210,-520]},
+  {name:'陆家嘴三件套',position:[100,160,750],target:[660,320,50]},
+  {name:'外滩街墙',position:[-872,5,-525],target:[-882,15,-140]},
+  {name:'苏州河口俯瞰',position:[-600,390,-1200],target:[-710,0,-800]}
+ ];
+ for(const [id,offset,targetY]of [['jingan',[140,70,165],22],['museum',[130,65,150],16],['exhibition',[155,115,245],48],['tianzifang',[68,35,105],7]]){const l=data.landmarks.find(l=>l.id===id);if(l)views.push({name:l.name,position:[l.x+offset[0],offset[1],l.z+offset[2]],target:[l.x,targetY,l.z]});}
+ const lane=data.landmarks.find(l=>l.id==='tianzifang');if(lane)views.push({name:'田子坊中央里弄',position:[lane.x,4,lane.z-45],target:[lane.x,4,lane.z+35]});
+ const app={data,manifest,renderer,scene,lighting,controllers,cameras,surface,world,loader,city,traffic,views,bootMarks,samples,errors,longTasks,teleport,gotoLandmark,setMode,setTime,
+  get ready(){return ready;},get quality(){return quality;},get fixedView(){return fixedView;},
+  setView(index){const v=typeof index==='number'?views[index]:index;fixedView=v;camera.position.set(...v.position);camera.lookAt(...v.target);},
+  follow(){resetCamera();},metrics(){const sorted=samples.slice().sort((a,b)=>a-b);return {frames:sorted.length,p50:sorted[Math.floor(sorted.length*.5)],p95:sorted[Math.floor(sorted.length*.95)],p99:sorted[Math.floor(sorted.length*.99)],memory:renderer.info.memory,render:renderer.info.render,loadedTiles:city.loaded.size,errors:errors.slice(),bootMs:app.bootMs};}
+ };
+ window.shanghai=app;
+ addEventListener('error',e=>errors.push(String(e.message)));addEventListener('unhandledrejection',e=>errors.push(String(e.reason)));
+ function advance(dt){
+  const e=controllers.getActiveEntity(),prev=e.position.clone(),old=e.surface;
+  controllers.update(dt,elapsed);
+  if(!surface.canTraverse({x:e.position.x,y:e.position.y,z:e.position.z,mode:controllers.activeMode})){e.position.copy(prev);e.speed=0;const stamp=performance.now();if(stamp-lastModeHint>2000){lastModeHint=stamp;toast('隧道仅限汽车通行，请切换驾驶模式');}}
+  if(!loader.readyAt(e.position)){
+   const pending={x:clamp(e.position.x,data.bounds[0],data.bounds[2]),z:clamp(e.position.z,data.bounds[1],data.bounds[3])};e.position.copy(prev);e.speed=0;
+   if(!loadingAhead&&performance.now()-lastBlocked>1500){loadingAhead=true;lastBlocked=performance.now();loader.ensureAt(pending,controllers.activeMode).catch(()=>toast('前方街区未就绪，已停在有效道路。请稍后重试')).finally(()=>loadingAhead=false);}
+  }
+  if(controllers.activeMode==='car'&&(old?.road?.tunnel||old?.road?.bridge)){
+   const p=surface.nearest(e.position.x,e.position.z,r=>r.id===old.road.id);
+   const atEnd=p.segment===old.road.points.length-2&&p.t>=1||p.segment===0&&p.t<=0;
+   if(!atEnd){
+    const limit=vehicleLateralLimit(e.heading,p.b[0]-p.a[0],p.b[2]-p.a[2],old.road.width);
+    if(p.distance>limit){const factor=limit/p.distance;e.position.x=p.x+(e.position.x-p.x)*factor;e.position.z=p.z+(e.position.z-p.z)*factor;e.speed*=.85;}
+    e.surface=surface.sample({x:e.position.x,z:e.position.z,y:p.height,mode:'car',surfaceId:old.road.id});e.surfaceId=e.surface.surfaceId;e.position.y=e.surface.height;
+   }
+  }
+  if(controllers.activeMode!=='helicopter'&&e.surfaceId==='ground'&&surface.isWater(e.position.x,e.position.z)){e.position.copy(prev);e.speed=0;}
+  if(controllers.activeMode==='car'&&e.surface){const n=e.surface.normal;e.mesh.rotation.x=Math.atan2(n.x*Math.sin(e.heading)+n.z*Math.cos(e.heading),n.y);}
+  e.mesh.position.copy(e.position);
+ }
+ renderer.setAnimationLoop(()=>{
+  const now=performance.now(),ms=now-last;last=now;const dt=Math.min(.06,ms/1000);elapsed+=dt;frame++;
+  if(ready&&!document.hidden){samples.push(ms);if(samples.length>maxSamples)samples.splice(0,1000);}
+  for(let remaining=dt;remaining>.00001;){const d=Math.min(remaining,1/60);advance(d);remaining-=d;}
+  const e=controllers.getActiveEntity();for(const [mode,entity]of Object.entries(controllers.entities))entity.mesh.visible=mode===controllers.activeMode;controllers.poseCharacters(dt);lighting.update(e.position);
+  if(!fixedView){cameras.update(dt,elapsed);if(e.surface?.tunnel){const p=constrainTunnelCamera(camera.position,{...e.position,heading:e.heading},e.surface.road.width,5.8,e.surface.road);camera.position.set(p.x,p.y,p.z);camera.lookAt(e.position.x+Math.sin(e.heading)*5,e.position.y+1.4,e.position.z+Math.cos(e.heading)*5);}}
+  city.update(elapsed,camera);if(traffic.streetRevision!==city.streetRevision&&data.schemaVersion>=3){traffic.setRoads([...city.streetTiles.values()].flatMap(t=>t.roads));traffic.streetRevision=city.streetRevision;}traffic.update(dt,e.position,camera.position);
+  if(frame%30===0)loader.update(e.position,controllers.activeMode);
+  if(now-lastHud>250){
+   lastHud=now;const mode=controllers.activeMode;const names={person:'滨江步行',car:'上海出租车',cyclist:'城市骑行',helicopter:'浦江观光直升机'};
+   $('mode-label').textContent=names[mode];$('speed').textContent=Math.round(Math.abs(e.speed)*3.6);$('speed-meter').style.width=Math.min(100,Math.abs(e.speed)*3.6)+'%';$('fps').textContent=Math.round(1000/ms)+' fps';$('altitude').textContent=mode==='helicopter'?Math.round(e.position.y)+' m':e.surface?.tunnel?'隧道内':'';
+   const near=surface.nearest(e.position.x,e.position.z,r=>!!r.name);$('road-label').textContent=e.surface?.tunnel?'延安东路隧道':near?.distance<500?near.road.name:surface.isWater(e.position.x,e.position.z)?'上海水域':'上海街区';
+   $('controls-hint').innerHTML=mode==='helicopter'?'<kbd>W</kbd><kbd>S</kbd> 俯仰　<kbd>A</kbd><kbd>D</kbd> 偏航　<kbd>E</kbd> 上升　<kbd>Q</kbd> 下降　拖动环视':'<kbd>W</kbd><kbd>S</kbd> 前进 / 后退　<kbd>A</kbd><kbd>D</kbd> 转向　<kbd>Shift</kbd> 加速　拖动环视';map.update(e.position,e.heading);
+  }
+  pipeline.render();
+  if(!ready&&frame>2){ready=true;app.bootMs=performance.now()-start;$('loading').hidden=true;toast('欢迎来到上海 · W A S D 自由漫游');}
+ });
+}
+init().catch(e=>{console.error(e);$('loading-text').textContent='暂时未能启动：'+e.message;const b=document.createElement('button');b.textContent='重新加载';b.onclick=()=>location.reload();$('loading').append(b);});

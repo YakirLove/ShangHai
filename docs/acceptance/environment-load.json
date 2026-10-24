@@ -1,0 +1,52 @@
+[
+  {
+    "at": 1792747458.439011,
+    "note": "Read-only environment snapshot. User processes were not changed or stopped.",
+    "processes": [
+      {
+        "cpuPercent": 65.3,
+        "process": "WindowServer"
+      },
+      {
+        "cpuPercent": 46.0,
+        "process": "diskimagesiod"
+      },
+      {
+        "cpuPercent": 19.1,
+        "process": "Codex (Renderer)"
+      },
+      {
+        "cpuPercent": 35.6,
+        "process": "node"
+      },
+      {
+        "cpuPercent": 17.6,
+        "process": "Tabbit Browser"
+      },
+      {
+        "cpuPercent": 68.2,
+        "process": "Tabbit Browser Helper"
+      },
+      {
+        "cpuPercent": 64.2,
+        "process": "Tabbit Browser Helper (Renderer)"
+      },
+      {
+        "cpuPercent": 15.8,
+        "process": "icloudmailagent"
+      },
+      {
+        "cpuPercent": 22.0,
+        "process": "calaccessd"
+      },
+      {
+        "cpuPercent": 54.3,
+        "process": "sandboxd"
+      },
+      {
+        "cpuPercent": 78.6,
+        "process": "simctl"
+      }
+    ]
+  }
+]

@@ -1,0 +1,200 @@
+[
+  {
+    "areaKm2": 5534.7136,
+    "landVotes": 4002,
+    "waterVotes": 0,
+    "land": true
+  },
+  {
+    "areaKm2": 8772.5852,
+    "landVotes": 11,
+    "waterVotes": 10370,
+    "land": false
+  },
+  {
+    "areaKm2": 1450.3897,
+    "landVotes": 3278,
+    "waterVotes": 470,
+    "land": true
+  },
+  {
+    "areaKm2": 0.1057,
+    "landVotes": 0,
+    "waterVotes": 0,
+    "land": false
+  },
+  {
+    "areaKm2": 0.0238,
+    "landVotes": 0,
+    "waterVotes": 0,
+    "land": false
+  },
+  {
+    "areaKm2": 0.0533,
+    "landVotes": 35,
+    "waterVotes": 0,
+    "land": true
+  },
+  {
+    "areaKm2": 17.4465,
+    "landVotes": 489,
+    "waterVotes": 0,
+    "land": true
+  },
+  {
+    "areaKm2": 0.011,
+    "landVotes": 16,
+    "waterVotes": 0,
+    "land": true
+  },
+  {
+    "areaKm2": 0.2838,
+    "landVotes": 47,
+    "waterVotes": 0,
+    "land": true
+  },
+  {
+    "areaKm2": 0.0453,
+    "landVotes": 31,
+    "waterVotes": 0,
+    "land": true
+  },
+  {
+    "areaKm2": 165.7799,
+    "landVotes": 665,
+    "waterVotes": 0,
+    "land": true
+  },
+  {
+    "areaKm2": 0.0973,
+    "landVotes": 215,
+    "waterVotes": 3,
+    "land": true
+  },
+  {
+    "areaKm2": 157.1173,
+    "landVotes": 1688,
+    "waterVotes": 0,
+    "land": true
+  },
+  {
+    "areaKm2": 17.2832,
+    "landVotes": 63,
+    "waterVotes": 0,
+    "land": true
+  },
+  {
+    "areaKm2": 0.0985,
+    "landVotes": 24,
+    "waterVotes": 0,
+    "land": true
+  },
+  {
+    "areaKm2": 14.8716,
+    "landVotes": 28,
+    "waterVotes": 0,
+    "land": true
+  },
+  {
+    "areaKm2": 67.1977,
+    "landVotes": 44,
+    "waterVotes": 0,
+    "land": true
+  },
+  {
+    "areaKm2": 6.1322,
+    "landVotes": 55,
+    "waterVotes": 0,
+    "land": true
+  },
+  {
+    "areaKm2": 0.0005,
+    "landVotes": 8,
+    "waterVotes": 0,
+    "land": true
+  },
+  {
+    "areaKm2": 0.0002,
+    "landVotes": 6,
+    "waterVotes": 0,
+    "land": true
+  },
+  {
+    "areaKm2": 0.0001,
+    "landVotes": 6,
+    "waterVotes": 1,
+    "land": true
+  },
+  {
+    "areaKm2": 0.0004,
+    "landVotes": 20,
+    "waterVotes": 0,
+    "land": true
+  },
+  {
+    "areaKm2": 0.0001,
+    "landVotes": 7,
+    "waterVotes": 1,
+    "land": true
+  },
+  {
+    "areaKm2": 0.0002,
+    "landVotes": 12,
+    "waterVotes": 1,
+    "land": true
+  },
+  {
+    "areaKm2": 0.0001,
+    "landVotes": 6,
+    "waterVotes": 0,
+    "land": true
+  },
+  {
+    "areaKm2": 0.0003,
+    "landVotes": 6,
+    "waterVotes": 0,
+    "land": true
+  },
+  {
+    "areaKm2": 0.0002,
+    "landVotes": 9,
+    "waterVotes": 0,
+    "land": true
+  },
+  {
+    "areaKm2": 0.0001,
+    "landVotes": 9,
+    "waterVotes": 0,
+    "land": true
+  },
+  {
+    "areaKm2": 0.0001,
+    "landVotes": 7,
+    "waterVotes": 0,
+    "land": true
+  },
+  {
+    "areaKm2": 0.001,
+    "landVotes": 23,
+    "waterVotes": 0,
+    "land": true
+  },
+  {
+    "areaKm2": 0.0771,
+    "landVotes": 8,
+    "waterVotes": 0,
+    "land": true
+  },
+  {
+    "areaKm2": 1.1296,
+    "landVotes": 25,
+    "waterVotes": 0,
+    "land": true
+  },
+  {
+    "areaKm2": 0.0001,
+    "landVotes": 4,
+    "waterVotes": 0,
+    "land": true
+  }
+]

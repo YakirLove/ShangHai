@@ -1,0 +1,16 @@
+[
+  {
+    "name": "latest-arrival-wins",
+    "distance": 2.0000000000000098
+  },
+  {
+    "name": "failed-mode-keeps-safe-location",
+    "result": false,
+    "unchanged": true
+  },
+  {
+    "name": "mode-waits-for-ready",
+    "mode": "car",
+    "expected": "car"
+  }
+]

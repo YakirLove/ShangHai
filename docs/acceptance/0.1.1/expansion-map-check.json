@@ -1,0 +1,32 @@
+[
+  {
+    "id": "A",
+    "active": "A · 约 29 km²经典城区 · 推荐当前的 2.1 倍 · 点击查看范围",
+    "detail": "A · 经典城区 / 29.2 km²人民广场 · 南京东路完整西段 · 新天地 · 北外滩更多街区推荐下一步。继续保持现有街景密度，先补足相邻城区与重点地标。",
+    "canvas": {
+      "width": 903,
+      "height": 590
+    },
+    "shot": "/Users/wuyanji/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-94d2ea0c-1f1a-4cb5-a7a7-c2a8b470e5ff/screenshot-shot-6dc7cd41-d31f-4753-9cbf-76eb2f577a2a.png"
+  },
+  {
+    "id": "B",
+    "active": "B · 约 69 km²中心城区当前的 5.1 倍 · 点击查看范围",
+    "detail": "B · 中心城区 / 68.7 km²再加入静安寺—南京西路 · 淮海路 · 田子坊 · 南浦大桥周边 · 源深适合更长距离驾驶。增加街区类型，升级远景简化，并分片区验收。",
+    "canvas": {
+      "width": 1625,
+      "height": 1061
+    },
+    "shot": "/Users/wuyanji/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-94d2ea0c-1f1a-4cb5-a7a7-c2a8b470e5ff/screenshot-shot-a66d2924-f5fc-41f9-bcf4-0a08719de2f6.png"
+  },
+  {
+    "id": "C",
+    "active": "C · 约 148 km²浦江城市漫游当前的 10.9 倍 · 点击查看范围",
+    "detail": "C · 浦江城市漫游 / 147.9 km²再加入徐家汇 · 世博滨江 · 世纪公园 · 杨浦滨江部分区段适合分期扩展。先把道路、水面和远景按块加载，再逐区补充细节与地标。",
+    "canvas": {
+      "width": 1625,
+      "height": 1061
+    },
+    "shot": "/Users/wuyanji/Library/Application Support/Tabbit Browser/LocalAgent/Runtime/artifacts/task-94d2ea0c-1f1a-4cb5-a7a7-c2a8b470e5ff/screenshot-shot-15b4dda4-e550-43cc-9477-91eae286f3cb.png"
+  }
+]

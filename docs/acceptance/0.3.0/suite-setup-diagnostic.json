@@ -1,0 +1,7 @@
+{
+  "startedAt": "2026-10-24T07:56:19.452Z",
+  "phase": "failed",
+  "results": [],
+  "error": "page.bringToFront: Protocol error (Page.bringToFront): foregroundPolicy=preserve; use usePage(page) to select a page without focusing it, or request --foreground when creating or reusing the task.\n    at eval (<anonymous>:11:13)\n    at eval (<anonymous>:30:3)\n    at async tabbit-cli:2:111\n    at async PersistentEvaluator.evaluate (/Applications/Tabbit Browser.app/Contents/Frameworks/Tabbit Browser Framework.framework/Versions/1.18.21.0/Resources/TabbitDance/runtime/src/persistent-evaluator.mjs:1335:21)\n    at async MessagePort.<anonymous> (/Applications/Tabbit Browser.app/Contents/Frameworks/Tabbit Browser Framework.framework/Versions/1.18.21.0/Resources/TabbitDance/runtime/src/task-worker.mjs:58:44)",
+  "done": false
+}

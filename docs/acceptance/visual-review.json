@@ -1,0 +1,99 @@
+{
+  "status": "technical-visual-review-complete-with-differences",
+  "finalArtApproval": "not-yet-reviewed-by-user",
+  "build": {
+    "asset": "index-znyxrDSI.js",
+    "sha256": "7b557160d6a963e1884a89616568482ab11caf33ddbaab563622a8b4b03dc001",
+    "changes": "Nearby fixed 100-car/80-pedestrian pools; perspective-correct Shanghai night light streaks; corrected fixed and landmark viewpoints; includes taxi footprint and Escape fixes."
+  },
+  "reviewedBy": "Implementation agent, using actual Tabbit screenshots and the pinned upstream reference screenshots",
+  "fixedViews": 18,
+  "landmarkViews": 16,
+  "needsRetake": [],
+  "criteria": [
+    {
+      "item": "建筑体量",
+      "observed": "两岸平面布局、水面和部分楼宇来自选定OSM缓存；普通楼宇按街区与预留区程序填充，主塔轮廓清晰。",
+      "difference": "普通建筑为旋转体量加立面，不是逐栋真实三维模型；历史街墙与上海住宅细节简化。"
+    },
+    {
+      "item": "窗格与玻璃",
+      "observed": "沿用原站TSL程序立面与玻璃材质，近景可见砖石、窗框、玻璃及夜间亮灯，远景仍有窗格。",
+      "difference": "现有五类普通立面与若干地标专用材质，尚未逐栋匹配上海实际幕墙。"
+    },
+    {
+      "item": "光照阴影",
+      "observed": "白天、黄昏与夜间状态均生效，可见天光、建筑与树木投影；保留原站天空、色调映射和后处理。",
+      "difference": "中档2048阴影与降采样反射优先满足桌面性能，远处细小阴影有简化。"
+    },
+    {
+      "item": "街道密度",
+      "observed": "固定100辆车和80名行人池随附近街区分配；V5街道近景可见车辆、行人、路灯与路牌。",
+      "difference": "人车是氛围模拟，不代表真实交通量；街景陈设少于原站部分密集机位。"
+    },
+    {
+      "item": "水面夜景",
+      "observed": "黄浦江与苏州河有波纹、天空/近处反射和上海地标灯光条纹，灯光随昼夜同步。",
+      "difference": "远处灯光条纹为按视线和地标高度计算的风格化补充，非完整光线追踪；夜景整体偏暗。"
+    }
+  ],
+  "landmarks": [
+    {
+      "id": "pearl",
+      "name": "东方明珠",
+      "recognition": "三球与三脚支撑，不依赖标签可辨",
+      "detail": "球体、连廊与支撑均简化。"
+    },
+    {
+      "id": "tower",
+      "name": "上海中心",
+      "recognition": "632米扭转收分轮廓",
+      "detail": "幕墙扭转以分段网格近似。"
+    },
+    {
+      "id": "swfc",
+      "name": "环球金融中心",
+      "recognition": "顶部梯形开口",
+      "detail": "近景已退后重拍，顶部梯形开口完整；幕墙分区与基座仍为简化模型。"
+    },
+    {
+      "id": "jinmao",
+      "name": "金茂大厦",
+      "recognition": "台阶式塔身与尖顶",
+      "detail": "层级和立面按可辨认轮廓简化。"
+    },
+    {
+      "id": "conference",
+      "name": "上海国际会议中心",
+      "recognition": "双球与横向建筑体",
+      "detail": "体量、球体与朝向为视觉简化。"
+    },
+    {
+      "id": "customs",
+      "name": "海关大楼",
+      "recognition": "钟楼与街墙位置",
+      "detail": "钟面、檐口与柱式细节简化。"
+    },
+    {
+      "id": "hsbc",
+      "name": "原汇丰银行大楼",
+      "recognition": "穹顶与横向基座",
+      "detail": "柱廊与装饰并非测绘复原。"
+    },
+    {
+      "id": "peace",
+      "name": "和平饭店",
+      "recognition": "绿色金字塔屋顶",
+      "detail": "街角体量和立面细节简化。"
+    }
+  ],
+  "notes": [
+    "18张固定机位和16张地标近远景来自同一个最终构建的实际运行；未将概念图当作实现截图。浏览器悬浮控件保留在原图中。",
+    "东方明珠、扭转的上海中心、顶部开口的环球金融中心、台阶式金茂具有不同轮廓；八地标单独建模并与普通楼宇预留区排重。",
+    "窗格、玻璃、天空、阴影、角色和后处理沿用固定原站代码；近处已有车辆、行人、路灯、树木和中文路牌。",
+    "与原站相比，历史建筑细部、街景陈设和普通住宅形制仍较简化；普通楼高和隧道纵断面使用已标记的视觉估算。",
+    "夜景整体偏暗；江面远处灯光是上海地标的风格化倒影补充，不宣称完整物理反射。",
+    "这里记录的是实现方的逐项视觉检查，最终画风与城市辨识度尚未得到用户人工验收。",
+    "环球金融中心近景已退后重拍并逐图检查，完整保留塔顶开口；取景问题已关闭。"
+  ]
+}

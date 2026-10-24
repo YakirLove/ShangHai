@@ -1,0 +1,17 @@
+{
+  "removedLocalTemporaryBuilds": [
+    "/Users/wuyanji/Desktop/编程/app-market/.build/20261024-101145-4c9435",
+    "/Users/wuyanji/Desktop/编程/app-market/.build/20261024-101402-46d277"
+  ],
+  "stoppedOwnedTemporaryServers": [
+    {
+      "pid": 65318,
+      "command": "/opt/homebrew/bin/node serve.mjs --port 4192"
+    }
+  ],
+  "retainedPriorLocalServers": [
+    4187,
+    4190
+  ],
+  "releaseArchivesUnchanged": true
+}

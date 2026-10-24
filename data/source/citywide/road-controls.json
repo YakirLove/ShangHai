@@ -1,0 +1,623 @@
+[
+  {
+    "tile": "-6_5",
+    "id": "osm-way-33205032",
+    "name": "南丹路",
+    "oneway": false,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "-6_5",
+    "id": "osm-way-33204440",
+    "name": "蒲汇塘路",
+    "oneway": false,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "-6_5",
+    "id": "osm-way-1068916347",
+    "name": "漕溪北路",
+    "oneway": true,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "-8_1",
+    "id": "osm-way-545482987",
+    "name": "",
+    "oneway": true,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "-8_1",
+    "id": "osm-way-907370208",
+    "name": "",
+    "oneway": false,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "-8_1",
+    "id": "osm-way-545482984",
+    "name": "万航渡路",
+    "oneway": false,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "-5_-5",
+    "id": "osm-way-220099584",
+    "name": "",
+    "oneway": false,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "-5_-5",
+    "id": "osm-way-39827127",
+    "name": "广中西路",
+    "oneway": true,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "-5_-5",
+    "id": "osm-way-39826726",
+    "name": "广中西路",
+    "oneway": true,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "-10_0",
+    "id": "osm-way-1073705832",
+    "name": "杨柳青路",
+    "oneway": false,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "-10_0",
+    "id": "osm-way-1270411373",
+    "name": "大渡河路",
+    "oneway": true,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "-10_0",
+    "id": "osm-way-1270411372",
+    "name": "大渡河路",
+    "oneway": true,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "-2_-4",
+    "id": "osm-way-1385150458",
+    "name": "",
+    "oneway": false,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "-2_-4",
+    "id": "osm-way-40140383",
+    "name": "祥德路",
+    "oneway": false,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "-2_-4",
+    "id": "osm-way-1385150510",
+    "name": "",
+    "oneway": false,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "1_-7",
+    "id": "osm-way-43926117",
+    "name": "",
+    "oneway": false,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "1_-7",
+    "id": "osm-way-436404909",
+    "name": "国定东路",
+    "oneway": true,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "1_-7",
+    "id": "osm-way-436404909",
+    "name": "国定东路",
+    "oneway": true,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "-11_14",
+    "id": "osm-way-1271668407",
+    "name": "",
+    "oneway": true,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "-11_14",
+    "id": "osm-way-1290456029",
+    "name": "莘朱路",
+    "oneway": false,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "-11_14",
+    "id": "osm-way-1290456033",
+    "name": "莘朱路",
+    "oneway": false,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "-1_-19",
+    "id": "osm-way-1302506952",
+    "name": "友谊支路",
+    "oneway": false,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "-1_-19",
+    "id": "osm-way-1302506962",
+    "name": "宝林路",
+    "oneway": false,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "-1_-19",
+    "id": "osm-way-202629364",
+    "name": "",
+    "oneway": false,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "-25_-17",
+    "id": "osm-way-162497837",
+    "name": "察院弄",
+    "oneway": false,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "-25_-17",
+    "id": "osm-way-1303438788",
+    "name": "城中路",
+    "oneway": true,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "-25_-17",
+    "id": "osm-way-162476921",
+    "name": "清河路",
+    "oneway": true,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "5_2",
+    "id": "osm-way-34240731",
+    "name": "",
+    "oneway": false,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "5_2",
+    "id": "osm-way-442072213",
+    "name": "",
+    "oneway": false,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "5_2",
+    "id": "osm-way-442072214",
+    "name": "梦湖桥",
+    "oneway": false,
+    "layer": 0,
+    "bridge": true,
+    "reverse": false
+  },
+  {
+    "tile": "-15_56",
+    "id": "osm-way-1290670563",
+    "name": "卫清西路",
+    "oneway": false,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "-15_56",
+    "id": "osm-way-322432066",
+    "name": "龙胜路",
+    "oneway": false,
+    "layer": 1,
+    "bridge": true,
+    "reverse": false
+  },
+  {
+    "tile": "-15_56",
+    "id": "osm-way-322431533",
+    "name": "临桂路",
+    "oneway": false,
+    "layer": 0,
+    "bridge": true,
+    "reverse": false
+  },
+  {
+    "tile": "-26_25",
+    "id": "osm-way-257453000",
+    "name": "",
+    "oneway": false,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "-26_25",
+    "id": "osm-way-257739915",
+    "name": "",
+    "oneway": false,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "-26_25",
+    "id": "osm-way-68109978",
+    "name": "人民南路",
+    "oneway": false,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "-43_14",
+    "id": "osm-way-399006742",
+    "name": "漕平支路",
+    "oneway": false,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "-43_14",
+    "id": "osm-way-35160440",
+    "name": "新凤路",
+    "oneway": false,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "-43_14",
+    "id": "osm-way-696616716",
+    "name": "新溪路",
+    "oneway": false,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "-3_35",
+    "id": "osm-way-1207398145",
+    "name": "南桥·环城东路",
+    "oneway": true,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "-3_35",
+    "id": "osm-way-1552234716",
+    "name": "南桥·环城东路",
+    "oneway": true,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "-3_35",
+    "id": "osm-way-1313074443",
+    "name": "解放中路",
+    "oneway": true,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "-10_-43",
+    "id": "osm-way-252055029",
+    "name": "八一路",
+    "oneway": false,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "-10_-43",
+    "id": "osm-way-252055025",
+    "name": "管弄",
+    "oneway": false,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "-10_-43",
+    "id": "osm-way-807517654",
+    "name": "人民路",
+    "oneway": false,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "20_-17",
+    "id": "osm-way-1275978300",
+    "name": "沪陕高速",
+    "oneway": true,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "20_-17",
+    "id": "osm-way-176667811",
+    "name": "长兴岛潘圆公路",
+    "oneway": true,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "20_-17",
+    "id": "osm-way-1037072128",
+    "name": "",
+    "oneway": false,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "32_-11",
+    "id": "osm-way-431655706",
+    "name": "",
+    "oneway": false,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "32_-11",
+    "id": "osm-way-431655691",
+    "name": "",
+    "oneway": false,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "32_-11",
+    "id": "osm-way-431655609",
+    "name": "",
+    "oneway": false,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "41_37",
+    "id": "osm-way-1566345699",
+    "name": "",
+    "oneway": false,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "41_37",
+    "id": "osm-way-1451285825",
+    "name": "",
+    "oneway": false,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "41_37",
+    "id": "osm-way-1451285822",
+    "name": "",
+    "oneway": false,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "29_9",
+    "id": "osm-way-88609561",
+    "name": "迎宾大道",
+    "oneway": true,
+    "layer": 1,
+    "bridge": true,
+    "reverse": false
+  },
+  {
+    "tile": "29_9",
+    "id": "osm-way-1087835911",
+    "name": "迎宾大道",
+    "oneway": true,
+    "layer": 1,
+    "bridge": true,
+    "reverse": false
+  },
+  {
+    "tile": "29_9",
+    "id": "osm-way-915486888",
+    "name": "",
+    "oneway": true,
+    "layer": 1,
+    "bridge": true,
+    "reverse": false
+  },
+  {
+    "tile": "-18_4",
+    "id": "osm-way-185031851",
+    "name": "",
+    "oneway": true,
+    "layer": 1,
+    "bridge": true,
+    "reverse": false
+  },
+  {
+    "tile": "-18_4",
+    "id": "osm-way-1565055311",
+    "name": "",
+    "oneway": true,
+    "layer": 1,
+    "bridge": true,
+    "reverse": false
+  },
+  {
+    "tile": "-18_4",
+    "id": "osm-way-185031880",
+    "name": "",
+    "oneway": true,
+    "layer": 2,
+    "bridge": true,
+    "reverse": false
+  },
+  {
+    "tile": "15_10",
+    "id": "osm-way-483558800",
+    "name": "",
+    "oneway": true,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "15_10",
+    "id": "osm-way-1119551985",
+    "name": "",
+    "oneway": true,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "15_10",
+    "id": "osm-way-1119552048",
+    "name": "",
+    "oneway": true,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "-29_15",
+    "id": "osm-way-1041368354",
+    "name": "",
+    "oneway": false,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "-29_15",
+    "id": "osm-way-1044423566",
+    "name": "",
+    "oneway": false,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "-29_15",
+    "id": "osm-way-165079223",
+    "name": "佘北路",
+    "oneway": false,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "-36_9",
+    "id": "osm-way-165074170",
+    "name": "外青松公路",
+    "oneway": true,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "-36_9",
+    "id": "osm-way-666225640",
+    "name": "外青松公路",
+    "oneway": true,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  },
+  {
+    "tile": "-36_9",
+    "id": "osm-way-668867373",
+    "name": "",
+    "oneway": false,
+    "layer": 0,
+    "bridge": false,
+    "reverse": false
+  }
+]

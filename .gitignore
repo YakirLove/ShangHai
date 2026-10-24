@@ -1,0 +1,21 @@
+node_modules/
+.venv/
+dist/
+.cache/
+release/
+.DS_Store
+
+# Regenerable geographic cache and Python bytecode
+data/derived/
+__pycache__/
+*.py[cod]
+
+# Local acceptance recordings (screenshots remain tracked)
+docs/acceptance/**/recordings/
+
+# Local secrets and incomplete downloads
+.env
+.env.*
+!.env.example
+*.part
+.download/

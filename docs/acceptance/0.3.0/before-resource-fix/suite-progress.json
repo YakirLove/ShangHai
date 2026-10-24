@@ -1,0 +1,112 @@
+{
+  "startedAt": "2026-10-24T07:56:41.954Z",
+  "phase": "complete",
+  "results": [
+    {
+      "mode": "person",
+      "destination": "zhujiajiao",
+      "duration": 331004.22500014305,
+      "sampleDuration": 301003.55000019073,
+      "distance": 1233.3729620386246,
+      "p95": 10.339999914169312,
+      "frames": 35283,
+      "buildAsset": "index-DDTlA7QO.js",
+      "stopped": true
+    },
+    {
+      "mode": "car",
+      "destination": "minhang",
+      "duration": 331026.7999999523,
+      "sampleDuration": 301022.0599999428,
+      "distance": 2595.655650998757,
+      "p95": 23.759999990463257,
+      "frames": 26049,
+      "buildAsset": "index-DDTlA7QO.js",
+      "stopped": true
+    },
+    {
+      "mode": "cyclist",
+      "destination": "baoshan",
+      "duration": 331002.38499999046,
+      "sampleDuration": 301000.15000009537,
+      "distance": 2875.48823517583,
+      "p95": 25.675000190734863,
+      "frames": 20557,
+      "buildAsset": "index-DDTlA7QO.js",
+      "stopped": true
+    },
+    {
+      "mode": "helicopter",
+      "destination": "dishui",
+      "duration": 331006.9349999428,
+      "sampleDuration": 301001.1399998665,
+      "distance": 7107.081502345781,
+      "p95": 23.725000143051147,
+      "frames": 22281,
+      "buildAsset": "index-DDTlA7QO.js",
+      "stopped": true
+    },
+    {
+      "label": "east-midday-release",
+      "duration": 160175.68499994278,
+      "maxCrossTrack": 0.9395430030057951,
+      "maxStep": 3.768022760574239,
+      "minCameraClearance": 2.6590375646919373,
+      "p95": 20.609999895095825,
+      "frames": 11889,
+      "trace": 750
+    },
+    {
+      "label": "west-midday-release",
+      "duration": 135783.35499978065,
+      "maxCrossTrack": 1.473835507703448,
+      "maxStep": 3.7440783982426,
+      "minCameraClearance": 2.636326253512399,
+      "p95": 24.15000009536743,
+      "frames": 9342,
+      "trace": 632
+    },
+    {
+      "label": "east-midnight-release",
+      "duration": 160077.81500005722,
+      "maxCrossTrack": 0.9274947346659578,
+      "maxStep": 3.612079284260613,
+      "minCameraClearance": 2.6592764751806985,
+      "p95": 22.96499991416931,
+      "frames": 11184,
+      "trace": 747
+    },
+    {
+      "label": "west-midnight-release",
+      "duration": 135433.3600001335,
+      "maxCrossTrack": 1.4520225999200878,
+      "maxStep": 3.6333939925542684,
+      "minCameraClearance": 2.636943422584336,
+      "p95": 18.164999961853027,
+      "frames": 8999,
+      "trace": 627
+    },
+    {
+      "label": "east-golden-release",
+      "duration": 172404.00499987602,
+      "maxCrossTrack": 0.9070075154375498,
+      "maxStep": 3.750809749191407,
+      "minCameraClearance": 2.66195273983333,
+      "p95": 17.65499997138977,
+      "frames": 16687,
+      "trace": 804
+    },
+    {
+      "label": "west-golden-release",
+      "duration": 161005.10500001907,
+      "maxCrossTrack": 1.4605158074741058,
+      "maxStep": 3.4591120332438576,
+      "minCameraClearance": 2.6414338648404314,
+      "p95": 10.620000123977661,
+      "frames": 18746,
+      "trace": 750
+    }
+  ],
+  "error": null,
+  "done": true
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "domain": "shanghai.datiaomao.com",
+    "app": "shanghai-roam",
+    "transaction": "20261024-101240-7a1908",
+    "status": "provisioned",
+    "error": null,
+    "recovery_error": null,
+    "existing_sites_unchanged": true,
+    "audit_directory": "/var/www/app-market/domain-provision/20261024-101240-7a1908",
+    "certificate": {
+      "expires": "Jan 22 01:14:18 2027 GMT",
+      "names": [
+        [
+          "DNS",
+          "shanghai.datiaomao.com"
+        ]
+      ]
+    },
+    "dns_addresses": [
+      "47.116.215.55"
+    ]
+  }
+]

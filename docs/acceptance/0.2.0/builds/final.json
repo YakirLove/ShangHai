@@ -1,0 +1,17 @@
+{
+  "version": "0.2.0",
+  "asset": "index-DqNtY0-r.js",
+  "sha256": "c5eba4464440d161bd4c0dbb0b1e7d48d523f11e0867bede177e5e0fe1047799",
+  "citySHA256": "91f010cc2656aebd7a55e500b5b6f38afd16da68e9cb25f45c3c325d802f4e15",
+  "region": {
+    "id": "central-b",
+    "name": "上海中心城区",
+    "boundsWgs84": [
+      121.44,
+      31.2,
+      121.54,
+      31.265
+    ],
+    "areaKm2": 68.66
+  }
+}

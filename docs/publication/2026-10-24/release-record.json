@@ -1,0 +1,121 @@
+{
+  "release": "20261024-101402-46d277",
+  "published_at": "2026-10-24T10:14:11+08:00",
+  "status": "published",
+  "apps": [
+    {
+      "id": "wonder-study",
+      "name": "奇想书房",
+      "description": "走进会发光的 3D 书房，找到海洋、宇宙和故事里的伙伴，边探索边回答藏在小物件里的问题。",
+      "category": "学习启蒙",
+      "version": "20260924-wide-paw",
+      "updated_at": "2026-09-24T00:00:00+08:00",
+      "route": "static",
+      "target": "/var/www/wonder-study/releases/20260924-wide-paw",
+      "source_project": "/Users/wuyanji/Desktop/编程/奇想书房网站",
+      "health_paths": [
+        "app.js",
+        "room-layout.json",
+        "assets/room.glb"
+      ],
+      "cover": "assets/wonder-study.cover.1f4fafb83864.jpg",
+      "icon": "assets/wonder-study.icon.e038b940afb4.png"
+    },
+    {
+      "id": "fuxing-3d",
+      "name": "复兴号漫游",
+      "description": "坐上一列会行驶的复兴号。看看窗外的田野，走过八节车厢，挑一张座椅坐下来，体验一次小小的列车旅行。",
+      "category": "3D 探索",
+      "version": "20261011-optimized-assets-190216",
+      "updated_at": "2026-10-11T19:02:16+08:00",
+      "route": "static",
+      "target": "/var/www/fuxing-3d/releases/20261011-optimized-assets-190216",
+      "source_project": "/Users/wuyanji/Desktop/编程/复兴号3D",
+      "health_paths": [
+        "web/train.js",
+        "models/optimized/manifest.json",
+        "models-review.html"
+      ],
+      "cover": "assets/fuxing-3d.cover.2b6ec2cca424.jpg",
+      "icon": "assets/fuxing-3d.icon.81b1aa8f28c0.png"
+    },
+    {
+      "id": "number-split",
+      "name": "小积木数学",
+      "description": "点一点，分一分。用彩色积木认识 1～10 的分与合，还能看一遍从 0 到 10 的完整演示。",
+      "category": "学习启蒙",
+      "cover": "assets/number-split.cover.7437106e54c8.png",
+      "icon": "assets/number-split.icon.25038b925b2f.png",
+      "version": "20261014-182159-51df32",
+      "updated_at": "2026-10-14T18:32:10+08:00",
+      "route": "static",
+      "health_paths": [
+        "分与合.svg"
+      ],
+      "source_project": "/Users/wuyanji/Desktop/编程/number-split",
+      "target": "/var/www/app-market/app-releases/number-split/20261014-182159-51df32"
+    },
+    {
+      "id": "image-studio",
+      "name": "灵感画室",
+      "description": "把一句灵感变成图片，也可以上传参考图继续创作。支持文生图、图片编辑和多张结果预览。",
+      "category": "创作工具",
+      "cover": "assets/image-studio.cover.f6e2297c69e8.jpg",
+      "icon": "assets/image-studio.icon.78b40c9a8d28.png",
+      "version": "20261014-181608-734412",
+      "updated_at": "2026-10-14T18:16:10+08:00",
+      "route": "proxy",
+      "health_paths": [
+        "assets/image_studio.css",
+        "assets/image_studio.js"
+      ],
+      "source_project": "/Users/wuyanji/Desktop/编程/app-market/adapters/image-studio",
+      "target": "/var/www/app-market/app-releases/image-studio/20261014-181608-734412"
+    },
+    {
+      "id": "xiangqi-basics",
+      "name": "小棋手练习室",
+      "description": "在真实棋盘上练走法、学配合。24 个基础单元，8 种将杀模式、64 个棋局，循序渐进学会象棋。",
+      "category": "学习启蒙",
+      "cover": "assets/xiangqi-basics.cover.8fe8360f8c05.png",
+      "icon": "assets/xiangqi-basics.icon.0b4535d9843e.svg",
+      "version": "20261023-151853-712bc4",
+      "updated_at": "2026-10-23T15:18:53+08:00",
+      "route": "static",
+      "health_paths": [
+        "app.js",
+        "full-positions.js",
+        "tactics-content.js",
+        "tactics-rules.js",
+        "storage.js"
+      ],
+      "source_project": "/Users/wuyanji/Desktop/编程/xiangqi-basics",
+      "target": "/var/www/app-market/app-releases/xiangqi-basics/20261023-151853-712bc4"
+    },
+    {
+      "id": "shanghai-roam",
+      "name": "上海漫游",
+      "description": "沿黄浦江探索上海中心城区，步行、驾车、骑行或飞行，穿过延安东路隧道往返外滩与陆家嘴。",
+      "category": "3D 探索",
+      "cover": "assets/shanghai-roam.cover.d2aaeb4d662a.png",
+      "icon": "assets/shanghai-roam.icon.715723d4c4c2.svg",
+      "version": "20261024-101402-46d277",
+      "updated_at": "2026-10-24T10:14:05+08:00",
+      "route": "static",
+      "health_paths": [
+        "data/city.json",
+        "data/manifest.json"
+      ],
+      "source_project": "/Users/wuyanji/Desktop/上海漫游",
+      "domains": [
+        "shanghai.datiaomao.com"
+      ],
+      "target": "/var/www/app-market/app-releases/shanghai-roam/20261024-101402-46d277"
+    }
+  ],
+  "previous_release": "20261023-151853-712bc4",
+  "legacy_links": {
+    "/var/www/wonder-study/current": "wonder-study",
+    "/var/www/fuxing-3d/current": "fuxing-3d"
+  }
+}

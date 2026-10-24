@@ -1,0 +1,31 @@
+{
+  "buildAsset": "http://127.0.0.1:4187/assets/index-CkwP2jLv.js",
+  "target": {
+    "id": "jinshan",
+    "url": "http://127.0.0.1:4187/data/tiles/-15_56.json",
+    "origin": [
+      -905.9800808402572,
+      2.12,
+      -451.2004423613202
+    ]
+  },
+  "failure": {
+    "position": [
+      -905.9800808402572,
+      2.12,
+      -451.2004423613202
+    ],
+    "toast": "Failed to fetch，请重试"
+  },
+  "retry": {
+    "distance": 0.0022875624748343436,
+    "ready": true,
+    "errors": []
+  },
+  "race": {
+    "drift": 0,
+    "ready": true,
+    "errors": []
+  },
+  "passed": true
+}

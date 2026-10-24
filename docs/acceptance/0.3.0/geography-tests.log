@@ -1,0 +1,8 @@
+test_offshore_road_does_not_turn_estuary_into_land (test_citywide_geo.CoastTests.test_offshore_road_does_not_turn_estuary_into_land) ... ok
+test_uninhabited_island_survives_without_any_road_seeds (test_citywide_geo.CoastTests.test_uninhabited_island_survives_without_any_road_seeds) ... ok
+test_changed_administrative_boundary_is_rejected_before_pbf_parsing (test_citywide_geo.SourceIntegrityTests.test_changed_administrative_boundary_is_rejected_before_pbf_parsing) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.051s
+
+OK

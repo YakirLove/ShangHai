@@ -1,0 +1,25 @@
+{
+  "bboxWgs84": [
+    121.477,
+    31.22,
+    121.52,
+    31.25
+  ],
+  "metreBounds": [
+    -1714.8104503222646,
+    -1441.3561056804763,
+    2381.6811810022427,
+    1884.8502920433966
+  ],
+  "boundingAreaKm2": 13.625776672333883,
+  "waterAreaM2": 2296049,
+  "ordinaryRoadObjects": 1014,
+  "tunnels": 2,
+  "buildings": 3614,
+  "landmarks": 8,
+  "dataLimitations": [
+    "road directions and OSM object IDs omitted by source cache",
+    "building outlines limited to tagged height >=18m",
+    "ordinary fill and tunnel vertical profile are visual estimates"
+  ]
+}

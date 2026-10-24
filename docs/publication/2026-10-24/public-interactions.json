@@ -1,0 +1,115 @@
+{
+  "url": "https://shanghai.datiaomao.com/",
+  "steps": [
+    {
+      "name": "search-and-keyboard",
+      "before": {
+        "mode": "car",
+        "x": -872.4127502563243,
+        "z": -217.70698445060916
+      },
+      "after": {
+        "mode": "car",
+        "x": -872.4127502563243,
+        "z": -217.70698445060916
+      },
+      "arrival": {
+        "ready": true,
+        "place": [
+          -5212.555850615555,
+          2.12,
+          1309.6816194413536
+        ]
+      }
+    },
+    {
+      "name": "mode-person",
+      "origin": [
+        -5212.555850615555,
+        2.059682078267718,
+        1309.6816194413532
+      ],
+      "mode": "person",
+      "position": [
+        -5212.555850615555,
+        2,
+        1312.857647569633
+      ],
+      "camera": "action",
+      "errors": []
+    },
+    {
+      "name": "mode-car",
+      "origin": [
+        -5213.747303204034,
+        2.12,
+        1313.6005808145082
+      ],
+      "mode": "car",
+      "position": [
+        -5213.747303204034,
+        2.12,
+        1317.8951330370594
+      ],
+      "camera": "action",
+      "errors": []
+    },
+    {
+      "name": "mode-cyclist",
+      "origin": [
+        -5214.355681409418,
+        2,
+        1318.522239388942
+      ],
+      "mode": "cyclist",
+      "position": [
+        -5214.355681409418,
+        2,
+        1322.2516413738579
+      ],
+      "camera": "action",
+      "errors": []
+    },
+    {
+      "name": "mode-helicopter",
+      "origin": [
+        -5214.355681409418,
+        80,
+        1322.4899773213017
+      ],
+      "mode": "helicopter",
+      "position": [
+        -5214.355681409418,
+        80,
+        1326.1117110905307
+      ],
+      "camera": "action",
+      "errors": []
+    },
+    {
+      "name": "tunnel-entry-and-underground-mode",
+      "state": {
+        "mode": "car",
+        "height": -3.1278994726753604,
+        "surface": "yanan-1",
+        "pinnedRoutes": 13,
+        "ready": true
+      }
+    }
+  ],
+  "errors": [],
+  "ok": true,
+  "resumedAfter": "The first probe waited for underground=true while stationary at a ground-level portal. Inspection confirmed route surface and all route tiles ready; the predicate is corrected. Product code is unchanged.",
+  "marketPath": {
+    "ready": true,
+    "webgpu": true,
+    "landmarks": 12,
+    "errors": []
+  },
+  "final": {
+    "ready": true,
+    "url": "https://shanghai.datiaomao.com/",
+    "errors": [],
+    "externalRequests": []
+  }
+}

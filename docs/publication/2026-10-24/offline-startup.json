@@ -1,0 +1,370 @@
+{
+  "at": "2026-10-24T02:07:08.236Z",
+  "method": "Local static release over localhost; site storage cleared and HTTP cache bypassed each run; no network throttle. Existing browser/GPU driver shader cache retained.",
+  "runs": [
+    {
+      "navigationToOperableMs": 3929.3600001335144,
+      "bootMs": 2257.9000000953674,
+      "marks": [
+        {
+          "text": "读取浦江两岸的道路与建筑…",
+          "ms": 0.5750000476837158
+        },
+        {
+          "text": "准备天空、光线和材质…",
+          "ms": 593.960000038147
+        },
+        {
+          "text": "构建上海天际线与街道…",
+          "ms": 705.210000038147
+        },
+        {
+          "text": "编译光影，准备出发…",
+          "ms": 1640.125
+        }
+      ],
+      "webgpu": true,
+      "canvas": [
+        1920,
+        1080
+      ],
+      "quality": "medium",
+      "errors": [],
+      "resources": [
+        {
+          "path": "/assets/index-DqNtY0-r.js",
+          "duration": 630.6349999904633,
+          "bytes": 1082962
+        },
+        {
+          "path": "/assets/index-BGgYhXhh.css",
+          "duration": 631.5999999046326,
+          "bytes": 7058
+        },
+        {
+          "path": "/data/city.json",
+          "duration": 443.1949999332428,
+          "bytes": 9121351
+        },
+        {
+          "path": "/data/manifest.json",
+          "duration": 6.559999942779541,
+          "bytes": 53232
+        },
+        {
+          "path": "/data/tiles/-2_-1.json",
+          "duration": 5.659999847412109,
+          "bytes": 6010
+        },
+        {
+          "path": "/data/tiles/-3_-1.json",
+          "duration": 4.884999990463257,
+          "bytes": 25043
+        },
+        {
+          "path": "/data/tiles/-1_-1.json",
+          "duration": 9.015000104904175,
+          "bytes": 12991
+        },
+        {
+          "path": "/data/tiles/-1_-2.json",
+          "duration": 17.354999780654907,
+          "bytes": 749
+        },
+        {
+          "path": "/data/tiles/-1_0.json",
+          "duration": 19.59000015258789,
+          "bytes": 2214
+        },
+        {
+          "path": "/data/tiles/-2_0.json",
+          "duration": 21.414999961853027,
+          "bytes": 19629
+        },
+        {
+          "path": "/data/tiles/-2_1.json",
+          "duration": 20.850000143051147,
+          "bytes": 18302
+        },
+        {
+          "path": "/data/tiles/-3_0.json",
+          "duration": 23.81500005722046,
+          "bytes": 20538
+        },
+        {
+          "path": "/data/tiles/-3_1.json",
+          "duration": 21.959999799728394,
+          "bytes": 17211
+        },
+        {
+          "path": "/data/tiles/-4_0.json",
+          "duration": 24.625,
+          "bytes": 17221
+        },
+        {
+          "path": "/data/tiles/-4_1.json",
+          "duration": 24.019999980926514,
+          "bytes": 11382
+        },
+        {
+          "path": "/data/tiles/0_-1.json",
+          "duration": 28.164999961853027,
+          "bytes": 14939
+        },
+        {
+          "path": "/data/tiles/0_-2.json",
+          "duration": 26.960000038146973,
+          "bytes": 14468
+        },
+        {
+          "path": "/data/tiles/1_-1.json",
+          "duration": 28.09500002861023,
+          "bytes": 4304
+        }
+      ]
+    },
+    {
+      "navigationToOperableMs": 2305.5999999046326,
+      "bootMs": 2117.460000038147,
+      "marks": [
+        {
+          "text": "读取浦江两岸的道路与建筑…",
+          "ms": 0.11500000953674316
+        },
+        {
+          "text": "准备天空、光线和材质…",
+          "ms": 192.10000014305115
+        },
+        {
+          "text": "构建上海天际线与街道…",
+          "ms": 233.94000005722046
+        },
+        {
+          "text": "编译光影，准备出发…",
+          "ms": 1321.2149999141693
+        }
+      ],
+      "webgpu": true,
+      "canvas": [
+        1920,
+        1080
+      ],
+      "quality": "medium",
+      "errors": [],
+      "resources": [
+        {
+          "path": "/assets/index-DqNtY0-r.js",
+          "duration": 80.51500010490417,
+          "bytes": 1082962
+        },
+        {
+          "path": "/assets/index-BGgYhXhh.css",
+          "duration": 68.63000011444092,
+          "bytes": 7058
+        },
+        {
+          "path": "/data/city.json",
+          "duration": 103.28999996185303,
+          "bytes": 9121351
+        },
+        {
+          "path": "/data/manifest.json",
+          "duration": 6.549999952316284,
+          "bytes": 53232
+        },
+        {
+          "path": "/data/tiles/-2_-1.json",
+          "duration": 26.91000008583069,
+          "bytes": 6010
+        },
+        {
+          "path": "/data/tiles/-3_-1.json",
+          "duration": 30.259999990463257,
+          "bytes": 25043
+        },
+        {
+          "path": "/data/tiles/-1_-1.json",
+          "duration": 68.8899998664856,
+          "bytes": 12991
+        },
+        {
+          "path": "/data/tiles/-1_-2.json",
+          "duration": 46.545000076293945,
+          "bytes": 749
+        },
+        {
+          "path": "/data/tiles/-1_0.json",
+          "duration": 51.459999799728394,
+          "bytes": 2214
+        },
+        {
+          "path": "/data/tiles/-2_0.json",
+          "duration": 78.63499999046326,
+          "bytes": 19629
+        },
+        {
+          "path": "/data/tiles/-2_1.json",
+          "duration": 77.25,
+          "bytes": 18302
+        },
+        {
+          "path": "/data/tiles/-3_0.json",
+          "duration": 77.46500015258789,
+          "bytes": 20538
+        },
+        {
+          "path": "/data/tiles/-3_1.json",
+          "duration": 113.02999997138977,
+          "bytes": 17211
+        },
+        {
+          "path": "/data/tiles/-4_0.json",
+          "duration": 138.83500003814697,
+          "bytes": 17221
+        },
+        {
+          "path": "/data/tiles/-4_1.json",
+          "duration": 138.93499994277954,
+          "bytes": 11382
+        },
+        {
+          "path": "/data/tiles/0_-1.json",
+          "duration": 149.83500003814697,
+          "bytes": 14939
+        },
+        {
+          "path": "/data/tiles/0_-2.json",
+          "duration": 94.98499989509583,
+          "bytes": 14468
+        },
+        {
+          "path": "/data/tiles/1_-1.json",
+          "duration": 138.17000007629395,
+          "bytes": 4304
+        }
+      ]
+    },
+    {
+      "navigationToOperableMs": 1835.6900000572205,
+      "bootMs": 1646.0150001049042,
+      "marks": [
+        {
+          "text": "读取浦江两岸的道路与建筑…",
+          "ms": 0.13000011444091797
+        },
+        {
+          "text": "准备天空、光线和材质…",
+          "ms": 167.90499997138977
+        },
+        {
+          "text": "构建上海天际线与街道…",
+          "ms": 206.47000002861023
+        },
+        {
+          "text": "编译光影，准备出发…",
+          "ms": 1024.2400000095367
+        }
+      ],
+      "webgpu": true,
+      "canvas": [
+        1920,
+        1080
+      ],
+      "quality": "medium",
+      "errors": [],
+      "resources": [
+        {
+          "path": "/assets/index-DqNtY0-r.js",
+          "duration": 61.03499984741211,
+          "bytes": 1082962
+        },
+        {
+          "path": "/assets/index-BGgYhXhh.css",
+          "duration": 56.21499991416931,
+          "bytes": 7058
+        },
+        {
+          "path": "/data/city.json",
+          "duration": 97.94500017166138,
+          "bytes": 9121351
+        },
+        {
+          "path": "/data/manifest.json",
+          "duration": 10.325000047683716,
+          "bytes": 53232
+        },
+        {
+          "path": "/data/tiles/-2_-1.json",
+          "duration": 11.355000019073486,
+          "bytes": 6010
+        },
+        {
+          "path": "/data/tiles/-3_-1.json",
+          "duration": 6.1499998569488525,
+          "bytes": 25043
+        },
+        {
+          "path": "/data/tiles/-1_-1.json",
+          "duration": 4.680000066757202,
+          "bytes": 12991
+        },
+        {
+          "path": "/data/tiles/-1_-2.json",
+          "duration": 4.1000001430511475,
+          "bytes": 749
+        },
+        {
+          "path": "/data/tiles/-1_0.json",
+          "duration": 4.3450000286102295,
+          "bytes": 2214
+        },
+        {
+          "path": "/data/tiles/-2_0.json",
+          "duration": 5.06499981880188,
+          "bytes": 19629
+        },
+        {
+          "path": "/data/tiles/-2_1.json",
+          "duration": 5.425000190734863,
+          "bytes": 18302
+        },
+        {
+          "path": "/data/tiles/-3_0.json",
+          "duration": 5.694999933242798,
+          "bytes": 20538
+        },
+        {
+          "path": "/data/tiles/-3_1.json",
+          "duration": 5.990000009536743,
+          "bytes": 17211
+        },
+        {
+          "path": "/data/tiles/-4_0.json",
+          "duration": 7.619999885559082,
+          "bytes": 17221
+        },
+        {
+          "path": "/data/tiles/-4_1.json",
+          "duration": 7.8349997997283936,
+          "bytes": 11382
+        },
+        {
+          "path": "/data/tiles/0_-1.json",
+          "duration": 8.650000095367432,
+          "bytes": 14939
+        },
+        {
+          "path": "/data/tiles/0_-2.json",
+          "duration": 7.819999933242798,
+          "bytes": 14468
+        },
+        {
+          "path": "/data/tiles/1_-1.json",
+          "duration": 8.914999961853027,
+          "bytes": 4304
+        }
+      ]
+    }
+  ],
+  "failure": null
+}

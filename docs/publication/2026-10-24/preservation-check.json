@@ -1,0 +1,20 @@
+{
+  "previousAppsUnchanged": {
+    "wonder-study": "20260924-wide-paw",
+    "fuxing-3d": "20261011-optimized-assets-190216",
+    "number-split": "20261014-182159-51df32",
+    "image-studio": "20261014-181608-734412",
+    "xiangqi-basics": "20261023-151853-712bc4"
+  },
+  "unchangedOtherNginxConfigs": [
+    "/etc/nginx/conf.d/api.conf",
+    "/etc/nginx/conf.d/fuxing-3d.conf",
+    "/etc/nginx/conf.d/image.conf",
+    "/etc/nginx/conf.d/web.conf",
+    "/etc/nginx/conf.d/wonder-study.conf"
+  ],
+  "containersUnchanged": true,
+  "legacyLinksUnchanged": true,
+  "newRelease": "20261024-101402-46d277",
+  "newDomain": "https://shanghai.datiaomao.com/"
+}

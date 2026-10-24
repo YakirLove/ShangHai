@@ -1,0 +1,80 @@
+{
+  "loading": "准备天空、光线和材质…",
+  "now": 156052.9350001812,
+  "visibility": "visible",
+  "resources": [
+    {
+      "url": "http://127.0.0.1:4187/assets/index-KYUx9ZpF.js",
+      "duration": 1135.1549999713898,
+      "bytes": 1083125
+    },
+    {
+      "url": "http://127.0.0.1:4187/assets/index-BGgYhXhh.css",
+      "duration": 582.2599999904633,
+      "bytes": 7358
+    },
+    {
+      "url": "http://127.0.0.1:4187/data/city.json",
+      "duration": 6394.115000009537,
+      "bytes": 9121505
+    },
+    {
+      "url": "http://127.0.0.1:4187/data/manifest.json",
+      "duration": 241.03999996185303,
+      "bytes": 53532
+    }
+  ],
+  "navigation": {
+    "name": "http://127.0.0.1:4187/",
+    "entryType": "navigation",
+    "startTime": 0,
+    "duration": 2563.9900000095367,
+    "navigationId": 7350,
+    "initiatorType": "navigation",
+    "deliveryType": "",
+    "nextHopProtocol": "http/1.1",
+    "renderBlockingStatus": "non-blocking",
+    "contentType": "text/html",
+    "contentEncoding": "",
+    "workerStart": 0,
+    "workerRouterEvaluationStart": 0,
+    "workerCacheLookupStart": 0,
+    "workerMatchedSourceType": "",
+    "workerFinalSourceType": "",
+    "redirectStart": 0,
+    "redirectEnd": 0,
+    "fetchStart": 20.02500009536743,
+    "domainLookupStart": 20.02500009536743,
+    "domainLookupEnd": 20.02500009536743,
+    "connectStart": 20.02500009536743,
+    "secureConnectionStart": 0,
+    "connectEnd": 20.02500009536743,
+    "requestStart": 103.83500003814697,
+    "responseStart": 148.375,
+    "firstInterimResponseStart": 0,
+    "finalResponseHeadersStart": 148.375,
+    "responseEnd": 201.5900001525879,
+    "transferSize": 4018,
+    "encodedBodySize": 3718,
+    "decodedBodySize": 3718,
+    "responseStatus": 200,
+    "serverTiming": [],
+    "unloadEventStart": 224.5550000667572,
+    "unloadEventEnd": 224.5550000667572,
+    "domInteractive": 661.6150000095367,
+    "domContentLoadedEventStart": 1590.8150000572205,
+    "domContentLoadedEventEnd": 1591.1400001049042,
+    "domComplete": 2561.6050000190735,
+    "loadEventStart": 2561.630000114441,
+    "loadEventEnd": 2563.9900000095367,
+    "type": "navigate",
+    "redirectCount": 0,
+    "activationStart": 0,
+    "criticalCHRestart": 0,
+    "notRestoredReasons": null,
+    "confidence": {
+      "randomizedTriggerRate": 0.4994798,
+      "value": "high"
+    }
+  }
+}

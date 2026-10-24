@@ -1,0 +1,30 @@
+{
+  "startedAt": "2026-10-24T08:38:47.614Z",
+  "phase": "citywide-cyclist",
+  "results": [
+    {
+      "mode": "person",
+      "destination": "zhujiajiao",
+      "duration": 331001.8149998188,
+      "sampleDuration": 301000.2999999523,
+      "distance": 1231.572281993771,
+      "p95": 10.97000002861023,
+      "frames": 34622,
+      "buildAsset": "index-CkwP2jLv.js",
+      "stopped": true
+    },
+    {
+      "mode": "car",
+      "destination": "minhang",
+      "duration": 331025.34999990463,
+      "sampleDuration": 301024.83999991417,
+      "distance": 2608.7090632260006,
+      "p95": 10.575000047683716,
+      "frames": 34589,
+      "buildAsset": "index-CkwP2jLv.js",
+      "stopped": true
+    }
+  ],
+  "error": null,
+  "done": false
+}

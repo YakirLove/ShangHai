@@ -1,0 +1,9 @@
+{
+  "node": {
+    "tests": 44,
+    "pass": 44,
+    "fail": 0
+  },
+  "pythonGeographyTests": 3,
+  "pythonFailures": 0
+}

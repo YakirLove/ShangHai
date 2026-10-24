@@ -1,0 +1,21 @@
+{
+  "name": "shanghai-waterfront-roam",
+  "version": "0.3.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 4186",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 4187",
+    "test": "node --test tests/*.test.mjs",
+    "test:shanghai": "node --test tests/*.test.mjs",
+    "package:release": "node tools/package-release.mjs",
+    "package:source": "node tools/package-source.mjs"
+  },
+  "dependencies": {
+    "three": "file:vendor/three"
+  },
+  "devDependencies": {
+    "vite": "8.3.5"
+  }
+}

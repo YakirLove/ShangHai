@@ -1,0 +1,6 @@
+{
+  "repo": "dataelement/dsh-site-selection",
+  "commit": "91980ee1234f0ff7d18388dcabba120a8929f784",
+  "upstream": "OpenStreetMap",
+  "purpose": "Network-resilient cached source snapshot"
+}

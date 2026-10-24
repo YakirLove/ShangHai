@@ -1,0 +1,37 @@
+{
+  "source_repo": "https://github.com/mrdoob/slop-newyork/",
+  "source_commit": "1f665309d69ec53b5337a4b8625e1abff48a30bb",
+  "source_commit_time_utc": "2026-10-23T05:06:47Z",
+  "source_commit_subject": "Replace window globals with native ES modules",
+  "live_url": "https://mrdoob.github.io/slop-newyork/",
+  "browser": "Tabbit Chromium 154, macOS",
+  "viewport_css": [
+    1494,
+    761
+  ],
+  "navigator_gpu_present": true,
+  "frontend_file_bytes_excluding_external_dependencies": 2446781,
+  "frontend_file_count": 26,
+  "checks": {
+    "city_rendered": true,
+    "initial_drive_mode_visible": true,
+    "switch_walk_cycle_fly": true,
+    "night_button_active": true,
+    "full_map_opens": true,
+    "teleport_button_click": "Times Square, inspected control only; no coordinate assertion",
+    "flight_ascend": "HUD altitude increased from 315 to 316 feet while E held",
+    "map_search": "Input inspected; result behavior not established",
+    "performance": "HUD fluctuates and background tabs throttle; no formal FPS, cold-start, mobile, or WebGL fallback benchmark"
+  },
+  "critical_observations": [
+    "Three.js dev branch imported through jsDelivr without immutable revision pin",
+    "Google Fonts external stylesheet",
+    "Geography shipped as preprocessed JS data",
+    "Ordinary building lots, massing and facades are procedurally generated",
+    "Near detail streaming is not network-based city tile streaming",
+    "Some night water reflections depend on NYC shoreline geometry"
+  ],
+  "inspection_date_local": "2026-10-23",
+  "timezone": "Asia/Shanghai",
+  "evidence_written_at_local": "2026-10-23T13:38:13.241253+08:00"
+}

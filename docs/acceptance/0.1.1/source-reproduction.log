@@ -1,0 +1,80 @@
+
+added 17 packages in 1s
+
+8 packages are looking for funding
+  run `npm fund` for details
+
+> shanghai-waterfront-roam@0.1.1 test
+> node --test tests/*.test.mjs
+
+✔ helicopter descent stops above Shanghai land and cancels its downward velocity (1.9025ms)
+✔ taxi collision contains its mirrors and bumper rather than only its narrow chassis (0.52275ms)
+✔ WGS84 projection preserves east/north orientation and metre scale (14.765834ms)
+✔ surface sampling keeps a car underground while a pedestrian stays on the street above (0.467708ms)
+✔ collision query filters both horizontal extent and height and unregisters tiles (0.195416ms)
+✔ tile loader retries failures and ignores stale late mounts after disposal (1.409ms)
+✔ road graph separates levels and respects one-way and walking-only paths (0.320125ms)
+✔ readiness gate blocks an unmounted cell and rejects positions outside the declared region (0.20125ms)
+✔ a pending explicit arrival survives background prefetch at the old position (0.281875ms)
+✔ landing and movement readiness include neighbouring owners of buildings spanning a tile boundary (1.011666ms)
+✔ underground follow camera remains below the ceiling without clamping to world zero (0.345ms)
+✔ underground camera stays inside the actual bore when the vehicle is already near a wall (0.441375ms)
+✔ road surface triangles face upward for either travel direction (121.901666ms)
+✔ release data contains eight unique landmarks, sourced real buildings, river polygons and two directed tunnel routes (30.228ms)
+✔ both widened bores keep their full open ramp width clear of terrain and surface asphalt (44.036875ms)
+✔ landmarks and procedural buildings do not overlap water, parks or landmark reservations (41.563042ms)
+✔ every playable 500m cell is declared, including empty river tiles (17.3575ms)
+✔ collision readiness halo covers all source building extents and is retained along each tunnel (26.95975ms)
+✔ a car entering either bore from an ordinary road follows the ramp without an elevation snap (127.399ms)
+✔ Shanghai water material constructs its physical waves and light graph without unresolved TSL functions (58.6855ms)
+✔ ambient pools select the current neighbourhood even when distant sites occur first (18.456792ms)
+✔ recycled ambient actors enter outside the visible centre and never duplicate an occupied site (0.415875ms)
+✔ unloading an instanced tile releases its instance buffers and geometry but preserves shared materials (3.699334ms)
+✔ tunnel wall clearance contains the entire taxi for straight and sideways headings (21.433167ms)
+✔ a 10m bore gives the taxi one extra metre on each side without letting its corners cross a wall (0.967125ms)
+ℹ tests 25
+ℹ suites 0
+ℹ pass 25
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 433.170458
+{
+  "realBuildings": 560,
+  "proceduralBuildings": 3054,
+  "roads": 1014,
+  "waterAreaM2": 2296049,
+  "tiles": 63,
+  "tunnels": [
+    {
+      "id": "yanan-0",
+      "length": 1975.6,
+      "width": 10,
+      "widthSource": "gameplay-visual-estimate",
+      "heightSource": "visual-estimate-continuous-profile"
+    },
+    {
+      "id": "yanan-1",
+      "length": 2331.96,
+      "width": 10,
+      "widthSource": "gameplay-visual-estimate",
+      "heightSource": "visual-estimate-continuous-profile"
+    }
+  ],
+  "citySHA256": "7be85091030b9e5a797666209ca75f97588864ead0c0d6ff0526e85e334cdb70"
+}
+
+> shanghai-waterfront-roam@0.1.1 build
+> vite build
+
+vite v8.3.5 building client environment for production...
+transforming...
+✓ 40 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                     3.70 kB │ gzip:   1.80 kB
+dist/assets/index-ClzVtXD8.css      7.01 kB │ gzip:   2.30 kB
+dist/assets/index-BuHmV7Ii.js   1,076.65 kB │ gzip: 312.84 kB
+
+✓ built in 523ms

@@ -1,0 +1,145 @@
+{
+  "at": "2026-10-24T02:18:28.079Z",
+  "method": "One public HTTPS startup with cache bypass, normal connection; local offline startup measured separately three times.",
+  "runs": [
+    {
+      "url": "https://shanghai.datiaomao.com/",
+      "navigationToOperableMs": 6962.799999952316,
+      "bootMs": 6467.200000047684,
+      "region": {
+        "id": "central-b",
+        "name": "上海中心城区",
+        "boundsWgs84": [
+          121.44,
+          31.2,
+          121.54,
+          31.265
+        ],
+        "areaKm2": 68.66
+      },
+      "landmarks": 12,
+      "places": 7,
+      "tunnelWidths": [
+        10,
+        10
+      ],
+      "webgpu": true,
+      "canvas": [
+        1728,
+        972
+      ],
+      "visibility": "visible",
+      "errors": [],
+      "resources": [
+        {
+          "url": "https://shanghai.datiaomao.com/assets/index-DqNtY0-r.js",
+          "encodedBytes": 314619,
+          "decodedBytes": 1082962,
+          "duration": 267.2999999523163
+        },
+        {
+          "url": "https://shanghai.datiaomao.com/assets/index-BGgYhXhh.css",
+          "encodedBytes": 2356,
+          "decodedBytes": 7058,
+          "duration": 194
+        },
+        {
+          "url": "https://shanghai.datiaomao.com/data/city.json",
+          "encodedBytes": 1956856,
+          "decodedBytes": 9121351,
+          "duration": 4179.600000143051
+        },
+        {
+          "url": "https://shanghai.datiaomao.com/data/manifest.json",
+          "encodedBytes": 18412,
+          "decodedBytes": 53232,
+          "duration": 606
+        },
+        {
+          "url": "https://shanghai.datiaomao.com/data/tiles/-2_-1.json",
+          "encodedBytes": 1647,
+          "decodedBytes": 6010,
+          "duration": 32.69999980926514
+        },
+        {
+          "url": "https://shanghai.datiaomao.com/data/tiles/-3_-1.json",
+          "encodedBytes": 6149,
+          "decodedBytes": 25043,
+          "duration": 21.700000047683716
+        },
+        {
+          "url": "https://shanghai.datiaomao.com/data/tiles/-1_-1.json",
+          "encodedBytes": 2971,
+          "decodedBytes": 12991,
+          "duration": 22.799999952316284
+        },
+        {
+          "url": "https://shanghai.datiaomao.com/data/tiles/-1_-2.json",
+          "encodedBytes": 749,
+          "decodedBytes": 749,
+          "duration": 25.5
+        },
+        {
+          "url": "https://shanghai.datiaomao.com/data/tiles/-1_0.json",
+          "encodedBytes": 616,
+          "decodedBytes": 2214,
+          "duration": 21
+        },
+        {
+          "url": "https://shanghai.datiaomao.com/data/tiles/-2_0.json",
+          "encodedBytes": 4984,
+          "decodedBytes": 19629,
+          "duration": 48.80000019073486
+        },
+        {
+          "url": "https://shanghai.datiaomao.com/data/tiles/-2_1.json",
+          "encodedBytes": 4056,
+          "decodedBytes": 18302,
+          "duration": 36.5
+        },
+        {
+          "url": "https://shanghai.datiaomao.com/data/tiles/-3_0.json",
+          "encodedBytes": 5187,
+          "decodedBytes": 20538,
+          "duration": 64.20000004768372
+        },
+        {
+          "url": "https://shanghai.datiaomao.com/data/tiles/-3_1.json",
+          "encodedBytes": 4055,
+          "decodedBytes": 17211,
+          "duration": 65.39999985694885
+        },
+        {
+          "url": "https://shanghai.datiaomao.com/data/tiles/-4_0.json",
+          "encodedBytes": 4146,
+          "decodedBytes": 17221,
+          "duration": 77.79999995231628
+        },
+        {
+          "url": "https://shanghai.datiaomao.com/data/tiles/-4_1.json",
+          "encodedBytes": 2786,
+          "decodedBytes": 11382,
+          "duration": 76.29999995231628
+        },
+        {
+          "url": "https://shanghai.datiaomao.com/data/tiles/0_-1.json",
+          "encodedBytes": 3510,
+          "decodedBytes": 14939,
+          "duration": 79.89999985694885
+        },
+        {
+          "url": "https://shanghai.datiaomao.com/data/tiles/0_-2.json",
+          "encodedBytes": 3174,
+          "decodedBytes": 14468,
+          "duration": 88.70000004768372
+        },
+        {
+          "url": "https://shanghai.datiaomao.com/data/tiles/1_-1.json",
+          "encodedBytes": 1238,
+          "decodedBytes": 4304,
+          "duration": 88.10000014305115
+        }
+      ]
+    }
+  ]
+}

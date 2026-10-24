@@ -1,0 +1,5 @@
+{
+  "asset": "index-znyxrDSI.js",
+  "sha256": "7b557160d6a963e1884a89616568482ab11caf33ddbaab563622a8b4b03dc001",
+  "changes": "Nearby fixed 100-car/80-pedestrian pools; perspective-correct Shanghai night light streaks; corrected fixed and landmark viewpoints; includes taxi footprint and Escape fixes."
+}

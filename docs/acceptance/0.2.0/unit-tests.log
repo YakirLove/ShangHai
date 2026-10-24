@@ -1,0 +1,43 @@
+
+> shanghai-waterfront-roam@0.2.0 test
+> node --test tests/*.test.mjs
+
+✔ helicopter descent stops above Shanghai land and cancels its downward velocity (7.401792ms)
+✔ taxi collision contains its mirrors and bumper rather than only its narrow chassis (0.866459ms)
+✔ movement honours the expanded Shanghai bounds on both banks instead of clamping to the old release (0.392167ms)
+✔ WGS84 projection preserves east/north orientation and metre scale (83.357292ms)
+✔ surface sampling keeps a car underground while a pedestrian stays on the street above (2.314667ms)
+✔ collision query filters both horizontal extent and height and unregisters tiles (1.025792ms)
+✔ tile loader retries failures and ignores stale late mounts after disposal (1.944ms)
+✔ road graph separates levels and respects one-way and walking-only paths (0.632959ms)
+✔ readiness gate blocks an unmounted cell and rejects positions outside the declared region (0.429292ms)
+✔ a pending explicit arrival survives background prefetch at the old position (1.030584ms)
+✔ landing and movement readiness include neighbouring owners of buildings spanning a tile boundary (11.433333ms)
+✔ underground follow camera remains below the ceiling without clamping to world zero (1.678875ms)
+✔ underground camera stays inside the actual bore when the vehicle is already near a wall (23.746667ms)
+✔ road surface triangles face upward for either travel direction (410.073959ms)
+✔ release data contains twelve unique landmarks, sourced real buildings, river polygons and two directed tunnel routes (454.867792ms)
+✔ both widened bores keep their full open ramp width clear of terrain and surface asphalt (500.295875ms)
+✔ landmarks and procedural buildings do not overlap water, parks or landmark reservations (343.250583ms)
+✔ every playable 500m cell is declared, including empty river tiles (140.0195ms)
+✔ collision readiness halo covers all source building extents and is retained along each tunnel (183.657583ms)
+✔ a car entering either bore from an ordinary road follows the ramp without an elevation snap (247.010834ms)
+✔ B region permits arrivals at all newly selected neighbourhoods and preserves the old waterfront (446.082041ms)
+✔ nearest road query stays local as a city grows and still finds distant filtered streets (162.118083ms)
+✔ indexed surface lookup keeps elevation and excludes remote road work (36.91475ms)
+✔ B landmark exteriors keep distinct silhouettes and lane houses leave a walkable central passage (277.006375ms)
+✔ new landmark collision parts leave the sourced street centrelines clear for a complete taxi (449.659875ms)
+✔ Shanghai water material constructs its physical waves and light graph without unresolved TSL functions (248.807375ms)
+✔ ambient pools select the current neighbourhood even when distant sites occur first (12.37975ms)
+✔ recycled ambient actors enter outside the visible centre and never duplicate an occupied site (0.761875ms)
+✔ unloading an instanced tile releases its instance buffers and geometry but preserves shared materials (47.376958ms)
+✔ tunnel wall clearance contains the entire taxi for straight and sideways headings (157.622584ms)
+✔ a 10m bore gives the taxi one extra metre on each side without letting its corners cross a wall (0.405292ms)
+ℹ tests 31
+ℹ suites 0
+ℹ pass 31
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2263.160209

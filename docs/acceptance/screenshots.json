@@ -1,0 +1,380 @@
+[
+  {
+    "file": "V1-midday.png",
+    "time": "midday",
+    "view": {
+      "name": "外滩看陆家嘴",
+      "position": [
+        -760,
+        26,
+        -310
+      ],
+      "target": [
+        400,
+        220,
+        -240
+      ]
+    },
+    "index": 0,
+    "width": 1920,
+    "height": 1080,
+    "sha256": "f3a3a1946ef83245007b1f0ea1a00f20d459d7c35278b939c466cc21145e8897"
+  },
+  {
+    "file": "V1-golden.png",
+    "time": "golden",
+    "view": {
+      "name": "外滩看陆家嘴",
+      "position": [
+        -760,
+        26,
+        -310
+      ],
+      "target": [
+        400,
+        220,
+        -240
+      ]
+    },
+    "index": 0,
+    "width": 1920,
+    "height": 1080,
+    "sha256": "91b1dfbe7f1fcca302fe8a96c5014fabe8cd1242179922b73dd17f7958b10ff6"
+  },
+  {
+    "file": "V1-midnight.png",
+    "time": "midnight",
+    "view": {
+      "name": "外滩看陆家嘴",
+      "position": [
+        -760,
+        26,
+        -310
+      ],
+      "target": [
+        400,
+        220,
+        -240
+      ]
+    },
+    "index": 0,
+    "width": 1920,
+    "height": 1080,
+    "sha256": "ae064c6dfcdb508600131003aaa33c1bc18d8786195f36606696c03402093a8f"
+  },
+  {
+    "file": "V2-midday.png",
+    "time": "midday",
+    "view": {
+      "name": "陆家嘴看外滩",
+      "position": [
+        -350,
+        42,
+        -640
+      ],
+      "target": [
+        -930,
+        40,
+        -260
+      ]
+    },
+    "index": 1,
+    "width": 1920,
+    "height": 1080,
+    "sha256": "89a70392b269b7f01ac0f19a2234824ecf1f18f20d4b25bd382e3c53d7d7cdf1"
+  },
+  {
+    "file": "V2-golden.png",
+    "time": "golden",
+    "view": {
+      "name": "陆家嘴看外滩",
+      "position": [
+        -350,
+        42,
+        -640
+      ],
+      "target": [
+        -930,
+        40,
+        -260
+      ]
+    },
+    "index": 1,
+    "width": 1920,
+    "height": 1080,
+    "sha256": "8393c52f3fb18f480d30eb8657d6bedaad0d4509c77e87cfdbe158029251df3d"
+  },
+  {
+    "file": "V2-midnight.png",
+    "time": "midnight",
+    "view": {
+      "name": "陆家嘴看外滩",
+      "position": [
+        -350,
+        42,
+        -640
+      ],
+      "target": [
+        -930,
+        40,
+        -260
+      ]
+    },
+    "index": 1,
+    "width": 1920,
+    "height": 1080,
+    "sha256": "e0f75e22ea6606290143454e282653c2419cd85071d46907d8646ff0eee40a21"
+  },
+  {
+    "file": "V3-midday.png",
+    "time": "midday",
+    "view": {
+      "name": "东方明珠",
+      "position": [
+        -310,
+        90,
+        -190
+      ],
+      "target": [
+        -27,
+        210,
+        -520
+      ]
+    },
+    "index": 2,
+    "width": 1920,
+    "height": 1080,
+    "sha256": "3e12ac8e95416c7a0ca384058f6207e640b4cd0221e2f21c0c91371338bd2e94"
+  },
+  {
+    "file": "V3-golden.png",
+    "time": "golden",
+    "view": {
+      "name": "东方明珠",
+      "position": [
+        -310,
+        90,
+        -190
+      ],
+      "target": [
+        -27,
+        210,
+        -520
+      ]
+    },
+    "index": 2,
+    "width": 1920,
+    "height": 1080,
+    "sha256": "0d8ab5440d404163d8b4f3e449083491edcf2a73af5f36a0cdcc8dde1d4b41d2"
+  },
+  {
+    "file": "V3-midnight.png",
+    "time": "midnight",
+    "view": {
+      "name": "东方明珠",
+      "position": [
+        -310,
+        90,
+        -190
+      ],
+      "target": [
+        -27,
+        210,
+        -520
+      ]
+    },
+    "index": 2,
+    "width": 1920,
+    "height": 1080,
+    "sha256": "ef2676f12b685b706ede5cd824607ebd967f5a230d3c95b057597f2323d0ae59"
+  },
+  {
+    "file": "V4-midday.png",
+    "time": "midday",
+    "view": {
+      "name": "陆家嘴三件套",
+      "position": [
+        100,
+        160,
+        750
+      ],
+      "target": [
+        660,
+        320,
+        50
+      ]
+    },
+    "index": 3,
+    "width": 1920,
+    "height": 1080,
+    "sha256": "26e41b52d5d946e797e816423bd74c28851215d1496814c144c5482345756bf8"
+  },
+  {
+    "file": "V4-golden.png",
+    "time": "golden",
+    "view": {
+      "name": "陆家嘴三件套",
+      "position": [
+        100,
+        160,
+        750
+      ],
+      "target": [
+        660,
+        320,
+        50
+      ]
+    },
+    "index": 3,
+    "width": 1920,
+    "height": 1080,
+    "sha256": "def90fe5ff45a0793abe471da73d391a0ba48aad60ab6f9be93ac9a64e058cc5"
+  },
+  {
+    "file": "V4-midnight.png",
+    "time": "midnight",
+    "view": {
+      "name": "陆家嘴三件套",
+      "position": [
+        100,
+        160,
+        750
+      ],
+      "target": [
+        660,
+        320,
+        50
+      ]
+    },
+    "index": 3,
+    "width": 1920,
+    "height": 1080,
+    "sha256": "64e4d1a92a0747c6b546830d9e5e06565d0dfb847025f1ac68f68994265fcf2d"
+  },
+  {
+    "file": "V5-midday.png",
+    "time": "midday",
+    "view": {
+      "name": "外滩街墙",
+      "position": [
+        -872,
+        5,
+        -525
+      ],
+      "target": [
+        -882,
+        15,
+        -140
+      ]
+    },
+    "index": 4,
+    "width": 1920,
+    "height": 1080,
+    "sha256": "860833fbb630e8c8f23f8858ae1335a0da8399b5ef139932915494e4116aab31"
+  },
+  {
+    "file": "V5-golden.png",
+    "time": "golden",
+    "view": {
+      "name": "外滩街墙",
+      "position": [
+        -872,
+        5,
+        -525
+      ],
+      "target": [
+        -882,
+        15,
+        -140
+      ]
+    },
+    "index": 4,
+    "width": 1920,
+    "height": 1080,
+    "sha256": "e679cbe044eac3cf035d3271e8313ba9a78b61869a0cc7d502b50273e7e4e732"
+  },
+  {
+    "file": "V5-midnight.png",
+    "time": "midnight",
+    "view": {
+      "name": "外滩街墙",
+      "position": [
+        -872,
+        5,
+        -525
+      ],
+      "target": [
+        -882,
+        15,
+        -140
+      ]
+    },
+    "index": 4,
+    "width": 1920,
+    "height": 1080,
+    "sha256": "9041d3c36aaef7aa7c49db4695b67656116fcaf5fadd91c9701ec32a1c485e27"
+  },
+  {
+    "file": "V6-midday.png",
+    "time": "midday",
+    "view": {
+      "name": "苏州河口俯瞰",
+      "position": [
+        -600,
+        390,
+        -1200
+      ],
+      "target": [
+        -710,
+        0,
+        -800
+      ]
+    },
+    "index": 5,
+    "width": 1920,
+    "height": 1080,
+    "sha256": "34917236148716dae184e503e6612e457312068ea1ee72293408d12910bf6a7c"
+  },
+  {
+    "file": "V6-golden.png",
+    "time": "golden",
+    "view": {
+      "name": "苏州河口俯瞰",
+      "position": [
+        -600,
+        390,
+        -1200
+      ],
+      "target": [
+        -710,
+        0,
+        -800
+      ]
+    },
+    "index": 5,
+    "width": 1920,
+    "height": 1080,
+    "sha256": "c2395025da016f7f692ed576b6571ec67640789ba4e8027e7953f2ee6994e86a"
+  },
+  {
+    "file": "V6-midnight.png",
+    "time": "midnight",
+    "view": {
+      "name": "苏州河口俯瞰",
+      "position": [
+        -600,
+        390,
+        -1200
+      ],
+      "target": [
+        -710,
+        0,
+        -800
+      ]
+    },
+    "index": 5,
+    "width": 1920,
+    "height": 1080,
+    "sha256": "828f76552672f4a51554ab43307efe525120efff4f2ab58e2f5ce082e83c47bd"
+  }
+]

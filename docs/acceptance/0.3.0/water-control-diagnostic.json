@@ -1,0 +1,40 @@
+{
+  "note": "The initial estuary fixture 121.90,31.48 lies within the source Chongming coastal land polygon; use an unambiguous outer-estuary water point east of the mapped island coast.",
+  "checks": [
+    {
+      "wgs84": [
+        121.9,
+        31.48
+      ],
+      "water": false
+    },
+    {
+      "wgs84": [
+        122.3,
+        31.35
+      ],
+      "water": true
+    },
+    {
+      "wgs84": [
+        121.397,
+        31.624
+      ],
+      "water": false
+    },
+    {
+      "wgs84": [
+        121.837,
+        31.334
+      ],
+      "water": false
+    },
+    {
+      "wgs84": [
+        121.746,
+        31.378
+      ],
+      "water": false
+    }
+  ]
+}

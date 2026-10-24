@@ -1,0 +1,109 @@
+{
+  "version": "0.1.1",
+  "at": "2026-10-23T12:09:43.443Z",
+  "status": "targeted-regression-passed",
+  "applicationBuild": {
+    "asset": "index-BuHmV7Ii.js",
+    "sha256": "8a7b1b39768b84309f73413a8199dc176b77ddd602888556b483b2c6aa0b55a8"
+  },
+  "citySHA256": "7be85091030b9e5a797666209ca75f97588864ead0c0d6ff0526e85e334cdb70",
+  "unitTests": {
+    "command": "node --test tests/*.test.mjs",
+    "passed": 25,
+    "failed": 0
+  },
+  "wallAndCameraCases": 16,
+  "maxBodyLateralExtentM": 4.880000000000011,
+  "maxCameraLateralDistanceM": 4.200000000000017,
+  "drives": [
+    {
+      "label": "east-widened-release",
+      "route": "yanan-1",
+      "time": "golden",
+      "seconds": 172.63159000015258,
+      "buildAsset": "index-BuHmV7Ii.js",
+      "groundApproach": true,
+      "maxTransitionStepM": 0,
+      "maxCrossTrackM": 0.9196910608019587,
+      "minCameraCeilingClearanceM": 2.659082701141422,
+      "surfaceChanges": [
+        {
+          "from": "osm-cache-road-19604",
+          "to": "yanan-1",
+          "heightStep": 0,
+          "x": -1544.5481059380427,
+          "y": 2.12,
+          "z": 473.67561217608795
+        },
+        {
+          "from": "yanan-1",
+          "to": "osm-cache-road-19122",
+          "heightStep": 0,
+          "x": 469.41646324646166,
+          "y": 2.12,
+          "z": -202.11063426150292
+        }
+      ],
+      "traceSamples": 805
+    },
+    {
+      "label": "west-widened-release",
+      "route": "yanan-0",
+      "time": "midnight",
+      "seconds": 161.47617000007628,
+      "buildAsset": "index-BuHmV7Ii.js",
+      "groundApproach": true,
+      "maxTransitionStepM": 0,
+      "maxCrossTrackM": 1.4446932723274009,
+      "minCameraCeilingClearanceM": 2.6391870054242954,
+      "surfaceChanges": [
+        {
+          "from": "osm-cache-road-18308",
+          "to": "yanan-0",
+          "heightStep": 0,
+          "x": 198.4740095132108,
+          "y": 2.12,
+          "z": -352.5764752625123
+        },
+        {
+          "from": "yanan-0",
+          "to": "osm-cache-road-19803",
+          "heightStep": 0,
+          "x": -1469.2881490111579,
+          "y": 2.12,
+          "z": 424.1467973839425
+        }
+      ],
+      "traceSamples": 754
+    }
+  ],
+  "unchanged": {
+    "bounds": true,
+    "roads": true,
+    "buildings": true,
+    "landmarks": true,
+    "water": true,
+    "parks": true,
+    "tunnelCentreLines": true
+  },
+  "fullAcceptanceRerun": false,
+  "release": {
+    "files": [
+      {
+        "name": "shanghai-waterfront-0.1.1.tar.gz",
+        "bytes": 2057687,
+        "sha256": "4fe0908cb82825d96871d076840d3a20573ab14e914da8f2e49f52828cb02134"
+      },
+      {
+        "name": "shanghai-waterfront-0.1.1-source.tar.gz",
+        "bytes": 7315404,
+        "sha256": "dda1ed372e39cfa6804aef748fc62c8177b631fc99ae52c8f0103e82e775c1f2"
+      }
+    ],
+    "manifestFilesVerified": 86,
+    "httpFilesVerified": 68,
+    "sourceReproductionStatus": "passed",
+    "sourceReproductionFiles": 68,
+    "standaloneBrowserVerified": true
+  }
+}

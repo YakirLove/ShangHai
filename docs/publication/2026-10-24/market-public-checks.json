@@ -1,0 +1,717 @@
+{
+  "checked_at": "2026-10-24T10:16:40+08:00",
+  "ok": true,
+  "apps": [
+    {
+      "id": "wonder-study",
+      "name": "奇想书房",
+      "version": "20260924-wide-paw",
+      "entry": "https://apps.datiaomao.com/apps/wonder-study/"
+    },
+    {
+      "id": "fuxing-3d",
+      "name": "复兴号漫游",
+      "version": "20261011-optimized-assets-190216",
+      "entry": "https://apps.datiaomao.com/apps/fuxing-3d/"
+    },
+    {
+      "id": "number-split",
+      "name": "小积木数学",
+      "version": "20261014-182159-51df32",
+      "entry": "https://apps.datiaomao.com/apps/number-split/"
+    },
+    {
+      "id": "image-studio",
+      "name": "灵感画室",
+      "version": "20261014-181608-734412",
+      "entry": "https://apps.datiaomao.com/apps/image-studio/"
+    },
+    {
+      "id": "xiangqi-basics",
+      "name": "小棋手练习室",
+      "version": "20261023-151853-712bc4",
+      "entry": "https://apps.datiaomao.com/apps/xiangqi-basics/"
+    },
+    {
+      "id": "shanghai-roam",
+      "name": "上海漫游",
+      "version": "20261024-101402-46d277",
+      "entry": "https://apps.datiaomao.com/apps/shanghai-roam/"
+    }
+  ],
+  "certificate": {
+    "expires": "Jan 12 08:54:34 2027 GMT",
+    "names": [
+      "apps.datiaomao.com"
+    ]
+  },
+  "checks": [
+    {
+      "url": "https://apps.datiaomao.com/",
+      "method": "GET",
+      "status": 200,
+      "expected": [
+        200
+      ],
+      "ok": true,
+      "content_type": "text/html",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "content_encoding": null,
+      "content_range": null,
+      "allow": null
+    },
+    {
+      "url": "http://apps.datiaomao.com/",
+      "method": "GET",
+      "status": 200,
+      "expected": [
+        200
+      ],
+      "ok": true,
+      "content_type": "text/html",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "content_encoding": null,
+      "content_range": null,
+      "allow": null
+    },
+    {
+      "url": "https://apps.datiaomao.com/apps/wonder-study/",
+      "method": "GET",
+      "status": 200,
+      "expected": [
+        200,
+        206
+      ],
+      "ok": true,
+      "content_type": "text/html",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "content_encoding": null,
+      "content_range": null,
+      "allow": null
+    },
+    {
+      "url": "https://apps.datiaomao.com/assets/wonder-study.cover.1f4fafb83864.jpg",
+      "method": "GET",
+      "status": 200,
+      "expected": [
+        200,
+        206
+      ],
+      "ok": true,
+      "content_type": "image/jpeg",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "content_encoding": null,
+      "content_range": null,
+      "allow": null
+    },
+    {
+      "url": "https://apps.datiaomao.com/assets/wonder-study.icon.e038b940afb4.png",
+      "method": "GET",
+      "status": 200,
+      "expected": [
+        200,
+        206
+      ],
+      "ok": true,
+      "content_type": "image/png",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "content_encoding": null,
+      "content_range": null,
+      "allow": null
+    },
+    {
+      "url": "https://apps.datiaomao.com/apps/wonder-study/missing.js",
+      "method": "GET",
+      "status": 404,
+      "expected": [
+        404
+      ],
+      "ok": true,
+      "content_type": "text/html",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "content_encoding": null,
+      "content_range": null,
+      "allow": null
+    },
+    {
+      "url": "https://apps.datiaomao.com/apps/fuxing-3d/",
+      "method": "GET",
+      "status": 200,
+      "expected": [
+        200,
+        206
+      ],
+      "ok": true,
+      "content_type": "text/html",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "content_encoding": null,
+      "content_range": null,
+      "allow": null
+    },
+    {
+      "url": "https://apps.datiaomao.com/assets/fuxing-3d.cover.2b6ec2cca424.jpg",
+      "method": "GET",
+      "status": 200,
+      "expected": [
+        200,
+        206
+      ],
+      "ok": true,
+      "content_type": "image/jpeg",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "content_encoding": null,
+      "content_range": null,
+      "allow": null
+    },
+    {
+      "url": "https://apps.datiaomao.com/assets/fuxing-3d.icon.81b1aa8f28c0.png",
+      "method": "GET",
+      "status": 200,
+      "expected": [
+        200,
+        206
+      ],
+      "ok": true,
+      "content_type": "image/png",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "content_encoding": null,
+      "content_range": null,
+      "allow": null
+    },
+    {
+      "url": "https://apps.datiaomao.com/apps/fuxing-3d/missing.js",
+      "method": "GET",
+      "status": 404,
+      "expected": [
+        404
+      ],
+      "ok": true,
+      "content_type": "text/html",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "content_encoding": null,
+      "content_range": null,
+      "allow": null
+    },
+    {
+      "url": "https://apps.datiaomao.com/apps/number-split/",
+      "method": "GET",
+      "status": 200,
+      "expected": [
+        200,
+        206
+      ],
+      "ok": true,
+      "content_type": "text/html",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "content_encoding": null,
+      "content_range": null,
+      "allow": null
+    },
+    {
+      "url": "https://apps.datiaomao.com/assets/number-split.cover.7437106e54c8.png",
+      "method": "GET",
+      "status": 200,
+      "expected": [
+        200,
+        206
+      ],
+      "ok": true,
+      "content_type": "image/png",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "content_encoding": null,
+      "content_range": null,
+      "allow": null
+    },
+    {
+      "url": "https://apps.datiaomao.com/assets/number-split.icon.25038b925b2f.png",
+      "method": "GET",
+      "status": 200,
+      "expected": [
+        200,
+        206
+      ],
+      "ok": true,
+      "content_type": "image/png",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "content_encoding": null,
+      "content_range": null,
+      "allow": null
+    },
+    {
+      "url": "https://apps.datiaomao.com/apps/number-split/missing.js",
+      "method": "GET",
+      "status": 404,
+      "expected": [
+        404
+      ],
+      "ok": true,
+      "content_type": "text/html",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "content_encoding": null,
+      "content_range": null,
+      "allow": null
+    },
+    {
+      "url": "https://apps.datiaomao.com/apps/image-studio/",
+      "method": "GET",
+      "status": 200,
+      "expected": [
+        200,
+        206
+      ],
+      "ok": true,
+      "content_type": "text/html",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "content_encoding": null,
+      "content_range": null,
+      "allow": null
+    },
+    {
+      "url": "https://apps.datiaomao.com/assets/image-studio.cover.f6e2297c69e8.jpg",
+      "method": "GET",
+      "status": 200,
+      "expected": [
+        200,
+        206
+      ],
+      "ok": true,
+      "content_type": "image/jpeg",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "content_encoding": null,
+      "content_range": null,
+      "allow": null
+    },
+    {
+      "url": "https://apps.datiaomao.com/assets/image-studio.icon.78b40c9a8d28.png",
+      "method": "GET",
+      "status": 200,
+      "expected": [
+        200,
+        206
+      ],
+      "ok": true,
+      "content_type": "image/png",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "content_encoding": null,
+      "content_range": null,
+      "allow": null
+    },
+    {
+      "url": "https://apps.datiaomao.com/apps/image-studio/missing.js",
+      "method": "GET",
+      "status": 404,
+      "expected": [
+        404
+      ],
+      "ok": true,
+      "content_type": "text/html",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "content_encoding": null,
+      "content_range": null,
+      "allow": null
+    },
+    {
+      "url": "https://apps.datiaomao.com/apps/xiangqi-basics/",
+      "method": "GET",
+      "status": 200,
+      "expected": [
+        200,
+        206
+      ],
+      "ok": true,
+      "content_type": "text/html",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "content_encoding": null,
+      "content_range": null,
+      "allow": null
+    },
+    {
+      "url": "https://apps.datiaomao.com/assets/xiangqi-basics.cover.8fe8360f8c05.png",
+      "method": "GET",
+      "status": 200,
+      "expected": [
+        200,
+        206
+      ],
+      "ok": true,
+      "content_type": "image/png",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "content_encoding": null,
+      "content_range": null,
+      "allow": null
+    },
+    {
+      "url": "https://apps.datiaomao.com/assets/xiangqi-basics.icon.0b4535d9843e.svg",
+      "method": "GET",
+      "status": 200,
+      "expected": [
+        200,
+        206
+      ],
+      "ok": true,
+      "content_type": "image/svg+xml",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "content_encoding": null,
+      "content_range": null,
+      "allow": null
+    },
+    {
+      "url": "https://apps.datiaomao.com/apps/xiangqi-basics/missing.js",
+      "method": "GET",
+      "status": 404,
+      "expected": [
+        404
+      ],
+      "ok": true,
+      "content_type": "text/html",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "content_encoding": null,
+      "content_range": null,
+      "allow": null
+    },
+    {
+      "url": "https://apps.datiaomao.com/apps/shanghai-roam/",
+      "method": "GET",
+      "status": 200,
+      "expected": [
+        200,
+        206
+      ],
+      "ok": true,
+      "content_type": "text/html",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "content_encoding": null,
+      "content_range": null,
+      "allow": null
+    },
+    {
+      "url": "https://apps.datiaomao.com/assets/shanghai-roam.cover.d2aaeb4d662a.png",
+      "method": "GET",
+      "status": 200,
+      "expected": [
+        200,
+        206
+      ],
+      "ok": true,
+      "content_type": "image/png",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "content_encoding": null,
+      "content_range": null,
+      "allow": null
+    },
+    {
+      "url": "https://apps.datiaomao.com/assets/shanghai-roam.icon.715723d4c4c2.svg",
+      "method": "GET",
+      "status": 200,
+      "expected": [
+        200,
+        206
+      ],
+      "ok": true,
+      "content_type": "image/svg+xml",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "content_encoding": null,
+      "content_range": null,
+      "allow": null
+    },
+    {
+      "url": "https://apps.datiaomao.com/apps/shanghai-roam/missing.js",
+      "method": "GET",
+      "status": 404,
+      "expected": [
+        404
+      ],
+      "ok": true,
+      "content_type": "text/html",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "content_encoding": null,
+      "content_range": null,
+      "allow": null
+    },
+    {
+      "url": "https://apps.datiaomao.com/deployment.json",
+      "method": "GET",
+      "status": 404,
+      "expected": [
+        403,
+        404
+      ],
+      "ok": true,
+      "content_type": "text/html",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "content_encoding": null,
+      "content_range": null,
+      "allow": null
+    },
+    {
+      "url": "https://apps.datiaomao.com/.app-market.json",
+      "method": "GET",
+      "status": 403,
+      "expected": [
+        403,
+        404
+      ],
+      "ok": true,
+      "content_type": "text/html",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "content_encoding": null,
+      "content_range": null,
+      "allow": null
+    },
+    {
+      "url": "https://apps.datiaomao.com/config/hosting.json",
+      "method": "GET",
+      "status": 404,
+      "expected": [
+        403,
+        404
+      ],
+      "ok": true,
+      "content_type": "text/html",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "content_encoding": null,
+      "content_range": null,
+      "allow": null
+    },
+    {
+      "url": "https://apps.datiaomao.com/scripts/remote.py",
+      "method": "GET",
+      "status": 404,
+      "expected": [
+        403,
+        404
+      ],
+      "ok": true,
+      "content_type": "text/html",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "content_encoding": null,
+      "content_range": null,
+      "allow": null
+    },
+    {
+      "url": "https://apps.datiaomao.com/apps/number-split/model.mjs",
+      "method": "GET",
+      "status": 404,
+      "expected": [
+        403,
+        404
+      ],
+      "ok": true,
+      "content_type": "text/html",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "content_encoding": null,
+      "content_range": null,
+      "allow": null
+    },
+    {
+      "url": "https://datiaomao.com/",
+      "method": "GET",
+      "status": 200,
+      "expected": [
+        200
+      ],
+      "ok": true,
+      "content_type": "text/html",
+      "cache_control": null,
+      "content_encoding": null,
+      "content_range": null,
+      "allow": null
+    },
+    {
+      "url": "https://www.datiaomao.com/",
+      "method": "GET",
+      "status": 200,
+      "expected": [
+        200
+      ],
+      "ok": true,
+      "content_type": "text/html",
+      "cache_control": null,
+      "content_encoding": null,
+      "content_range": null,
+      "allow": null
+    },
+    {
+      "url": "https://study.datiaomao.com/",
+      "method": "GET",
+      "status": 200,
+      "expected": [
+        200
+      ],
+      "ok": true,
+      "content_type": "text/html",
+      "cache_control": "no-cache",
+      "content_encoding": null,
+      "content_range": null,
+      "allow": null
+    },
+    {
+      "url": "https://fuxing.datiaomao.com/",
+      "method": "GET",
+      "status": 200,
+      "expected": [
+        200
+      ],
+      "ok": true,
+      "content_type": "text/html",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "content_encoding": null,
+      "content_range": null,
+      "allow": null
+    },
+    {
+      "url": "https://image.datiaomao.com/image-studio",
+      "method": "GET",
+      "status": 200,
+      "expected": [
+        200
+      ],
+      "ok": true,
+      "content_type": "text/html; charset=utf-8",
+      "cache_control": null,
+      "content_encoding": null,
+      "content_range": null,
+      "allow": null
+    },
+    {
+      "url": "https://datiaomao.com/QuickAccount/support.html",
+      "method": "GET",
+      "status": 200,
+      "expected": [
+        200
+      ],
+      "ok": true,
+      "content_type": "text/html",
+      "cache_control": null,
+      "content_encoding": null,
+      "content_range": null,
+      "allow": null
+    },
+    {
+      "url": "https://datiaomao.com/QuickAccount/PrivacyPolicy.html",
+      "method": "GET",
+      "status": 200,
+      "expected": [
+        200
+      ],
+      "ok": true,
+      "content_type": "text/html",
+      "cache_control": null,
+      "content_encoding": null,
+      "content_range": null,
+      "allow": null
+    },
+    {
+      "url": "https://datiaomao.com/support.html",
+      "method": "GET",
+      "status": 200,
+      "expected": [
+        200
+      ],
+      "ok": true,
+      "content_type": "text/html",
+      "cache_control": null,
+      "content_encoding": null,
+      "content_range": null,
+      "allow": null
+    },
+    {
+      "url": "https://datiaomao.com/PrivacyPolicy/3dPhotoWall.html",
+      "method": "GET",
+      "status": 200,
+      "expected": [
+        200
+      ],
+      "ok": true,
+      "content_type": "text/html",
+      "cache_control": null,
+      "content_encoding": null,
+      "content_range": null,
+      "allow": null
+    },
+    {
+      "url": "https://apps.datiaomao.com/apps/image-studio/assets/image_studio.css",
+      "method": "GET",
+      "status": 200,
+      "expected": [
+        200
+      ],
+      "ok": true,
+      "content_type": "text/css",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "content_encoding": null,
+      "content_range": null,
+      "allow": null
+    },
+    {
+      "url": "https://apps.datiaomao.com/apps/image-studio/assets/image_studio.js",
+      "method": "GET",
+      "status": 200,
+      "expected": [
+        200
+      ],
+      "ok": true,
+      "content_type": "application/javascript",
+      "cache_control": "public, max-age=0, must-revalidate",
+      "content_encoding": null,
+      "content_range": null,
+      "allow": null
+    },
+    {
+      "url": "https://apps.datiaomao.com/apps/image-studio/api/image/generate",
+      "method": "GET",
+      "status": 405,
+      "expected": [
+        405
+      ],
+      "ok": true,
+      "content_type": "text/html; charset=utf-8",
+      "cache_control": "no-store",
+      "content_encoding": null,
+      "content_range": null,
+      "allow": "POST, OPTIONS"
+    },
+    {
+      "url": "https://apps.datiaomao.com/apps/image-studio/api/image/generate",
+      "method": "OPTIONS",
+      "status": 200,
+      "expected": [
+        200
+      ],
+      "ok": true,
+      "content_type": "text/html; charset=utf-8",
+      "cache_control": "no-store",
+      "content_encoding": null,
+      "content_range": null,
+      "allow": "POST, OPTIONS"
+    },
+    {
+      "url": "https://apps.datiaomao.com/apps/fuxing-3d/models/optimized/apartment.9167e4ba6b3d.glb",
+      "method": "GET",
+      "status": 206,
+      "expected": [
+        206
+      ],
+      "ok": true,
+      "content_type": "model/gltf-binary",
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_encoding": null,
+      "content_range": "bytes 0-127/1367228",
+      "allow": null
+    },
+    {
+      "url": "https://apps.datiaomao.com/apps/fuxing-3d/models/optimized/apartment.9167e4ba6b3d.glb",
+      "method": "GET",
+      "status": 200,
+      "expected": [
+        200
+      ],
+      "ok": true,
+      "content_type": "model/gltf-binary",
+      "cache_control": "public, max-age=31536000, immutable",
+      "content_encoding": "gzip",
+      "content_range": null,
+      "allow": null
+    }
+  ]
+}

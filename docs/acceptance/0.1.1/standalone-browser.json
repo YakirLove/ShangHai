@@ -1,0 +1,20 @@
+{
+  "at": "2026-10-23T12:12:19.720Z",
+  "url": "http://127.0.0.1:4191/",
+  "ready": true,
+  "webgpu": true,
+  "render": {
+    "width": 1920,
+    "height": 1080,
+    "dpr": 1
+  },
+  "quality": "medium",
+  "widths": [
+    10,
+    10
+  ],
+  "landmarks": 8,
+  "errors": [],
+  "asset": "index-BuHmV7Ii.js",
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36"
+}

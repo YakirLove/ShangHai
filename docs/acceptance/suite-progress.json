@@ -1,0 +1,93 @@
+{
+  "startedAt": "2026-10-23T07:35:42.942Z",
+  "phase": "complete",
+  "results": [
+    {
+      "label": "east-1-midday",
+      "duration": 161401.65000009537,
+      "maxCrossTrack": 0.9548669437486926,
+      "maxStep": 4.334602241466994,
+      "minCameraClearance": 2.652700339369792,
+      "p95": 19.024999856948853,
+      "frames": 9389,
+      "trace": 745
+    },
+    {
+      "label": "west-1-midday",
+      "duration": 136105.28500008583,
+      "maxCrossTrack": 1.4296048978710876,
+      "maxStep": 3.8865037705787198,
+      "minCameraClearance": 2.636102714447386,
+      "p95": 17.890000104904175,
+      "frames": 8006,
+      "trace": 631
+    },
+    {
+      "label": "east-2-midnight",
+      "duration": 583035.8900001049,
+      "maxCrossTrack": 0.32453246430549804,
+      "maxStep": 2.2541070607169593,
+      "minCameraClearance": 2.6349755591058956,
+      "p95": 65.03999996185303,
+      "frames": 16964,
+      "trace": 1810
+    },
+    {
+      "label": "west-2-midnight",
+      "duration": 144083.14999985695,
+      "maxCrossTrack": 1.4628705142459877,
+      "maxStep": 4.0900068301175025,
+      "minCameraClearance": 2.63558905178051,
+      "p95": 23.859999895095825,
+      "frames": 7798,
+      "trace": 642
+    },
+    {
+      "label": "east-3-golden",
+      "duration": 161303.125,
+      "maxCrossTrack": 0.9273495007425259,
+      "maxStep": 3.971005371492517,
+      "minCameraClearance": 2.656231388621821,
+      "p95": 18.269999980926514,
+      "frames": 9490,
+      "trace": 746
+    },
+    {
+      "label": "west-3-golden",
+      "duration": 137702.65000009537,
+      "maxCrossTrack": 1.4856625970619428,
+      "maxStep": 3.981508257298323,
+      "minCameraClearance": 0.6999999999999993,
+      "p95": 18.575000047683716,
+      "frames": 7988,
+      "trace": 631
+    },
+    {
+      "mode": "person",
+      "duration": 330267.65000009537,
+      "distance": 1224.364837541609,
+      "p95": 17.880000114440918,
+      "frames": 17874,
+      "stopped": true
+    },
+    {
+      "mode": "cyclist",
+      "duration": 331028.38499999046,
+      "distance": 2863.1668443830495,
+      "p95": 17.90499997138977,
+      "frames": 17912,
+      "stopped": true
+    },
+    {
+      "mode": "helicopter",
+      "duration": 331025.3099999428,
+      "distance": 7103.523830515108,
+      "p95": 17.90999984741211,
+      "frames": 17891,
+      "stopped": true
+    }
+  ],
+  "error": null,
+  "done": true,
+  "resumedAfter": "sampling clock boundary corrected; walking continuous frames recovered from ring overlap"
+}

@@ -1,0 +1,7 @@
+{
+  "asset": "index-DNwwZYt3.js",
+  "sha256": "a175e543c766076fe75bceb2ce6f67eddd8de2d7223cbb27941d3ded9e452b01",
+  "dataSHA256": "3583a694a65b29d115d2f4f8731e6ad9f6c9ff64559307ced0d17de23dd468d7",
+  "laterChange": "Only taxi footprint and tunnel sideways-body clearance; rendering, data, walking, cycling, flight and loading unchanged",
+  "validationStrategy": "Baseline full 30+ minute session and each non-car mode >=5min; final taxi geometry fixture, one >=5min no-recording drive, bidirectional route regression and screenshots"
+}

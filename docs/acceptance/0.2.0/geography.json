@@ -1,0 +1,534 @@
+{
+  "method": "Independent WGS84 ECEF-to-ENU compared with scene projection; selected-source accuracy only",
+  "sourceDate": "2026-09-08T02:53:09.346Z",
+  "sourceLimitations": [
+    "road directions and OSM object IDs omitted by source cache",
+    "building outlines limited to tagged height >=18m",
+    "ordinary fill, added exterior models and tunnel vertical profile are visual estimates",
+    "unverified elevated expressways and major bridge decks excluded"
+  ],
+  "controlPoints": [
+    {
+      "name": "东方明珠",
+      "lon": 121.4947167,
+      "lat": 31.2416694,
+      "x": -26.989211143759928,
+      "z": -517.7129384511456,
+      "source": "Wikidata Q223207",
+      "ecefENU": {
+        "x": -26.98788357279244,
+        "z": -517.713160677337
+      },
+      "errorMetres": 0.0013460420327131653,
+      "runtimeErrorMetres": 0
+    },
+    {
+      "name": "上海中心",
+      "lon": 121.501246,
+      "lat": 31.235505,
+      "x": 595.03922626087,
+      "z": 165.75595215306373,
+      "source": "OSM named footprint / height",
+      "ecefENU": {
+        "x": 595.0485953980459,
+        "z": 165.73911319389293
+      },
+      "errorMetres": 0.019269957897632632,
+      "runtimeErrorMetres": 0
+    },
+    {
+      "name": "环球金融中心",
+      "lon": 121.50304,
+      "lat": 31.236575,
+      "x": 765.9486678100159,
+      "z": 47.12125730107507,
+      "source": "OSM named footprint / height",
+      "ecefENU": {
+        "x": 765.952094259776,
+        "z": 47.09338681928545
+      },
+      "errorMetres": 0.02808031896443138,
+      "runtimeErrorMetres": 0
+    },
+    {
+      "name": "金茂大厦",
+      "lon": 121.501388,
+      "lat": 31.237256,
+      "x": 608.5671753700121,
+      "z": -28.383627927271025,
+      "source": "OSM named footprint / height",
+      "ecefENU": {
+        "x": 608.5655330405853,
+        "z": -28.401221284783855
+      },
+      "errorMetres": 0.017669846476997455,
+      "runtimeErrorMetres": 0
+    },
+    {
+      "name": "上海国际会议中心",
+      "lon": 121.492303,
+      "lat": 31.241633,
+      "x": -256.93576580639325,
+      "z": -513.6771413553464,
+      "source": "OSM named footprint; spheres visually estimated",
+      "ecefENU": {
+        "x": -256.9232258484284,
+        "z": -513.680461862328
+      },
+      "errorMetres": 0.012972135998952304,
+      "runtimeErrorMetres": 0
+    },
+    {
+      "name": "海关大楼",
+      "lon": 121.4854375,
+      "lat": 31.238615,
+      "x": -910.9930517337878,
+      "z": -179.06077774424284,
+      "source": "OSM named footprint / Wikidata Q5196503",
+      "ecefENU": {
+        "x": -910.9775495420669,
+        "z": -179.10022250469459
+      },
+      "errorMetres": 0.0423816832516891,
+      "runtimeErrorMetres": 0
+    },
+    {
+      "name": "原汇丰银行大楼",
+      "lon": 121.485556,
+      "lat": 31.238056,
+      "x": -899.7038829359052,
+      "z": -117.08246520009146,
+      "source": "Wikidata Q213087",
+      "ecefENU": {
+        "x": -899.6938708686591,
+        "z": -117.12092631676974
+      },
+      "errorMetres": 0.03974291115003822,
+      "runtimeErrorMetres": 0
+    },
+    {
+      "name": "和平饭店",
+      "lon": 121.484722,
+      "lat": 31.241111,
+      "x": -979.1567671339346,
+      "z": -455.80115003493836,
+      "source": "Wikidata Q11140758",
+      "ecefENU": {
+        "x": -979.1143583178715,
+        "z": -455.84683673124846
+      },
+      "errorMetres": 0.06233604013416016,
+      "runtimeErrorMetres": 0
+    },
+    {
+      "name": "静安寺",
+      "lon": 121.44073,
+      "lat": 31.22541,
+      "x": -5170.153507721669,
+      "z": 1285.024404987076,
+      "source": "OSM way 13981430 location; architectural silhouette from Shanghai tourism authority",
+      "ecefENU": {
+        "x": -5170.783823953929,
+        "z": 1283.7533098436902
+      },
+      "errorMetres": 1.4187957626767556,
+      "runtimeErrorMetres": 0
+    },
+    {
+      "name": "上海博物馆人民广场馆",
+      "lon": 121.470561,
+      "lat": 31.230281,
+      "x": -2328.2362553014405,
+      "z": 744.959359543175,
+      "source": "Wikidata Q1051293 coordinate; official museum ding-shaped exterior",
+      "ecefENU": {
+        "x": -2328.4009502111417,
+        "z": 744.7014524726414
+      },
+      "errorMetres": 0.3060073043452918,
+      "runtimeErrorMetres": 0
+    },
+    {
+      "name": "上海展览中心",
+      "lon": 121.448056,
+      "lat": 31.226667,
+      "x": -4472.2256544413,
+      "z": 1145.656356922567,
+      "source": "Wikidata Q3481394 coordinate; Jing'an district exterior description",
+      "ecefENU": {
+        "x": -4472.711854817155,
+        "z": 1144.70523238262
+      },
+      "errorMetres": 1.0681894476031288,
+      "runtimeErrorMetres": 0
+    },
+    {
+      "name": "田子坊",
+      "lon": 121.46413,
+      "lat": 31.21023,
+      "x": -2940.899922303266,
+      "z": 2968.0848422353874,
+      "source": "Selected anchor north of cached OSM Taikang Road; lane layout is a visual estimate, not a cadastral reconstruction",
+      "ecefENU": {
+        "x": -2941.7287469515168,
+        "z": 2967.6675875409064
+      },
+      "errorMetres": 0.9279287567557902,
+      "runtimeErrorMetres": 0
+    },
+    {
+      "name": "汾阳路",
+      "lon": 121.44687,
+      "lat": 31.21084,
+      "x": -4585.213,
+      "z": 2900.452,
+      "source": "osm-cache-road-8420",
+      "ecefENU": {
+        "x": -4586.475088619555,
+        "z": 2899.4469905587607
+      },
+      "errorMetres": 1.6133541646495295,
+      "runtimeErrorMetres": 0.0003909073622403739
+    },
+    {
+      "name": "安亭路",
+      "lon": 121.44298,
+      "lat": 31.20603,
+      "x": -4955.802,
+      "z": 3433.754,
+      "source": "osm-cache-road-8421",
+      "ecefENU": {
+        "x": -4957.417505541735,
+        "z": 3432.578246332894
+      },
+      "errorMetres": 1.9980627720598205,
+      "runtimeErrorMetres": 0.00033054812991925646
+    },
+    {
+      "name": "东平路",
+      "lon": 121.44324,
+      "lat": 31.21059,
+      "x": -4931.033,
+      "z": 2928.17,
+      "source": "osm-cache-road-8439",
+      "ecefENU": {
+        "x": -4932.403297895527,
+        "z": 2927.008887513065
+      },
+      "errorMetres": 1.7960786535679418,
+      "runtimeErrorMetres": 0.0004621338528068275
+    },
+    {
+      "name": "桃江路",
+      "lon": 121.44548,
+      "lat": 31.21136,
+      "x": -4717.634,
+      "z": 2842.798,
+      "source": "osm-cache-road-8440",
+      "ecefENU": {
+        "x": -4718.907168963427,
+        "z": 2841.7344558376367
+      },
+      "errorMetres": 1.6589410461885665,
+      "runtimeErrorMetres": 0.00027818641155652425
+    },
+    {
+      "name": "复兴西路",
+      "lon": 121.44336,
+      "lat": 31.21233,
+      "x": -4919.601,
+      "z": 2735.25,
+      "source": "osm-cache-road-8441",
+      "ecefENU": {
+        "x": -4920.877951705549,
+        "z": 2734.0950745767223
+      },
+      "errorMetres": 1.7217602596293404,
+      "runtimeErrorMetres": 0.0005289773220787453
+    },
+    {
+      "name": "乌鲁木齐南路",
+      "lon": 121.44242,
+      "lat": 31.21166,
+      "x": -5009.152,
+      "z": 2809.536,
+      "source": "osm-cache-road-8442",
+      "ecefENU": {
+        "x": -5010.487716454078,
+        "z": 2808.337798978664
+      },
+      "errorMetres": 1.794386840462259,
+      "runtimeErrorMetres": 0.0003579514222132585
+    },
+    {
+      "name": "巨鹿路",
+      "lon": 121.44267,
+      "lat": 31.2198,
+      "x": -4985.335,
+      "z": 1907.025,
+      "source": "osm-cache-road-8447",
+      "ecefENU": {
+        "x": -4986.237362769328,
+        "z": 1905.8415925473025
+      },
+      "errorMetres": 1.4881907695483683,
+      "runtimeErrorMetres": 0.00004809465758132088
+    },
+    {
+      "name": "长乐路",
+      "lon": 121.4436,
+      "lat": 31.21795,
+      "x": -4896.737,
+      "z": 2112.141,
+      "source": "osm-cache-road-8461",
+      "ecefENU": {
+        "x": -4897.718184471524,
+        "z": 2110.9986404947135
+      },
+      "errorMetres": 1.5058911668771293,
+      "runtimeErrorMetres": 0.0004958195206921711
+    },
+    {
+      "name": "延庆路",
+      "lon": 121.44418,
+      "lat": 31.21615,
+      "x": -4841.482,
+      "z": 2311.713,
+      "source": "osm-cache-road-8464",
+      "ecefENU": {
+        "x": -4842.543862180694,
+        "z": 2310.595937016739
+      },
+      "errorMetres": 1.5412271083009375,
+      "runtimeErrorMetres": 0.0006667595537712716
+    },
+    {
+      "name": "东湖路",
+      "lon": 121.44709,
+      "lat": 31.21907,
+      "x": -4564.254,
+      "z": 1987.963,
+      "source": "osm-cache-road-8465",
+      "ecefENU": {
+        "x": -4565.115098683742,
+        "z": 1986.9700992844944
+      },
+      "errorMetres": 1.314284129856936,
+      "runtimeErrorMetres": 0.00036054473024809536
+    },
+    {
+      "name": "五原路",
+      "lon": 121.44138,
+      "lat": 31.21444,
+      "x": -5108.23,
+      "z": 2501.307,
+      "source": "osm-cache-road-8466",
+      "ecefENU": {
+        "x": -5109.442564657081,
+        "z": 2500.0629219048137
+      },
+      "errorMetres": 1.7372516670086262,
+      "runtimeErrorMetres": 0.00029284909509252156
+    },
+    {
+      "name": "衡山路",
+      "lon": 121.44543,
+      "lat": 31.21138,
+      "x": -4722.397,
+      "z": 2840.58,
+      "source": "osm-cache-road-8467",
+      "ecefENU": {
+        "x": -4723.670821425585,
+        "z": 2839.514857598532
+      },
+      "errorMetres": 1.6604666090241067,
+      "runtimeErrorMetres": 0.0005178386686511534
+    },
+    {
+      "name": "太原路",
+      "lon": 121.44932,
+      "lat": 31.21223,
+      "x": -4351.808,
+      "z": 2746.338,
+      "source": "osm-cache-road-8473",
+      "ecefENU": {
+        "x": -4352.942447768787,
+        "z": 2745.4325154384005
+      },
+      "errorMetres": 1.4515075030469127,
+      "runtimeErrorMetres": 0.00029036323446673663
+    },
+    {
+      "name": "建国西路",
+      "lon": 121.44059,
+      "lat": 31.20234,
+      "x": -5183.491,
+      "z": 3842.877,
+      "source": "osm-cache-road-8504",
+      "ecefENU": {
+        "x": -5185.3816584897895,
+        "z": 3841.589726065826
+      },
+      "errorMetres": 2.2872830403376847,
+      "runtimeErrorMetres": 0.00014702375146815195
+    },
+    {
+      "name": "永嘉路",
+      "lon": 121.44434,
+      "lat": 31.20657,
+      "x": -4826.239,
+      "z": 3373.882,
+      "source": "osm-cache-road-8505",
+      "ecefENU": {
+        "x": -4827.784425400623,
+        "z": 3372.767056556294
+      },
+      "errorMetres": 1.9056333728070043,
+      "runtimeErrorMetres": 0.00025582890909170013
+    },
+    {
+      "name": "岳阳路",
+      "lon": 121.44876,
+      "lat": 31.20258,
+      "x": -4405.158,
+      "z": 3816.267,
+      "source": "osm-cache-road-8550",
+      "ecefENU": {
+        "x": -4406.7534013289105,
+        "z": 3815.3348754362223
+      },
+      "errorMetres": 1.8477450047789874,
+      "runtimeErrorMetres": 0.0006797924892613705
+    },
+    {
+      "name": "肇嘉浜路",
+      "lon": 121.44474,
+      "lat": 31.20117,
+      "x": -4788.132,
+      "z": 3972.599,
+      "source": "osm-cache-road-8556",
+      "ecefENU": {
+        "x": -4789.937426682557,
+        "z": 3971.498367857508
+      },
+      "errorMetres": 2.114463671756295,
+      "runtimeErrorMetres": 0.00023243084027654577
+    },
+    {
+      "name": "宝庆路",
+      "lon": 121.44548,
+      "lat": 31.21136,
+      "x": -4717.634,
+      "z": 2842.798,
+      "source": "osm-cache-road-8557",
+      "ecefENU": {
+        "x": -4718.907168963427,
+        "z": 2841.7344558376367
+      },
+      "errorMetres": 1.6589410461885665,
+      "runtimeErrorMetres": 0.00027818641155652425
+    },
+    {
+      "name": "宝庆路",
+      "lon": 121.44496,
+      "lat": 31.21437,
+      "x": -4767.173,
+      "z": 2509.068,
+      "source": "osm-cache-road-8558",
+      "ecefENU": {
+        "x": -4768.308450356213,
+        "z": 2507.9840722298622
+      },
+      "errorMetres": 1.5697601480166705,
+      "runtimeErrorMetres": 0.00036307763077719025
+    },
+    {
+      "name": "乌鲁木齐中路",
+      "lon": 121.44242,
+      "lat": 31.21166,
+      "x": -5009.152,
+      "z": 2809.536,
+      "source": "osm-cache-road-8559",
+      "ecefENU": {
+        "x": -5010.487716454078,
+        "z": 2808.337798978664
+      },
+      "errorMetres": 1.794386840462259,
+      "runtimeErrorMetres": 0.0003579514222132585
+    }
+  ],
+  "count": 32,
+  "maxErrorMetres": 2.2872830403376847,
+  "seams": [
+    {
+      "id": "yanan-0",
+      "direction": "浦东到浦西",
+      "lengthM": 1975.6,
+      "ends": [
+        {
+          "point": [
+            195.298,
+            2.12,
+            -355.904
+          ],
+          "road": "",
+          "roadId": "osm-cache-road-18318",
+          "centreDistanceM": 0,
+          "withinRoadWidths": true,
+          "seamHeightDifferenceM": 0
+        },
+        {
+          "point": [
+            -1463.305,
+            2.12,
+            422.428
+          ],
+          "road": "",
+          "roadId": "osm-cache-road-18560",
+          "centreDistanceM": 0,
+          "withinRoadWidths": true,
+          "seamHeightDifferenceM": 0
+        }
+      ],
+      "maxGrade": 0.07670351064751393,
+      "profileSource": "visual-estimate-continuous-profile",
+      "oneway": true
+    },
+    {
+      "id": "yanan-1",
+      "direction": "浦西到浦东",
+      "lengthM": 2331.96,
+      "ends": [
+        {
+          "point": [
+            -1540.471,
+            2.12,
+            471.213
+          ],
+          "road": "福建南路",
+          "roadId": "osm-cache-road-17508",
+          "centreDistanceM": 0,
+          "withinRoadWidths": true,
+          "seamHeightDifferenceM": 0
+        },
+        {
+          "point": [
+            463.951,
+            2.12,
+            -205.116
+          ],
+          "road": "世纪大道",
+          "roadId": "osm-cache-road-19122",
+          "centreDistanceM": 0,
+          "withinRoadWidths": true,
+          "seamHeightDifferenceM": 0
+        }
+      ],
+      "maxGrade": 0.0753880653829364,
+      "profileSource": "visual-estimate-continuous-profile",
+      "oneway": true
+    }
+  ],
+  "tiles": 320,
+  "landmarkCount": 12
+}

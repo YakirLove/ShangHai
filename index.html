@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#142125"><title>上海漫游 · 全市</title><link rel="icon" href="data:,"><link rel="stylesheet" href="/style.css"></head>
+<body>
+ <main id="scene" aria-label="上海三维漫游场景"></main>
+ <div id="loading" role="status"><div class="loading-mark">沪</div><h1>上海漫游</h1><p id="loading-text">正在唤醒上海街区…</p><div class="loading-track"><i></i></div><small>上海全市 · 16 区</small></div>
+ <header class="brand panel"><span class="brand-mark">沪</span><div><strong>上海漫游</strong><span>上海全市 · 16 区 <b id="fps">—</b></span></div></header>
+ <nav class="toolbar panel" aria-label="场景设置"><div class="time-buttons"><button data-time="golden" class="active">◒ 黄昏</button><button data-time="midday">☀ 白天</button><button data-time="midnight">☾ 夜间</button></div><span class="divider"></span><button id="places-button">⌖ 地点</button><button id="map-button">▱ 地图 <kbd>M</kbd></button><select id="quality" aria-label="画质"><option value="low">低画质</option><option value="medium" selected>中画质</option><option value="high">高画质</option></select><button id="hide-ui" aria-label="隐藏界面">◉</button></nav>
+ <div id="places" class="panel popup" hidden></div>
+ <aside class="map-corner"><div class="road-label" id="road-label">外滩</div><button id="mini-map" class="panel" aria-label="打开上海地图"><svg id="mini-svg" viewBox="-1800 -1500 4300 3500"></svg></button><span class="north">N ↑</span></aside>
+ <div class="bottom-center"><div class="controls-hint" id="controls-hint"><kbd>W</kbd><kbd>S</kbd> 前进 / 后退　<kbd>A</kbd><kbd>D</kbd> 转向　<kbd>Shift</kbd> 加速　拖动环视</div><nav class="mode-dock panel" aria-label="漫游模式"><button data-mode="person">♙ 步行 <kbd>1</kbd></button><button data-mode="car" class="active">▰ 驾驶 <kbd>2</kbd></button><button data-mode="cyclist">♧ 骑行 <kbd>3</kbd></button><button data-mode="helicopter">⌘ 飞行 <kbd>4</kbd></button></nav></div>
+ <aside class="speed-panel panel"><div id="mode-label">上海出租车</div><div class="speed-line"><strong id="speed">0</strong><span id="speed-unit">km/h</span><small id="altitude"></small></div><div class="meter"><i id="speed-meter"></i></div><button id="camera-button">‹　<span id="camera-label">第三人称跟随</span>　› <kbd>V</kbd></button></aside>
+ <div id="toast" class="panel" role="status" hidden></div>
+ <footer class="attribution">© OpenStreetMap contributors · <a href="https://opendatacommons.org/licenses/odbl/1-0/" target="_blank" rel="noreferrer">ODbL</a>　<span>城市印象 · 自由漫游</span></footer>
+ <section id="map-modal" hidden aria-label="上海地图"><div class="map-shell panel"><header><div><small>SHANGHAI CITYWIDE</small><h2>上海全市</h2></div><input id="search" type="search" placeholder="搜索地标、街区与行政区…" aria-label="搜索地标"><button id="map-fit" class="map-control">全市</button><button id="map-locate" class="map-control">当前位置</button><button id="close-map" aria-label="关闭地图">✕</button></header><div class="map-body"><div id="map-viewport"><svg id="full-svg" viewBox="-1800 -1500 4300 3500"></svg><div class="map-legend">● 地标　<span>━ 地面道路</span>　<span class="tunnel-key">┄ 延安东路隧道</span></div></div><aside id="search-results"></aside></div><footer>选择地标前往附近道路 · 滚轮缩放 / 拖动平移 · 驾驶可经延安东路隧道连续往返两岸</footer></div></section>
+ <script type="module" src="/js/main.js"></script>
+</body></html>

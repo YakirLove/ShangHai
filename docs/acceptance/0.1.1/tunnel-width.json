@@ -1,0 +1,167 @@
+{
+  "at": "2026-10-23T12:02:12.428Z",
+  "buildAsset": "index-BuHmV7Ii.js",
+  "rows": [
+    {
+      "route": "yanan-0",
+      "width": 10,
+      "side": -1,
+      "angle": 0,
+      "centreDistance": 3.500000000000012,
+      "outerBoundary": 4.57040212966098,
+      "cameraDistance": 3.5012120416577286,
+      "cameraCeilingClearance": 3.152862308953665
+    },
+    {
+      "route": "yanan-0",
+      "width": 10,
+      "side": -1,
+      "angle": 0.7853981633974483,
+      "centreDistance": 2.5110414093196702,
+      "outerBoundary": 4.88000000000001,
+      "cameraDistance": 3.9046491462343313,
+      "cameraCeilingClearance": 3.152862308953665
+    },
+    {
+      "route": "yanan-0",
+      "width": 10,
+      "side": -1,
+      "angle": 1.5707963267948966,
+      "centreDistance": 2.5998113089099544,
+      "outerBoundary": 4.879999999999983,
+      "cameraDistance": 4.200000000000014,
+      "cameraCeilingClearance": 3.152862308953665
+    },
+    {
+      "route": "yanan-0",
+      "width": 10,
+      "side": -1,
+      "angle": 2.261946710584651,
+      "centreDistance": 2.441297096767611,
+      "outerBoundary": 4.879999999999976,
+      "cameraDistance": 4.200000000000016,
+      "cameraCeilingClearance": 3.152862308953665
+    },
+    {
+      "route": "yanan-0",
+      "width": 10,
+      "side": 1,
+      "angle": 0,
+      "centreDistance": 3.4999999999999787,
+      "outerBoundary": 4.570402129660947,
+      "cameraDistance": 0.500889071956207,
+      "cameraCeilingClearance": 3.152862308953665
+    },
+    {
+      "route": "yanan-0",
+      "width": 10,
+      "side": 1,
+      "angle": 0.7853981633974483,
+      "centreDistance": 2.51104140931967,
+      "outerBoundary": 4.88000000000001,
+      "cameraDistance": 0.8128763689050474,
+      "cameraCeilingClearance": 3.152862308953665
+    },
+    {
+      "route": "yanan-0",
+      "width": 10,
+      "side": 1,
+      "angle": 1.5707963267948966,
+      "centreDistance": 2.599811308909937,
+      "outerBoundary": 4.879999999999966,
+      "cameraDistance": 1.512787222434946,
+      "cameraCeilingClearance": 3.152862308953665
+    },
+    {
+      "route": "yanan-0",
+      "width": 10,
+      "side": 1,
+      "angle": 2.261946710584651,
+      "centreDistance": 2.4412970967676424,
+      "outerBoundary": 4.880000000000007,
+      "cameraDistance": 1.8627072064547072,
+      "cameraCeilingClearance": 3.152862308953665
+    },
+    {
+      "route": "yanan-1",
+      "width": 10,
+      "side": -1,
+      "angle": 0,
+      "centreDistance": 3.4999999999999964,
+      "outerBoundary": 4.570196984509499,
+      "cameraDistance": 0.3826333126479884,
+      "cameraCeilingClearance": 3.152862308953665
+    },
+    {
+      "route": "yanan-1",
+      "width": 10,
+      "side": -1,
+      "angle": 0.7853981633974483,
+      "centreDistance": 2.5112662143253663,
+      "outerBoundary": 4.880000000000006,
+      "cameraDistance": 1.30140716629325,
+      "cameraCeilingClearance": 3.152862308953665
+    },
+    {
+      "route": "yanan-1",
+      "width": 10,
+      "side": -1,
+      "angle": 1.5707963267948966,
+      "centreDistance": 2.5999075621508108,
+      "outerBoundary": 4.879999999999976,
+      "cameraDistance": 3.701626636114631,
+      "cameraCeilingClearance": 3.152862308953665
+    },
+    {
+      "route": "yanan-1",
+      "width": 10,
+      "side": -1,
+      "angle": 2.261946710584651,
+      "centreDistance": 2.4411318124888153,
+      "outerBoundary": 4.88000000000001,
+      "cameraDistance": 4.200000000000017,
+      "cameraCeilingClearance": 3.152862308953665
+    },
+    {
+      "route": "yanan-1",
+      "width": 10,
+      "side": 1,
+      "angle": 0,
+      "centreDistance": 3.500000000000008,
+      "outerBoundary": 4.5701969845095105,
+      "cameraDistance": 1.9132289889838936,
+      "cameraCeilingClearance": 3.152862308953665
+    },
+    {
+      "route": "yanan-1",
+      "width": 10,
+      "side": 1,
+      "angle": 0.7853981633974483,
+      "centreDistance": 2.5111922830250792,
+      "outerBoundary": 4.879926068699719,
+      "cameraDistance": 0.28321087949630896,
+      "cameraCeilingClearance": 3.152862308953665
+    },
+    {
+      "route": "yanan-1",
+      "width": 10,
+      "side": 1,
+      "angle": 1.5707963267948966,
+      "centreDistance": 2.599907562150824,
+      "outerBoundary": 4.879999999999989,
+      "cameraDistance": 0.12626182210609196,
+      "cameraCeilingClearance": 3.152862308953665
+    },
+    {
+      "route": "yanan-1",
+      "width": 10,
+      "side": 1,
+      "angle": 2.261946710584651,
+      "centreDistance": 2.4411318124888175,
+      "outerBoundary": 4.880000000000011,
+      "cameraDistance": 0.946820299860375,
+      "cameraCeilingClearance": 3.152862308953665
+    }
+  ],
+  "errors": []
+}

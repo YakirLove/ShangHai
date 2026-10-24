@@ -1,0 +1,37 @@
+[
+  {
+    "id": 398348,
+    "name": "浦东新区",
+    "url": "https://polygons.openstreetmap.fr/get_geojson.py?id=398348&params=0",
+    "sha256": "b90d10f61be1daa42366772a51a77824cd4ff0a7109cba4a5fafd9fa837b13b4",
+    "bytes": 35085
+  },
+  {
+    "id": 398353,
+    "name": "静安区",
+    "url": "https://polygons.openstreetmap.fr/get_geojson.py?id=398353&params=0",
+    "sha256": "c348533590fe1ce4c750290ee048c6039edc8033395b5733a6a120d999ce42f7",
+    "bytes": 13484
+  },
+  {
+    "id": 398374,
+    "name": "宝山区",
+    "url": "https://polygons.openstreetmap.fr/get_geojson.py?id=398374&params=0",
+    "sha256": "470f7f2f6ceac4573822dcaa537c049422df75ea5d1248350e6eb1718f2b3af6",
+    "bytes": 84796
+  },
+  {
+    "id": 3292750,
+    "name": "崇明区",
+    "url": "https://polygons.openstreetmap.fr/get_geojson.py?id=3292750&params=0",
+    "sha256": "ba47bdccdcad359220fb0a6c3a8f5883124d3fb87844ce9c0580d3ee902d545a",
+    "bytes": 4892
+  },
+  {
+    "id": 3292751,
+    "name": "奉贤区",
+    "url": "https://polygons.openstreetmap.fr/get_geojson.py?id=3292751&params=0",
+    "sha256": "dab82e179774c4fb19fc154f8ce0a1fd678db520c0d2f541f07abbc00133ab1b",
+    "bytes": 20392
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "phase": "after completed formal suite and all functional checks",
+  "request": "b-canvas-capture-probe-1",
+  "observed": "Target crashed, native Tabbit error code 5. First recovery task lost its executor; group attachment waited on two pages. Native Reload restored the game, then a fresh task acquired only the game tab successfully.",
+  "cause": "Undetermined. The diagnostic program restored detached extension hosts and then attempted WebGPU canvas readback. The failing awaited call was not distinguished. Neither operation belongs to application gameplay; both probes were discontinued.",
+  "normalGameEvidence": "43.386 minute formal session, zero application errors and visibility changes saved before this diagnostic; all 6 drives, four modes, 10 roundtrips and final functional checks had completed.",
+  "recovery": "Native Reload of only the crashed game tab; verified game ready, no application errors, native UI 532 MB. Task-created blank tab was closed; existing map and user tabs preserved.",
+  "capture": "Retake with native Page.captureScreenshot without extension DOM changes or canvas readback. Browser floating controls retained.",
+  "nativeMemoryObservation": {
+    "duringRecoveryLabel": "11.0 GB (browser UI label, before normal reloaded page settled)",
+    "afterReloadLabel": "532 MB",
+    "interpretation": "Diagnostic observation only; cause not isolated and not a measurement of the renderer tracked-GPU counters."
+  }
+}

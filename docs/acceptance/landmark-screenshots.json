@@ -1,0 +1,370 @@
+[
+  {
+    "id": "pearl",
+    "distance": "near",
+    "file": "landmark-pearl-near.png",
+    "view": {
+      "id": "pearl",
+      "name": "东方明珠",
+      "position": [
+        -356.9892111437599,
+        180,
+        -137.71293845114565
+      ],
+      "target": [
+        -26.989211143759928,
+        234,
+        -517.7129384511456
+      ],
+      "height": 468
+    },
+    "width": 1920,
+    "height": 1080,
+    "sha256": "fc2114487617a05261b93c28c338f552bced05aa8ec1ead1e51e4a484a0d20d8"
+  },
+  {
+    "id": "pearl",
+    "distance": "far",
+    "file": "landmark-pearl-far.png",
+    "view": {
+      "id": "pearl",
+      "name": "东方明珠",
+      "position": [
+        -851.9892111437599,
+        294,
+        432.28706154885435
+      ],
+      "target": [
+        -26.989211143759928,
+        234,
+        -517.7129384511456
+      ],
+      "height": 468
+    },
+    "width": 1920,
+    "height": 1080,
+    "sha256": "fcf4f3ceddf5189d047d2957dbbc72ef863e253954fcfa1f5a182e02bb0b46e4"
+  },
+  {
+    "id": "tower",
+    "distance": "near",
+    "file": "landmark-tower-near.png",
+    "view": {
+      "id": "tower",
+      "name": "上海中心",
+      "position": [
+        225.03922626087,
+        230,
+        715.7559521530637
+      ],
+      "target": [
+        595.03922626087,
+        320,
+        165.75595215306373
+      ],
+      "height": 632
+    },
+    "width": 1920,
+    "height": 1080,
+    "sha256": "890e87aef1fdfbf7e9f192755a8f5f073a489d7ebaded2cd8d935f93dc04b49c"
+  },
+  {
+    "id": "tower",
+    "distance": "far",
+    "file": "landmark-tower-far.png",
+    "view": {
+      "id": "tower",
+      "name": "上海中心",
+      "position": [
+        -329.96077373913,
+        359,
+        1540.7559521530638
+      ],
+      "target": [
+        595.03922626087,
+        320,
+        165.75595215306373
+      ],
+      "height": 632
+    },
+    "width": 1920,
+    "height": 1080,
+    "sha256": "10f2ab019d10ea3bc01761501d227b4c7fc14aa8d4f1115b2b3509101fca3533"
+  },
+  {
+    "id": "swfc",
+    "distance": "near",
+    "file": "landmark-swfc-near.png",
+    "view": {
+      "id": "swfc",
+      "name": "环球金融中心",
+      "position": [
+        1415.9486678100159,
+        270,
+        -87.87874269892492
+      ],
+      "target": [
+        765.9486678100159,
+        245,
+        47.12125730107507
+      ],
+      "height": 492
+    },
+    "width": 1920,
+    "height": 1080,
+    "sha256": "4a337f4880bdd7911699ee459403edeb35c1baf0439c68c4c4dd2f805006f7eb"
+  },
+  {
+    "id": "swfc",
+    "distance": "far",
+    "file": "landmark-swfc-far.png",
+    "view": {
+      "id": "swfc",
+      "name": "环球金融中心",
+      "position": [
+        2390.9486678100156,
+        411,
+        -290.37874269892495
+      ],
+      "target": [
+        765.9486678100159,
+        245,
+        47.12125730107507
+      ],
+      "height": 492
+    },
+    "width": 1920,
+    "height": 1080,
+    "sha256": "1545eba514bfca04f4aa5d7c92a116083b283ea1405ee6d418b3f5d661e799ae"
+  },
+  {
+    "id": "jinmao",
+    "distance": "near",
+    "file": "landmark-jinmao-near.png",
+    "view": {
+      "id": "jinmao",
+      "name": "金茂大厦",
+      "position": [
+        428.56717537001214,
+        190,
+        -478.38362792727105
+      ],
+      "target": [
+        608.5671753700121,
+        210,
+        -28.383627927271025
+      ],
+      "height": 420.5
+    },
+    "width": 1920,
+    "height": 1080,
+    "sha256": "d9ecae58d72e165d876e2e3d8326322c297fbe4aa3f8f0ca086d01d207654273"
+  },
+  {
+    "id": "jinmao",
+    "distance": "far",
+    "file": "landmark-jinmao-far.png",
+    "view": {
+      "id": "jinmao",
+      "name": "金茂大厦",
+      "position": [
+        158.56717537001214,
+        307,
+        -1153.383627927271
+      ],
+      "target": [
+        608.5671753700121,
+        210,
+        -28.383627927271025
+      ],
+      "height": 420.5
+    },
+    "width": 1920,
+    "height": 1080,
+    "sha256": "2572a653e046d3bf83080978842df38302ab0a17903fd135e2d08a7ec881b906"
+  },
+  {
+    "id": "conference",
+    "distance": "near",
+    "file": "landmark-conference-near.png",
+    "view": {
+      "id": "conference",
+      "name": "上海国际会议中心",
+      "position": [
+        -376.93576580639325,
+        70,
+        -333.6771413553464
+      ],
+      "target": [
+        -256.93576580639325,
+        25,
+        -513.6771413553464
+      ],
+      "height": 48
+    },
+    "width": 1920,
+    "height": 1080,
+    "sha256": "fafb4221fdf64618787653df6b8efa4e71c7762f89286cb86bd1c4c05d070bfc"
+  },
+  {
+    "id": "conference",
+    "distance": "far",
+    "file": "landmark-conference-far.png",
+    "view": {
+      "id": "conference",
+      "name": "上海国际会议中心",
+      "position": [
+        -556.9357658063932,
+        151,
+        -63.67714135534641
+      ],
+      "target": [
+        -256.93576580639325,
+        25,
+        -513.6771413553464
+      ],
+      "height": 48
+    },
+    "width": 1920,
+    "height": 1080,
+    "sha256": "3a595cccf07376d6a4204e319779586dfa866495fdbd7335060ec748b30eff76"
+  },
+  {
+    "id": "customs",
+    "distance": "near",
+    "file": "landmark-customs-near.png",
+    "view": {
+      "id": "customs",
+      "name": "海关大楼",
+      "position": [
+        -765.9930517337878,
+        65,
+        -269.06077774424284
+      ],
+      "target": [
+        -910.9930517337878,
+        50,
+        -179.06077774424284
+      ],
+      "height": 90
+    },
+    "width": 1920,
+    "height": 1080,
+    "sha256": "1b520c011927fd500f0dddc13b20041cfc225065d0ec2193112b77b62bb318e8"
+  },
+  {
+    "id": "customs",
+    "distance": "far",
+    "file": "landmark-customs-far.png",
+    "view": {
+      "id": "customs",
+      "name": "海关大楼",
+      "position": [
+        -548.4930517337878,
+        144.5,
+        -404.06077774424284
+      ],
+      "target": [
+        -910.9930517337878,
+        50,
+        -179.06077774424284
+      ],
+      "height": 90
+    },
+    "width": 1920,
+    "height": 1080,
+    "sha256": "3e41d325203ec023bea9733495f4e6c76424500346cb52e62ffe6d6aee1b525e"
+  },
+  {
+    "id": "hsbc",
+    "distance": "near",
+    "file": "landmark-hsbc-near.png",
+    "view": {
+      "id": "hsbc",
+      "name": "原汇丰银行大楼",
+      "position": [
+        -774.7038829359052,
+        42,
+        -27.082465200091463
+      ],
+      "target": [
+        -899.7038829359052,
+        32,
+        -117.08246520009146
+      ],
+      "height": 61
+    },
+    "width": 1920,
+    "height": 1080,
+    "sha256": "3090fc0af6352ff7aaf3d9ba961b4f8bc45c23b328baaded1839fa5334c5de36"
+  },
+  {
+    "id": "hsbc",
+    "distance": "far",
+    "file": "landmark-hsbc-far.png",
+    "view": {
+      "id": "hsbc",
+      "name": "原汇丰银行大楼",
+      "position": [
+        -587.2038829359052,
+        114.6,
+        107.91753479990854
+      ],
+      "target": [
+        -899.7038829359052,
+        32,
+        -117.08246520009146
+      ],
+      "height": 61
+    },
+    "width": 1920,
+    "height": 1080,
+    "sha256": "540f5282346f6a4b8dcc7a39d1690c3e54a8a29166b0be5e01bfd1b6d9750002"
+  },
+  {
+    "id": "peace",
+    "distance": "near",
+    "file": "landmark-peace-near.png",
+    "view": {
+      "id": "peace",
+      "name": "和平饭店",
+      "position": [
+        -844.1567671339346,
+        55,
+        -355.80115003493836
+      ],
+      "target": [
+        -979.1567671339346,
+        40,
+        -455.80115003493836
+      ],
+      "height": 77
+    },
+    "width": 1920,
+    "height": 1080,
+    "sha256": "86abe101a68b403cbf781e840da3fab5f12450fe3cde7f6c43e70e80e0691a8e"
+  },
+  {
+    "id": "peace",
+    "distance": "far",
+    "file": "landmark-peace-far.png",
+    "view": {
+      "id": "peace",
+      "name": "和平饭店",
+      "position": [
+        -641.6567671339346,
+        131.5,
+        -205.80115003493836
+      ],
+      "target": [
+        -979.1567671339346,
+        40,
+        -455.80115003493836
+      ],
+      "height": 77
+    },
+    "width": 1920,
+    "height": 1080,
+    "sha256": "7ca4e5cdeed6296e82b1c5ac4fab6e1aca4965af5da2c03e61d03ae9abacb02d"
+  }
+]

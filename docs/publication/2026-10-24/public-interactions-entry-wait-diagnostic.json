@@ -1,0 +1,94 @@
+{
+  "url": "https://shanghai.datiaomao.com/",
+  "steps": [
+    {
+      "name": "search-and-keyboard",
+      "before": {
+        "mode": "car",
+        "x": -872.4127502563243,
+        "z": -217.70698445060916
+      },
+      "after": {
+        "mode": "car",
+        "x": -872.4127502563243,
+        "z": -217.70698445060916
+      },
+      "arrival": {
+        "ready": true,
+        "place": [
+          -5212.555850615555,
+          2.12,
+          1309.6816194413536
+        ]
+      }
+    },
+    {
+      "name": "mode-person",
+      "origin": [
+        -5212.555850615555,
+        2.059682078267718,
+        1309.6816194413532
+      ],
+      "mode": "person",
+      "position": [
+        -5212.555850615555,
+        2,
+        1312.857647569633
+      ],
+      "camera": "action",
+      "errors": []
+    },
+    {
+      "name": "mode-car",
+      "origin": [
+        -5213.747303204034,
+        2.12,
+        1313.6005808145082
+      ],
+      "mode": "car",
+      "position": [
+        -5213.747303204034,
+        2.12,
+        1317.8951330370594
+      ],
+      "camera": "action",
+      "errors": []
+    },
+    {
+      "name": "mode-cyclist",
+      "origin": [
+        -5214.355681409418,
+        2,
+        1318.522239388942
+      ],
+      "mode": "cyclist",
+      "position": [
+        -5214.355681409418,
+        2,
+        1322.2516413738579
+      ],
+      "camera": "action",
+      "errors": []
+    },
+    {
+      "name": "mode-helicopter",
+      "origin": [
+        -5214.355681409418,
+        80,
+        1322.4899773213017
+      ],
+      "mode": "helicopter",
+      "position": [
+        -5214.355681409418,
+        80,
+        1326.1117110905307
+      ],
+      "camera": "action",
+      "errors": []
+    }
+  ],
+  "errors": [
+    "page.waitForFunction: Timeout 30000ms exceeded.\n    at tabbit-cli:20:129\n    at async PersistentEvaluator.evaluate (/Applications/Tabbit Browser.app/Contents/Frameworks/Tabbit Browser Framework.framework/Versions/1.18.21.0/Resources/TabbitDance/runtime/src/persistent-evaluator.mjs:1335:21)\n    at async MessagePort.<anonymous> (/Applications/Tabbit Browser.app/Contents/Frameworks/Tabbit Browser Framework.framework/Versions/1.18.21.0/Resources/TabbitDance/runtime/src/task-worker.mjs:58:44)"
+  ],
+  "ok": false
+}

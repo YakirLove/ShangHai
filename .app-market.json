@@ -1,0 +1,14 @@
+{
+  "id": "shanghai-roam",
+  "name": "上海漫游",
+  "description": "沿黄浦江探索上海中心城区，步行、驾车、骑行或飞行，穿过延安东路隧道往返外滩与陆家嘴。",
+  "category": "3D 探索",
+  "cover": "assets/market-cover.png",
+  "icon": "assets/market-icon.svg",
+  "build": ["npm", "run", "build", "--", "--outDir={build_dir}/dist"],
+  "output_dir": "{build_dir}/dist",
+  "route": "static",
+  "gzip": true,
+  "domains": ["shanghai.datiaomao.com"],
+  "health_paths": ["data/city.json", "data/manifest.json"]
+}

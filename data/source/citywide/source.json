@@ -1,0 +1,17 @@
+{
+  "provider": "OpenStreetMap France / OpenStreetMap contributors",
+  "url": "https://download.openstreetmap.fr/extracts/asia/china/shanghai-latest.osm.pbf",
+  "sourcePage": "https://download.openstreetmap.fr/extracts/asia/china/",
+  "lastModified": "2026-10-23T02:07:41Z",
+  "downloadedAt": "2026-10-24T06:36:53.387081+00:00",
+  "license": "ODbL 1.0",
+  "bytes": 29630612,
+  "sha256": "dd18c877fa0d4c798a3a0d84eccae53aa73238754f7e62a68f79ff9684258706",
+  "verifiedProviderMD5": "5a2af88e74dc5d0a7ffb345ac2c3cd84",
+  "administrativeBoundary": {
+    "relation": 913067,
+    "url": "https://polygons.openstreetmap.fr/get_geojson.py?id=913067&params=0",
+    "sha256": "6bb6b4a83709b25e720baf206cd674c269d149e7f68eb2104c04272c1ae9124b",
+    "downloadedAt": "2026-10-24T06:41:12.944145+00:00"
+  }
+}

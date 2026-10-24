@@ -1,0 +1,59 @@
+{
+  "published": true,
+  "version": "0.2.0",
+  "release": "20261024-101402-46d277",
+  "url": "https://shanghai.datiaomao.com/",
+  "offline": {
+    "method": "Local static release over localhost; site storage cleared and HTTP cache bypassed each run; no network throttle. Existing browser/GPU driver shader cache retained.",
+    "device": "Apple M2 Pro / 16 GB",
+    "browser": "Tabbit 1.18.21.0 / Chromium 154",
+    "webgpu": true,
+    "quality": "medium",
+    "canvas": [
+      1920,
+      1080
+    ],
+    "navigationToOperableMs": [
+      3929.3600001335144,
+      2305.5999999046326,
+      1835.6900000572205
+    ],
+    "medianMs": 2305.5999999046326
+  },
+  "integrity": {
+    "runtimeFiles": 325,
+    "passed": true,
+    "wireBytesTotal": 3600557
+  },
+  "publicStartupSingleSampleMs": 6962.799999952316,
+  "publicStartupSampleLimitation": "Concurrent full integrity downloads; actual canvas 1728x972; not an isolated benchmark.",
+  "publicInteractionsPassed": true,
+  "publisherTestsPassed": 22,
+  "publicProbesPassed": 46,
+  "oldSitesPreserved": true,
+  "certificateExpiry": "Jan 22 01:14:18 2027 GMT",
+  "cleanup": {
+    "remote": {
+      "removedIncomingAssets": true,
+      "applicationVersionRetained": true,
+      "successfulSnapshotRetained": true
+    },
+    "local": {
+      "removedLocalTemporaryBuilds": [
+        "/Users/wuyanji/Desktop/编程/app-market/.build/20261024-101145-4c9435",
+        "/Users/wuyanji/Desktop/编程/app-market/.build/20261024-101402-46d277"
+      ],
+      "stoppedOwnedTemporaryServers": [
+        {
+          "pid": 65318,
+          "command": "/opt/homebrew/bin/node serve.mjs --port 4192"
+        }
+      ],
+      "retainedPriorLocalServers": [
+        4187,
+        4190
+      ],
+      "releaseArchivesUnchanged": true
+    }
+  }
+}

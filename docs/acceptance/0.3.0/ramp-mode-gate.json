@@ -1,0 +1,16 @@
+{
+  "blocked": {
+    "mode": "person",
+    "height": 2.12,
+    "walked": 1.4015253069391214,
+    "canTraverse": true,
+    "errors": []
+  },
+  "car": {
+    "mode": "car",
+    "height": 2.099296088666114,
+    "surface": "yanan-1",
+    "errors": []
+  },
+  "passed": true
+}

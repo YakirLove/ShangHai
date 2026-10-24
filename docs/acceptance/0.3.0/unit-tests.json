@@ -1,0 +1,11 @@
+{
+  "node": {
+    "tests": 45,
+    "pass": 45,
+    "fail": 0
+  },
+  "pythonGeographyTests": 3,
+  "pythonFailures": 0,
+  "applicationAsset": "index-CkwP2jLv.js",
+  "proof": "Resource regression red/green and complete npm test passed; isolated reproduction transcript will be in source-reproduction.log."
+}

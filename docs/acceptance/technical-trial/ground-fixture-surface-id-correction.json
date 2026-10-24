@@ -1,0 +1,27 @@
+{
+  "reason": "Fixture initially expected literal ground; named road surfaces correctly preserve their source road IDs. Actual height transitions were zero. Corrected assertion uses the source road IDs.",
+  "error": "Error: expect(received).toBe(expected) // Object.is equality\n\nExpected: true\nReceived: false\n    at captureRawStack (/Applications/Tabbit Browser.app/Contents/Frameworks/Tabbit Browser Framework.framework/Versions/1.18.21.0/Resources/TabbitDance/runtime/third_party/playwright/node_modules/playwright-core/lib/coreBundle.js:9681:17)\n    at callMatcherAsStep (/Applications/Tabbit Browser.app/Contents/Frameworks/Tabbit Browser Framework.framework/Versions/1.18.21.0/Resources/TabbitDance/runtime/third_party/playwright/node_modules/playwright/lib/matchers/expect.js:13310:57)\n    at Object.toBe (/Applications/Tabbit Browser.app/Contents/Frameworks/Tabbit Browser Framework.framework/Versions/1.18.21.0/Resources/TabbitDance/runtime/third_party/playwright/node_modules/playwright/lib/matchers/expect.js:13300:23)\n    at eval (eval at program (eval at program (tabbit-cli:6:27)), <anonymous>:6:150)\n    at async eval (<anonymous>:15:16)",
+  "run": {
+    "done": true,
+    "label": "east-golden-release",
+    "transitions": [
+      {
+        "from": "osm-cache-road-19604",
+        "to": "yanan-1",
+        "heightStep": 0,
+        "x": -1543.4587637834156,
+        "y": 2.12,
+        "z": 473.24104441505517
+      },
+      {
+        "from": "yanan-1",
+        "to": "osm-cache-road-19122",
+        "heightStep": 0,
+        "x": 468.70550820093274,
+        "y": 2.12,
+        "z": -202.4595080561021
+      }
+    ],
+    "maxTransition": 0
+  }
+}

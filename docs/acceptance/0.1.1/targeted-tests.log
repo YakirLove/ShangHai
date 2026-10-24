@@ -1,0 +1,16 @@
+✔ release data contains eight unique landmarks, sourced real buildings, river polygons and two directed tunnel routes (20.709958ms)
+✔ both widened bores keep their full open ramp width clear of terrain and surface asphalt (27.365834ms)
+✔ landmarks and procedural buildings do not overlap water, parks or landmark reservations (31.606083ms)
+✔ every playable 500m cell is declared, including empty river tiles (16.601958ms)
+✔ collision readiness halo covers all source building extents and is retained along each tunnel (19.412583ms)
+✔ a car entering either bore from an ordinary road follows the ramp without an elevation snap (132.100916ms)
+✔ tunnel wall clearance contains the entire taxi for straight and sideways headings (7.143834ms)
+✔ a 10m bore gives the taxi one extra metre on each side without letting its corners cross a wall (1.351833ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 330.415125

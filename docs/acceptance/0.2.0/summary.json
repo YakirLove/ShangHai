@@ -1,0 +1,157 @@
+{
+  "version": "0.2.0",
+  "region": {
+    "id": "central-b",
+    "name": "上海中心城区",
+    "boundsWgs84": [
+      121.44,
+      31.2,
+      121.54,
+      31.265
+    ],
+    "areaKm2": 68.66
+  },
+  "build": {
+    "version": "0.2.0",
+    "asset": "index-DqNtY0-r.js",
+    "sha256": "c5eba4464440d161bd4c0dbb0b1e7d48d523f11e0867bede177e5e0fe1047799",
+    "citySHA256": "91f010cc2656aebd7a55e500b5b6f38afd16da68e9cb25f45c3c325d802f4e15",
+    "region": {
+      "id": "central-b",
+      "name": "上海中心城区",
+      "boundsWgs84": [
+        121.44,
+        31.2,
+        121.54,
+        31.265
+      ],
+      "areaKm2": 68.66
+    }
+  },
+  "technicalStatus": "已列技术验证通过",
+  "contractReservations": [
+    "缓存未保留普通道路完整单行、层级与原始OSM对象ID；并非现实导航数据",
+    "普通补建筑、新增模型尺寸、里弄布局和地下纵断面含明确标记的视觉估算",
+    "最终画风和城市辨识度仍由用户结合原始截图确认"
+  ],
+  "hardware": {
+    "chip": "Apple M2 Pro",
+    "memoryGB": 16,
+    "browser": {
+      "architecture": "arm",
+      "brands": [
+        {
+          "brand": "Chromium",
+          "version": "154"
+        },
+        {
+          "brand": "Google Chrome",
+          "version": "154"
+        },
+        {
+          "brand": "Not A(Brand",
+          "version": "99"
+        }
+      ],
+      "fullVersionList": [
+        {
+          "brand": "Chromium",
+          "version": "154.0.8037.58"
+        },
+        {
+          "brand": "Google Chrome",
+          "version": "154.0.8037.58"
+        },
+        {
+          "brand": "Not A(Brand",
+          "version": "99.0.0.0"
+        }
+      ],
+      "mobile": false,
+      "platform": "macOS",
+      "platformVersion": "27.0.1"
+    },
+    "renderer": "WebGPU",
+    "quality": "medium",
+    "canvas": [
+      1920,
+      1080
+    ],
+    "rendererDPR": 1
+  },
+  "geography": {
+    "controls": 32,
+    "maxSelectedSourceErrorM": 2.2872830403376847,
+    "landmarks": 12,
+    "neighbourhoodDestinations": 7,
+    "sourcedBuildings": 1048,
+    "proceduralBuildings": 22604,
+    "groundRoadObjects": 4493,
+    "tiles": 320
+  },
+  "performance": [
+    {
+      "mode": "person",
+      "name": "步行",
+      "sampleSeconds": 301.0000400002003,
+      "distanceM": 1234.5654135081645,
+      "frames": 22744,
+      "p50": 12.894999980926514,
+      "p95": 17.830000162124634,
+      "p99": 22.84999990463257
+    },
+    {
+      "mode": "car",
+      "name": "汽车",
+      "sampleSeconds": 301.02456500005724,
+      "distanceM": 2651.636460396136,
+      "frames": 16118,
+      "p50": 18.789999961853027,
+      "p95": 25.639999866485596,
+      "p99": 30.359999895095825
+    },
+    {
+      "mode": "cyclist",
+      "name": "自行车",
+      "sampleSeconds": 301.0240599999428,
+      "distanceM": 2675.3452782946865,
+      "frames": 15525,
+      "p50": 20.06499981880188,
+      "p95": 25.894999980926514,
+      "p99": 30.125
+    },
+    {
+      "mode": "helicopter",
+      "name": "直升机",
+      "sampleSeconds": 301.0185,
+      "distanceM": 7161.437339796743,
+      "frames": 20591,
+      "p50": 13.744999885559082,
+      "p95": 23.079999923706055,
+      "p99": 26.615000009536743
+    }
+  ],
+  "coldStart": {
+    "runsMs": [
+      7515.585000038147,
+      6381.490000009537,
+      7979.8099999427795
+    ],
+    "medianMs": 7515.585000038147,
+    "network": {
+      "mbps": 50,
+      "rttMs": 80,
+      "cache": "site storage cleared; HTTP cache bypassed"
+    }
+  },
+  "stabilityMinutes": 43.38625666666826,
+  "lifecycleRounds": 10,
+  "screenshots": 33,
+  "completeDrivingRecordings": 6,
+  "releaseFiles": 345,
+  "sourceReproduction": {
+    "filesCompared": 325,
+    "citySHA256": "91f010cc2656aebd7a55e500b5b6f38afd16da68e9cb25f45c3c325d802f4e15"
+  },
+  "externalRequests": 0
+}

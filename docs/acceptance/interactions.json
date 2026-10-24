@@ -1,0 +1,79 @@
+{
+  "typingDidNotDrive": true,
+  "places": [
+    {
+      "id": "pearl",
+      "distance": 66.41538559708533,
+      "ready": true,
+      "finite": true
+    },
+    {
+      "id": "tower",
+      "distance": 80.93849244031217,
+      "ready": true,
+      "finite": true
+    },
+    {
+      "id": "swfc",
+      "distance": 76.11866781001584,
+      "ready": true,
+      "finite": true
+    },
+    {
+      "id": "jinmao",
+      "distance": 62.97182462998785,
+      "ready": true,
+      "finite": true
+    },
+    {
+      "id": "conference",
+      "distance": 65.89703461774319,
+      "ready": true,
+      "finite": true
+    },
+    {
+      "id": "customs",
+      "distance": 34.48228718608388,
+      "ready": true,
+      "finite": true
+    },
+    {
+      "id": "hsbc",
+      "distance": 35.56464683042006,
+      "ready": true,
+      "finite": true
+    },
+    {
+      "id": "peace",
+      "distance": 73.3211697125828,
+      "ready": true,
+      "finite": true
+    }
+  ],
+  "modes": [
+    "person",
+    "cyclist",
+    "helicopter",
+    "car"
+  ],
+  "cameras": [
+    "低机位跟随",
+    "第一人称视角",
+    "第三人称跟随"
+  ],
+  "times": [
+    {
+      "id": "midday",
+      "active": true
+    },
+    {
+      "id": "midnight",
+      "active": true
+    },
+    {
+      "id": "golden",
+      "active": true
+    }
+  ],
+  "errors": []
+}

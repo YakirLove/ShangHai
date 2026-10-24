@@ -1,0 +1,137 @@
+{
+  "status": "technical-visual-review-complete-with-differences",
+  "finalArtApproval": "not-yet-reviewed-by-user",
+  "build": {
+    "version": "0.2.0",
+    "asset": "index-DqNtY0-r.js",
+    "sha256": "c5eba4464440d161bd4c0dbb0b1e7d48d523f11e0867bede177e5e0fe1047799",
+    "citySHA256": "91f010cc2656aebd7a55e500b5b6f38afd16da68e9cb25f45c3c325d802f4e15",
+    "region": {
+      "id": "central-b",
+      "name": "上海中心城区",
+      "boundsWgs84": [
+        121.44,
+        31.2,
+        121.54,
+        31.265
+      ],
+      "areaKm2": 68.66
+    }
+  },
+  "reviewedBy": "Implementation agent: all 33 images in three contact sheets; selected full-size exteriors, waterfront night and central lane; pinned upstream street/flight screenshots",
+  "fixedViews": 33,
+  "landmarkViews": 12,
+  "needsRetake": [],
+  "criteria": [
+    {
+      "item": "建筑体量",
+      "observed": "68.66km²真实平面布局与估算补建筑并存；原四塔轮廓保持，新增四处外观区分寺院、鼎形馆、星顶展览塔和里弄群。",
+      "difference": "普通建筑为旋转体量加立面，不是逐栋真实三维模型；历史街墙与上海住宅细节简化。"
+    },
+    {
+      "item": "窗格与玻璃",
+      "observed": "沿用原站TSL程序立面与玻璃材质，近景可见砖石、窗框、玻璃及夜间亮灯，远景仍有窗格。",
+      "difference": "现有五类普通立面与若干地标专用材质，尚未逐栋匹配上海实际幕墙。"
+    },
+    {
+      "item": "光照阴影",
+      "observed": "白天、黄昏与夜间状态均生效，可见天光、建筑与树木投影；保留原站天空、色调映射和后处理。",
+      "difference": "中档2048阴影与降采样反射优先满足桌面性能，远处细小阴影有简化。"
+    },
+    {
+      "item": "街道密度",
+      "observed": "恢复后实际街道近景可见车辆、行人、路灯和中文路牌；人车池随附近街区分配，扩区后南京西路四模式实际运行。",
+      "difference": "人车是氛围模拟，不代表真实交通量；街景陈设少于原站部分密集机位。"
+    },
+    {
+      "item": "水面夜景",
+      "observed": "黄浦江与苏州河有波纹、天空/近处反射和上海地标灯光条纹，灯光随昼夜同步。",
+      "difference": "远处灯光条纹为按视线和地标高度计算的风格化补充，非完整光线追踪；夜景整体偏暗。"
+    }
+  ],
+  "landmarks": [
+    {
+      "id": "pearl",
+      "name": "东方明珠",
+      "recognition": "三球与三脚支撑，不依赖标签可辨",
+      "detail": "球体、连廊与支撑均简化。"
+    },
+    {
+      "id": "tower",
+      "name": "上海中心",
+      "recognition": "632米扭转收分轮廓",
+      "detail": "幕墙扭转以分段网格近似。"
+    },
+    {
+      "id": "swfc",
+      "name": "环球金融中心",
+      "recognition": "顶部梯形开口",
+      "detail": "近景已退后重拍，顶部梯形开口完整；幕墙分区与基座仍为简化模型。"
+    },
+    {
+      "id": "jinmao",
+      "name": "金茂大厦",
+      "recognition": "台阶式塔身与尖顶",
+      "detail": "层级和立面按可辨认轮廓简化。"
+    },
+    {
+      "id": "conference",
+      "name": "上海国际会议中心",
+      "recognition": "双球与横向建筑体",
+      "detail": "体量、球体与朝向为视觉简化。"
+    },
+    {
+      "id": "customs",
+      "name": "海关大楼",
+      "recognition": "钟楼与街墙位置",
+      "detail": "钟面、檐口与柱式细节简化。"
+    },
+    {
+      "id": "hsbc",
+      "name": "原汇丰银行大楼",
+      "recognition": "穹顶与横向基座",
+      "detail": "柱廊与装饰并非测绘复原。"
+    },
+    {
+      "id": "peace",
+      "name": "和平饭店",
+      "recognition": "绿色金字塔屋顶",
+      "detail": "街角体量和立面细节简化。"
+    },
+    {
+      "id": "jingan",
+      "name": "静安寺",
+      "recognition": "院落、金色叠檐与后部塔身",
+      "detail": "外观整体平面缩放和平移以避让华山路；黄昏金属屋面高光强，西侧处于B边界附近。"
+    },
+    {
+      "id": "museum",
+      "name": "上海博物馆人民广场馆",
+      "recognition": "方形基座、圆形屋顶与双鼎耳",
+      "detail": "尺寸、柱列、阶梯及广场为简化视觉表达。"
+    },
+    {
+      "id": "exhibition",
+      "name": "上海展览中心",
+      "recognition": "横向双翼、逐层收分塔与星顶",
+      "detail": "不是实测立面；露天前庭可进入，碰撞按建筑分组。"
+    },
+    {
+      "id": "tianzifang",
+      "name": "田子坊里弄",
+      "recognition": "低层砖石住宅、石库门入口与巷内灯串",
+      "detail": "规则程序里弄，并非真实店铺与巷道逐一重建；实际连续步行61.15米通过。"
+    }
+  ],
+  "notes": [
+    "33张原生1920×1080截图来自同一0.2.0最终脚本；原6机位和新5机位各白天、黄昏、夜间。已巡查三张接触表并抽查全尺寸。",
+    "东方明珠三球支架、上海中心扭转、环球顶部开口、金茂台阶塔身保持；新增寺院、圆顶双耳博物馆、星顶展览塔与里弄外形各不相同。",
+    "窗格、玻璃、天空、阴影、角色和后处理沿用固定原站代码；正常街道游戏画面可见人车、路灯、中文路牌。",
+    "普通建筑是估算体量加程序立面；与原站密集街道相比，屋顶设备、街景陈设及沿街店铺更简化，不是逐栋复原。",
+    "静安寺黄昏屋面高光较强；它紧邻B区西边界，部分机位能看到开放区域的边缘。",
+    "田子坊采用规则里弄群和砖石窗格表达，缺少真实店铺装饰；新增四处尺寸、形制均标记视觉估算。",
+    "夜景整体偏暗。江面可见波纹、近处反射及风格化的上海地标倒影，不宣称完整物理光追。",
+    "原始截图保留浏览器悬浮按钮。曾因viewport重置产生黑边，现已改用原生CDP整面重拍，未做像素修饰；截图探测异常另见screenshot-diagnostics.json。",
+    "这里是实现方的视觉核对；最终画风与城市辨识度仍待用户人工确认，不将其写作用户已验收。"
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "result": {
+    "same": true,
+    "afterSame": {
+      "x": -603.083,
+      "y": -26,
+      "z": 100.164
+    },
+    "blocked": false,
+    "mode": "car"
+  },
+  "failure": {
+    "unchanged": true,
+    "errors": []
+  }
+}

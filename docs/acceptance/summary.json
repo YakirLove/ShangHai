@@ -1,0 +1,99 @@
+{
+  "version": "0.1.0",
+  "technicalStatus": "已列核心技术验收通过",
+  "contractStatus": "有保留：普通路网完整方向/层级属性未取得，普通楼宇有程序补齐，最终人工美术验收待用户确认",
+  "build": {
+    "asset": "index-znyxrDSI.js",
+    "sha256": "7b557160d6a963e1884a89616568482ab11caf33ddbaab563622a8b4b03dc001",
+    "changes": "Nearby fixed 100-car/80-pedestrian pools; perspective-correct Shanghai night light streaks; corrected fixed and landmark viewpoints; includes taxi footprint and Escape fixes."
+  },
+  "hardware": {
+    "model": "MacBook Pro Mac14,9",
+    "chip": "Apple M2 Pro",
+    "memoryGB": 16,
+    "macOS": "27.0.1",
+    "tabbit": "1.18.21.0",
+    "chromium": "154.0.8037.58",
+    "node": "23.11.0",
+    "renderer": "WebGPU",
+    "quality": "medium",
+    "canvas": [
+      1920,
+      1080
+    ],
+    "rendererDPR": 1
+  },
+  "geography": {
+    "controls": 32,
+    "maxSelectedSourceErrorM": 0.31957220576970125,
+    "landmarks": 8,
+    "sourcedBuildingFootprints": 560,
+    "proceduralBuildings": 3054
+  },
+  "performance": [
+    {
+      "name": "汽车",
+      "sampleSeconds": 360.47041499996186,
+      "frames": 18280,
+      "p50": 16.735000133514404,
+      "p95": 31.024999856948853,
+      "p99": 81.5849997997284
+    },
+    {
+      "name": "步行",
+      "sampleSeconds": 301.0300750000477,
+      "frames": 17201,
+      "p50": 16.664999961853027,
+      "p95": 22.200000047683716,
+      "p99": 45.924999952316284
+    },
+    {
+      "name": "骑行",
+      "sampleSeconds": 301.0302800002098,
+      "frames": 16492,
+      "p50": 16.669999837875366,
+      "p95": 25.494999885559082,
+      "p99": 57.38499999046326
+    },
+    {
+      "name": "直升机",
+      "sampleSeconds": 301.0013550000191,
+      "frames": 26346,
+      "p50": 9.275000095367432,
+      "p95": 17.800000190734863,
+      "p99": 32.03999996185303
+    }
+  ],
+  "coldStart": {
+    "runsMs": [
+      1956.8249998092651,
+      1922.5849997997284,
+      1838.9649999141693
+    ],
+    "medianMs": 1922.5849997997284,
+    "network": {
+      "mbps": 50,
+      "rttMs": 80,
+      "cache": "site storage cleared; HTTP cache bypassed"
+    }
+  },
+  "stabilityMinutes": 33.02986358333429,
+  "completeDrivingRecordings": [
+    "east-golden-release",
+    "east-midday-release",
+    "east-midnight-release",
+    "west-golden-release",
+    "west-midday-release",
+    "west-midnight-release"
+  ],
+  "screenshots": 18,
+  "landmarkScreenshots": 16,
+  "lifecycleRounds": 10,
+  "releaseFiles": 86,
+  "externalRequests": 0,
+  "sourceReproduction": {
+    "passed": true,
+    "filesCompared": 68,
+    "citySHA256": "3583a694a65b29d115d2f4f8731e6ad9f6c9ff64559307ced0d17de23dd468d7"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "ready": true,
+  "mode": "car",
+  "position": [
+    -5212.555850615555,
+    2.12,
+    1309.6816194413536
+  ],
+  "canvas": [
+    1660,
+    845
+  ],
+  "errors": [],
+  "normalInput": true,
+  "quality": "medium"
+}

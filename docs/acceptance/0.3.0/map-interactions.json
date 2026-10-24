@@ -1,0 +1,240 @@
+{
+  "typingBefore": {
+    "mode": "cyclist",
+    "position": [
+      -35739.44923446477,
+      2.12,
+      9832.24594552024
+    ]
+  },
+  "typingAfter": {
+    "mode": "cyclist",
+    "position": [
+      -35739.44923446477,
+      2.12,
+      9832.24594552024
+    ]
+  },
+  "searches": [
+    {
+      "id": "pearl",
+      "name": "东方明珠",
+      "count": 1
+    },
+    {
+      "id": "tower",
+      "name": "上海中心",
+      "count": 1
+    },
+    {
+      "id": "swfc",
+      "name": "环球金融中心",
+      "count": 1
+    },
+    {
+      "id": "jinmao",
+      "name": "金茂大厦",
+      "count": 1
+    },
+    {
+      "id": "conference",
+      "name": "上海国际会议中心",
+      "count": 1
+    },
+    {
+      "id": "customs",
+      "name": "海关大楼",
+      "count": 1
+    },
+    {
+      "id": "hsbc",
+      "name": "原汇丰银行大楼",
+      "count": 1
+    },
+    {
+      "id": "peace",
+      "name": "和平饭店",
+      "count": 1
+    },
+    {
+      "id": "jingan",
+      "name": "静安寺",
+      "count": 1
+    },
+    {
+      "id": "museum",
+      "name": "上海博物馆人民广场馆",
+      "count": 1
+    },
+    {
+      "id": "exhibition",
+      "name": "上海展览中心",
+      "count": 1
+    },
+    {
+      "id": "tianzifang",
+      "name": "田子坊",
+      "count": 1
+    },
+    {
+      "id": "nanjing-west",
+      "name": "南京西路",
+      "count": 3
+    },
+    {
+      "id": "huaihai",
+      "name": "淮海中路",
+      "count": 1
+    },
+    {
+      "id": "xintiandi",
+      "name": "新天地",
+      "count": 1
+    },
+    {
+      "id": "north-bund",
+      "name": "北外滩",
+      "count": 1
+    },
+    {
+      "id": "nanpu-area",
+      "name": "南浦大桥周边",
+      "count": 1
+    },
+    {
+      "id": "yuanshen",
+      "name": "源深",
+      "count": 1
+    },
+    {
+      "id": "nanjing-east",
+      "name": "南京东路",
+      "count": 1
+    },
+    {
+      "id": "huangpu",
+      "name": "黄浦 · 人民广场",
+      "count": 2
+    },
+    {
+      "id": "xuhui",
+      "name": "徐汇 · 徐家汇",
+      "count": 1
+    },
+    {
+      "id": "changning",
+      "name": "长宁 · 中山公园",
+      "count": 1
+    },
+    {
+      "id": "jingan-district",
+      "name": "静安 · 大宁",
+      "count": 1
+    },
+    {
+      "id": "putuo",
+      "name": "普陀 · 长风",
+      "count": 1
+    },
+    {
+      "id": "hongkou",
+      "name": "虹口 · 鲁迅公园",
+      "count": 1
+    },
+    {
+      "id": "yangpu",
+      "name": "杨浦 · 五角场",
+      "count": 1
+    },
+    {
+      "id": "minhang",
+      "name": "闵行 · 莘庄",
+      "count": 1
+    },
+    {
+      "id": "baoshan",
+      "name": "宝山 · 友谊路",
+      "count": 1
+    },
+    {
+      "id": "jiading",
+      "name": "嘉定 · 州桥",
+      "count": 1
+    },
+    {
+      "id": "pudong",
+      "name": "浦东 · 世纪公园",
+      "count": 1
+    },
+    {
+      "id": "jinshan",
+      "name": "金山 · 城市沙滩",
+      "count": 1
+    },
+    {
+      "id": "songjiang",
+      "name": "松江 · 老城",
+      "count": 1
+    },
+    {
+      "id": "zhujiajiao",
+      "name": "青浦 · 朱家角",
+      "count": 1
+    },
+    {
+      "id": "fengxian",
+      "name": "奉贤 · 南桥",
+      "count": 1
+    },
+    {
+      "id": "chongming",
+      "name": "崇明 · 南门",
+      "count": 1
+    },
+    {
+      "id": "changxing",
+      "name": "长兴岛",
+      "count": 1
+    },
+    {
+      "id": "hengsha",
+      "name": "横沙岛",
+      "count": 1
+    },
+    {
+      "id": "dishui",
+      "name": "临港 · 滴水湖",
+      "count": 1
+    },
+    {
+      "id": "pudong-airport",
+      "name": "浦东机场周边",
+      "count": 1
+    },
+    {
+      "id": "hongqiao",
+      "name": "虹桥枢纽周边",
+      "count": 1
+    },
+    {
+      "id": "disney",
+      "name": "上海迪士尼周边",
+      "count": 1
+    },
+    {
+      "id": "sheshan",
+      "name": "佘山周边",
+      "count": 1
+    },
+    {
+      "id": "qingpu",
+      "name": "青浦 · 夏阳湖",
+      "count": 1
+    }
+  ],
+  "located": "-38239.44923446477 8358.82010046364 5000 2946.8516901132043",
+  "zoomed": "-37317.1745843348 8811.094543235387 3846.153846153846 2266.8089923947728",
+  "panned": "-36932.55960333083 9062.683547802653 3846.153846153846 2266.8089923947728",
+  "fit": "-61365.6 -70406.75 226245.2 133342.21",
+  "passed": true
+}

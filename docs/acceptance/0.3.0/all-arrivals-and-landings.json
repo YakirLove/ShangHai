@@ -1,0 +1,2708 @@
+{
+  "buildAsset": "http://127.0.0.1:4187/assets/index-CkwP2jLv.js",
+  "total": 43,
+  "results": [
+    {
+      "id": "pearl",
+      "name": "东方明珠",
+      "position": [
+        -68.74691616987893,
+        2.12,
+        -466.06705270057336
+      ],
+      "distance": 66.41538559708533,
+      "ready": true,
+      "water": false,
+      "landings": [
+        {
+          "requested": "person",
+          "changed": true,
+          "active": "person",
+          "flightHeight": 80,
+          "position": [
+            -68.74691616987892,
+            2.12,
+            -466.06705270057336
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "car",
+          "changed": true,
+          "active": "car",
+          "flightHeight": 80,
+          "position": [
+            -68.74691616987892,
+            2.12,
+            -466.06705270057336
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "cyclist",
+          "changed": true,
+          "active": "cyclist",
+          "flightHeight": 80,
+          "position": [
+            -68.74691616987892,
+            2.12,
+            -466.06705270057336
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        }
+      ]
+    },
+    {
+      "id": "tower",
+      "name": "上海中心",
+      "position": [
+        602.9412730262842,
+        2.12,
+        246.30778152662717
+      ],
+      "distance": 80.93849244031217,
+      "ready": true,
+      "water": false,
+      "landings": [
+        {
+          "requested": "person",
+          "changed": true,
+          "active": "person",
+          "flightHeight": 80,
+          "position": [
+            602.9412730262842,
+            2.12,
+            246.30778152662717
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "car",
+          "changed": true,
+          "active": "car",
+          "flightHeight": 80,
+          "position": [
+            602.9412730262842,
+            2.12,
+            246.30778152662717
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "cyclist",
+          "changed": true,
+          "active": "cyclist",
+          "flightHeight": 80,
+          "position": [
+            602.9412730262842,
+            2.12,
+            246.30778152662717
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        }
+      ]
+    },
+    {
+      "id": "swfc",
+      "name": "环球金融中心",
+      "position": [
+        689.83,
+        2.12,
+        47.12125730107507
+      ],
+      "distance": 76.11866781001584,
+      "ready": true,
+      "water": false,
+      "landings": [
+        {
+          "requested": "person",
+          "changed": true,
+          "active": "person",
+          "flightHeight": 80,
+          "position": [
+            689.83,
+            2.12,
+            47.12125730107507
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "car",
+          "changed": true,
+          "active": "car",
+          "flightHeight": 80,
+          "position": [
+            689.83,
+            2.12,
+            47.12125730107507
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "cyclist",
+          "changed": true,
+          "active": "cyclist",
+          "flightHeight": 80,
+          "position": [
+            689.83,
+            2.12,
+            47.12125730107507
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        }
+      ]
+    },
+    {
+      "id": "jinmao",
+      "name": "金茂大厦",
+      "position": [
+        671.539,
+        2.12,
+        -28.38362792727102
+      ],
+      "distance": 62.97182462998785,
+      "ready": true,
+      "water": false,
+      "landings": [
+        {
+          "requested": "person",
+          "changed": true,
+          "active": "person",
+          "flightHeight": 80,
+          "position": [
+            671.539,
+            2.12,
+            -28.38362792727102
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "car",
+          "changed": true,
+          "active": "car",
+          "flightHeight": 80,
+          "position": [
+            671.539,
+            2.12,
+            -28.38362792727102
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "cyclist",
+          "changed": true,
+          "active": "cyclist",
+          "flightHeight": 80,
+          "position": [
+            671.539,
+            2.12,
+            -28.38362792727102
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        }
+      ]
+    },
+    {
+      "id": "conference",
+      "name": "上海国际会议中心",
+      "position": [
+        -223.44596829104538,
+        2.12,
+        -456.9245851680429
+      ],
+      "distance": 65.89703461774319,
+      "ready": true,
+      "water": false,
+      "landings": [
+        {
+          "requested": "person",
+          "changed": true,
+          "active": "person",
+          "flightHeight": 80,
+          "position": [
+            -223.44596829104538,
+            2.12,
+            -456.9245851680429
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "car",
+          "changed": true,
+          "active": "car",
+          "flightHeight": 80,
+          "position": [
+            -223.44596829104538,
+            2.12,
+            -456.9245851680429
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "cyclist",
+          "changed": true,
+          "active": "cyclist",
+          "flightHeight": 80,
+          "position": [
+            -223.44596829104538,
+            2.12,
+            -456.9245851680429
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        }
+      ]
+    },
+    {
+      "id": "customs",
+      "name": "海关大楼",
+      "position": [
+        -876.896560467836,
+        2.12,
+        -184.20445473006166
+      ],
+      "distance": 34.48228718608388,
+      "ready": true,
+      "water": false,
+      "landings": [
+        {
+          "requested": "person",
+          "changed": true,
+          "active": "person",
+          "flightHeight": 80,
+          "position": [
+            -876.896560467836,
+            2.12,
+            -184.20445473006166
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "car",
+          "changed": true,
+          "active": "car",
+          "flightHeight": 80,
+          "position": [
+            -876.896560467836,
+            2.12,
+            -184.20445473006166
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "cyclist",
+          "changed": true,
+          "active": "cyclist",
+          "flightHeight": 80,
+          "position": [
+            -876.896560467836,
+            2.12,
+            -184.20445473006166
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        }
+      ]
+    },
+    {
+      "id": "hsbc",
+      "name": "原汇丰银行大楼",
+      "position": [
+        -864.5371417192883,
+        2.12,
+        -122.38759633664303
+      ],
+      "distance": 35.56464683042006,
+      "ready": true,
+      "water": false,
+      "landings": [
+        {
+          "requested": "person",
+          "changed": true,
+          "active": "person",
+          "flightHeight": 80,
+          "position": [
+            -864.5371417192883,
+            2.12,
+            -122.38759633664306
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "car",
+          "changed": true,
+          "active": "car",
+          "flightHeight": 80,
+          "position": [
+            -864.5371417192883,
+            2.12,
+            -122.38759633664307
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "cyclist",
+          "changed": true,
+          "active": "cyclist",
+          "flightHeight": 80,
+          "position": [
+            -864.5371417192883,
+            2.12,
+            -122.38759633664309
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        }
+      ]
+    },
+    {
+      "id": "peace",
+      "name": "和平饭店",
+      "position": [
+        -905.9800808402572,
+        2.12,
+        -451.2004423613202
+      ],
+      "distance": 73.3211697125828,
+      "ready": true,
+      "water": false,
+      "landings": [
+        {
+          "requested": "person",
+          "changed": true,
+          "active": "person",
+          "flightHeight": 80,
+          "position": [
+            -905.9800808402572,
+            2.12,
+            -451.2004423613202
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "car",
+          "changed": true,
+          "active": "car",
+          "flightHeight": 80,
+          "position": [
+            -905.9800808402572,
+            2.12,
+            -451.2004423613202
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "cyclist",
+          "changed": true,
+          "active": "cyclist",
+          "flightHeight": 80,
+          "position": [
+            -905.9800808402572,
+            2.12,
+            -451.2004423613202
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        }
+      ]
+    },
+    {
+      "id": "jingan",
+      "name": "静安寺",
+      "district": "静安 · 南京西路",
+      "position": [
+        -5212.555850615555,
+        2.12,
+        1309.6816194413536
+      ],
+      "distance": 49.05035073814403,
+      "ready": true,
+      "water": false,
+      "landings": [
+        {
+          "requested": "person",
+          "changed": true,
+          "active": "person",
+          "flightHeight": 80,
+          "position": [
+            -5212.555850615555,
+            2.12,
+            1309.6816194413532
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "car",
+          "changed": true,
+          "active": "car",
+          "flightHeight": 80,
+          "position": [
+            -5212.555850615555,
+            2.12,
+            1309.681619441353
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "cyclist",
+          "changed": true,
+          "active": "cyclist",
+          "flightHeight": 80,
+          "position": [
+            -5212.555850615555,
+            2.12,
+            1309.6816194413527
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        }
+      ]
+    },
+    {
+      "id": "museum",
+      "name": "上海博物馆人民广场馆",
+      "district": "黄浦 · 人民广场",
+      "position": [
+        -2333.3901656109647,
+        2.12,
+        857.2919005934726
+      ],
+      "distance": 112.45071173761166,
+      "ready": true,
+      "water": false,
+      "landings": [
+        {
+          "requested": "person",
+          "changed": true,
+          "active": "person",
+          "flightHeight": 80,
+          "position": [
+            -2333.3901656109647,
+            2.12,
+            857.2919005934726
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "car",
+          "changed": true,
+          "active": "car",
+          "flightHeight": 80,
+          "position": [
+            -2333.3901656109647,
+            2.12,
+            857.2919005934726
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "cyclist",
+          "changed": true,
+          "active": "cyclist",
+          "flightHeight": 80,
+          "position": [
+            -2333.3901656109647,
+            2.12,
+            857.2919005934726
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        }
+      ]
+    },
+    {
+      "id": "exhibition",
+      "name": "上海展览中心",
+      "district": "静安 · 南京西路",
+      "position": [
+        -4551.31699527312,
+        2.12,
+        1011.5752975619921
+      ],
+      "distance": 155.67006993583905,
+      "ready": true,
+      "water": false,
+      "landings": [
+        {
+          "requested": "person",
+          "changed": true,
+          "active": "person",
+          "flightHeight": 80,
+          "position": [
+            -4551.31699527312,
+            2.12,
+            1011.575297561992
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "car",
+          "changed": true,
+          "active": "car",
+          "flightHeight": 80,
+          "position": [
+            -4551.31699527312,
+            2.12,
+            1011.575297561992
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "cyclist",
+          "changed": true,
+          "active": "cyclist",
+          "flightHeight": 80,
+          "position": [
+            -4551.31699527312,
+            2.12,
+            1011.575297561992
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        }
+      ]
+    },
+    {
+      "id": "tianzifang",
+      "name": "田子坊",
+      "district": "黄浦 · 泰康路",
+      "position": [
+        -2919.9761780155136,
+        2.12,
+        3041.749867685151
+      ],
+      "distance": 76.57897263305097,
+      "ready": true,
+      "water": false,
+      "landings": [
+        {
+          "requested": "person",
+          "changed": true,
+          "active": "person",
+          "flightHeight": 80,
+          "position": [
+            -2919.9761780155136,
+            2.12,
+            3041.749867685151
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "car",
+          "changed": true,
+          "active": "car",
+          "flightHeight": 80,
+          "position": [
+            -2919.9761780155136,
+            2.12,
+            3041.749867685151
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "cyclist",
+          "changed": true,
+          "active": "cyclist",
+          "flightHeight": 80,
+          "position": [
+            -2919.9761780155136,
+            2.12,
+            3041.749867685151
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        }
+      ]
+    },
+    {
+      "id": "nanjing-west",
+      "name": "南京西路",
+      "district": "静安 · 商业街",
+      "position": [
+        -3420.237131250497,
+        2.12,
+        463.66643330827696
+      ],
+      "distance": 0,
+      "ready": true,
+      "water": false,
+      "landings": [
+        {
+          "requested": "person",
+          "changed": true,
+          "active": "person",
+          "flightHeight": 80,
+          "position": [
+            -3420.237131250497,
+            2.12,
+            463.66643330827696
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "car",
+          "changed": true,
+          "active": "car",
+          "flightHeight": 80,
+          "position": [
+            -3420.237131250497,
+            2.12,
+            463.66643330827696
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "cyclist",
+          "changed": true,
+          "active": "cyclist",
+          "flightHeight": 80,
+          "position": [
+            -3420.237131250497,
+            2.12,
+            463.66643330827696
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        }
+      ]
+    },
+    {
+      "id": "huaihai",
+      "name": "淮海中路",
+      "district": "黄浦 · 淮海路",
+      "position": [
+        -3411.028832081266,
+        2.12,
+        1811.3921140402874
+      ],
+      "distance": 0,
+      "ready": true,
+      "water": false,
+      "landings": [
+        {
+          "requested": "person",
+          "changed": true,
+          "active": "person",
+          "flightHeight": 80,
+          "position": [
+            -3411.028832081266,
+            2.12,
+            1811.3921140402874
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "car",
+          "changed": true,
+          "active": "car",
+          "flightHeight": 80,
+          "position": [
+            -3411.028832081266,
+            2.12,
+            1811.3921140402874
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "cyclist",
+          "changed": true,
+          "active": "cyclist",
+          "flightHeight": 80,
+          "position": [
+            -3411.028832081266,
+            2.12,
+            1811.3921140402874
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        }
+      ]
+    },
+    {
+      "id": "xintiandi",
+      "name": "新天地",
+      "district": "黄浦 · 石库门街区",
+      "position": [
+        -2401.416689423781,
+        2.12,
+        1690.676201405884
+      ],
+      "distance": 0,
+      "ready": true,
+      "water": false,
+      "landings": [
+        {
+          "requested": "person",
+          "changed": true,
+          "active": "person",
+          "flightHeight": 80,
+          "position": [
+            -2401.416689423781,
+            2.12,
+            1690.676201405884
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "car",
+          "changed": true,
+          "active": "car",
+          "flightHeight": 80,
+          "position": [
+            -2401.416689423781,
+            2.12,
+            1690.676201405884
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "cyclist",
+          "changed": true,
+          "active": "cyclist",
+          "flightHeight": 80,
+          "position": [
+            -2401.416689423781,
+            2.12,
+            1690.676201405884
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        }
+      ]
+    },
+    {
+      "id": "north-bund",
+      "name": "北外滩",
+      "district": "虹口 · 北外滩",
+      "position": [
+        959.3726282977201,
+        2.12,
+        -1904.738152296373
+      ],
+      "distance": 0,
+      "ready": true,
+      "water": false,
+      "landings": [
+        {
+          "requested": "person",
+          "changed": true,
+          "active": "person",
+          "flightHeight": 80,
+          "position": [
+            959.3726282977201,
+            2.12,
+            -1904.738152296373
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "car",
+          "changed": true,
+          "active": "car",
+          "flightHeight": 80,
+          "position": [
+            959.3726282977201,
+            2.12,
+            -1904.738152296373
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "cyclist",
+          "changed": true,
+          "active": "cyclist",
+          "flightHeight": 80,
+          "position": [
+            959.3726282977201,
+            2.12,
+            -1904.738152296373
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        }
+      ]
+    },
+    {
+      "id": "nanpu-area",
+      "name": "南浦大桥周边",
+      "district": "黄浦 · 地面道路",
+      "position": [
+        165.78959470166689,
+        2.12,
+        2870.3090744480915
+      ],
+      "distance": 8.526512829121202e-14,
+      "ready": true,
+      "water": false,
+      "landings": [
+        {
+          "requested": "person",
+          "changed": true,
+          "active": "person",
+          "flightHeight": 80,
+          "position": [
+            165.78959470166689,
+            2.12,
+            2870.3090744480915
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "car",
+          "changed": true,
+          "active": "car",
+          "flightHeight": 80,
+          "position": [
+            165.78959470166689,
+            2.12,
+            2870.3090744480915
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "cyclist",
+          "changed": true,
+          "active": "cyclist",
+          "flightHeight": 80,
+          "position": [
+            165.78959470166689,
+            2.12,
+            2870.3090744480915
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        }
+      ]
+    },
+    {
+      "id": "yuanshen",
+      "name": "源深",
+      "district": "浦东 · 源深路",
+      "position": [
+        3329.0222333338215,
+        2.12,
+        335.5001073868407
+      ],
+      "distance": 1.1368683772161603e-13,
+      "ready": true,
+      "water": false,
+      "landings": [
+        {
+          "requested": "person",
+          "changed": true,
+          "active": "person",
+          "flightHeight": 80,
+          "position": [
+            3329.0222333338215,
+            2.12,
+            335.50010738684074
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "car",
+          "changed": true,
+          "active": "car",
+          "flightHeight": 80,
+          "position": [
+            3329.0222333338215,
+            2.12,
+            335.5001073868408
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "cyclist",
+          "changed": true,
+          "active": "cyclist",
+          "flightHeight": 80,
+          "position": [
+            3329.0222333338215,
+            2.12,
+            335.5001073868408
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        }
+      ]
+    },
+    {
+      "id": "nanjing-east",
+      "name": "南京东路",
+      "district": "黄浦 · 河南中路口",
+      "position": [
+        -1408.5198687815264,
+        2.12,
+        -316.0911870190182
+      ],
+      "distance": 0,
+      "ready": true,
+      "water": false,
+      "landings": [
+        {
+          "requested": "person",
+          "changed": true,
+          "active": "person",
+          "flightHeight": 80,
+          "position": [
+            -1408.5198687815264,
+            2.12,
+            -316.0911870190182
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "car",
+          "changed": true,
+          "active": "car",
+          "flightHeight": 80,
+          "position": [
+            -1408.5198687815264,
+            2.12,
+            -316.0911870190182
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "cyclist",
+          "changed": true,
+          "active": "cyclist",
+          "flightHeight": 80,
+          "position": [
+            -1408.5198687815264,
+            2.12,
+            -316.0911870190182
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        }
+      ]
+    },
+    {
+      "id": "huangpu",
+      "name": "黄浦 · 人民广场",
+      "district": "黄浦区",
+      "position": [
+        -1891.122184143975,
+        2.12,
+        800.6362347741127
+      ],
+      "distance": 0.004352862378441841,
+      "ready": true,
+      "water": false,
+      "landings": [
+        {
+          "requested": "person",
+          "changed": true,
+          "active": "person",
+          "flightHeight": 80,
+          "position": [
+            -1891.122184143975,
+            2.12,
+            800.6362347741127
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "car",
+          "changed": true,
+          "active": "car",
+          "flightHeight": 80,
+          "position": [
+            -1891.122184143975,
+            2.12,
+            800.6362347741127
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "cyclist",
+          "changed": true,
+          "active": "cyclist",
+          "flightHeight": 80,
+          "position": [
+            -1891.122184143975,
+            2.12,
+            800.6362347741127
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        }
+      ]
+    },
+    {
+      "id": "xuhui",
+      "name": "徐汇 · 徐家汇",
+      "district": "徐汇区",
+      "position": [
+        -5571.4,
+        2.12,
+        5410.84
+      ],
+      "distance": 0,
+      "ready": true,
+      "water": false,
+      "landings": [
+        {
+          "requested": "person",
+          "changed": true,
+          "active": "person",
+          "flightHeight": 80,
+          "position": [
+            -5571.4,
+            2.12,
+            5410.84
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "car",
+          "changed": true,
+          "active": "car",
+          "flightHeight": 80,
+          "position": [
+            -5571.4,
+            2.12,
+            5410.84
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "cyclist",
+          "changed": true,
+          "active": "cyclist",
+          "flightHeight": 80,
+          "position": [
+            -5571.4,
+            2.12,
+            5410.84
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        }
+      ]
+    },
+    {
+      "id": "changning",
+      "name": "长宁 · 中山公园",
+      "district": "长宁区",
+      "position": [
+        -7628.61,
+        2.12,
+        1989.39
+      ],
+      "distance": 0,
+      "ready": true,
+      "water": false,
+      "landings": [
+        {
+          "requested": "person",
+          "changed": true,
+          "active": "person",
+          "flightHeight": 80,
+          "position": [
+            -7628.61,
+            2.12,
+            1989.39
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "car",
+          "changed": true,
+          "active": "car",
+          "flightHeight": 80,
+          "position": [
+            -7628.61,
+            2.12,
+            1989.39
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "cyclist",
+          "changed": true,
+          "active": "cyclist",
+          "flightHeight": 80,
+          "position": [
+            -7628.61,
+            2.12,
+            1989.39
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        }
+      ]
+    },
+    {
+      "id": "jingan-district",
+      "name": "静安 · 大宁",
+      "district": "静安区",
+      "position": [
+        -4063.3791266100475,
+        2.12,
+        -4194.770258933367
+      ],
+      "distance": 0.0009109645972859276,
+      "ready": true,
+      "water": false,
+      "landings": [
+        {
+          "requested": "person",
+          "changed": true,
+          "active": "person",
+          "flightHeight": 80,
+          "position": [
+            -4063.379126610048,
+            2.12,
+            -4194.770258933367
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "car",
+          "changed": true,
+          "active": "car",
+          "flightHeight": 80,
+          "position": [
+            -4063.379126610048,
+            2.12,
+            -4194.770258933367
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "cyclist",
+          "changed": true,
+          "active": "cyclist",
+          "flightHeight": 80,
+          "position": [
+            -4063.379126610048,
+            2.12,
+            -4194.770258933367
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        }
+      ]
+    },
+    {
+      "id": "putuo",
+      "name": "普陀 · 长风",
+      "district": "普陀区",
+      "position": [
+        -9143.599805628128,
+        2.12,
+        784.2407687088311
+      ],
+      "distance": 0.00079290206948616,
+      "ready": true,
+      "water": false,
+      "landings": [
+        {
+          "requested": "person",
+          "changed": true,
+          "active": "person",
+          "flightHeight": 80,
+          "position": [
+            -9143.599805628128,
+            2.12,
+            784.240768708831
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "car",
+          "changed": true,
+          "active": "car",
+          "flightHeight": 80,
+          "position": [
+            -9143.599805628128,
+            2.12,
+            784.240768708831
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "cyclist",
+          "changed": true,
+          "active": "cyclist",
+          "flightHeight": 80,
+          "position": [
+            -9143.599805628128,
+            2.12,
+            784.240768708831
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        }
+      ]
+    },
+    {
+      "id": "hongkou",
+      "name": "虹口 · 鲁迅公园",
+      "district": "虹口区",
+      "position": [
+        -1617.1455161598728,
+        2.12,
+        -3658.3691415023513
+      ],
+      "distance": 0.004565286464101093,
+      "ready": true,
+      "water": false,
+      "landings": [
+        {
+          "requested": "person",
+          "changed": true,
+          "active": "person",
+          "flightHeight": 80,
+          "position": [
+            -1617.1455161598728,
+            2.12,
+            -3658.3691415023513
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "car",
+          "changed": true,
+          "active": "car",
+          "flightHeight": 80,
+          "position": [
+            -1617.1455161598728,
+            2.12,
+            -3658.3691415023513
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "cyclist",
+          "changed": true,
+          "active": "cyclist",
+          "flightHeight": 80,
+          "position": [
+            -1617.1455161598728,
+            2.12,
+            -3658.3691415023513
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        }
+      ]
+    },
+    {
+      "id": "yangpu",
+      "name": "杨浦 · 五角场",
+      "district": "杨浦区",
+      "position": [
+        1988.102085002299,
+        2.12,
+        -6983.790207356195
+      ],
+      "distance": 0.002095287851073901,
+      "ready": true,
+      "water": false,
+      "landings": [
+        {
+          "requested": "person",
+          "changed": true,
+          "active": "person",
+          "flightHeight": 80,
+          "position": [
+            1988.102085002299,
+            2.12,
+            -6983.790207356195
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "car",
+          "changed": true,
+          "active": "car",
+          "flightHeight": 80,
+          "position": [
+            1988.102085002299,
+            2.12,
+            -6983.790207356195
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "cyclist",
+          "changed": true,
+          "active": "cyclist",
+          "flightHeight": 80,
+          "position": [
+            1988.102085002299,
+            2.12,
+            -6983.790207356195
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        }
+      ]
+    },
+    {
+      "id": "minhang",
+      "name": "闵行 · 莘庄",
+      "district": "闵行区",
+      "position": [
+        -10801.58932485572,
+        2.12,
+        14086.681337347678
+      ],
+      "distance": 0.0014981050061625386,
+      "ready": true,
+      "water": false,
+      "landings": [
+        {
+          "requested": "person",
+          "changed": true,
+          "active": "person",
+          "flightHeight": 80,
+          "position": [
+            -10801.58932485572,
+            2.12,
+            14086.681337347678
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "car",
+          "changed": true,
+          "active": "car",
+          "flightHeight": 80,
+          "position": [
+            -10801.58932485572,
+            2.12,
+            14086.681337347678
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "cyclist",
+          "changed": true,
+          "active": "cyclist",
+          "flightHeight": 80,
+          "position": [
+            -10801.58932485572,
+            2.12,
+            14086.681337347678
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        }
+      ]
+    },
+    {
+      "id": "baoshan",
+      "name": "宝山 · 友谊路",
+      "district": "宝山区",
+      "position": [
+        -962.7202804654728,
+        2.12,
+        -18513.50993368499
+      ],
+      "distance": 0.0002881988235505873,
+      "ready": true,
+      "water": false,
+      "landings": [
+        {
+          "requested": "person",
+          "changed": true,
+          "active": "person",
+          "flightHeight": 80,
+          "position": [
+            -962.720280465473,
+            2.12,
+            -18513.50993368499
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "car",
+          "changed": true,
+          "active": "car",
+          "flightHeight": 80,
+          "position": [
+            -962.720280465473,
+            2.12,
+            -18513.50993368499
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "cyclist",
+          "changed": true,
+          "active": "cyclist",
+          "flightHeight": 80,
+          "position": [
+            -962.720280465473,
+            2.12,
+            -18513.50993368499
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        }
+      ]
+    },
+    {
+      "id": "jiading",
+      "name": "嘉定 · 州桥",
+      "district": "嘉定区",
+      "position": [
+        -24032.53224321336,
+        2.12,
+        -16323.312217740395
+      ],
+      "distance": 0.003154422078920751,
+      "ready": true,
+      "water": false,
+      "landings": [
+        {
+          "requested": "person",
+          "changed": true,
+          "active": "person",
+          "flightHeight": 80,
+          "position": [
+            -24032.53224321336,
+            2.12,
+            -16323.312217740395
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "car",
+          "changed": true,
+          "active": "car",
+          "flightHeight": 80,
+          "position": [
+            -24032.53224321336,
+            2.12,
+            -16323.312217740395
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "cyclist",
+          "changed": true,
+          "active": "cyclist",
+          "flightHeight": 80,
+          "position": [
+            -24032.53224321336,
+            2.12,
+            -16323.312217740395
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        }
+      ]
+    },
+    {
+      "id": "pudong",
+      "name": "浦东 · 世纪公园",
+      "district": "浦东新区",
+      "position": [
+        5272.869015149927,
+        2.12,
+        2538.3670566945007
+      ],
+      "distance": 0.0031037037436422886,
+      "ready": true,
+      "water": false,
+      "landings": [
+        {
+          "requested": "person",
+          "changed": true,
+          "active": "person",
+          "flightHeight": 80,
+          "position": [
+            5272.869015149927,
+            2.12,
+            2538.3670566945007
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "car",
+          "changed": true,
+          "active": "car",
+          "flightHeight": 80,
+          "position": [
+            5272.869015149927,
+            2.12,
+            2538.3670566945007
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "cyclist",
+          "changed": true,
+          "active": "cyclist",
+          "flightHeight": 80,
+          "position": [
+            5272.869015149927,
+            2.12,
+            2538.3670566945007
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        }
+      ]
+    },
+    {
+      "id": "jinshan",
+      "name": "金山 · 城市沙滩",
+      "district": "金山区",
+      "position": [
+        -14603.40948106658,
+        2.12,
+        56427.34222792508
+      ],
+      "distance": 0.0022875624748343436,
+      "ready": true,
+      "water": false,
+      "landings": [
+        {
+          "requested": "person",
+          "changed": true,
+          "active": "person",
+          "flightHeight": 80,
+          "position": [
+            -14603.40948106658,
+            2.12,
+            56427.34222792508
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "car",
+          "changed": true,
+          "active": "car",
+          "flightHeight": 80,
+          "position": [
+            -14603.40948106658,
+            2.12,
+            56427.34222792508
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "cyclist",
+          "changed": true,
+          "active": "cyclist",
+          "flightHeight": 80,
+          "position": [
+            -14603.40948106658,
+            2.12,
+            56427.34222792508
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        }
+      ]
+    },
+    {
+      "id": "songjiang",
+      "name": "松江 · 老城",
+      "district": "松江区",
+      "position": [
+        -25639.97103379509,
+        2.12,
+        25187.941553370856
+      ],
+      "distance": 0.001865929608725448,
+      "ready": true,
+      "water": false,
+      "landings": [
+        {
+          "requested": "person",
+          "changed": true,
+          "active": "person",
+          "flightHeight": 80,
+          "position": [
+            -25639.97103379509,
+            2.12,
+            25187.941553370856
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "car",
+          "changed": true,
+          "active": "car",
+          "flightHeight": 80,
+          "position": [
+            -25639.97103379509,
+            2.12,
+            25187.941553370856
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "cyclist",
+          "changed": true,
+          "active": "cyclist",
+          "flightHeight": 80,
+          "position": [
+            -25639.97103379509,
+            2.12,
+            25187.941553370856
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        }
+      ]
+    },
+    {
+      "id": "zhujiajiao",
+      "name": "青浦 · 朱家角",
+      "district": "青浦区",
+      "position": [
+        -42231.44920257313,
+        2.12,
+        14136.851562242919
+      ],
+      "distance": 0.0017539933132532228,
+      "ready": true,
+      "water": false,
+      "landings": [
+        {
+          "requested": "person",
+          "changed": true,
+          "active": "person",
+          "flightHeight": 80,
+          "position": [
+            -42231.44920257313,
+            2.12,
+            14136.85156224292
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "car",
+          "changed": true,
+          "active": "car",
+          "flightHeight": 80,
+          "position": [
+            -42231.44920257313,
+            2.12,
+            14136.85156224292
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "cyclist",
+          "changed": true,
+          "active": "cyclist",
+          "flightHeight": 80,
+          "position": [
+            -42231.44920257313,
+            2.12,
+            14136.85156224292
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        }
+      ]
+    },
+    {
+      "id": "fengxian",
+      "name": "奉贤 · 南桥",
+      "district": "奉贤区",
+      "position": [
+        -2447.718485695662,
+        2.12,
+        35250.90964378333
+      ],
+      "distance": 0.001555637472930497,
+      "ready": true,
+      "water": false,
+      "landings": [
+        {
+          "requested": "person",
+          "changed": true,
+          "active": "person",
+          "flightHeight": 80,
+          "position": [
+            -2447.718485695662,
+            2.12,
+            35250.90964378333
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "car",
+          "changed": true,
+          "active": "car",
+          "flightHeight": 80,
+          "position": [
+            -2447.718485695662,
+            2.12,
+            35250.90964378333
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "cyclist",
+          "changed": true,
+          "active": "cyclist",
+          "flightHeight": 80,
+          "position": [
+            -2447.718485695662,
+            2.12,
+            35250.90964378333
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        }
+      ]
+    },
+    {
+      "id": "chongming",
+      "name": "崇明 · 南门",
+      "district": "崇明区",
+      "position": [
+        -9328.551301723408,
+        2.12,
+        -42904.870544797544
+      ],
+      "distance": 0.0014111301124570708,
+      "ready": true,
+      "water": false,
+      "landings": [
+        {
+          "requested": "person",
+          "changed": true,
+          "active": "person",
+          "flightHeight": 80,
+          "position": [
+            -9328.551301723406,
+            2.12,
+            -42904.870544797544
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "car",
+          "changed": true,
+          "active": "car",
+          "flightHeight": 80,
+          "position": [
+            -9328.551301723406,
+            2.12,
+            -42904.870544797544
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "cyclist",
+          "changed": true,
+          "active": "cyclist",
+          "flightHeight": 80,
+          "position": [
+            -9328.551301723406,
+            2.12,
+            -42904.870544797544
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        }
+      ]
+    },
+    {
+      "id": "changxing",
+      "name": "长兴岛",
+      "district": "崇明区",
+      "position": [
+        20990.169044964296,
+        2.12,
+        -16506.110427749252
+      ],
+      "distance": 0.0010464523953074214,
+      "ready": true,
+      "water": false,
+      "landings": [
+        {
+          "requested": "person",
+          "changed": true,
+          "active": "person",
+          "flightHeight": 80,
+          "position": [
+            20990.169044964296,
+            2.12,
+            -16506.110427749252
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "car",
+          "changed": true,
+          "active": "car",
+          "flightHeight": 80,
+          "position": [
+            20990.169044964296,
+            2.12,
+            -16506.110427749252
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "cyclist",
+          "changed": true,
+          "active": "cyclist",
+          "flightHeight": 80,
+          "position": [
+            20990.169044964296,
+            2.12,
+            -16506.110427749252
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        }
+      ]
+    },
+    {
+      "id": "hengsha",
+      "name": "横沙岛",
+      "district": "崇明区",
+      "position": [
+        32654.83791665125,
+        2.12,
+        -10771.339528859462
+      ],
+      "distance": 0.002135957729758318,
+      "ready": true,
+      "water": false,
+      "landings": [
+        {
+          "requested": "person",
+          "changed": true,
+          "active": "person",
+          "flightHeight": 80,
+          "position": [
+            32654.83791665125,
+            2.12,
+            -10771.339528859462
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "car",
+          "changed": true,
+          "active": "car",
+          "flightHeight": 80,
+          "position": [
+            32654.83791665125,
+            2.12,
+            -10771.339528859462
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "cyclist",
+          "changed": true,
+          "active": "cyclist",
+          "flightHeight": 80,
+          "position": [
+            32654.83791665125,
+            2.12,
+            -10771.339528859462
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        }
+      ]
+    },
+    {
+      "id": "dishui",
+      "name": "临港 · 滴水湖",
+      "district": "浦东新区",
+      "position": [
+        41176.67,
+        2.12,
+        37395.5
+      ],
+      "distance": 0,
+      "ready": true,
+      "water": false,
+      "landings": [
+        {
+          "requested": "person",
+          "changed": true,
+          "active": "person",
+          "flightHeight": 80,
+          "position": [
+            41176.67,
+            2.12,
+            37395.5
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "car",
+          "changed": true,
+          "active": "car",
+          "flightHeight": 80,
+          "position": [
+            41176.67,
+            2.12,
+            37395.5
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "cyclist",
+          "changed": true,
+          "active": "cyclist",
+          "flightHeight": 80,
+          "position": [
+            41176.67,
+            2.12,
+            37395.5
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        }
+      ]
+    },
+    {
+      "id": "pudong-airport",
+      "name": "浦东机场周边",
+      "district": "浦东新区",
+      "position": [
+        29508.130908657087,
+        2.12,
+        9654.569684970082
+      ],
+      "distance": 0.0009617180198345301,
+      "ready": true,
+      "water": false,
+      "landings": [
+        {
+          "requested": "person",
+          "changed": true,
+          "active": "person",
+          "flightHeight": 80,
+          "position": [
+            29508.130908657087,
+            2.12,
+            9654.569684970082
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "car",
+          "changed": true,
+          "active": "car",
+          "flightHeight": 80,
+          "position": [
+            29508.130908657087,
+            2.12,
+            9654.569684970082
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "cyclist",
+          "changed": true,
+          "active": "cyclist",
+          "flightHeight": 80,
+          "position": [
+            29508.130908657087,
+            2.12,
+            9654.569684970082
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        }
+      ]
+    },
+    {
+      "id": "hongqiao",
+      "name": "虹桥枢纽周边",
+      "district": "闵行区",
+      "position": [
+        -17269.27,
+        2.12,
+        4435.91
+      ],
+      "distance": 0,
+      "ready": true,
+      "water": false,
+      "landings": [
+        {
+          "requested": "person",
+          "changed": true,
+          "active": "person",
+          "flightHeight": 80,
+          "position": [
+            -17269.27,
+            2.12,
+            4435.91
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "car",
+          "changed": true,
+          "active": "car",
+          "flightHeight": 80,
+          "position": [
+            -17269.27,
+            2.12,
+            4435.91
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "cyclist",
+          "changed": true,
+          "active": "cyclist",
+          "flightHeight": 80,
+          "position": [
+            -17269.27,
+            2.12,
+            4435.91
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        }
+      ]
+    },
+    {
+      "id": "disney",
+      "name": "上海迪士尼周边",
+      "district": "浦东新区",
+      "position": [
+        15717.808759817299,
+        2.12,
+        10307.586480971093
+      ],
+      "distance": 0.003731168393573201,
+      "ready": true,
+      "water": false,
+      "landings": [
+        {
+          "requested": "person",
+          "changed": true,
+          "active": "person",
+          "flightHeight": 80,
+          "position": [
+            15717.808759817299,
+            2.12,
+            10307.586480971093
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "car",
+          "changed": true,
+          "active": "car",
+          "flightHeight": 80,
+          "position": [
+            15717.808759817299,
+            2.12,
+            10307.586480971093
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "cyclist",
+          "changed": true,
+          "active": "cyclist",
+          "flightHeight": 80,
+          "position": [
+            15717.808759817299,
+            2.12,
+            10307.586480971093
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        }
+      ]
+    },
+    {
+      "id": "sheshan",
+      "name": "佘山周边",
+      "district": "松江区",
+      "position": [
+        -28885.252398426637,
+        2.12,
+        15379.331012774359
+      ],
+      "distance": 0.0026034903949027333,
+      "ready": true,
+      "water": false,
+      "landings": [
+        {
+          "requested": "person",
+          "changed": true,
+          "active": "person",
+          "flightHeight": 80,
+          "position": [
+            -28885.252398426637,
+            2.12,
+            15379.331012774359
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "car",
+          "changed": true,
+          "active": "car",
+          "flightHeight": 80,
+          "position": [
+            -28885.252398426637,
+            2.12,
+            15379.331012774359
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "cyclist",
+          "changed": true,
+          "active": "cyclist",
+          "flightHeight": 80,
+          "position": [
+            -28885.252398426637,
+            2.12,
+            15379.331012774359
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        }
+      ]
+    },
+    {
+      "id": "qingpu",
+      "name": "青浦 · 夏阳湖",
+      "district": "青浦区",
+      "position": [
+        -35739.44923446477,
+        2.12,
+        9832.245945520239
+      ],
+      "distance": 0.004126118068189727,
+      "ready": true,
+      "water": false,
+      "landings": [
+        {
+          "requested": "person",
+          "changed": true,
+          "active": "person",
+          "flightHeight": 80,
+          "position": [
+            -35739.44923446477,
+            2.12,
+            9832.24594552024
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "car",
+          "changed": true,
+          "active": "car",
+          "flightHeight": 80,
+          "position": [
+            -35739.44923446477,
+            2.12,
+            9832.24594552024
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        },
+        {
+          "requested": "cyclist",
+          "changed": true,
+          "active": "cyclist",
+          "flightHeight": 80,
+          "position": [
+            -35739.44923446477,
+            2.12,
+            9832.24594552024
+          ],
+          "shift": 0,
+          "ready": true,
+          "traversable": true,
+          "water": false,
+          "bridge": false
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

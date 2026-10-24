@@ -1,0 +1,34 @@
+{
+  "url": "http://127.0.0.1:4189/",
+  "ready": true,
+  "webgpu": true,
+  "canvas": [
+    1920,
+    1080
+  ],
+  "dpr": 1,
+  "quality": "medium",
+  "landmarks": 8,
+  "buildAsset": "index-znyxrDSI.js",
+  "resources": [
+    "http://127.0.0.1:4189/assets/index-znyxrDSI.js",
+    "http://127.0.0.1:4189/assets/index-ClzVtXD8.css",
+    "http://127.0.0.1:4189/data/city.json",
+    "http://127.0.0.1:4189/data/manifest.json",
+    "http://127.0.0.1:4189/data/tiles/-2_-1.json",
+    "http://127.0.0.1:4189/data/tiles/-3_-1.json",
+    "http://127.0.0.1:4189/data/tiles/-1_-1.json",
+    "http://127.0.0.1:4189/data/tiles/-1_-2.json",
+    "http://127.0.0.1:4189/data/tiles/-1_0.json",
+    "http://127.0.0.1:4189/data/tiles/-2_0.json",
+    "http://127.0.0.1:4189/data/tiles/-2_1.json",
+    "http://127.0.0.1:4189/data/tiles/-3_0.json",
+    "http://127.0.0.1:4189/data/tiles/-3_1.json",
+    "http://127.0.0.1:4189/data/tiles/-4_0.json",
+    "http://127.0.0.1:4189/data/tiles/-4_1.json",
+    "http://127.0.0.1:4189/data/tiles/0_-1.json",
+    "http://127.0.0.1:4189/data/tiles/0_-2.json",
+    "http://127.0.0.1:4189/data/tiles/1_-1.json"
+  ],
+  "errors": []
+}

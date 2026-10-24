@@ -1,0 +1,49 @@
+{
+  "ready": true,
+  "canvas": [
+    1920,
+    1080
+  ],
+  "dpr": 1.0000000211927613,
+  "quality": "medium",
+  "metrics": {
+    "frames": 7403,
+    "p50": 8.330000162124634,
+    "p95": 10.360000133514404,
+    "p99": 12.730000019073486,
+    "memory": {
+      "attributes": 743,
+      "attributesSize": 4960196,
+      "geometries": 316,
+      "indexAttributes": 315,
+      "indexAttributesSize": 1495806,
+      "indirectStorageAttributes": 0,
+      "indirectStorageAttributesSize": 0,
+      "programs": 85,
+      "programsSize": 1234130,
+      "readbackBuffers": 0,
+      "readbackBuffersSize": 0,
+      "renderTargets": 17,
+      "storageAttributes": 6,
+      "storageAttributesSize": 81344,
+      "textures": 32,
+      "texturesSize": 154735451,
+      "uniformBuffers": 461,
+      "uniformBuffersSize": 123696,
+      "total": 162630623
+    },
+    "render": {
+      "calls": 162974,
+      "frameCalls": 22,
+      "drawCalls": 520,
+      "triangles": 1352476,
+      "points": 0,
+      "lines": 0,
+      "timestamp": 0
+    },
+    "loadedTiles": 7,
+    "errors": [],
+    "bootMs": 2406.755000114441
+  },
+  "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36"
+}

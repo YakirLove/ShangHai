@@ -1,0 +1,35 @@
+
+> shanghai-waterfront-roam@0.1.0 test
+> node --test tests/*.test.mjs
+
+✔ helicopter descent stops above Shanghai land and cancels its downward velocity (2.560125ms)
+✔ taxi collision contains its mirrors and bumper rather than only its narrow chassis (0.553209ms)
+✔ WGS84 projection preserves east/north orientation and metre scale (22.153834ms)
+✔ surface sampling keeps a car underground while a pedestrian stays on the street above (1.095834ms)
+✔ collision query filters both horizontal extent and height and unregisters tiles (0.288ms)
+✔ tile loader retries failures and ignores stale late mounts after disposal (1.637625ms)
+✔ road graph separates levels and respects one-way and walking-only paths (6.211833ms)
+✔ readiness gate blocks an unmounted cell and rejects positions outside the declared region (0.566375ms)
+✔ a pending explicit arrival survives background prefetch at the old position (0.66825ms)
+✔ landing and movement readiness include neighbouring owners of buildings spanning a tile boundary (2.798084ms)
+✔ underground follow camera remains below the ceiling without clamping to world zero (0.89225ms)
+✔ underground camera stays inside the actual bore when the vehicle is already near a wall (1.119041ms)
+✔ road surface triangles face upward for either travel direction (115.686ms)
+✔ release data contains eight unique landmarks, sourced real buildings, river polygons and two directed tunnel routes (47.365083ms)
+✔ landmarks and procedural buildings do not overlap water, parks or landmark reservations (49.834083ms)
+✔ every playable 500m cell is declared, including empty river tiles (14.228833ms)
+✔ collision readiness halo covers all source building extents and is retained along each tunnel (27.542917ms)
+✔ a car entering either bore from an ordinary road follows the ramp without an elevation snap (194.452959ms)
+✔ Shanghai water material constructs its physical waves and light graph without unresolved TSL functions (62.29625ms)
+✔ ambient pools select the current neighbourhood even when distant sites occur first (17.431916ms)
+✔ recycled ambient actors enter outside the visible centre and never duplicate an occupied site (0.492792ms)
+✔ unloading an instanced tile releases its instance buffers and geometry but preserves shared materials (5.850666ms)
+✔ tunnel wall clearance contains the entire taxi for straight and sideways headings (19.298917ms)
+ℹ tests 23
+ℹ suites 0
+ℹ pass 23
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 503.918542

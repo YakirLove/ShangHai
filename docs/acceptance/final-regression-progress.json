@@ -1,0 +1,142 @@
+[
+  {
+    "name": "landings.js",
+    "value": [
+      {
+        "id": "pearl",
+        "shift": 0,
+        "distance": 66.41538559708533,
+        "ready": true
+      },
+      {
+        "id": "tower",
+        "shift": 0,
+        "distance": 80.93849244031217,
+        "ready": true
+      },
+      {
+        "id": "swfc",
+        "shift": 0,
+        "distance": 76.11866781001584,
+        "ready": true
+      },
+      {
+        "id": "jinmao",
+        "shift": 0,
+        "distance": 62.97182462998785,
+        "ready": true
+      },
+      {
+        "id": "conference",
+        "shift": 0,
+        "distance": 65.89703461774319,
+        "ready": true
+      },
+      {
+        "id": "customs",
+        "shift": 0,
+        "distance": 34.48228718608388,
+        "ready": true
+      },
+      {
+        "id": "hsbc",
+        "shift": 0,
+        "distance": 35.56464683042006,
+        "ready": true
+      },
+      {
+        "id": "peace",
+        "shift": 0,
+        "distance": 73.3211697125828,
+        "ready": true
+      }
+    ]
+  },
+  {
+    "name": "arrivals.js",
+    "value": [
+      {
+        "name": "latest-arrival-wins",
+        "distance": 2.0000000000000098
+      },
+      {
+        "name": "failed-mode-keeps-safe-location",
+        "result": false,
+        "unchanged": true
+      },
+      {
+        "name": "mode-waits-for-ready",
+        "mode": "car",
+        "expected": "car"
+      }
+    ]
+  },
+  {
+    "name": "loading-gate.js",
+    "value": {
+      "shift": 0,
+      "errors": [],
+      "ready": true
+    }
+  },
+  {
+    "name": "underground.js",
+    "value": {
+      "result": {
+        "same": true,
+        "afterSame": {
+          "x": -603.083,
+          "y": -26,
+          "z": 100.164
+        },
+        "blocked": false,
+        "mode": "car"
+      },
+      "failure": {
+        "unchanged": true,
+        "errors": []
+      }
+    }
+  },
+  {
+    "name": "vehicle-wall.js",
+    "value": [
+      {
+        "angle": 0,
+        "centreDistance": 2.499999961112611,
+        "extent": 1.07,
+        "outerBoundary": 3.569999961112611,
+        "y": -26
+      },
+      {
+        "angle": 0.7853981633974483,
+        "centreDistance": 1.51104140931969,
+        "extent": 2.368807716974934,
+        "outerBoundary": 3.8798491262946238,
+        "y": -26
+      },
+      {
+        "angle": 1.5707963267948966,
+        "centreDistance": 1.5998113089099755,
+        "extent": 2.28,
+        "outerBoundary": 3.879811308909975,
+        "y": -26
+      },
+      {
+        "angle": 2.261946710584651,
+        "centreDistance": 1.4412970967676142,
+        "extent": 2.4388138625598974,
+        "outerBoundary": 3.880110959327512,
+        "y": -26
+      }
+    ]
+  },
+  {
+    "name": "map-keyboard.js",
+    "value": {
+      "mapHidden": true,
+      "typingFocus": false,
+      "errors": []
+    }
+  }
+]

@@ -1,0 +1,330 @@
+{
+  "archiveSHA256": "dda1ed372e39cfa6804aef748fc62c8177b631fc99ae52c8f0103e82e775c1f2",
+  "startedAt": "2026-10-23T12:11:53.536Z",
+  "pythonDependencies": "Existing pinned .venv runtime; source and npm installation are isolated.",
+  "commands": [
+    {
+      "args": [
+        "tar",
+        "-xzf",
+        "/Users/wuyanji/Desktop/上海漫游/release/shanghai-waterfront-0.1.1-source.tar.gz",
+        "-C",
+        "/Users/wuyanji/Desktop/上海漫游/.cache/source-repro-JpvNF6"
+      ],
+      "exitCode": 0,
+      "seconds": 0.439
+    },
+    {
+      "args": [
+        "npm",
+        "ci"
+      ],
+      "exitCode": 0,
+      "seconds": 1.486
+    },
+    {
+      "args": [
+        "npm",
+        "test"
+      ],
+      "exitCode": 0,
+      "seconds": 0.672
+    },
+    {
+      "args": [
+        "/Users/wuyanji/Desktop/上海漫游/.venv/bin/python",
+        "tools/build-data.py"
+      ],
+      "exitCode": 0,
+      "seconds": 5.839
+    },
+    {
+      "args": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "exitCode": 0,
+      "seconds": 2.353
+    }
+  ],
+  "assets": [
+    {
+      "path": "assets/index-BuHmV7Ii.js",
+      "sha256": "8a7b1b39768b84309f73413a8199dc176b77ddd602888556b483b2c6aa0b55a8"
+    },
+    {
+      "path": "assets/index-ClzVtXD8.css",
+      "sha256": "28eafdf79cc205e38624f9887abc1da78b8a3f0cda37e3f55845fb8667679498"
+    },
+    {
+      "path": "data/city.json",
+      "sha256": "7be85091030b9e5a797666209ca75f97588864ead0c0d6ff0526e85e334cdb70"
+    },
+    {
+      "path": "data/manifest.json",
+      "sha256": "9984e16553f782bed3445d55fb3a5b9d1f4b64d93ab446a0ac78af4051fd7b52"
+    },
+    {
+      "path": "data/tiles/-1_-1.json",
+      "sha256": "2466e22a18d8b57f803f5e1c4629525dad65c63f030987f5dc96f7bffe5ad915"
+    },
+    {
+      "path": "data/tiles/-1_-2.json",
+      "sha256": "b64152f42b06f3d799561c65a4d9b1536367d2b503e11d094ce0b9b721653d51"
+    },
+    {
+      "path": "data/tiles/-1_-3.json",
+      "sha256": "916473992ec1b1d0f93ff7b08128ee9f8715cc5fd10703553ee6f31b44272491"
+    },
+    {
+      "path": "data/tiles/-1_0.json",
+      "sha256": "794ad4816c0c60d46077762ad772bdf817ae26883fe6a2fd0e3be3ac288d8df2"
+    },
+    {
+      "path": "data/tiles/-1_1.json",
+      "sha256": "7db1d05e21a307bb36ea498df4378adc7d17bd7a7a4b697a9527571afddd58ef"
+    },
+    {
+      "path": "data/tiles/-1_2.json",
+      "sha256": "86325f942a536a47a5d82fc06caf7687a3d632659a107108b4b93e44db3c0259"
+    },
+    {
+      "path": "data/tiles/-1_3.json",
+      "sha256": "5e432758eaf5bafca5335e25fbc61b7dacdc726ab833d4622cf08df22d96559d"
+    },
+    {
+      "path": "data/tiles/-2_-1.json",
+      "sha256": "cd56d9f62f472707c15196fcb864b2b94dbc9f11f77975e57a587171ec501f50"
+    },
+    {
+      "path": "data/tiles/-2_-2.json",
+      "sha256": "0d5c283a43d28d0979531ee4ad9c9bc381ebae7d591b7c6d6a7752dc789b3ef6"
+    },
+    {
+      "path": "data/tiles/-2_-3.json",
+      "sha256": "dceaacb2bc7495e917a18c7b91f17059f400b194a70f403bc367228720369ccf"
+    },
+    {
+      "path": "data/tiles/-2_0.json",
+      "sha256": "b493afb40cfed824ae7eda7608d7021872f36e6afe629822f15611c5891eeed8"
+    },
+    {
+      "path": "data/tiles/-2_1.json",
+      "sha256": "dcabb4c69127da301d3665b251a92a930f5bd3cf7225504cced62e03482dcc78"
+    },
+    {
+      "path": "data/tiles/-2_2.json",
+      "sha256": "3b5d273fcd3b4125f192747216dc4bb2eee60e1fd5a3d448d83fae4923527c6c"
+    },
+    {
+      "path": "data/tiles/-2_3.json",
+      "sha256": "4e1dca24e58bfe8bb9010d4df94f516177b9261c58c7dcae24bff03ccae32332"
+    },
+    {
+      "path": "data/tiles/-3_-1.json",
+      "sha256": "84ccc85390cffa626abecab61d6b13ed9e6ed41c182ec8ce36dffca7d625a705"
+    },
+    {
+      "path": "data/tiles/-3_-2.json",
+      "sha256": "8e59077a53ac36d4d8280c3127c620dd752b9e854d133af0412b46dfbc2fceac"
+    },
+    {
+      "path": "data/tiles/-3_-3.json",
+      "sha256": "b76269607c590ce5d293a6c56cd2c46b83514d22eb7635c26111633bd63a7ee0"
+    },
+    {
+      "path": "data/tiles/-3_0.json",
+      "sha256": "2d9b1e634aa9cd415f9e107f28d4e89a44739c2ed47724c5b56ece9234767c4e"
+    },
+    {
+      "path": "data/tiles/-3_1.json",
+      "sha256": "b6dc218ad7bff1f02443465e218410fe1f0637cdfe3afda6363772a58b5025d7"
+    },
+    {
+      "path": "data/tiles/-3_2.json",
+      "sha256": "d985919aab0c78bc843a0746bb7b77d421f9549e9aa3494d314682695c24b4a3"
+    },
+    {
+      "path": "data/tiles/-3_3.json",
+      "sha256": "51fda302beded6eb9f772d5a3557d6a020bd9963f2fa68d1048d00f121bc0a4b"
+    },
+    {
+      "path": "data/tiles/-4_-1.json",
+      "sha256": "f3a82820fdef484291dde843b1b3ac9e5dc027ed98c7b7dfb9369f0d3c3edc02"
+    },
+    {
+      "path": "data/tiles/-4_-2.json",
+      "sha256": "a003f4eee79e83d472a31928ba577130b0f50189efaf77ada9136f78aa5d2f1c"
+    },
+    {
+      "path": "data/tiles/-4_-3.json",
+      "sha256": "cb7a653f0fc2510fb327995287b7babaf9fd97baa72c6a96c5d3afe3c2aa35af"
+    },
+    {
+      "path": "data/tiles/-4_0.json",
+      "sha256": "c53f43525c6f1c9eedf8091ad8ba7e5dc212df77762dc683045e088ee2094de7"
+    },
+    {
+      "path": "data/tiles/-4_1.json",
+      "sha256": "c9273af30fded7a43c342d4a95f6b03b6c16d4752b65310718c2364e6be23ed2"
+    },
+    {
+      "path": "data/tiles/-4_2.json",
+      "sha256": "07f97fb9e4bfe0743a3ca3079a702d9aa2a93db944bebb6fc049ab65cc1cc2de"
+    },
+    {
+      "path": "data/tiles/-4_3.json",
+      "sha256": "4f7d531b6e6f99090120984a7a2def5ce481009c2bfe594518e18a4daada3f18"
+    },
+    {
+      "path": "data/tiles/0_-1.json",
+      "sha256": "85e55297a7612cf0962b343821dc42139dd525243b8de55fe736d5c18b34d805"
+    },
+    {
+      "path": "data/tiles/0_-2.json",
+      "sha256": "d8071d95e605f57ccb282bbfd8d57d197408777a3df5b14cfe1eda447b203d0c"
+    },
+    {
+      "path": "data/tiles/0_-3.json",
+      "sha256": "312b5193dbc65c3fff6b9490b3183d25654d70575527b48d2e95f3e783977c7a"
+    },
+    {
+      "path": "data/tiles/0_0.json",
+      "sha256": "eab83f2536a1753bf7b7a4e0193b69a019b38402e12879dd429549101f7ec918"
+    },
+    {
+      "path": "data/tiles/0_1.json",
+      "sha256": "412a44b8aaf2476ce1ed58163760d0277da49c831a1d05b8b35a4074372ddbde"
+    },
+    {
+      "path": "data/tiles/0_2.json",
+      "sha256": "db682dd170a918c2cad231dc79fad1704513c6496b3cbe2684b5e507d74c6894"
+    },
+    {
+      "path": "data/tiles/0_3.json",
+      "sha256": "a0abca264a2e020b53f28e0f099a3ef635fa3ffc88317850d493e96ae6e29fbc"
+    },
+    {
+      "path": "data/tiles/1_-1.json",
+      "sha256": "be9ed82455020a54ac369e250a1cc3131a2f38b86525ffb47df34bde9584026e"
+    },
+    {
+      "path": "data/tiles/1_-2.json",
+      "sha256": "a60d8528b1f866ed42e34f948f0db0622fe505e024316fdd76c96ee52cba69c4"
+    },
+    {
+      "path": "data/tiles/1_-3.json",
+      "sha256": "2967c3e9c3c2599a0b8a0c76d6ad1b2b485e04477d9a5df5de7d81f3bb0ee6be"
+    },
+    {
+      "path": "data/tiles/1_0.json",
+      "sha256": "ceab31c801c557bde43b810942aac732aceb0918710f7a6dc195b5453b897ddc"
+    },
+    {
+      "path": "data/tiles/1_1.json",
+      "sha256": "8f49678c93ca76419e4a7ab80274bb88e139b88f5c7a7f4842b89c85ed3b6ff1"
+    },
+    {
+      "path": "data/tiles/1_2.json",
+      "sha256": "b59a863193b27158fee8ae87345ac61bd36543ba1076f789950071f147d0efac"
+    },
+    {
+      "path": "data/tiles/1_3.json",
+      "sha256": "4276dc19c2f3257ae3da1d9a636a940d1c7a029efa12e1ae2ec4e9a9c5f08cb0"
+    },
+    {
+      "path": "data/tiles/2_-1.json",
+      "sha256": "04481d54e3839885fbba90ce3eb55c732604b335e4bc1fff0a15b40c7cde245a"
+    },
+    {
+      "path": "data/tiles/2_-2.json",
+      "sha256": "2232c171960080ab17adfc78bc0aef2349511464e9b93696e3d021af813e3303"
+    },
+    {
+      "path": "data/tiles/2_-3.json",
+      "sha256": "8ad995f2dff7677c99ed8735b05f5c5fec2e29e775d0aed6f4087e07899a5e98"
+    },
+    {
+      "path": "data/tiles/2_0.json",
+      "sha256": "b4510ec2da7a65974712eb75d01bfe235b1b30fcb1efee76303e44192eb8e0b1"
+    },
+    {
+      "path": "data/tiles/2_1.json",
+      "sha256": "754eb4ab704d9a33d3df4dc6eaa78279378e7b41e947d938ea372a947cd2e14a"
+    },
+    {
+      "path": "data/tiles/2_2.json",
+      "sha256": "11b5e989f4139ba1a8f752185ca6108a499d7f6a5c0c903f339ab41a7556c0b0"
+    },
+    {
+      "path": "data/tiles/2_3.json",
+      "sha256": "9182034d1d16f57746c819c31c65e1cdda37b706ee273c54906e2cd7c95c49f9"
+    },
+    {
+      "path": "data/tiles/3_-1.json",
+      "sha256": "3649c982d91ee1af7da2ae7906f0999175381cbf61dab7f5d0b6e02df2f62b02"
+    },
+    {
+      "path": "data/tiles/3_-2.json",
+      "sha256": "951e0a7a46e3627edfb0918ea140de49e1af3fb2847375d621849b012a8d67b5"
+    },
+    {
+      "path": "data/tiles/3_-3.json",
+      "sha256": "be992752413e028766d4a29458d432b924f9b1ce6eafb9821cc8b809375f5bdf"
+    },
+    {
+      "path": "data/tiles/3_0.json",
+      "sha256": "c7a31a750e50a2da654bdf594bfed95b5213408b33cb13a1526dd78f8fd84ec7"
+    },
+    {
+      "path": "data/tiles/3_1.json",
+      "sha256": "0e7b1cdc3303ad6b1b11e94dee4c00664d823e9645bbfd8cae3bbfb0d40443fe"
+    },
+    {
+      "path": "data/tiles/3_2.json",
+      "sha256": "1af7aaeb0e302ec9b1ceeaf3e61aa0cefaeeea13fe5b2a28c9e118186e85c743"
+    },
+    {
+      "path": "data/tiles/3_3.json",
+      "sha256": "ff63389d5d921894825347b48910e3690e7235234a7c0e1b9ca6d8e10a445247"
+    },
+    {
+      "path": "data/tiles/4_-1.json",
+      "sha256": "d05c939c4ad198efa6a4aef3a5e02b35cc73005c12de1fffea1aadff20b94b5c"
+    },
+    {
+      "path": "data/tiles/4_-2.json",
+      "sha256": "bad38df4d9806299991d9d998d806a98fa19dd20f8262c45557f43c383e07839"
+    },
+    {
+      "path": "data/tiles/4_-3.json",
+      "sha256": "73b71bd72c18023f9ead8b8848361a109c4204f5be7c3eb742feaf5ddb5ecea6"
+    },
+    {
+      "path": "data/tiles/4_0.json",
+      "sha256": "a0051a7b4ee02bcaedac524cadffe1ae0f9b2e81af212ed09cd27eab8d1dbe1a"
+    },
+    {
+      "path": "data/tiles/4_1.json",
+      "sha256": "6ceb837f122163ec03fe0bceb00a68514b2e4b0094d96f90cb4be4ec709dd08f"
+    },
+    {
+      "path": "data/tiles/4_2.json",
+      "sha256": "7c7fb60ed443178423389decb9f2a81e2229942c3bab9d245af71a64c25c1305"
+    },
+    {
+      "path": "data/tiles/4_3.json",
+      "sha256": "0f142ed59377dd81d452f6cc5783df6d420e4100343672b8b9103cf1bc152cd0"
+    },
+    {
+      "path": "index.html",
+      "sha256": "2c6ba3ed3b2d529bd1ad7a228825202a21c8afc6de2b1cf8383de65dcb2b946f"
+    }
+  ],
+  "regeneratedCitySHA256": "7be85091030b9e5a797666209ca75f97588864ead0c0d6ff0526e85e334cdb70",
+  "expectedCitySHA256": "7be85091030b9e5a797666209ca75f97588864ead0c0d6ff0526e85e334cdb70",
+  "status": "passed",
+  "filesCompared": 68,
+  "seconds": 10.916
+}
