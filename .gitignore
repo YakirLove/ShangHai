@@ -19,3 +19,6 @@ docs/acceptance/**/recordings/
 !.env.example
 *.part
 .download/
+
+# Live local browser-test heartbeat
+docs/acceptance/**/browser-heartbeat.jsonl
