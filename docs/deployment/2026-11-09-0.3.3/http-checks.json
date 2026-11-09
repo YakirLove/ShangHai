@@ -1,0 +1,181 @@
+{
+  "ok": true,
+  "release": "20261109-175451-d7b8d3",
+  "applicationVersion": "0.3.3",
+  "publishedPayloadMatchesPreflight": true,
+  "checks": [
+    {
+      "url": "https://shanghai.datiaomao.com/assets/app-CBTdWHrC.js",
+      "status": 200,
+      "bytes": 1109778,
+      "encoding": "gzip",
+      "cache": "public, max-age=0, must-revalidate",
+      "sha256": "9d4e93e5a9c779dbe10a91a03ca10f2215e5234204041e2280007a9e5ab35a14",
+      "matches": true
+    },
+    {
+      "url": "https://shanghai.datiaomao.com/assets/index-B3qqD4m6.css",
+      "status": 200,
+      "bytes": 21398,
+      "encoding": "gzip",
+      "cache": "public, max-age=0, must-revalidate",
+      "sha256": "c72c06b52adad2ddca2a8331b7bef890ca77a8346668a3d190e3ae485d39eabc",
+      "matches": true
+    },
+    {
+      "url": "https://shanghai.datiaomao.com/assets/index-WIU7J63T.js",
+      "status": 200,
+      "bytes": 3751,
+      "encoding": "gzip",
+      "cache": "public, max-age=0, must-revalidate",
+      "sha256": "e775e95d28cf8e2e7aeabdbc9fb3788f204c2953538ced73029fec803091dc9f",
+      "matches": true
+    },
+    {
+      "url": "https://shanghai.datiaomao.com/assets/loading-progress-gm2pud_W.js",
+      "status": 200,
+      "bytes": 2710,
+      "encoding": "gzip",
+      "cache": "public, max-age=0, must-revalidate",
+      "sha256": "005bb720fb99039e06e6339b5978c7bd9cc40c5f76030c90c1801ec16300a19f",
+      "matches": true
+    },
+    {
+      "url": "https://shanghai.datiaomao.com/boot-manifest.json",
+      "status": 200,
+      "bytes": 469,
+      "encoding": null,
+      "cache": "public, max-age=0, must-revalidate",
+      "sha256": "9d0bd54fe5a4b00f008e8b47bcb3c3d81974f58f35d297ca8d64a97503e41bb0",
+      "matches": true
+    },
+    {
+      "url": "https://shanghai.datiaomao.com/data/city.json",
+      "status": 200,
+      "bytes": 7727410,
+      "encoding": "gzip",
+      "cache": "public, max-age=0, must-revalidate",
+      "sha256": "995d3195e12dbdd2cc442559d2ef7df0827ec208d00376fed8c13a1fc6dba30a",
+      "matches": true
+    },
+    {
+      "url": "https://shanghai.datiaomao.com/data/manifest.json",
+      "status": 200,
+      "bytes": 4941536,
+      "encoding": "gzip",
+      "cache": "public, max-age=0, must-revalidate",
+      "sha256": "7cd94389265495922c4fa0810b3cedbee6c216102d40806f8014f7da5c12d926",
+      "matches": true
+    },
+    {
+      "url": "https://shanghai.datiaomao.com/data/metro.json",
+      "status": 200,
+      "bytes": 386704,
+      "encoding": "gzip",
+      "cache": "public, max-age=0, must-revalidate",
+      "sha256": "4f436804060fd960ca2814a0879fdd0e76281d83ab9855b0b8d20707ecf8cc33",
+      "matches": true
+    },
+    {
+      "url": "https://shanghai.datiaomao.com/index.html",
+      "status": 200,
+      "bytes": 6678,
+      "encoding": "gzip",
+      "cache": "public, max-age=0, must-revalidate",
+      "sha256": "b059794e1c9d2bf76fe8348b627df3bc18a46b6b510ebb8c4bd5becd31a37745",
+      "matches": true
+    },
+    {
+      "url": "https://apps.datiaomao.com/apps/shanghai-roam/assets/app-CBTdWHrC.js",
+      "status": 200,
+      "bytes": 1109778,
+      "encoding": "gzip",
+      "cache": "public, max-age=0, must-revalidate",
+      "sha256": "9d4e93e5a9c779dbe10a91a03ca10f2215e5234204041e2280007a9e5ab35a14",
+      "matches": true
+    },
+    {
+      "url": "https://apps.datiaomao.com/apps/shanghai-roam/assets/index-B3qqD4m6.css",
+      "status": 200,
+      "bytes": 21398,
+      "encoding": "gzip",
+      "cache": "public, max-age=0, must-revalidate",
+      "sha256": "c72c06b52adad2ddca2a8331b7bef890ca77a8346668a3d190e3ae485d39eabc",
+      "matches": true
+    },
+    {
+      "url": "https://apps.datiaomao.com/apps/shanghai-roam/assets/index-WIU7J63T.js",
+      "status": 200,
+      "bytes": 3751,
+      "encoding": "gzip",
+      "cache": "public, max-age=0, must-revalidate",
+      "sha256": "e775e95d28cf8e2e7aeabdbc9fb3788f204c2953538ced73029fec803091dc9f",
+      "matches": true
+    },
+    {
+      "url": "https://apps.datiaomao.com/apps/shanghai-roam/assets/loading-progress-gm2pud_W.js",
+      "status": 200,
+      "bytes": 2710,
+      "encoding": "gzip",
+      "cache": "public, max-age=0, must-revalidate",
+      "sha256": "005bb720fb99039e06e6339b5978c7bd9cc40c5f76030c90c1801ec16300a19f",
+      "matches": true
+    },
+    {
+      "url": "https://apps.datiaomao.com/apps/shanghai-roam/boot-manifest.json",
+      "status": 200,
+      "bytes": 469,
+      "encoding": null,
+      "cache": "public, max-age=0, must-revalidate",
+      "sha256": "9d0bd54fe5a4b00f008e8b47bcb3c3d81974f58f35d297ca8d64a97503e41bb0",
+      "matches": true
+    },
+    {
+      "url": "https://apps.datiaomao.com/apps/shanghai-roam/data/city.json",
+      "status": 200,
+      "bytes": 7727410,
+      "encoding": "gzip",
+      "cache": "public, max-age=0, must-revalidate",
+      "sha256": "995d3195e12dbdd2cc442559d2ef7df0827ec208d00376fed8c13a1fc6dba30a",
+      "matches": true
+    },
+    {
+      "url": "https://apps.datiaomao.com/apps/shanghai-roam/data/manifest.json",
+      "status": 200,
+      "bytes": 4941536,
+      "encoding": "gzip",
+      "cache": "public, max-age=0, must-revalidate",
+      "sha256": "7cd94389265495922c4fa0810b3cedbee6c216102d40806f8014f7da5c12d926",
+      "matches": true
+    },
+    {
+      "url": "https://apps.datiaomao.com/apps/shanghai-roam/data/metro.json",
+      "status": 200,
+      "bytes": 386704,
+      "encoding": "gzip",
+      "cache": "public, max-age=0, must-revalidate",
+      "sha256": "4f436804060fd960ca2814a0879fdd0e76281d83ab9855b0b8d20707ecf8cc33",
+      "matches": true
+    },
+    {
+      "url": "https://apps.datiaomao.com/apps/shanghai-roam/index.html",
+      "status": 200,
+      "bytes": 6678,
+      "encoding": "gzip",
+      "cache": "public, max-age=0, must-revalidate",
+      "sha256": "b059794e1c9d2bf76fe8348b627df3bc18a46b6b510ebb8c4bd5becd31a37745",
+      "matches": true
+    },
+    {
+      "url": "https://shanghai.datiaomao.com/missing-0.3.3.js",
+      "status": 404,
+      "matches": true
+    },
+    {
+      "url": "https://apps.datiaomao.com/apps/shanghai-roam/missing-0.3.3.js",
+      "status": 404,
+      "matches": true
+    }
+  ],
+  "marketCardUnique": true
+}

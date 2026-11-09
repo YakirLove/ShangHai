@@ -1,0 +1,30 @@
+{
+  "passed": true,
+  "standalone": {
+    "url": "https://shanghai.datiaomao.com/",
+    "mode": "helicopter",
+    "position": [
+      -2402.6954322229526,
+      180,
+      160.1662648915473
+    ],
+    "ready": true,
+    "errors": []
+  },
+  "market": {
+    "url": "https://apps.datiaomao.com/apps/shanghai-roam/",
+    "ready": true,
+    "webgpu": true,
+    "stationCount": 410,
+    "line": "2",
+    "results": 31,
+    "errors": [],
+    "pageErrors": []
+  },
+  "pageErrors": [],
+  "screenshots": [
+    "public-portrait.png",
+    "public-map-selected.png",
+    "public-landscape.png"
+  ]
+}

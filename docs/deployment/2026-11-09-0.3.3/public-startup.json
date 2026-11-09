@@ -1,0 +1,23 @@
+{
+  "url": "https://shanghai.datiaomao.com/",
+  "ready": true,
+  "bootMs": 18552.099999964237,
+  "viewport": [
+    1496,
+    762
+  ],
+  "secure": true,
+  "webgpu": true,
+  "settingsAvailable": true,
+  "restoreAvailable": true,
+  "assets": [
+    "https://shanghai.datiaomao.com/assets/index-WIU7J63T.js",
+    "https://shanghai.datiaomao.com/assets/loading-progress-gm2pud_W.js",
+    "https://shanghai.datiaomao.com/assets/index-B3qqD4m6.css",
+    "https://shanghai.datiaomao.com/assets/loading-progress-gm2pud_W.js",
+    "https://shanghai.datiaomao.com/assets/app-CBTdWHrC.js",
+    "https://shanghai.datiaomao.com/assets/app-CBTdWHrC.js"
+  ],
+  "errors": [],
+  "pageErrors": []
+}

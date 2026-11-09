@@ -1,0 +1,13 @@
+{
+  "removedLocalBuilds": [
+    "/Users/wuyanji/Desktop/编程/app-market/.build/20261109-175406-82d62e",
+    "/Users/wuyanji/Desktop/编程/app-market/.build/20261109-175451-d7b8d3"
+  ],
+  "remote": {
+    "current": "/var/www/app-market/releases/20261109-175451-d7b8d3/site",
+    "removedIncomingAssets": "/var/www/app-market/incoming/20261109-175451-d7b8d3/assets",
+    "incomingAssetsExist": false,
+    "previousVersionRetained": true
+  },
+  "recordsRetained": true
+}

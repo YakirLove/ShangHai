@@ -1,0 +1,29 @@
+{
+  "ok": true,
+  "checked_at": "2026-11-09T17:57:38+08:00",
+  "otherApplications": [
+    "wonder-study",
+    "fuxing-3d",
+    "number-split",
+    "image-studio",
+    "xiangqi-basics"
+  ],
+  "otherSiteConfigs": [
+    "/etc/nginx/conf.d/api.conf",
+    "/etc/nginx/conf.d/fuxing-3d.conf",
+    "/etc/nginx/conf.d/image.conf",
+    "/etc/nginx/conf.d/video-library.conf",
+    "/etc/nginx/conf.d/web.conf",
+    "/etc/nginx/conf.d/wonder-study.conf"
+  ],
+  "containerNamesAndImages": [
+    "datiaomao-video-library datiaomao-video-library:20261103-wide-reading",
+    "java-app app-backend",
+    "mysql-dev mysql:8.0",
+    "python-ai app-ai-service",
+    "redis-dev redis:7.0-alpine"
+  ],
+  "newRelease": "20261109-175451-d7b8d3",
+  "previousRelease": "20261024-220216-6a4aab",
+  "nginxTest": "nginx: the configuration file /etc/nginx/nginx.conf syntax is ok\nnginx: configuration file /etc/nginx/nginx.conf test is successful"
+}
