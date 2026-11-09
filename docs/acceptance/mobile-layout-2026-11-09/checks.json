@@ -1,0 +1,65 @@
+{
+  "date": "2026-11-09",
+  "environment": "Tabbit Chromium, responsive viewports and touch emulation; not a physical device",
+  "sizes": [
+    [
+      320,
+      568
+    ],
+    [
+      360,
+      640
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      430,
+      932
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      568,
+      320
+    ],
+    [
+      844,
+      390
+    ],
+    [
+      1024,
+      768
+    ],
+    [
+      1440,
+      900
+    ]
+  ],
+  "passed": true,
+  "checks": [
+    "HUD panels do not overlap or overflow",
+    "Settings, quality, time controls and hide/restore work",
+    "Places menu is reachable and closes when the map opens",
+    "Map header and close/search controls remain in bounds",
+    "Map stays wide, station line filters and search work",
+    "Destination actions remain visible and pass hit testing",
+    "Mode and camera controls work",
+    "No application errors"
+  ],
+  "unitTests": {
+    "passed": 64,
+    "failed": 0
+  },
+  "productionBuild": "passed",
+  "productionPreview": {
+    "url": "http://127.0.0.1:4187/",
+    "ready": true,
+    "destination": "人民广场",
+    "flyTo": "passed, helicopter active",
+    "applicationErrors": []
+  }
+}

@@ -70,7 +70,7 @@ async function init(){
  const navigator=createDestinationNavigator({maxAltitude:HELICOPTER_MAX_ALTITUDE,nextRevision:()=>++arrivalRevision,isCurrent:r=>r===arrivalRevision,getState:()=>({mode:controllers.activeMode,position:controllers.getActiveEntity().position,inTunnel:!!controllers.getActiveEntity().surface?.tunnel}),prepare:(target,mode,revision)=>prepareLanding(target.x,target.z,mode,revision),arrive});
  async function teleport(x,z,heading=0,mode=controllers.activeMode){return navigator.travel({x,z},{mode,heading});}
  const baseDestinations=[...data.landmarks,...(data.places||[])],destinations=[...baseDestinations,...data.metroStations];
- async function gotoLandmark(id,{mode=controllers.activeMode}={}){const l=destinations.find(l=>l.id===id);if(!l)return false;try{const target=l.metro?metroArrivalTarget(l,mode):l;if(!await teleport(target.x,target.z,l.metro?l.entrance.heading+Math.PI:0,mode))return false;$('map-modal').hidden=true;$('places').hidden=true;$('search').blur();toast('已到达 '+l.name+(mode==='helicopter'?' 上空':l.metro?' 入口附近':' 附近'));return true;}catch(e){toast(e.message+'，请重试');return false;}}
+ async function gotoLandmark(id,{mode=controllers.activeMode}={}){const l=destinations.find(l=>l.id===id);if(!l)return false;try{const target=l.metro?metroArrivalTarget(l,mode):l;if(!await teleport(target.x,target.z,l.metro?l.entrance.heading+Math.PI:0,mode))return false;$('map-modal').hidden=true;closePlaces();$('search').blur();toast('已到达 '+l.name+(mode==='helicopter'?' 上空':l.metro?' 入口附近':' 附近'));return true;}catch(e){toast(e.message+'，请重试');return false;}}
  async function setMode(mode){
   if(!controllers.entities[mode])return false;
   if(mode===controllers.activeMode){arrivalRevision++;return true;}
@@ -80,17 +80,21 @@ async function init(){
  }
  const map=createMap(data,gotoLandmark,()=>city.streetTiles,{cancelTravel:()=>navigator.cancel()});
  for(const l of baseDestinations){const b=document.createElement('button');b.textContent=l.name;b.onclick=()=>gotoLandmark(l.id);$('places').append(b);}
- const metroButton=document.createElement('button');metroButton.textContent='M 地铁站查询';metroButton.onclick=()=>{$('places').hidden=true;controllers.resetInput();map.open({type:'metro'});};$('places').append(metroButton);
- for(const t of data.tunnels){const b=document.createElement('button');b.textContent=t.points[0][0]<0?'驾车过江 · 浦西入口':'驾车过江 · 浦东入口';b.onclick=async()=>{const revision=++arrivalRevision;try{await loader.ensureRoute(t.id);if(revision!==arrivalRevision)return;const p=t.points[0],q=t.points[1];arrive({x:p[0],y:p[1],z:p[2]},'car',Math.atan2(q[0]-p[0],q[2]-p[2]),t.id);$('places').hidden=true;toast('沿坡道驶入，可连续驾车过江');}catch(e){if(revision===arrivalRevision)toast('跨江线路未就绪，停留在当前道路。请重试');}};$('places').append(b);}
+ const metroButton=document.createElement('button');metroButton.textContent='M 地铁站查询';metroButton.onclick=()=>{closePlaces();controllers.resetInput();map.open({type:'metro'});};$('places').append(metroButton);
+ for(const t of data.tunnels){const b=document.createElement('button');b.textContent=t.points[0][0]<0?'驾车过江 · 浦西入口':'驾车过江 · 浦东入口';b.onclick=async()=>{const revision=++arrivalRevision;try{await loader.ensureRoute(t.id);if(revision!==arrivalRevision)return;const p=t.points[0],q=t.points[1];arrive({x:p[0],y:p[1],z:p[2]},'car',Math.atan2(q[0]-p[0],q[2]-p[2]),t.id);closePlaces();toast('沿坡道驶入，可连续驾车过江');}catch(e){if(revision===arrivalRevision)toast('跨江线路未就绪，停留在当前道路。请重试');}};$('places').append(b);}
  document.querySelectorAll('[data-mode]').forEach(b=>b.onclick=()=>setMode(b.dataset.mode));
  document.querySelectorAll('[data-time]').forEach(b=>b.onclick=()=>setTime(b.dataset.time));
- function toggleMap(){const m=$('map-modal');if(m.hidden){controllers.resetInput();map.open();}else{m.hidden=true;$('search').blur();}}
+ function closeSettings(){document.querySelector('.toolbar').classList.remove('settings-open');$('settings-button').setAttribute('aria-expanded','false');}
+ function closePlaces(){$('places').hidden=true;$('places-button').setAttribute('aria-expanded','false');}
+ function toggleMap(){const m=$('map-modal');if(m.hidden){closeSettings();closePlaces();controllers.resetInput();map.open();}else{m.hidden=true;$('search').blur();}}
  $('map-button').onclick=toggleMap;$('mini-map').onclick=toggleMap;$('close-map').onclick=()=>{$('map-modal').hidden=true;$('search').blur();};
- $('places-button').onclick=()=>$('places').hidden=!$('places').hidden;
+ $('places-button').onclick=()=>{closeSettings();$('places').hidden=!$('places').hidden;$('places-button').setAttribute('aria-expanded',String(!$('places').hidden));};
+ $('settings-button').onclick=()=>{closePlaces();const open=document.querySelector('.toolbar').classList.toggle('settings-open');$('settings-button').setAttribute('aria-expanded',String(open));};
+ document.addEventListener('pointerdown',e=>{if(!e.target.closest('.toolbar,#places')){closeSettings();closePlaces();}});
  const presets=['chase','action','pov'],labels=['第三人称跟随','低机位跟随','第一人称视角'];function cycleCamera(){fixedView=null;let i=(presets.indexOf(cameras.activePresetId)+1)%3;cameras.activePresetId=presets[i];$('camera-label').textContent=labels[i];}
- $('camera-button').onclick=cycleCamera;$('hide-ui').onclick=()=>document.body.classList.toggle('clean');
+ $('camera-button').onclick=cycleCamera;$('hide-ui').onclick=()=>{closeSettings();closePlaces();document.body.classList.add('clean');};$('show-ui').onclick=()=>document.body.classList.remove('clean');
  $('quality').onchange=e=>{quality=e.target.value;renderer.setPixelRatio(quality==='low'?.75:quality==='high'?1.25:1);reflections.intensity.value=quality==='low'?.1:.4;renderer.shadowMap.enabled=quality!=='low';};
- document.addEventListener('keydown',e=>{if(e.code==='Escape'){$('map-modal').hidden=true;$('places').hidden=true;$('search').blur();document.body.classList.remove('clean');return;}if(/INPUT|TEXTAREA|SELECT/.test(e.target.tagName))return;const modes=['person','car','cyclist','helicopter'];if(/^[1-4]$/.test(e.key))setMode(modes[+e.key-1]);if(e.code==='KeyM')toggleMap();if(e.code==='KeyV')cycleCamera();});
+ document.addEventListener('keydown',e=>{if(e.code==='Escape'){$('map-modal').hidden=true;closeSettings();closePlaces();$('search').blur();document.body.classList.remove('clean');return;}if(/INPUT|TEXTAREA|SELECT/.test(e.target.tagName))return;const modes=['person','car','cyclist','helicopter'];if(/^[1-4]$/.test(e.key))setMode(modes[+e.key-1]);if(e.code==='KeyM')toggleMap();if(e.code==='KeyV')cycleCamera();});
  addEventListener('resize',()=>{renderer.setSize(innerWidth,innerHeight);cameras.onResize(innerWidth,innerHeight);});
  const views=[
   {name:'外滩看陆家嘴',position:[-760,26,-310],target:[400,220,-240]},
