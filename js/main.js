@@ -13,6 +13,7 @@ import {vehicleLateralLimit} from './vehicle-road.js';
 import {metroArrivalTarget} from './metro-layout.js';
 import {fetchTrackedBytes,nextPaint} from './loading-progress.js';
 import {createDestinationNavigator,assertModeAllowed} from './destination-navigation.js';
+import {createTouchControls} from './touch-controls.js';
 import {SurfaceProvider,CollisionWorld,TileLoader,projectWgs84,unprojectWorld,constrainTunnelCamera,clamp} from './core.js';
 
 const $=id=>document.getElementById(id),boot=window.shanghaiStartup,start=boot?.progress.started??performance.now();
@@ -45,6 +46,7 @@ async function init(){
  reflections.resolutionScale=.35;reflections.quality.value=.25;reflections.maxDistance.value=48;reflections.intensity.value=.4;reflections.blurQuality=1;
  const post=createPostProcessing(renderer,scenePass.getTextureNode('output'),reflections),pipeline=new THREE.RenderPipeline(renderer,post.outputNode);
  let fixedView=null,last=performance.now(),elapsed=0,frame=0,lastHud=0,quality='medium',ready=false,lastBlocked=0,lastModeHint=0,loadingAhead=false;
+ const touchControls=createTouchControls({root:$('touch-controls'),controller:controllers,isBlocked:()=>!ready||document.hidden||!$('map-modal').hidden||!$('places').hidden||document.body.classList.contains('clean')||document.querySelector('.toolbar').classList.contains('settings-open')});
  const samples=[],errors=[],longTasks=[];let maxSamples=24000;
  new PerformanceObserver(list=>{for(const e of list.getEntries())if(e.duration>200)longTasks.push({start:e.startTime,duration:e.duration});}).observe({type:'longtask',buffered:true});
  function setTime(id){lighting.applyPreset(id);post.applyPreset(id);document.querySelectorAll('[data-time]').forEach(b=>b.classList.toggle('active',b.dataset.time===id));}
@@ -64,6 +66,7 @@ async function init(){
   throw Error('附近暂无安全落点');
  }
  function arrive(p,mode,heading,surfaceId=null){
+  touchControls.reset();
   controllers.setMode(mode);const e=controllers.getActiveEntity();e.position.set(p.x,p.y??2.12,p.z);e.heading=heading;e.surfaceId=surfaceId;e.surface=null;e.speed=e.verticalVel=e.verticalSpeed=e.vx=e.vz=e.angularVel=0;
   controllers.resetInput();controllers.clearGamepadInput();resetCamera();document.querySelectorAll('[data-mode]').forEach(b=>b.classList.toggle('active',b.dataset.mode===mode));return e.position;
  }
@@ -73,6 +76,7 @@ async function init(){
  async function gotoLandmark(id,{mode=controllers.activeMode}={}){const l=destinations.find(l=>l.id===id);if(!l)return false;try{const target=l.metro?metroArrivalTarget(l,mode):l;if(!await teleport(target.x,target.z,l.metro?l.entrance.heading+Math.PI:0,mode))return false;$('map-modal').hidden=true;closePlaces();$('search').blur();toast('已到达 '+l.name+(mode==='helicopter'?' 上空':l.metro?' 入口附近':' 附近'));return true;}catch(e){toast(e.message+'，请重试');return false;}}
  async function setMode(mode){
   if(!controllers.entities[mode])return false;
+  touchControls.reset();
   if(mode===controllers.activeMode){arrivalRevision++;return true;}
   const previous=controllers.getActiveEntity();if(previous.surface?.tunnel&&mode!=='car'){toast('驶出隧道后可切换漫游模式');return false;}
   const revision=++arrivalRevision,old=previous.position.clone(),heading=previous.heading;
@@ -86,7 +90,7 @@ async function init(){
  document.querySelectorAll('[data-time]').forEach(b=>b.onclick=()=>setTime(b.dataset.time));
  function closeSettings(){document.querySelector('.toolbar').classList.remove('settings-open');$('settings-button').setAttribute('aria-expanded','false');}
  function closePlaces(){$('places').hidden=true;$('places-button').setAttribute('aria-expanded','false');}
- function toggleMap(){const m=$('map-modal');if(m.hidden){closeSettings();closePlaces();controllers.resetInput();map.open();}else{m.hidden=true;$('search').blur();}}
+ function toggleMap(){const m=$('map-modal');if(m.hidden){touchControls.reset();closeSettings();closePlaces();controllers.resetInput();map.open();}else{m.hidden=true;$('search').blur();}}
  $('map-button').onclick=toggleMap;$('mini-map').onclick=toggleMap;$('close-map').onclick=()=>{$('map-modal').hidden=true;$('search').blur();};
  $('places-button').onclick=()=>{closeSettings();$('places').hidden=!$('places').hidden;$('places-button').setAttribute('aria-expanded',String(!$('places').hidden));};
  $('settings-button').onclick=()=>{closePlaces();const open=document.querySelector('.toolbar').classList.toggle('settings-open');$('settings-button').setAttribute('aria-expanded',String(open));};
@@ -140,9 +144,10 @@ async function init(){
  renderer.setRenderTarget(scenePass.renderTarget);renderer.setMRT(scenePass.getMRT());
  try{await renderer.compileAsync(scene,camera,null,event=>boot?.progress.update('render',event.loaded,event.total+1,`光影材质 ${event.loaded} / ${event.total} 已准备`));}finally{renderer.setRenderTarget(previousTarget);renderer.setMRT(previousMRT);}
  for(let i=0;i<3;i++){pipeline.render();if(renderer.backend.device?.queue)await renderer.backend.device.queue.onSubmittedWorkDone();await nextPaint();}
- ready=true;app.bootMs=performance.now()-start;if(boot){bootMarks.unshift(...boot.marks);await boot.finish();}else $('loading').hidden=true;toast('欢迎来到上海 · W A S D 自由漫游');last=performance.now();
+ ready=true;app.bootMs=performance.now()-start;if(boot){bootMarks.unshift(...boot.marks);await boot.finish();}else $('loading').hidden=true;touchControls.update();toast(touchControls.touchLayout?'左下方向盘移动 · 拖动画面环视':'欢迎来到上海 · W A S D 自由漫游');last=performance.now();
  renderer.setAnimationLoop(()=>{
   const now=performance.now(),ms=now-last;last=now;const dt=Math.min(.06,ms/1000);elapsed+=dt;frame++;
+  touchControls.update();
   if(ready&&!document.hidden){samples.push(ms);if(samples.length>maxSamples)samples.splice(0,1000);}
   for(let remaining=dt;remaining>.00001;){const d=Math.min(remaining,1/60);advance(d);remaining-=d;}
   const e=controllers.getActiveEntity();for(const [mode,entity]of Object.entries(controllers.entities))entity.mesh.visible=mode===controllers.activeMode;controllers.poseCharacters(dt);lighting.update(e.position);

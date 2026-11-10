@@ -1,0 +1,53 @@
+{
+  "passed": true,
+  "unitTests": {
+    "passed": 70,
+    "failed": 0
+  },
+  "build": "passed",
+  "sizes": [
+    [
+      320,
+      568
+    ],
+    [
+      360,
+      640
+    ],
+    [
+      390,
+      844
+    ],
+    [
+      430,
+      932
+    ],
+    [
+      768,
+      1024
+    ],
+    [
+      568,
+      320
+    ],
+    [
+      844,
+      390
+    ],
+    [
+      932,
+      430
+    ],
+    [
+      1024,
+      768
+    ],
+    [
+      1440,
+      900
+    ]
+  ],
+  "layout": "No HUD, wheel or action-button overlap/overflow",
+  "movement": "See movement.json",
+  "environment": "Tabbit Chromium, touch protocol and responsive viewports; not a physical phone"
+}

@@ -2,7 +2,7 @@
 // tabbit-cli nodejs --task NAME --tab TAB_ID --request-id mobile-layout < tests/browser/mobile-layout.js
 const cdp = await context.newCDPSession(page);
 const results = [];
-const sizes = [[320,568],[360,640],[390,844],[430,932],[768,1024],[568,320],[844,390],[1024,768],[1440,900]];
+const sizes = [[320,568],[360,640],[390,844],[430,932],[768,1024],[568,320],[844,390],[932,430],[1024,768],[1440,900]];
 const originalViewport = page.viewportSize();
 const zoom = await tabbit.evaluate(async url => {
   const tabs = await chrome.tabs.query({url});
@@ -33,16 +33,19 @@ try {
   await page.waitForFunction(() => window.shanghai?.ready);
   await page.keyboard.press('Escape');
   for (const [width,height] of sizes) {
+    const touchLayout=width<=900||height<=500;
     // Native viewport actions keep hit testing aligned when the user's browser zoom is not 100%.
     await page.setViewportSize({width:Math.round(width*zoom),height:Math.round(height*zoom)});
-    await cdp.send('Emulation.setTouchEmulationEnabled',{enabled:width<=900,maxTouchPoints:5});
+    await cdp.send('Emulation.setTouchEmulationEnabled',{enabled:touchLayout,maxTouchPoints:5});
     await page.waitForFunction(([w,h]) => Math.abs(innerWidth-w)<=1 && Math.abs(innerHeight-h)<=1,[width,height]);
-    const hud=await measure(['.brand','.toolbar','.map-corner','.bottom-center','.speed-panel']);
+    await expect(page.locator('#touch-controls'))[touchLayout?'toBeVisible':'toBeHidden']();
+    const captionVisible=touchLayout&&await page.locator('.wheel-caption').isVisible();
+    const hud=await measure(['.brand','.toolbar','.map-corner','.bottom-center','.speed-panel','.attribution',...(touchLayout?['.touch-wheel','.touch-actions']:[]),...(captionVisible?['.wheel-caption']:[])]);
     assert.equal(hud.problems.length,0,`${width}×${height}: ${hud.problems.join('; ')}`);
     assert.ok(hud.scrollWidth<=width+1,`${width}×${height}: horizontal overflow`);
     const modes=await measure(['[data-mode="person"]','[data-mode="car"]','[data-mode="cyclist"]','[data-mode="helicopter"]']);
     assert.equal(modes.problems.length,0,JSON.stringify(modes));
-    if (width<=900) {
+    if (touchLayout) {
       await page.locator('#settings-button').click();
       await expect(page.locator('#settings-button')).toHaveAttribute('aria-expanded','true');
       const settings=await measure(['#scene-settings']);
@@ -60,11 +63,11 @@ try {
     assert.equal(places.problems.length,0,JSON.stringify(places));
     await page.locator('#map-button').click();
     await expect(page.locator('#places')).toBeHidden();
-    if(width<=900) assert.notEqual(await page.evaluate(()=>document.activeElement.id),'search','Opening the mobile map must not automatically summon a keyboard');
+    if(touchLayout) assert.notEqual(await page.evaluate(()=>document.activeElement.id),'search','Opening the mobile map must not automatically summon a keyboard');
     const map=await measure(['.map-shell','.map-shell header','#search','#close-map'],false);
     assert.equal(map.problems.length,0,JSON.stringify(map));
     const mapWidth=await page.locator('#map-viewport').evaluate(el=>el.getBoundingClientRect().width);
-    assert.ok(mapWidth>=(width<=900?width-40:300),`${width}×${height}: map is squeezed to ${mapWidth}px`);
+    assert.ok(mapWidth>=(touchLayout?width-40:300),`${width}×${height}: map is squeezed to ${mapWidth}px`);
     await page.locator('[data-map-type="metro"]').click();
     await page.locator('#map-line').selectOption('2');
     await page.locator('#search').fill('人民广场');
