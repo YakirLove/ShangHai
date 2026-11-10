@@ -1,0 +1,21 @@
+{
+  "applicationVersion": "0.3.4",
+  "sourceCommit": "641deaaf46f4a0477f424388bb6eef3a21ff8fdc",
+  "rawRuntimeFiles": 8545,
+  "filesWithGzip": 15823,
+  "bytes": 414167274,
+  "identicalToTestedDist": true,
+  "fixedId": "shanghai-roam",
+  "criticalHashes": {
+    "assets/app-BKlbRL7W.js": "c7573d366552a011957df888312fd7b21b3a450aa8f088f88d3b81b37df50a39",
+    "assets/index-o_AlX4y-.js": "e775e95d28cf8e2e7aeabdbc9fb3788f204c2953538ced73029fec803091dc9f",
+    "assets/index-svbZVtsq.css": "35400dba4dd7dca7ef2d04e623fd97189c676da32577a46076beba6327574a54",
+    "assets/loading-progress-gm2pud_W.js": "005bb720fb99039e06e6339b5978c7bd9cc40c5f76030c90c1801ec16300a19f",
+    "boot-manifest.json": "afc9d8b076f0de4b9bbab228c6310799ab186e71248e82761a21f845c4c6ee59",
+    "data/city.json": "995d3195e12dbdd2cc442559d2ef7df0827ec208d00376fed8c13a1fc6dba30a",
+    "data/manifest.json": "7cd94389265495922c4fa0810b3cedbee6c216102d40806f8014f7da5c12d926",
+    "data/metro.json": "4f436804060fd960ca2814a0879fdd0e76281d83ab9855b0b8d20707ecf8cc33",
+    "index.html": "e17fdacfc5f6aa9e423aaa2ac9ade03961bd9faa882094761b55e7e8c05bbae5"
+  },
+  "previousVersion": "20261109-175451-d7b8d3"
+}

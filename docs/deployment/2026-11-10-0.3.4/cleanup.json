@@ -1,0 +1,12 @@
+{
+  "removedLocalBuilds": [
+    "/Users/wuyanji/Desktop/编程/app-market/.build/20261110-091340-ed3693",
+    "/Users/wuyanji/Desktop/编程/app-market/.build/20261110-091445-268583"
+  ],
+  "remote": {
+    "release": "20261110-091445-268583",
+    "incomingAssetsExist": false,
+    "previousVersionRetained": true
+  },
+  "recordsRetained": true
+}

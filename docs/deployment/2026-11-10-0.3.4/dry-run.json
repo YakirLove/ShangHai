@@ -1,0 +1,13 @@
+{
+  "id": "shanghai-roam",
+  "version": "20261110-091340-ed3693",
+  "file_count": 15823,
+  "bytes": 414167274,
+  "existing": true,
+  "entry": "https://apps.datiaomao.com/apps/shanghai-roam/",
+  "standalone_entries": [
+    "https://shanghai.datiaomao.com/"
+  ],
+  "artifact": "/Users/wuyanji/Desktop/编程/app-market/.build/20261110-091340-ed3693",
+  "remote_changes": false
+}

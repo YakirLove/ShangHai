@@ -1,0 +1,40 @@
+{
+  "results": [
+    {
+      "mode": "car",
+      "movedMetres": 0.8087447197678728,
+      "released": true
+    },
+    {
+      "dragToReverse": true,
+      "multiTouchBoost": true,
+      "diagonal": true,
+      "cancelReleased": true
+    },
+    {
+      "noResumeAfterClosingMap": true,
+      "mapCancelsInput": true
+    },
+    {
+      "mode": "person",
+      "movedMetres": 0.8078460140490217,
+      "released": true
+    },
+    {
+      "mode": "cyclist",
+      "movedMetres": 0.8146848999534274,
+      "released": true
+    },
+    {
+      "descended": true,
+      "ascended": true,
+      "mode": "helicopter",
+      "modeChangeClearedInput": true
+    },
+    {
+      "blurClearedInput": true,
+      "rotationClearedInput": true
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,65 @@
+{
+  "results": [
+    {
+      "map": "search, line filter and destination actions reachable",
+      "width": 320,
+      "height": 568,
+      "hud": "no overlap or overflow"
+    },
+    {
+      "map": "search, line filter and destination actions reachable",
+      "width": 360,
+      "height": 640,
+      "hud": "no overlap or overflow"
+    },
+    {
+      "map": "search, line filter and destination actions reachable",
+      "width": 390,
+      "height": 844,
+      "hud": "no overlap or overflow"
+    },
+    {
+      "map": "search, line filter and destination actions reachable",
+      "width": 430,
+      "height": 932,
+      "hud": "no overlap or overflow"
+    },
+    {
+      "map": "search, line filter and destination actions reachable",
+      "width": 768,
+      "height": 1024,
+      "hud": "no overlap or overflow"
+    },
+    {
+      "map": "search, line filter and destination actions reachable",
+      "width": 568,
+      "height": 320,
+      "hud": "no overlap or overflow"
+    },
+    {
+      "map": "search, line filter and destination actions reachable",
+      "width": 844,
+      "height": 390,
+      "hud": "no overlap or overflow"
+    },
+    {
+      "map": "search, line filter and destination actions reachable",
+      "width": 932,
+      "height": 430,
+      "hud": "no overlap or overflow"
+    },
+    {
+      "map": "search, line filter and destination actions reachable",
+      "width": 1024,
+      "height": 768,
+      "hud": "no overlap or overflow"
+    },
+    {
+      "map": "search, line filter and destination actions reachable",
+      "width": 1440,
+      "height": 900,
+      "hud": "no overlap or overflow"
+    }
+  ],
+  "passed": true
+}
